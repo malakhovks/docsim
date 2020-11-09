@@ -47,7 +47,7 @@ app.secret_key = os.urandom(42)
 
 @app.route('/')
 def index():
-    return 'Hello, CONFOR!'
+    return Response(render_template('index.html'), mimetype='text/html')
 
 if __name__ == '__main__':
     # default port = 5000
