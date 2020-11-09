@@ -1,9 +1,9 @@
 # nltk>=3.5
-spacy==2.3.2
-https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-2.3.0/en_core_web_sm-2.3.0.tar.gz#egg=en_core_web_sm
+# spacy==2.3.2
+# https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-2.3.0/en_core_web_sm-2.3.0.tar.gz#egg=en_core_web_sm
 pdfminer.six==20201018
 chardet==3.0.4
 Flask==1.1.2
-flask-cors==3.0.8
+flask-cors==3.0.9
 # ------------------------------------------------------------------
 uWSGI==2.0.19.1
