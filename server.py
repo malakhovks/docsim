@@ -22,6 +22,7 @@ from flask import Flask, jsonify, flash, request, Response, redirect, url_for, a
 from flask_cors import CORS
 
 import gensim
+from gensim.models import Word2Vec as WV_model
 
 ALLOWED_EXTENSIONS = set(['txt', 'xlsx'])
 
@@ -48,7 +49,10 @@ b'_5#y2L"F4Q8z\n\xec]/'
 app.secret_key = os.urandom(42)
 
 # Load and init word2vec model
-model = gensim.models.KeyedVectors.load_word2vec_format('./models/fiction.lowercased.lemmatized.word2vec.300d')
+# model = gensim.models.KeyedVectors.load_word2vec_format('./models/fiction.lowercased.lemmatized.word2vec.300d')
+
+model = WV_model.load('./models/honchar.lowercased.lemmatized.word2vec.FINAL.500d')
+
 model.init_sims(replace=True)
 
 def getExistsWordsInModel(words):

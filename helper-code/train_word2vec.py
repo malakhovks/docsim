@@ -1,5 +1,8 @@
+from __future__ import unicode_literals
+
 import multiprocessing, time
 from gensim.models import Word2Vec
+from gensim.models import Word2Vec as WV_model
 from gensim.models.word2vec import LineSentence
 
 from gensim import utils
@@ -8,7 +11,7 @@ class MyCorpus(object):
     """An interator that yields sentences (lists of str)."""
 
     def __iter__(self):
-        corpus_path = 'extracted.txt'
+        corpus_path = 'extracted_lemmatized.txt'
         for line in open(corpus_path):
             # assume there's one document per line, tokens separated by whitespace
             yield utils.simple_preprocess(line)
@@ -19,7 +22,7 @@ sentences = MyCorpus()
 
 out_model = "../models/honchar.lowercased.lemmatized.word2vec.300d"
 
-size = 300 # size is the dimensionality of the feature vectors.
+size = 500 # size is the dimensionality of the feature vectors.
 
 window = 5 # window is the maximum distance between the current and predicted word within a sentence.
 
@@ -53,9 +56,13 @@ sim = model.wv.similarity('гончар', 'лист')
 print(sim)
 s = model.wv.most_similar('гончар')
 print(s)
-m = model.wv.most_similar('герої')
+m = model.wv.most_similar('герой')
 print(m)
-lc = model.wv.most_similar(positive=['гончар', 'герої'])
+lc = model.wv.most_similar(positive=['гончар', 'герой'])
 print(lc)
 
 model.save(out_model)
+
+# model500 = WV_model.load('../models/honchar.lowercased.lemmatized.word2vec.FINAL.500d')
+# model500.init_sims(replace=True)
+# print(model500.wv.most_similar('гончар'))
