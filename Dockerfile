@@ -17,6 +17,10 @@ RUN apt-get -y clean \
     && curl https://getmic.ro | bash \
     # ------------------------------------------------------------------
     && pip install -r ./deploy/requirements.txt --src /usr/local/src \
+    # Download models
+    # && wget -O ./models/fiction.lowercased.lemmatized.word2vec.300d.bz2 https://lang.org.ua/static/downloads/models/fiction.lowercased.lemmatized.word2vec.300d.bz2 \
+    # && bzip2 -d ./models/fiction.lowercased.lemmatized.word2vec.300d.bz2 \
+    # ------------------------------------------------------------------
     # && mkdir -p /usr/share/man/man1 \
     # && apt-get -y install openjdk-11-jdk-headless \
     && rm -r /root/.cache \
