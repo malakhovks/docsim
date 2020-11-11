@@ -1,10 +1,10 @@
 FROM python:3.8-slim
 
 LABEL maintainer "Kyrylo Malakhov <malakhovks@nas.gov.ua> and Vitalii Velychko <aduisukr@gmail.com>"
-LABEL description "CONFOR - tools for knowledge discovery, classification, diagnostics and prediction."
+LABEL description "DOCSIM - tools for knowledge discovery, classification, diagnostics and prediction."
 
-COPY . /confor/serv
-WORKDIR /confor/serv
+COPY . /docsim/srvr
+WORKDIR /docsim/srvr
 
 RUN apt-get -y clean \
     && apt-get -y update \
@@ -16,8 +16,8 @@ RUN apt-get -y clean \
     && curl https://getmic.ro | bash \
     # ------------------------------------------------------------------
     && pip install -r ./deploy/requirements.txt --src /usr/local/src \
-    && mkdir -p /usr/share/man/man1 \
-    && apt-get -y install openjdk-11-jdk-headless \
+    # && mkdir -p /usr/share/man/man1 \
+    # && apt-get -y install openjdk-11-jdk-headless \
     && rm -r /root/.cache \
     && apt-get -y clean \
     && apt-get -y autoremove

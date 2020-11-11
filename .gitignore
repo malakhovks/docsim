@@ -26,6 +26,8 @@ Temporary Items
 
 *.tmp
 
+*.300d
+
 # Word temporary
 ~$*.doc*
 
