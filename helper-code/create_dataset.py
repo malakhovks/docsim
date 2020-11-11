@@ -34,7 +34,7 @@ print(len(stop_words_ua))
 def clean_text(text):
     # text = "".join([word for word in text if word not in string.punctuation])
     tokens = re.split('\W+', text)
-    text = [word for word in tokens if word not in stop_words_ua and len(word) > 2]
+    text = [word for word in tokens if word not in stop_words_ua and len(word) > 3]
     text = ' '.join(text)
     return text
 
@@ -164,7 +164,7 @@ def ua_tokenizer(text,ua_stemmer=True,stop_words=[]):
 
 # text_bytes = get_bytes_from_pdf('/Users/MalahovKS/Documents/Velychko/2020/docsim-project/Supporting documentation/dataset/honchar/honchar_mails.pdf')
 
-text_string = get_text_from_pdf('/Users/MalahovKS/Documents/Velychko/2020/docsim-project/Supporting documentation/dataset/honchar/honchar.pdf')
+text_string = get_text_from_pdf('honchar.pdf')
 
 text_normal = normalization_default(text_string)
 
