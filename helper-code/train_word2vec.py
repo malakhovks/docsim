@@ -11,7 +11,7 @@ class MyCorpus(object):
     """An interator that yields sentences (lists of str)."""
 
     def __iter__(self):
-        corpus_path = 'extracted_lemmatized.txt'
+        corpus_path = './dataset/extracted_lemmatized.txt'
         for line in open(corpus_path):
             # assume there's one document per line, tokens separated by whitespace
             yield utils.simple_preprocess(line)
