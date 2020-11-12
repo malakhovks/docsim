@@ -49,10 +49,10 @@ b'_5#y2L"F4Q8z\n\xec]/'
 app.secret_key = os.urandom(42)
 
 # Load and init word2vec model
-# model = gensim.models.KeyedVectors.load_word2vec_format('./models/fiction.lowercased.lemmatized.word2vec.300d')
-
+model_fiction = gensim.models.KeyedVectors.load_word2vec_format('./models/fiction.lowercased.lemmatized.word2vec.300d')
 model = WV_model.load('./models/honchar.lowercased.lemmatized.word2vec.FINAL.500d')
 
+model_fiction.init_sims(replace=True)
 model.init_sims(replace=True)
 
 def getExistsWordsInModel(words):
@@ -86,6 +86,16 @@ def find_similar():
     except KeyError:
         return jsonify({"Error": {"KeyError": "Word " + request.json['word'] + " does not exist in the word2vec model" , "Word": request.json['word']}})
 
+@app.route('/word2vec/fiction/similar', methods=['POST'])
+def find_similar_fiction():
+    if not request.json or not 'word' in request.json:
+        abort(400)
+    n = 100
+    try:
+        return jsonify({"similar": model_fiction.most_similar(request.json['word'], topn=n)})
+    except KeyError:
+        return jsonify({"Error": {"KeyError": "Word " + request.json['word'] + " does not exist in the word2vec model" , "Word": request.json['word']}})
+
 @app.route('/word2vec/center', methods=['POST'])
 def find_lexical_cluster_center():
     if not request.json or not 'words' in request.json:
@@ -93,6 +103,16 @@ def find_lexical_cluster_center():
     n = 100
     try:
         return jsonify({"center" : model.most_similar(positive=getExistsWordsInModel(request.json['words']), topn=n)})
+    except KeyError:
+        return jsonify({"Error": {"KeyError": "Some words does not exist in the word2vec model" , "Words": request.json['words']}})
+
+@app.route('/word2vec/fiction/center', methods=['POST'])
+def find_lexical_cluster_center_fiction():
+    if not request.json or not 'words' in request.json:
+        abort(400)
+    n = 100
+    try:
+        return jsonify({"center" : model_fiction.most_similar(positive=getExistsWordsInModel(request.json['words']), topn=n)})
     except KeyError:
         return jsonify({"Error": {"KeyError": "Some words does not exist in the word2vec model" , "Words": request.json['words']}})
 
