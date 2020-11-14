@@ -1,0 +1,13 @@
+{
+  "embeddings": [
+    {
+      "tensorName": "Honchar tensor",
+      "tensorShape": [
+        1000,
+        50
+      ],
+      "tensorPath": "https://gist.githubusercontent.com/malakhovks/61535fe01d7d16b73729a55233ace20e/raw/a23114ae15ca406e110c9a50f3a5359ca7300b91/honchar-tensor.tsv",
+      "metadataPath": "https://gist.githubusercontent.com/malakhovks/43a5e0e76f71621d0646ed464ee866de/raw/565eeaa16d5e91c1cf42ab064602ae7d00284b23/honchar-metadata.tsv"
+    }
+  ]
+}
