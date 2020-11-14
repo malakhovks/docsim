@@ -49,16 +49,20 @@ b'_5#y2L"F4Q8z\n\xec]/'
 app.secret_key = os.urandom(42)
 
 # Load and init word2vec model
-model_fiction = gensim.models.KeyedVectors.load_word2vec_format('./models/fiction.lowercased.lemmatized.word2vec.300d')
+word_vectors_fiction = gensim.models.KeyedVectors.load_word2vec_format('./models/fiction.lowercased.lemmatized.word2vec.300d')
 model = WV_model.load('./models/honchar.lowercased.lemmatized.word2vec.FINAL.500d')
 
-model_fiction.init_sims(replace=True)
+word_vectors_fiction.init_sims(replace=True)
 model.init_sims(replace=True)
 
-def getExistsWordsInModel(words):
+# switch to the KeyedVectors instance
+word_vectors_honchar = model.wv
+del model
+
+def getExistsWordsInModel(words, keyed_vectors):
     exists = []
     for word in words:
-        if word in model.vocab:
+        if word in keyed_vectors.vocab:
             exists.append(word)
     return exists
 
@@ -66,12 +70,13 @@ def getExistsWordsInModel(words):
 def index():
     return Response(render_template('index.html'), mimetype='text/html')
 
+# * honchar endpoints
 @app.route('/word2vec/similarity', methods=['POST'])
 def similarity():
     if not request.json or not 'word_1' in request.json or not 'word_2' in request.json:
         abort(400)
     try:
-        cosine_similarity = model.similarity(request.json['word_1'], request.json['word_2'])
+        cosine_similarity = word_vectors_honchar.similarity(request.json['word_1'], request.json['word_2'])
         return jsonify({"similarity": cosine_similarity.item()})
     except KeyError:
         return jsonify({"Error": {"KeyError": "One of the words is missing in the word2vec model"}})
@@ -82,17 +87,7 @@ def find_similar():
         abort(400)
     n = 100
     try:
-        return jsonify({"similar": model.most_similar(request.json['word'], topn=n)})
-    except KeyError:
-        return jsonify({"Error": {"KeyError": "Word " + request.json['word'] + " does not exist in the word2vec model" , "Word": request.json['word']}})
-
-@app.route('/word2vec/fiction/similar', methods=['POST'])
-def find_similar_fiction():
-    if not request.json or not 'word' in request.json:
-        abort(400)
-    n = 100
-    try:
-        return jsonify({"similar": model_fiction.most_similar(request.json['word'], topn=n)})
+        return jsonify({"similar": word_vectors_honchar.most_similar(request.json['word'], topn=n)})
     except KeyError:
         return jsonify({"Error": {"KeyError": "Word " + request.json['word'] + " does not exist in the word2vec model" , "Word": request.json['word']}})
 
@@ -102,9 +97,20 @@ def find_lexical_cluster_center():
         abort(400)
     n = 100
     try:
-        return jsonify({"center" : model.most_similar(positive=getExistsWordsInModel(request.json['words']), topn=n)})
+        return jsonify({"center" : word_vectors_honchar.most_similar(positive=getExistsWordsInModel(request.json['words'], word_vectors_honchar), topn=n)})
     except KeyError:
         return jsonify({"Error": {"KeyError": "Some words does not exist in the word2vec model" , "Words": request.json['words']}})
+
+# * fiction endpoints
+@app.route('/word2vec/fiction/similar', methods=['POST'])
+def find_similar_fiction():
+    if not request.json or not 'word' in request.json:
+        abort(400)
+    n = 100
+    try:
+        return jsonify({"similar": word_vectors_fiction.most_similar(request.json['word'], topn=n)})
+    except KeyError:
+        return jsonify({"Error": {"KeyError": "Word " + request.json['word'] + " does not exist in the word2vec model" , "Word": request.json['word']}})
 
 @app.route('/word2vec/fiction/center', methods=['POST'])
 def find_lexical_cluster_center_fiction():
@@ -112,7 +118,7 @@ def find_lexical_cluster_center_fiction():
         abort(400)
     n = 100
     try:
-        return jsonify({"center" : model_fiction.most_similar(positive=getExistsWordsInModel(request.json['words']), topn=n)})
+        return jsonify({"center" : word_vectors_fiction.most_similar(positive=getExistsWordsInModel(request.json['words']), topn=n)})
     except KeyError:
         return jsonify({"Error": {"KeyError": "Some words does not exist in the word2vec model" , "Words": request.json['words']}})
 
