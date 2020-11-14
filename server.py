@@ -51,6 +51,7 @@ word_vectors_fiction = gensim.models.KeyedVectors.load_word2vec_format('./models
 word_vectors_fiction.init_sims(replace=True)
 
 model = WV_model.load('./models/honchar.lowercased.lemmatized.word2vec.FINAL.500d')
+# model.wv.save_word2vec_format('./models/honchar.lowercased.lemmatized.word2vec.GOOD.500d')
 # switch to the KeyedVectors instance
 word_vectors_honchar = model.wv
 word_vectors_honchar.init_sims(replace=True)
