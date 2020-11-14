@@ -48,13 +48,12 @@ app.secret_key = os.urandom(42)
 
 # Load and init word2vec model
 word_vectors_fiction = gensim.models.KeyedVectors.load_word2vec_format('./models/fiction.lowercased.lemmatized.word2vec.300d')
-model = WV_model.load('./models/honchar.lowercased.lemmatized.word2vec.FINAL.500d')
-
 word_vectors_fiction.init_sims(replace=True)
-model.init_sims(replace=True)
 
+model = WV_model.load('./models/honchar.lowercased.lemmatized.word2vec.FINAL.500d')
 # switch to the KeyedVectors instance
 word_vectors_honchar = model.wv
+word_vectors_honchar.init_sims(replace=True)
 del model
 
 def getExistsWordsInModel(words, keyed_vectors):
@@ -116,7 +115,7 @@ def find_lexical_cluster_center_fiction():
         abort(400)
     n = 100
     try:
-        return jsonify({"center" : word_vectors_fiction.most_similar(positive=getExistsWordsInModel(request.json['words']), topn=n)})
+        return jsonify({"center" : word_vectors_fiction.most_similar(positive=getExistsWordsInModel(request.json['words'], word_vectors_fiction), topn=n)})
     except KeyError:
         return jsonify({"Error": {"KeyError": "Some words does not exist in the word2vec model" , "Words": request.json['words']}})
 
