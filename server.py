@@ -24,8 +24,6 @@ from flask_cors import CORS
 import gensim
 from gensim.models import Word2Vec as WV_model
 
-ALLOWED_EXTENSIONS = set(['txt', 'xlsx'])
-
 __author__ = "Kyrylo Malakhov <malakhovks@nas.gov.ua> and Vitalii Velychko <aduisukr@gmail.com>"
 __copyright__ = "Copyright (C) 2020 Kyrylo Malakhov <malakhovks@nas.gov.ua> and Vitalii Velychko <aduisukr@gmail.com>"
 
