@@ -9,8 +9,8 @@ import json
 from werkzeug.utils import secure_filename
 import logging
 # logging.basicConfig(format='%(asctime)s : %(levelname)s : %(message)s', level=logging.INFO)
-logging.basicConfig(format='%(asctime)s : %(levelname)s : %(message)s', level=logging.DEBUG)
-# logging.basicConfig(format='%(asctime)s : %(levelname)s : %(message)s', level=logging.ERROR)
+# logging.basicConfig(format='%(asctime)s : %(levelname)s : %(message)s', level=logging.DEBUG)
+logging.basicConfig(format='%(asctime)s : %(levelname)s : %(message)s', level=logging.ERROR)
 
 # load libraries for string proccessing
 import re, string
@@ -122,5 +122,5 @@ def find_lexical_cluster_center_fiction():
 
 if __name__ == '__main__':
     # default port = 5000
-    # app.run(host = '0.0.0.0')
-    app.run(host = '0.0.0.0', port=3000)
+    app.run(host = '0.0.0.0')
+    # app.run(host = '0.0.0.0', port=3000)
