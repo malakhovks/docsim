@@ -7,7 +7,7 @@
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! C:\Users\alexl\source\repos\ng\simple-angular-boilerplate-with-angular-material\src\polyfills.ts */"hN/g");
+module.exports = __webpack_require__(/*! /home/malakhovks/docsim/src/polyfills.ts */"hN/g");
 
 
 /***/ }),
