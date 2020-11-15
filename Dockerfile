@@ -13,6 +13,7 @@ RUN apt-get -y clean \
     && apt-get -y install build-essential \
     && apt-get -y install unzip \
     && apt-get -y install bzip2 \
+    && apt-get -y install wget \
     && apt-get -y install curl \
     && curl https://getmic.ro | bash \
     # ------------------------------------------------------------------
