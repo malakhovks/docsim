@@ -1,10 +1,10 @@
 FROM python:3.8-slim
 
-LABEL maintainer "Kyrylo Malakhov <malakhovks@nas.gov.ua> and Vitalii Velychko <aduisukr@gmail.com>"
+LABEL maintainer "Kyrylo Malakhov <malakhovks@nas.gov.ua> and Oleksandr Shchurov <alexandershchurov@gmail.com>"
 LABEL description "DOCSIM - tools for knowledge discovery, classification, diagnostics and prediction."
 
-COPY . /docsim/srvr
-WORKDIR /docsim/srvr
+COPY . /docsim
+WORKDIR /docsim/server
 
 RUN apt-get -y clean \
     && apt-get -y update \

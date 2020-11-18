@@ -122,5 +122,5 @@ def find_lexical_cluster_center_fiction():
 
 if __name__ == '__main__':
     # default port = 5000
-    app.run(host = '0.0.0.0')
-    # app.run(host = '0.0.0.0', port=3000)
+    # app.run(host = '0.0.0.0')
+    app.run(host = '0.0.0.0', port=3000)
