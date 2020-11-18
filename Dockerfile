@@ -29,8 +29,6 @@ RUN apt-get -y clean \
     && apt-get -y autoremove \
     && cp ./deploy/nginx.conf /etc/nginx
 
-COPY /docsim/server/deploy/nginx.conf /etc/nginx
-
 RUN chmod +x ./start.sh
 CMD ["./start.sh"]
 
