@@ -4,7 +4,7 @@ LABEL maintainer "Kyrylo Malakhov <malakhovks@nas.gov.ua> and Oleksandr Shchurov
 LABEL description "DOCSIM - tools for knowledge discovery, classification, diagnostics and prediction."
 
 COPY . /docsim
-WORKDIR /docsim/server
+WORKDIR ./docsim/server
 
 RUN apt-get -y clean \
     && apt-get -y update \
