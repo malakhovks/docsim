@@ -26,11 +26,11 @@ RUN apt-get -y clean \
     # && apt-get -y install openjdk-11-jdk-headless \
     && rm -r /root/.cache \
     && apt-get -y clean \
-    && apt-get -y autoremove
+    && apt-get -y autoremove \
+    && cp ./deploy/nginx.conf /etc/nginx
 
-# WORKDIR /docsim/server/deploy
 COPY /docsim/server/deploy/nginx.conf /etc/nginx
-WORKDIR /docsim/server
+
 RUN chmod +x ./start.sh
 CMD ["./start.sh"]
 
