@@ -33,7 +33,8 @@ WORKDIR ~
 RUN curl -sL https://deb.nodesource.com/setup_14.x -o nodesource_setup.sh \
     && bash nodesource_setup.sh \
     && apt-get -y install nodejs \
-    && node -v
+    && node -v \
+    && npm install -g @angular/cli
 
 WORKDIR /docsim/server/
 RUN chmod +x ./start.sh
