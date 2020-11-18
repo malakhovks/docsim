@@ -6,8 +6,6 @@ LABEL description "DOCSIM - tools for knowledge discovery, classification, diagn
 COPY . /docsim
 WORKDIR /docsim/server/
 
-RUN ls
-
 RUN apt-get -y clean \
     && apt-get -y update \
     && apt-get -y install nginx \
@@ -30,6 +28,12 @@ RUN apt-get -y clean \
     && apt-get -y clean \
     && apt-get -y autoremove
 
-COPY ./deploy/nginx.conf /etc/nginx
+WORKDIR /docsim/server/deploy
+COPY nginx.conf /etc/nginx
+WORKDIR /docsim/server
 RUN chmod +x ./start.sh
 CMD ["./start.sh"]
+
+# COPY ./deploy/nginx.conf /etc/nginx
+# RUN chmod +x ./start.sh
+# CMD ["./start.sh"]
