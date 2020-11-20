@@ -1,18 +1,9 @@
-FROM node:lts-buster AS compile-image
-
-COPY ./ui /app/ui
-
-WORKDIR /app/ui
-RUN npm install \
-    && npm run build \
-    && rm -r ./node_modules
-
 FROM python:3.8-slim
 
 LABEL maintainer "Kyrylo Malakhov <malakhovks@nas.gov.ua> and Oleksandr Shchurov <alexandershchurov@gmail.com>"
 LABEL description "DOCSIM - tools for knowledge discovery, classification, diagnostics and prediction."
 
-COPY ./server /docsim/server
+COPY . /docsim/
 WORKDIR /docsim/server/
 
 RUN apt-get -y clean \
@@ -38,6 +29,21 @@ RUN apt-get -y clean \
     && apt-get -y autoremove \
     && cp ./deploy/nginx.conf /etc/nginx
 
+WORKDIR ~
+RUN curl -sL https://deb.nodesource.com/setup_14.x -o nodesource_setup.sh \
+    && bash nodesource_setup.sh \
+    && apt-get -y install nodejs \
+    && node -v \
+    && npm install -g @angular/cli \
+    && apt-get -y clean \
+    && apt-get -y autoremove
+
+WORKDIR /docsim/ui/
+RUN npm install \
+    && npm run build \
+    && rm -r ./node_modules
+
+WORKDIR /docsim/server/
 RUN chmod +x ./start.sh
 CMD ["./start.sh"]
 
