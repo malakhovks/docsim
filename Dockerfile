@@ -35,7 +35,6 @@ RUN curl -sL https://deb.nodesource.com/setup_14.x -o nodesource_setup.sh \
     && apt-get -y install nodejs \
     && node -v \
     && npm install -g @angular/cli \
-    && rm -r /root/.cache \
     && apt-get -y clean \
     && apt-get -y autoremove
 
