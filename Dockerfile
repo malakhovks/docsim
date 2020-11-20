@@ -15,6 +15,7 @@ LABEL description "DOCSIM - tools for knowledge discovery, classification, diagn
 COPY ./server /docsim/server
 WORKDIR /docsim/server/
 COPY --from=compile-image /app/ui/dist/* /docsim/server/static/
+COPY --from=compile-image /app/ui/dist/index.html /docsim/server/templates
 
 RUN apt-get -y clean \
     && apt-get -y update \
