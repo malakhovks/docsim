@@ -39,6 +39,9 @@ RUN curl -sL https://deb.nodesource.com/setup_14.x -o nodesource_setup.sh \
     && apt-get -y clean \
     && apt-get -y autoremove
 
+WORKDIR /docsim/ui/
+RUN ng build
+
 WORKDIR /docsim/server/
 RUN chmod +x ./start.sh
 CMD ["./start.sh"]
