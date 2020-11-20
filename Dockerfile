@@ -14,6 +14,7 @@ LABEL description "DOCSIM - tools for knowledge discovery, classification, diagn
 
 COPY ./server /docsim/server
 WORKDIR /docsim/server/
+COPY --from=compile-image /app/ui/dist/* /docsim/server/static
 
 RUN apt-get -y clean \
     && apt-get -y update \
@@ -30,9 +31,6 @@ RUN apt-get -y clean \
     # Download models
     && wget -O ./models/fiction.lowercased.lemmatized.word2vec.300d.bz2 https://lang.org.ua/static/downloads/models/fiction.lowercased.lemmatized.word2vec.300d.bz2 \
     && bzip2 -d ./models/fiction.lowercased.lemmatized.word2vec.300d.bz2 \
-    # ------------------------------------------------------------------
-    # && mkdir -p /usr/share/man/man1 \
-    # && apt-get -y install openjdk-11-jdk-headless \
     && rm -r /root/.cache \
     && apt-get -y clean \
     && apt-get -y autoremove \
@@ -40,7 +38,3 @@ RUN apt-get -y clean \
 
 RUN chmod +x ./start.sh
 CMD ["./start.sh"]
-
-# COPY ./deploy/nginx.conf /etc/nginx
-# RUN chmod +x ./start.sh
-# CMD ["./start.sh"]
