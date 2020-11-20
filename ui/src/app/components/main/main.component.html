@@ -1,0 +1,220 @@
+<mat-tab-group animationDuration="0ms" mat-align-tabs="center" [color]="'primary'" (selectedTabChange)="onSelectedTabChange($event)" [backgroundColor]="'primary'">
+  <mat-tab>
+    <ng-template mat-tab-label>
+      <div title="Обчислення семантичних асоціатів для однослівних термінів">
+        Семантичні асоціати
+      </div>
+    </ng-template>
+
+    <div class="container">
+      <h1>Обчислення семантичних асоціатів для однослівних сутностей</h1>
+      <p>Сервіс обчислює семантичні асоціати слова українською мовою в рамках обраної моделі.</p>
+      <!-- <p>Використовується нейронна векторна модель представлення слів (алгоритм word2vec word embeddings) розмірністю 500d.</p> -->
+
+      <mat-form-field appearance="fill">
+        <mat-label>Оберіть нейронну векторну модель представлення сутностей</mat-label>
+        <mat-select [(value)]="selected" disabled>
+          <mat-option value="option1">honchar.lowercased.lemmatized.word2vec.FINAL.500d</mat-option>
+          <mat-option value="option2">fiction.lowercased.lemmatized.word2vec.300d</mat-option>
+          <!-- <mat-option value="option3" disabled>O</mat-option> -->
+        </mat-select>
+      </mat-form-field>
+
+      <div class="container container_middle">
+        <form class="main-form">
+          <mat-form-field appearance="outline">
+            <mat-label>Введіть лему слова</mat-label>
+            <input type="text" [(ngModel)]="terms" [ngModelOptions]="{standalone: true}" matInput placeholder="гончар">
+          </mat-form-field>
+          <button mat-flat-button [disabled]="!terms" color="primary" (click)="getProcess()">Обчислити</button>
+        </form>
+
+        <ng-container *ngIf="data">
+          <mat-form-field class="filter-data">
+            <mat-label>Filter</mat-label>
+            <input matInput (keyup)="applyFilter($event)" placeholder="Введіть термін для пошуку">
+          </mat-form-field>
+
+          <h3>Семантичні асоціати</h3>
+
+          <div class="grid-wrapper">
+            <table mat-table matSort [dataSource]="data">
+
+              <!-- Term Column -->
+              <ng-container [matColumnDef]="displayedColumns[0]">
+                <th mat-header-cell *matHeaderCellDef mat-sort-header>Сутність</th>
+                <td mat-cell *matCellDef="let element"> {{element.term}} </td>
+              </ng-container>
+
+              <!-- Vector Column -->
+              <ng-container [matColumnDef]="displayedColumns[1]">
+                <th mat-header-cell *matHeaderCellDef mat-sort-header>Косинусна близькість</th>
+                <td mat-cell *matCellDef="let element"> {{element.vector}} </td>
+              </ng-container>
+
+              <tr mat-header-row *matHeaderRowDef="displayedColumns; sticky: true"></tr> -->
+              <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+            </table>
+          </div>
+        </ng-container>
+      </div>
+    </div>
+  </mat-tab>
+
+  <mat-tab>
+    <ng-template mat-tab-label>
+      <div title="Обчислення центру лексичного кластера однослівних термінів">
+        Центр лексичного кластера
+      </div>
+    </ng-template>
+
+    <div class="container">
+      <h1>Обчислення центру лексичного кластера однослівних сутностей</h1>
+      <p>Сервіс обчислює центр лексичного кластера слів українською мовою в рамках обраної моделі.</p>
+      <!-- <p>Використовується нейронна векторна модель представлення слів (алгоритм word2vec word embeddings) розмірністю 500d.</p> -->
+
+      <mat-form-field appearance="fill">
+        <mat-label>Оберіть нейронну векторну модель представлення сутностей</mat-label>
+        <mat-select [(value)]="selected" disabled>
+          <mat-option value="option1">honchar.lowercased.lemmatized.word2vec.FINAL.500d</mat-option>
+          <mat-option value="option2">fiction.lowercased.lemmatized.word2vec.300d</mat-option>
+          <!-- <mat-option value="option3" disabled>O</mat-option> -->
+        </mat-select>
+      </mat-form-field>
+
+      <div class="container container_middle">
+        <form class="main-form">
+          <mat-form-field appearance="outline">
+            <mat-label>Введіть леми слів через пробіл</mat-label>
+            <input type="text" [(ngModel)]="terms" [ngModelOptions]="{standalone: true}" matInput placeholder="гончар письменник герой">
+          </mat-form-field>
+          <button mat-flat-button [disabled]="!terms" color="primary" (click)="getProcess()">Обчислити</button>
+        </form>
+
+        <ng-container *ngIf="data">
+          <mat-form-field class="filter-data">
+            <mat-label>Filter</mat-label>
+            <input matInput (keyup)="applyFilter($event)" placeholder="Введіть термін для пошуку">
+          </mat-form-field>
+
+          <h3>Центр лексичного кластера</h3>
+
+          <div class="grid-wrapper">
+            <table mat-table matSort [dataSource]="data">
+
+              <!-- Term Column -->
+              <ng-container matColumnDef="term">
+                <th mat-header-cell *matHeaderCellDef mat-sort-header>Сутність</th>
+                <td mat-cell *matCellDef="let element"> {{element.term}} </td>
+              </ng-container>
+
+              <!-- Vector Column -->
+              <ng-container matColumnDef="vector">
+                <th mat-header-cell *matHeaderCellDef mat-sort-header>Косинусна близькість</th>
+                <td mat-cell *matCellDef="let element"> {{element.vector}} </td>
+              </ng-container>
+
+              <tr mat-header-row *matHeaderRowDef="displayedColumns; sticky: true"></tr>
+              <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+            </table>
+          </div>
+        </ng-container>
+      </div>
+    </div>
+  </mat-tab>
+
+  <!-- Third tab -->
+  <mat-tab>
+    <ng-template mat-tab-label>
+      <div title="Обчислення семантичної близькісті однослівних термінів">
+        Семантична близькість
+      </div>
+    </ng-template>
+
+    <div class="container">
+      <h1>Обчислення семантичної близькості однослівних сутностей</h1>
+      <p>Сервіс обчислює семантичні відношення між словами українською мовою в рамках обраної моделі.</p>
+      <!-- <p>Використовується нейронна векторна модель представлення слів (алгоритм word2vec word embeddings) розмірністю 500d.</p> -->
+
+      <mat-form-field appearance="fill">
+        <mat-label>Оберіть нейронну векторну модель представлення сутностей</mat-label>
+        <mat-select [(value)]="selected" disabled>
+          <mat-option value="option1">honchar.lowercased.lemmatized.word2vec.FINAL.500d</mat-option>
+          <mat-option value="option2">fiction.lowercased.lemmatized.word2vec.300d</mat-option>
+          <!-- <mat-option value="option3" disabled>O</mat-option> -->
+        </mat-select>
+      </mat-form-field>
+
+      <p>В дистрибутивній семантиці слова зазвичай представляються у вигляді векторів в багатовимірному просторі їх контекстів. Семантична схожість обчислюється як косинусна близькість між векторами двох слів і може приймати значення в проміжку [-1 ... 1] (на практиці часто використовуються тільки значення вище 0). Значення 0 приблизно означає, що у цих слів немає схожих контекстів і їх значення не пов'язані один з одним. Значення 1, навпаки, свідчить про повну ідентичність їх контекстів і, отже, про близькість значення.</p>
+
+      <div class="container container_middle">
+        <form class="main-form">
+          <mat-form-field appearance="outline">
+            <mat-label>Введіть лему слова для порівняння</mat-label>
+            <input type="text" [(ngModel)]="firstTerm" [ngModelOptions]="{standalone: true}" matInput placeholder="гончар">
+          </mat-form-field>
+          <mat-form-field appearance="outline">
+            <mat-label>Введіть лему слова для порівняння</mat-label>
+            <input type="text" [(ngModel)]="secondTerm" [ngModelOptions]="{standalone: true}" matInput placeholder="письменник">
+          </mat-form-field>
+          <button mat-flat-button [disabled]="!firstTerm || !secondTerm" color="primary" (click)="getWordsSimilarity()">Обчислити</button>
+        </form>
+
+        <div *ngIf="similarityData !== undefined" class="similarity-result">
+          <span>Косинусна близькість:</span>
+          <span>{{similarityData}}</span>
+        </div>
+      </div>
+    </div>
+  </mat-tab>
+
+<!-- Fourth tab -->
+<mat-tab>
+  <ng-template mat-tab-label>
+    <div title="Семантична карта з використанням TensorFlow Projector">
+      Семантична карта
+    </div>
+  </ng-template>
+
+  <div class="tensorboard">
+    <!-- <h1>Семантична карта (з використанням сервісу TensorFlow Projector)</h1> -->
+    <!-- <p>Сервіс обчислює семантичні відношення в рамках обраної моделі.</p> -->
+    <iframe class="embed-responsive-item" src="https://projector.tensorflow.org/?config=https://gist.githubusercontent.com/malakhovks/e45b2890a21189f87cea3d7ea75bb088/raw/a00ebf13d4c8f0095aec237ae37617fef6bd2266/honchar-tensorboard-config.json" height="100%" width="100%" allowfullscreen></iframe>
+  </div>
+</mat-tab>
+
+<!-- Fifth tab -->
+<mat-tab>
+  <ng-template mat-tab-label>
+    <div title="Відомості про проєкт">
+      Про проєкт
+    </div>
+  </ng-template>
+
+  <div class="container">
+    <h1>Про проєкт</h1>
+
+    <h1>Створено в рамках ___________________________________________</h1>
+    <!-- <p>Сервіс обчислює семантичні відношення в рамках обраної моделі.</p> -->
+    <!-- <p>В дистрибутивній семантиці слова зазвичай представляються у вигляді векторів в багатовимірному просторі їх контекстів. Семантична схожість обчислюється як косинусна близькість між векторами двох слів і може приймати значення в проміжку [-1 ... 1] (на практиці часто використовуються тільки значення вище 0). Значення 0 приблизно означає, що у цих слів немає схожих контекстів і їх значення не пов'язані один з одним. Значення 1, навпаки, свідчить про повну ідентичність їх контекстів і, отже, про близькість значення.</p> -->
+    <h2>Корисні посилання:</h2>
+    <mat-list>
+      <mat-list-item><a href="http://radimrehurek.com/gensim/" class="href-for-resourses" target="_blank">Gensim</a> — програмна бібліотека з відкритим початковим кодом для комплексного моделювання мовного векторного простору.</mat-list-item>
+      <!-- (навчання вкладень слів, класифікування тексту, латентно-семантичний аналіз та ін.) -->
+      <mat-divider></mat-divider>
+      <mat-list-item><a href="https://www.tensorflow.org/tutorials/word2vec" class="href-for-resourses" target="_blank">Туторіал з tensorflow.org</a> — на тему "Векторне представлення слів / Навчання вкладень слів". </mat-list-item>
+      <mat-divider></mat-divider>
+      <mat-list-item><a href="https://fasttext.cc/" class="href-for-resourses" target="_blank">fastText</a> — програмна бібліотека з відкритим початковим кодом для навчання вкладень слів та класифікування тексту.</mat-list-item>
+    </mat-list>
+    <h2>Колектив розробників:</h2>
+    <mat-list>
+      <mat-list-item>Величко Віталій Юрійович</mat-list-item>
+      <mat-divider></mat-divider>
+      <mat-list-item>Малахов Кирило Сергійович</mat-list-item>
+      <mat-divider></mat-divider>
+      <mat-list-item>Щуров Олександр Сергійович</mat-list-item>
+      <mat-divider></mat-divider>
+    </mat-list>
+  </div>
+</mat-tab>
+</mat-tab-group>
