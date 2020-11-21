@@ -10,7 +10,7 @@ RUN npm install \
 FROM python:3.8-slim
 
 LABEL maintainer "Kyrylo Malakhov <malakhovks@nas.gov.ua> and Vitalii Velychko <aduisukr@gmail.com> and Oleksandr Shchurov <alexandershchurov@gmail.com>"
-LABEL description "DOCSIM - tools for knowledge discovery, classification, diagnostics and prediction."
+LABEL description "docsim - An NLU-Powered tool for knowledge discovery, classification, diagnostics and prediction."
 
 COPY ./server /docsim/server
 WORKDIR /docsim/server/
