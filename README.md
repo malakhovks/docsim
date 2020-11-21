@@ -1,6 +1,6 @@
 # docsim
 
-**docsim** - tools for knowledge discovery, classification, diagnostics and prediction.
+**docsim** - An NLU-Powered tool for knowledge discovery, classification, diagnostics and prediction.
 
 ## Choose your language / Оберіть мову
 
@@ -9,8 +9,18 @@
 
 -------
 
+<a name="toc-ua"></a>
+## **docsim** - мережевий засіб виокремлення термінів з природномовних текстів англійською мовою
+
+### Зміст
+
+- **[Призначення та функції](#features-ua)**
+- **[Компіляція, збірка та розгортання мережевого засобу docsim (з GitHub репозиторію) в середовищі UNIX-подібних операційних систем Linux](#unix-deployment-ua)**
+
+-------
+
 <a name="toc-en"></a>
-**docsim** - tools for knowledge discovery, classification, diagnostics and prediction.
+**docsim** - An NLU-Powered tool for knowledge discovery, classification, diagnostics and prediction.
 
 ### Table of Contents
 
