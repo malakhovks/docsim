@@ -1,50 +1,44 @@
-import { BrowserModule } from '@angular/platform-browser';
+import { WordsSimilarityComponent } from './components/term-processing/words-similarity/words-similarity.component';
+import { TermProcessingComponent } from './components/term-processing/term-processing/term-processing.component';
+import { AboutProcessingComponent } from './components/term-processing/about-processing/about-processing.component';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { NgModule } from '@angular/core';
-
-import { AppRoutingModule } from './app-routing.module';
-import { AppComponent } from './app.component';
+import { CommonModule } from '@angular/common';
+import { BrowserModule } from '@angular/platform-browser';
+import { HttpClientModule } from '@angular/common/http';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
+// Modules
+import { AppRoutingModule } from './app-routing.module';
+
+// Shared:
+import { MatModule } from './mat.module';
+
+// Components:
 import { FooterComponent } from './components/footer/footer.component';
-import { MainComponent } from './components/main/main.component';
-
-import { HttpClientModule } from '@angular/common/http';
-
-// Angular material imports:
-import { MatTabsModule } from '@angular/material/tabs';
-import { MatInputModule } from '@angular/material/input';
-import { MatButtonModule } from '@angular/material/button';
-import { FormsModule, ReactiveFormsModule } from '@angular/forms';
-import { MatTableModule } from '@angular/material/table';
-import { MatSortModule } from '@angular/material/sort';
-import { MatToolbarModule } from '@angular/material/toolbar';
-import { MatSelectModule } from '@angular/material/select';
-import { MatListModule } from '@angular/material/list';
-import { MatDividerModule } from '@angular/material/divider';
-
+import { AppComponent } from './app.component';
+import { TabNavigationComponent } from './components/tab-nav/tab-nav.component';
+import { AboutComponent } from './components/about/about.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     FooterComponent,
-    MainComponent
+    TabNavigationComponent,
+    AboutProcessingComponent,
+    TermProcessingComponent,
+    AboutComponent,
+    WordsSimilarityComponent
   ],
   imports: [
+    CommonModule,
     BrowserModule,
     HttpClientModule,
     FormsModule,
     ReactiveFormsModule,
-    AppRoutingModule,
     BrowserAnimationsModule,
-    MatTabsModule,
-    MatInputModule,
-    MatButtonModule,
-    MatTableModule,
-    MatSortModule,
-    MatToolbarModule,
-    MatSelectModule,
-    MatListModule,
-    MatDividerModule
+    AppRoutingModule,
+    MatModule
   ],
   providers: [],
   bootstrap: [AppComponent]

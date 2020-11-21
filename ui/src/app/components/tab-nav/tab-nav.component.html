@@ -1,0 +1,19 @@
+<nav mat-tab-nav-bar [backgroundColor]="'primary'">
+  <div *ngFor="let link of navLinks" [title]="link.title">
+    <a mat-tab-link [routerLink]="link.link" routerLinkActive #rla="routerLinkActive" [active]="rla.isActive">
+      {{link.label}}
+    </a>
+  </div>
+
+  <div class="model-dropdown-wrap">
+    <mat-label>Нейрона-вектора модель для обчислень</mat-label>
+    <mat-select title="Оберіть нейронну векторну модель представлення сутностей" [(value)]="selectedVectorModel">
+      <mat-option *ngFor="let option of vectorModels" [value]="option.value" [disabled]="option.disabled">{{option.viewValue}}</mat-option>
+    </mat-select>
+  </div>
+</nav>
+
+<div class="scroll-container">
+  <router-outlet></router-outlet>
+</div>
+

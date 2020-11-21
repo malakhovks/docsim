@@ -1,7 +1,28 @@
+import { AboutComponent } from './components/about/about.component';
+import { TabNavigationComponent } from './components/tab-nav/tab-nav.component';
+import { RouterModule, Routes } from '@angular/router';
 import { NgModule } from '@angular/core';
-import { Routes, RouterModule } from '@angular/router';
+import { ROUTS } from './shared/const';
 
-const routes: Routes = [];
+
+const routes: Routes = [
+  {
+    path: '',
+    pathMatch: 'full',
+    redirectTo: ROUTS.root.processing.path + '/' + ROUTS.root.processing.term.path
+  },
+  {
+    path: ROUTS.root.processing.path,
+    component: TabNavigationComponent,
+    children: [
+      {
+        path: '',
+        loadChildren: () => import('./components/term-processing/term-processing-routing.module').then(m => m.TermProcessingRoutingModule)
+      },
+    ]
+  },
+  { path: ROUTS.root.about.path, component: AboutComponent },
+];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
