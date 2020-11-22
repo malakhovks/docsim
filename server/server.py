@@ -57,6 +57,27 @@ word_vectors_honchar = model.wv
 word_vectors_honchar.init_sims(replace=True)
 del model
 
+models = {
+    "models": {
+        "word2vec":[
+            {
+                "description":"Використовується нейронна векторна модель представлення слів Гончар (алгоритм word2vec word embeddings) розмірністю 500d. Сутність - слово, лематизовано, приведено до нижнього регистру. Параметри word2vec: -size 500 -negative 5 -window 5 -threads 24 -min_count 10 -iter 20.",
+                "default": True,
+                "name":"honchar.lowercased.lemmatized.word2vec.FINAL.500d",
+                "link":"",
+                "language": "ua"
+            },
+            {
+                "description":"Використовується нейронна векторна модель представлення слів Художня література (алгоритм word2vec word embeddings) розмірністю 300d. Сутність - слово, лематизовано, приведено до нижнього регистру. Параметри word2vec: -size 300 -negative 7 -window 4 -threads 6 -min_count 10 -iter 5 -alpha 0.030",
+                "default": False,
+                "name":"fiction.lowercased.lemmatized.word2vec.300d",
+                "link":"https://lang.org.ua/static/downloads/models/fiction.lowercased.lemmatized.word2vec.300d.bz2",
+                "language": "ua"
+            }
+        ]
+    }
+}
+
 def getExistsWordsInModel(words, keyed_vectors):
     exists = []
     for word in words:
@@ -67,6 +88,11 @@ def getExistsWordsInModel(words, keyed_vectors):
 @app.route('/')
 def index():
     return Response(render_template('index.html'), mimetype='text/html')
+
+# * models list
+@app.route('/models')
+def get_models_list():
+    return jsonify(models)
 
 # * honchar endpoints
 @app.route('/word2vec/similarity', methods=['POST'])
@@ -122,5 +148,5 @@ def find_lexical_cluster_center_fiction():
 
 if __name__ == '__main__':
     # default port = 5000
-    app.run(host = '0.0.0.0')
-    # app.run(host = '0.0.0.0', port=3000)
+    # app.run(host = '0.0.0.0')
+    app.run(host = '0.0.0.0', port=3000)
