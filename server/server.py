@@ -57,6 +57,10 @@ word_vectors_honchar = model.wv
 word_vectors_honchar.init_sims(replace=True)
 del model
 
+models_array = []
+models_array.append(word_vectors_honchar)
+models_array.append(word_vectors_fiction)
+
 models = {
     "models": {
         "word2vec":[
@@ -94,13 +98,16 @@ def index():
 def get_models_list():
     return jsonify(models)
 
-# * honchar endpoints
+# * computational endpoints
 @app.route('/word2vec/similarity', methods=['POST'])
 def similarity():
     if not request.json or not 'word_1' in request.json or not 'word_2' in request.json:
         abort(400)
     try:
-        cosine_similarity = word_vectors_honchar.similarity(request.json['word_1'], request.json['word_2'])
+        if request.args.get('model', type = int):
+            cosine_similarity = models_array[request.args.get('model', type = int)].similarity(request.json['word_1'], request.json['word_2'])
+        else:
+            cosine_similarity = models_array[0].similarity(request.json['word_1'], request.json['word_2'])
         return jsonify({"similarity": cosine_similarity.item()})
     except KeyError:
         return jsonify({"Error": {"KeyError": "One of the words is missing in the word2vec model"}})
@@ -111,7 +118,11 @@ def find_similar():
         abort(400)
     n = 100
     try:
-        return jsonify({"similar": word_vectors_honchar.most_similar(request.json['word'], topn=n)})
+        if request.args.get('model', type = int):
+            cosine_similar = models_array[request.args.get('model', type = int)].most_similar(request.json['word'], topn=n)
+        else:
+            cosine_similar = models_array[0].most_similar(request.json['word'], topn=n)
+        return jsonify({"similar": cosine_similar})
     except KeyError:
         return jsonify({"Error": {"KeyError": "Word " + request.json['word'] + " does not exist in the word2vec model" , "Word": request.json['word']}})
 
@@ -121,28 +132,11 @@ def find_lexical_cluster_center():
         abort(400)
     n = 100
     try:
-        return jsonify({"center" : word_vectors_honchar.most_similar(positive=getExistsWordsInModel(request.json['words'], word_vectors_honchar), topn=n)})
-    except KeyError:
-        return jsonify({"Error": {"KeyError": "Some words does not exist in the word2vec model" , "Words": request.json['words']}})
-
-# * fiction endpoints
-@app.route('/word2vec/fiction/similar', methods=['POST'])
-def find_similar_fiction():
-    if not request.json or not 'word' in request.json:
-        abort(400)
-    n = 100
-    try:
-        return jsonify({"similar": word_vectors_fiction.most_similar(request.json['word'], topn=n)})
-    except KeyError:
-        return jsonify({"Error": {"KeyError": "Word " + request.json['word'] + " does not exist in the word2vec model" , "Word": request.json['word']}})
-
-@app.route('/word2vec/fiction/center', methods=['POST'])
-def find_lexical_cluster_center_fiction():
-    if not request.json or not 'words' in request.json:
-        abort(400)
-    n = 100
-    try:
-        return jsonify({"center" : word_vectors_fiction.most_similar(positive=getExistsWordsInModel(request.json['words'], word_vectors_fiction), topn=n)})
+        if request.args.get('model', type = int):
+            cosine_center = models_array[request.args.get('model', type = int)].most_similar(positive=getExistsWordsInModel(request.json['words'], word_vectors_honchar), topn=n)
+        else:
+            cosine_center = models_array[0].most_similar(positive=getExistsWordsInModel(request.json['words'], word_vectors_honchar), topn=n)
+        return jsonify({"center" : cosine_center})
     except KeyError:
         return jsonify({"Error": {"KeyError": "Some words does not exist in the word2vec model" , "Words": request.json['words']}})
 
