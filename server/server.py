@@ -66,17 +66,18 @@ models = {
         "word2vec":[
             {
                 "description":"Використовується нейронна векторна модель представлення слів Гончар (алгоритм word2vec word embeddings) розмірністю 500d. Сутність - слово, лематизовано, приведено до нижнього регистру. Параметри word2vec: -size 500 -negative 5 -window 5 -threads 24 -min_count 10 -iter 20.",
-                "default": True,
                 "name":"honchar.lowercased.lemmatized.word2vec.FINAL.500d",
                 "link":"",
-                "language": "ua"
+                "language": "ua",
+                "index": 0
             },
             {
                 "description":"Використовується нейронна векторна модель представлення слів Художня література (алгоритм word2vec word embeddings) розмірністю 300d. Сутність - слово, лематизовано, приведено до нижнього регистру. Параметри word2vec: -size 300 -negative 7 -window 4 -threads 6 -min_count 10 -iter 5 -alpha 0.030",
                 "default": False,
                 "name":"fiction.lowercased.lemmatized.word2vec.300d",
                 "link":"https://lang.org.ua/static/downloads/models/fiction.lowercased.lemmatized.word2vec.300d.bz2",
-                "language": "ua"
+                "language": "ua",
+                "index": 1
             }
         ]
     }
