@@ -1,11 +1,17 @@
+import { EventService } from './../../services/event-service';
+import { ApiService } from './../../services/api-service';
+import { ModelData } from './../../models/Model.data';
 import { ITabNavLink } from './../../interfaces/ITabNavLink';
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { ROUTS } from './../../shared/const';
+import { MatSelectChange } from '@angular/material/select';
 
-interface IVectorModel {
-  value: string;
-  viewValue: string;
-  disabled?: boolean;
+export class VectorModel {
+  index: number;
+  name: string;
+  description: string;
+  link: string;
+  language: string;
 }
 
 
@@ -14,20 +20,8 @@ interface IVectorModel {
   templateUrl: 'tab-nav.component.html',
   styleUrls: ['tab-nav.component.sass'],
 })
-export class TabNavigationComponent {
-  public vectorModels: IVectorModel[] = [
-    {
-      value: 'vec-0',
-      viewValue: 'honchar.lowercased.lemmatized.word2vec.FINAL.500d',
-    },
-    {
-      value: 'vec-1',
-      viewValue: 'fiction.lowercased.lemmatized.word2vec.300d',
-      disabled: true
-    }
-  ];
-
-  public selectedVectorModel: string = this.vectorModels[0].value;
+export class TabNavigationComponent implements OnInit {
+  public vectorModels: ModelData[] = [];
   public navLinks: Array<ITabNavLink> = [
     {
         label: 'Семантичні асоціати',
@@ -57,5 +51,31 @@ export class TabNavigationComponent {
     }
   ];
 
-  constructor() {}
+  constructor(
+    public apiService: ApiService,
+    private eventService: EventService
+  ) {}
+
+  async ngOnInit(): Promise<void> {
+    this.apiService.getModels().then((resp: Array<ModelData>) => {
+      if (resp) {
+        this.vectorModels = resp;
+        this.onModelChange(this.vectorModels[0]);
+      }
+    });
+  }
+
+  public onModelSelectionChange($ev: MatSelectChange): void {
+    if ($ev?.value !== undefined) {
+      const model: ModelData = this.vectorModels.find((m: ModelData) => m.index === $ev.value);
+
+      if (model) {
+        this.onModelChange(model);
+      }
+    }
+  }
+
+  private onModelChange(model: ModelData): void {
+    this.eventService.onWord2VecModelChange.next(model);
+  }
 }

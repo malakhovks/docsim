@@ -2,6 +2,7 @@
   <div class="container">
     <h1>Обчислення центру лексичного кластера однослівних сутностей</h1>
     <p>Сервіс обчислює центр лексичного кластера слів українською мовою в рамках обраної моделі.</p>
+    <p *ngIf="model?.description?.length">{{model.description}}</p>
     <!-- <p>Використовується нейронна векторна модель представлення слів (алгоритм word2vec word embeddings) розмірністю 500d.</p> -->
 
     <div class="container container_middle">
@@ -49,6 +50,7 @@
   <div class="container">
     <h1>Обчислення семантичних асоціатів для однослівних сутностей</h1>
     <p>Сервіс обчислює семантичні асоціати слова українською мовою в рамках обраної моделі.</p>
+    <p *ngIf="model?.description?.length">{{model.description}}</p>
     <!-- <p>Використовується нейронна векторна модель представлення слів (алгоритм word2vec word embeddings) розмірністю 500d.</p> -->
 
     <div class="container container_middle">

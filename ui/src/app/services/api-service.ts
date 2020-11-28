@@ -1,15 +1,22 @@
+import { ModelData } from './../models/Model.data';
 import { TermCompareRespData } from './../models/TermCompareResp.data';
 import { TermArrRespData } from './../models/TermArrResp.data';
 import { TermRespData } from './../models/TermResp.data';
 import { TabEnum } from './../enums/tab-enum';
 import { Injectable } from '@angular/core';
-import { HttpClient } from '@angular/common/http';
+import { HttpClient, HttpParams } from '@angular/common/http';
 import { ITermReq, ITermArrReq, ITermCompareReq } from './../interfaces/httpInterfaces';
 
 
 export interface IResultData {
   term: string;
   vector: number;
+}
+
+interface IModelDataResponse {
+  models: {
+    word2vec: ModelData[];
+  };
 }
 
 
@@ -22,14 +29,29 @@ export class ApiService {
   ) {}
 
 
-  public async getWordsSimilarity(obj: ITermCompareReq): Promise<number> {
-    return this.http.post('/word2vec/similarity', obj).toPromise().then((resp: TermCompareRespData) => resp?.similarity ? resp.similarity : null);
+  public async getModels(): Promise<Array<ModelData | null>> {
+    return this.http.post('/models', null).toPromise().then((resp: IModelDataResponse) => {
+      if (resp?.models?.word2vec?.length) {
+        return resp.models.word2vec;
+      }
+
+      return null;
+    });
   }
 
-  public async getProcess(obj: ITermReq | ITermArrReq, activeTabIndex: TabEnum): Promise<Array<IResultData>> {
-    const url: string = this.getProcessRequestByActiveTabIndex(activeTabIndex);
+  public async getWordsSimilarity(obj: ITermCompareReq, modelTypeIndex: number): Promise<number> {
+    const params = new HttpParams().set('model', modelTypeIndex.toString());
 
-    return this.http.post(url, obj).toPromise().then((resp: TermRespData | TermArrRespData) => this.parseProcessResp(activeTabIndex, resp));
+    return this.http.post('/word2vec/similarity', obj, { params }).toPromise()
+      .then((resp: TermCompareRespData) => resp?.similarity ? resp.similarity : null);
+  }
+
+  public async getProcess(obj: ITermReq | ITermArrReq, activeTabIndex: TabEnum, modelTypeIndex: number): Promise<Array<IResultData>> {
+    const url: string = this.getProcessRequestByActiveTabIndex(activeTabIndex);
+    const params = new HttpParams().set('model', modelTypeIndex.toString());
+
+    return this.http.post(url, obj, { params }).toPromise()
+      .then((resp: TermRespData | TermArrRespData) => this.parseProcessResp(activeTabIndex, resp));
   }
 
 

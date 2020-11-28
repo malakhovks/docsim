@@ -7,8 +7,8 @@
 
   <div class="model-dropdown-wrap">
     <mat-label>Нейрона-вектора модель для обчислень</mat-label>
-    <mat-select title="Оберіть нейронну векторну модель представлення сутностей" [(value)]="selectedVectorModel">
-      <mat-option *ngFor="let option of vectorModels" [value]="option.value" [disabled]="option.disabled">{{option.viewValue}}</mat-option>
+    <mat-select *ngIf="vectorModels?.length" [value]="vectorModels[0].index" (selectionChange)="onModelSelectionChange($event)" title="Оберіть нейронну векторну модель представлення сутностей">
+      <mat-option *ngFor="let option of vectorModels" [value]="option.index">{{option.name}}</mat-option>
     </mat-select>
   </div>
 </nav>
