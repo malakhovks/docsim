@@ -73,7 +73,6 @@ models = {
             },
             {
                 "description":"Використовується нейронна векторна модель представлення слів Художня література (алгоритм word2vec word embeddings) розмірністю 300d. Сутність - слово, лематизовано, приведено до нижнього регистру. Параметри word2vec: -size 300 -negative 7 -window 4 -threads 6 -min_count 10 -iter 5 -alpha 0.030",
-                "default": False,
                 "name":"fiction.lowercased.lemmatized.word2vec.300d",
                 "link":"https://lang.org.ua/static/downloads/models/fiction.lowercased.lemmatized.word2vec.300d.bz2",
                 "language": "ua",
