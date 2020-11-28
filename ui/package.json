@@ -20,7 +20,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build --deploy-url ./static/",
+    "build": "node_modules/@angular/cli/bin/ng build --deploy-url ./static/",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
