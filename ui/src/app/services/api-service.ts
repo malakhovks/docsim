@@ -77,9 +77,9 @@ export class ApiService {
   private getProcessRequestByActiveTabIndex(activeTabIndex: TabEnum): string {
     switch (activeTabIndex) {
       case(TabEnum.Term):
-        return '/word2vec/center';
-      case(TabEnum.TermArray):
         return '/word2vec/similar';
+      case(TabEnum.TermArray):
+        return '/word2vec/center';
     }
   }
 }
