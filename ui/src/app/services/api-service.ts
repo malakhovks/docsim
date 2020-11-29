@@ -29,8 +29,18 @@ export class ApiService {
   ) {}
 
 
+  // public async getModels(): Promise<Array<ModelData | null>> {
+  //   return this.http.get('/models', null).toPromise().then((resp: IModelDataResponse) => {
+  //     if (resp?.models?.word2vec?.length) {
+  //       return resp.models.word2vec;
+  //     }
+
+  //     return null;
+  //   });
+  // }
+
   public async getModels(): Promise<Array<ModelData | null>> {
-    return this.http.get('/models', null).toPromise().then((resp: IModelDataResponse) => {
+    return this.http.get('/models').toPromise().then((resp: IModelDataResponse) => {
       if (resp?.models?.word2vec?.length) {
         return resp.models.word2vec;
       }
