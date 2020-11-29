@@ -26,12 +26,12 @@ export class TabNavigationComponent implements OnInit {
     {
         label: 'Семантичні асоціати',
         title: 'Обчислення семантичних асоціатів для однослівних термінів',
-        link: ROUTS.root.processing.term.path,
+        link: ROUTS.root.processing.terms.path,
         index: 0
     }, {
         label: 'Центр лексичного кластера',
         title: 'Обчислення центру лексичного кластера однослівних термінів',
-        link: ROUTS.root.processing.terms.path,
+        link: ROUTS.root.processing.term.path,
         index: 1
     }, {
         label: 'Семантична близькість',
