@@ -29,7 +29,7 @@ export class ApiService {
   ) {}
 
   public async getModels(): Promise<Array<ModelData | null>> {
-    return this.http.get('/models').toPromise().then((resp: IModelDataResponse) => {
+    return this.http.get('/api/models').toPromise().then((resp: IModelDataResponse) => {
       if (resp?.models?.word2vec?.length) {
         return resp.models.word2vec;
       }
@@ -41,7 +41,7 @@ export class ApiService {
   public async getWordsSimilarity(obj: ITermCompareReq, modelTypeIndex: number): Promise<number> {
     const params = new HttpParams().set('model', modelTypeIndex.toString());
 
-    return this.http.post('/word2vec/similarity', obj, { params }).toPromise()
+    return this.http.post('/api/word2vec/similarity', obj, { params }).toPromise()
       .then((resp: TermCompareRespData) => resp?.similarity ? resp.similarity : null);
   }
 
@@ -77,9 +77,9 @@ export class ApiService {
   private getProcessRequestByActiveTabIndex(activeTabIndex: TabEnum): string {
     switch (activeTabIndex) {
       case(TabEnum.Term):
-        return '/word2vec/similar';
+        return '/api/word2vec/similar';
       case(TabEnum.TermArray):
-        return '/word2vec/center';
+        return '/api/word2vec/center';
     }
   }
 }
