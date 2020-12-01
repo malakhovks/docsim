@@ -45,6 +45,10 @@ export class TermProcessingComponent implements OnInit, OnDestroy {
     this.subscription.push(this.eventService.onWord2VecModelChange.subscribe((model: ModelData) => {
       if (model) {
         this.model = model;
+
+        if (this.data !== undefined) {
+          this.getProcess();
+        }
       }
     }));
   }
@@ -63,7 +67,7 @@ export class TermProcessingComponent implements OnInit, OnDestroy {
       const termArr = this.terms.toLocaleLowerCase().split(' ');  // array of words which splited by whitespace;
 
       if (termArr?.length && this.model) {
-        const reqObj: ITermReq | ITermArrReq = this.activeTab === TabEnum.Term ? { word: termArr[0] } : { words: termArr };
+        const reqObj: ITermReq | ITermArrReq = this.activeTab === TabEnum.TermArray ? { word: termArr[0] } : { words: termArr };
         const data: IResultData[] = await this.apiService.getProcess(reqObj, this.activeTab, this.model.index);
 
         this.data = new MatTableDataSource((data as any));

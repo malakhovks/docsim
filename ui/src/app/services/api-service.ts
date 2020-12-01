@@ -7,7 +7,6 @@ import { Injectable } from '@angular/core';
 import { HttpClient, HttpParams } from '@angular/common/http';
 import { ITermReq, ITermArrReq, ITermCompareReq } from './../interfaces/httpInterfaces';
 
-
 export interface IResultData {
   term: string;
   vector: number;
@@ -46,10 +45,9 @@ export class ApiService {
   }
 
   public async getProcess(obj: ITermReq | ITermArrReq, activeTabIndex: TabEnum, modelTypeIndex: number): Promise<Array<IResultData>> {
-    const url: string = this.getProcessRequestByActiveTabIndex(activeTabIndex);
     const params = new HttpParams().set('model', modelTypeIndex.toString());
 
-    return this.http.post(url, obj, { params }).toPromise()
+    return this.http.post(`/api/word2vec/${activeTabIndex === TabEnum.Term ? 'center' : 'similar'}`, obj, { params }).toPromise()
       .then((resp: TermRespData | TermArrRespData) => this.parseProcessResp(activeTabIndex, resp));
   }
 
@@ -58,12 +56,12 @@ export class ApiService {
     const result: Array<IResultData> = [];
 
     switch (activeTabIndex) {
-      case(TabEnum.Term):
+      case(TabEnum.TermArray):
         if ((resp as TermRespData)?.similar?.length) {
           (resp as TermRespData).similar.forEach((el: [string, number]) => result.push({ term: el[0], vector: el[1] }));
         }
         break;
-      case(TabEnum.TermArray):
+      case(TabEnum.Term):
         if ((resp as TermArrRespData)?.center?.length) {
           (resp as TermArrRespData).center.forEach((el: [string, number]) => result.push({ term: el[0], vector: el[1] }));
         }
@@ -71,15 +69,5 @@ export class ApiService {
     }
 
     return result;
-  }
-
-
-  private getProcessRequestByActiveTabIndex(activeTabIndex: TabEnum): string {
-    switch (activeTabIndex) {
-      case(TabEnum.Term):
-        return '/api/word2vec/similar';
-      case(TabEnum.TermArray):
-        return '/api/word2vec/center';
-    }
   }
 }

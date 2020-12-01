@@ -1,3 +1,4 @@
+import { SemanticMapComponent } from './semantic-map/semantic-map.component';
 import { TermProcessingComponent } from './term-processing/term-processing.component';
 import { BrowserModule } from '@angular/platform-browser';
 import { AboutProcessingComponent } from './about-processing/about-processing.component';
@@ -19,6 +20,7 @@ import { FormsModule } from '@angular/forms';
   declarations: [
     AboutProcessingComponent,
     TermProcessingComponent,
+    SemanticMapComponent
   ],
   exports: [
     TermProcessingModule

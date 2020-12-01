@@ -1,4 +1,4 @@
 export enum TabEnum {
-  Term,
   TermArray,
+  Term,
 }

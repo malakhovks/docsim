@@ -33,6 +33,10 @@ export class WordsSimilarityComponent implements OnInit, OnDestroy {
     this.subscription.push(this.eventService.onWord2VecModelChange.subscribe((model: ModelData) => {
       if (model) {
         this.model = model;
+
+        if (this.firstTerm && this.secondTerm && this.similarityData !== undefined) {
+          this.getWordsSimilarity();
+        }
       }
     }));
   }
