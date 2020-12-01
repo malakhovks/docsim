@@ -59,5 +59,5 @@ docker build . -t docsim_image
 You can run the image `docsim_image` now with the command:
 
 ```bash
-docker run --name ken -d -p 80:80 docsim_image
+docker run --name docsim -d -p 80:80 docsim_image
 ```

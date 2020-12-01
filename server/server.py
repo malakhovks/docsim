@@ -94,12 +94,12 @@ def index():
     return Response(render_template('index.html'), mimetype='text/html')
 
 # * models list
-@app.route('/models')
+@app.route('/api/models')
 def get_models_list():
     return jsonify(models)
 
 # * computational endpoints
-@app.route('/word2vec/similarity', methods=['POST'])
+@app.route('/api/word2vec/similarity', methods=['POST'])
 def similarity():
     if not request.json or not 'word_1' in request.json or not 'word_2' in request.json:
         abort(400)
@@ -112,7 +112,7 @@ def similarity():
     except KeyError:
         return jsonify({"Error": {"KeyError": "One of the words is missing in the word2vec model"}})
 
-@app.route('/word2vec/similar', methods=['POST'])
+@app.route('/api/word2vec/similar', methods=['POST'])
 def find_similar():
     if not request.json or not 'word' in request.json:
         abort(400)
@@ -126,7 +126,7 @@ def find_similar():
     except KeyError:
         return jsonify({"Error": {"KeyError": "Word " + request.json['word'] + " does not exist in the word2vec model" , "Word": request.json['word']}})
 
-@app.route('/word2vec/center', methods=['POST'])
+@app.route('/api/word2vec/center', methods=['POST'])
 def find_lexical_cluster_center():
     if not request.json or not 'words' in request.json:
         abort(400)
