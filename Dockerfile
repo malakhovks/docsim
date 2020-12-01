@@ -26,7 +26,6 @@ RUN apt-get -y clean \
     && apt-get -y install bzip2 \
     && apt-get -y install wget \
     && apt-get -y install curl \
-    && curl https://getmic.ro | bash \
     # ------------------------------------------------------------------
     && pip install -r ./deploy/requirements.txt --src /usr/local/src \
     # Download models
