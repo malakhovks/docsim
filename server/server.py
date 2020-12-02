@@ -16,7 +16,7 @@ logging.basicConfig(format='%(asctime)s : %(levelname)s : %(message)s', level=lo
 import re, string
 
 # load libraries for API proccessing
-from flask import Flask, jsonify, flash, request, Response, redirect, url_for, abort, render_template
+from flask import Flask, jsonify, flash, request, Response, redirect, url_for, abort, render_template, send_from_directory
 
 # A Flask extension for handling Cross Origin Resource Sharing (CORS), making cross-origin AJAX possible.
 from flask_cors import CORS
@@ -92,6 +92,16 @@ def getExistsWordsInModel(words, keyed_vectors):
 @app.route('/')
 def index():
     return Response(render_template('index.html'), mimetype='text/html')
+
+# let's Angular do the routs job
+@app.route('/<path:page>')
+def fallback(page):
+    return render_template('index.html')
+
+# special file handlers
+@app.route('/favicon.ico')
+def favicon():
+    return send_from_directory(os.path.join(app.root_path, 'static'), 'favicon.ico', mimetype='image/vnd.microsoft.icon')
 
 # * models list
 @app.route('/api/models')
