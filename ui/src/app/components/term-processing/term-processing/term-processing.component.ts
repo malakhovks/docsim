@@ -2,7 +2,7 @@ import { ModelData } from './../../../models/Model.data';
 import { EventService } from './../../../services/event-service';
 import { TabEnum } from './../../../enums/tab-enum';
 import { ApiService, IResultData } from './../../../services/api-service';
-import { Component, OnDestroy, OnInit, ViewChild } from '@angular/core';
+import { Component, OnDestroy, OnInit, ViewChild, ChangeDetectionStrategy, ChangeDetectorRef } from '@angular/core';
 import { MatSort } from '@angular/material/sort';
 import { MatTableDataSource } from '@angular/material/table';
 import { ITermReq, ITermArrReq } from './../../../interfaces/httpInterfaces';
@@ -12,17 +12,16 @@ import { Subscription } from 'rxjs';
 
 const ROUTE_TYPE_DATA_FIELD = 'type';
 
-// TODO: fix cols sorting;
-
 @Component({
   selector: 'app-term-processing',
   templateUrl: './term-processing.component.html',
   styleUrls: ['./term-processing.component.sass'],
+  changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class TermProcessingComponent implements OnInit, OnDestroy {
   public terms = '';
   public model: ModelData;
-  public data: Array<IResultData> | any;
+  public data: MatTableDataSource<IResultData>;
   public displayedColumns: string[] = ['term', 'vector'];
   public activeTab: TabEnum = TabEnum.Term;
   private subscription: Subscription[] = [];
@@ -33,6 +32,7 @@ export class TermProcessingComponent implements OnInit, OnDestroy {
     private apiService: ApiService,
     private route: ActivatedRoute,
     private eventService: EventService,
+    private cd: ChangeDetectorRef
   ) {}
 
   ngOnInit(): void {
@@ -70,8 +70,14 @@ export class TermProcessingComponent implements OnInit, OnDestroy {
         const reqObj: ITermReq | ITermArrReq = this.activeTab === TabEnum.TermArray ? { word: termArr[0] } : { words: termArr };
         const data: IResultData[] = await this.apiService.getProcess(reqObj, this.activeTab, this.model.index);
 
-        this.data = new MatTableDataSource((data as any));
-        this.data.sort = this.sort;
+        if (data?.length) {
+          this.data = new MatTableDataSource(this.addSortIndexOfTerm(data));
+          this.setCustomSort();
+
+          // detect changes and apply sort settings:
+          this.cd.detectChanges();
+          this.data.sort = this.sort;
+        }
       }
     }
   }
@@ -80,5 +86,22 @@ export class TermProcessingComponent implements OnInit, OnDestroy {
     const filterValue = (event.target as HTMLInputElement).value;
 
     this.data.filter = filterValue.trim().toLowerCase();
+  }
+
+  private setCustomSort(): void {
+    this.data.sortingDataAccessor = (item, property) => {
+      switch (property) {
+        case this.displayedColumns[0]: return item.termIndex ? item.termIndex : item.term;
+        default: return item[property];
+      }
+    };
+  }
+
+  // Sort terms by local compare and create sorting index:
+  private addSortIndexOfTerm(arr: Array<IResultData>): Array<IResultData> {
+    arr.sort((s1, s2) => s1.term.localeCompare(s2.term));
+    arr.forEach((arrItem: IResultData, index: number) => arrItem.termIndex = index + 1);
+
+    return arr;
   }
 }

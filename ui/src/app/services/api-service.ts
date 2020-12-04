@@ -10,6 +10,7 @@ import { ITermReq, ITermArrReq, ITermCompareReq } from './../interfaces/httpInte
 export interface IResultData {
   term: string;
   vector: number;
+  termIndex?: number;
 }
 
 interface IModelDataResponse {
