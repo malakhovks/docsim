@@ -16,7 +16,7 @@ logging.basicConfig(format='%(asctime)s : %(levelname)s : %(message)s', level=lo
 import re, string
 
 # load libraries for API proccessing
-from flask import Flask, jsonify, flash, request, Response, redirect, url_for, abort, render_template
+from flask import Flask, jsonify, flash, request, Response, redirect, url_for, abort, render_template, send_from_directory
 
 # A Flask extension for handling Cross Origin Resource Sharing (CORS), making cross-origin AJAX possible.
 from flask_cors import CORS
@@ -57,22 +57,26 @@ word_vectors_honchar = model.wv
 word_vectors_honchar.init_sims(replace=True)
 del model
 
+models_array = []
+models_array.append(word_vectors_honchar)
+models_array.append(word_vectors_fiction)
+
 models = {
     "models": {
         "word2vec":[
             {
                 "description":"Використовується нейронна векторна модель представлення слів Гончар (алгоритм word2vec word embeddings) розмірністю 500d. Сутність - слово, лематизовано, приведено до нижнього регистру. Параметри word2vec: -size 500 -negative 5 -window 5 -threads 24 -min_count 10 -iter 20.",
-                "default": True,
                 "name":"honchar.lowercased.lemmatized.word2vec.FINAL.500d",
                 "link":"",
-                "language": "ua"
+                "language": "ua",
+                "index": 0
             },
             {
                 "description":"Використовується нейронна векторна модель представлення слів Художня література (алгоритм word2vec word embeddings) розмірністю 300d. Сутність - слово, лематизовано, приведено до нижнього регистру. Параметри word2vec: -size 300 -negative 7 -window 4 -threads 6 -min_count 10 -iter 5 -alpha 0.030",
-                "default": False,
                 "name":"fiction.lowercased.lemmatized.word2vec.300d",
                 "link":"https://lang.org.ua/static/downloads/models/fiction.lowercased.lemmatized.word2vec.300d.bz2",
-                "language": "ua"
+                "language": "ua",
+                "index": 1
             }
         ]
     }
@@ -89,60 +93,60 @@ def getExistsWordsInModel(words, keyed_vectors):
 def index():
     return Response(render_template('index.html'), mimetype='text/html')
 
+# let's Angular do the routs job
+@app.route('/<path:page>')
+def fallback(page):
+    return render_template('index.html')
+
+# special file handlers
+@app.route('/favicon.ico')
+def favicon():
+    return send_from_directory(os.path.join(app.root_path, 'static'), 'favicon.ico', mimetype='image/vnd.microsoft.icon')
+
 # * models list
-@app.route('/models')
+@app.route('/api/models')
 def get_models_list():
     return jsonify(models)
 
-# * honchar endpoints
-@app.route('/word2vec/similarity', methods=['POST'])
+# * computational endpoints
+@app.route('/api/word2vec/similarity', methods=['POST'])
 def similarity():
     if not request.json or not 'word_1' in request.json or not 'word_2' in request.json:
         abort(400)
     try:
-        cosine_similarity = word_vectors_honchar.similarity(request.json['word_1'], request.json['word_2'])
+        if request.args.get('model', type = int):
+            cosine_similarity = models_array[request.args.get('model', type = int)].similarity(request.json['word_1'], request.json['word_2'])
+        else:
+            cosine_similarity = models_array[0].similarity(request.json['word_1'], request.json['word_2'])
         return jsonify({"similarity": cosine_similarity.item()})
     except KeyError:
         return jsonify({"Error": {"KeyError": "One of the words is missing in the word2vec model"}})
 
-@app.route('/word2vec/similar', methods=['POST'])
+@app.route('/api/word2vec/similar', methods=['POST'])
 def find_similar():
     if not request.json or not 'word' in request.json:
         abort(400)
     n = 100
     try:
-        return jsonify({"similar": word_vectors_honchar.most_similar(request.json['word'], topn=n)})
+        if request.args.get('model', type = int):
+            cosine_similar = models_array[request.args.get('model', type = int)].most_similar(request.json['word'], topn=n)
+        else:
+            cosine_similar = models_array[0].most_similar(request.json['word'], topn=n)
+        return jsonify({"similar": cosine_similar})
     except KeyError:
         return jsonify({"Error": {"KeyError": "Word " + request.json['word'] + " does not exist in the word2vec model" , "Word": request.json['word']}})
 
-@app.route('/word2vec/center', methods=['POST'])
+@app.route('/api/word2vec/center', methods=['POST'])
 def find_lexical_cluster_center():
     if not request.json or not 'words' in request.json:
         abort(400)
     n = 100
     try:
-        return jsonify({"center" : word_vectors_honchar.most_similar(positive=getExistsWordsInModel(request.json['words'], word_vectors_honchar), topn=n)})
-    except KeyError:
-        return jsonify({"Error": {"KeyError": "Some words does not exist in the word2vec model" , "Words": request.json['words']}})
-
-# * fiction endpoints
-@app.route('/word2vec/fiction/similar', methods=['POST'])
-def find_similar_fiction():
-    if not request.json or not 'word' in request.json:
-        abort(400)
-    n = 100
-    try:
-        return jsonify({"similar": word_vectors_fiction.most_similar(request.json['word'], topn=n)})
-    except KeyError:
-        return jsonify({"Error": {"KeyError": "Word " + request.json['word'] + " does not exist in the word2vec model" , "Word": request.json['word']}})
-
-@app.route('/word2vec/fiction/center', methods=['POST'])
-def find_lexical_cluster_center_fiction():
-    if not request.json or not 'words' in request.json:
-        abort(400)
-    n = 100
-    try:
-        return jsonify({"center" : word_vectors_fiction.most_similar(positive=getExistsWordsInModel(request.json['words'], word_vectors_fiction), topn=n)})
+        if request.args.get('model', type = int):
+            cosine_center = models_array[request.args.get('model', type = int)].most_similar(positive=getExistsWordsInModel(request.json['words'], word_vectors_honchar), topn=n)
+        else:
+            cosine_center = models_array[0].most_similar(positive=getExistsWordsInModel(request.json['words'], word_vectors_honchar), topn=n)
+        return jsonify({"center" : cosine_center})
     except KeyError:
         return jsonify({"Error": {"KeyError": "Some words does not exist in the word2vec model" , "Words": request.json['words']}})
 

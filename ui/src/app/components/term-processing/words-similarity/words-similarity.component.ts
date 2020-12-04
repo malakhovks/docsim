@@ -1,6 +1,10 @@
-import { Component } from '@angular/core';
+import { ModelData } from './../../../models/Model.data';
+import { Component, OnDestroy, OnInit } from '@angular/core';
 import { ApiService } from '../../../services/api-service';
 import { ITermCompareReq } from '../../../interfaces/httpInterfaces';
+import { Subscription } from 'rxjs';
+import { EventService } from './../../../services/event-service';
+
 
 
 @Component({
@@ -8,21 +12,52 @@ import { ITermCompareReq } from '../../../interfaces/httpInterfaces';
   templateUrl: './words-similarity.component.html',
   styleUrls: ['./words-similarity.component.sass'],
 })
-export class WordsSimilarityComponent {
+export class WordsSimilarityComponent implements OnInit, OnDestroy {
   public similarityData: number;
   public firstTerm = '';
   public secondTerm = '';
+  public model: ModelData;
+  private subscription: Subscription[] = [];
+
 
   constructor(
     private apiService: ApiService,
+    private eventService: EventService,
   ) {}
 
-  public async getWordsSimilarity(): Promise<void> {
-    const reqObj: ITermCompareReq = {
-      word_1: this.firstTerm.toLocaleLowerCase(),
-      word_2: this.secondTerm.toLocaleLowerCase()
-    };
+  ngOnInit(): void {
+    if (this.eventService.onWord2VecModelChange.value) {
+      this.model = this.eventService.onWord2VecModelChange.value;
+    }
 
-    this.similarityData = await this.apiService.getWordsSimilarity(reqObj);
+    this.subscription.push(this.eventService.onWord2VecModelChange.subscribe((model: ModelData) => {
+      if (model) {
+        this.model = model;
+
+        if (this.firstTerm && this.secondTerm && this.similarityData !== undefined) {
+          this.getWordsSimilarity();
+        }
+      }
+    }));
+  }
+
+  ngOnDestroy(): void {
+    if (this.subscription?.length) {
+      this.subscription.forEach((s => {
+        s.unsubscribe();
+        s = undefined;
+      }));
+    }
+  }
+
+  public async getWordsSimilarity(): Promise<void> {
+    if (this.model) {
+      const reqObj: ITermCompareReq = {
+        word_1: this.firstTerm.toLocaleLowerCase(),
+        word_2: this.secondTerm.toLocaleLowerCase()
+      };
+
+      this.similarityData = await this.apiService.getWordsSimilarity(reqObj, this.model.index);
+    }
   }
 }

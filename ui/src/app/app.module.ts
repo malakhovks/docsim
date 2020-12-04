@@ -1,3 +1,4 @@
+import { SemanticMapComponent } from './components/term-processing/semantic-map/semantic-map.component';
 import { WordsSimilarityComponent } from './components/term-processing/words-similarity/words-similarity.component';
 import { TermProcessingComponent } from './components/term-processing/term-processing/term-processing.component';
 import { AboutProcessingComponent } from './components/term-processing/about-processing/about-processing.component';
@@ -28,7 +29,8 @@ import { AboutComponent } from './components/about/about.component';
     AboutProcessingComponent,
     TermProcessingComponent,
     AboutComponent,
-    WordsSimilarityComponent
+    WordsSimilarityComponent,
+    SemanticMapComponent
   ],
   imports: [
     CommonModule,
