@@ -1,0 +1,13 @@
+{
+  "embeddings": [
+    {
+      "tensorName": "fiction.lowercased.lemmatized.word2vec.300d",
+      "tensorShape": [
+        1000,
+        50
+      ],
+      "tensorPath": "https://gist.githubusercontent.com/malakhovks/17ee3b550ed0c1df91dc8d914441ad40/raw/1ca5fec9d9d809fd270a1ac73a6c52d28cf978e9/honchar-small-tensor.tsv",
+      "metadataPath": "https://gist.githubusercontent.com/malakhovks/0df06d4ef229467edc8cafc7e0b84c20/raw/6aec263aefe8caa3763610eeacb8e7c6e03b8859/honchar-small-metadata.tsv"
+    }
+  ]
+}
