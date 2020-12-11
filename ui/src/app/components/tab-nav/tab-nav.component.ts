@@ -14,14 +14,15 @@ export class VectorModel {
   language: string;
 }
 
-
 @Component({
   selector: 'app-tab-nav',
   templateUrl: 'tab-nav.component.html',
   styleUrls: ['tab-nav.component.sass'],
 })
 export class TabNavigationComponent implements OnInit {
+  public selectedTabIndex: number;
   public vectorModels: ModelData[] = [];
+  public bookArr: Array<any> = new Array(120);
   public navLinks: Array<ITabNavLink> = [
     {
         label: 'Семантичні асоціати',
@@ -73,6 +74,10 @@ export class TabNavigationComponent implements OnInit {
         this.onModelChange(model);
       }
     }
+  }
+
+  public onSelectedIndexChange(ev: number): void {
+    this.selectedTabIndex = ev;
   }
 
   private onModelChange(model: ModelData): void {

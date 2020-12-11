@@ -6,7 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./footer.component.sass']
 })
 export class FooterComponent {
-  public bookArr: Array<any> = new Array(120);
-
   constructor() { }
 }

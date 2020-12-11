@@ -45,6 +45,7 @@ export class TermProcessingComponent implements OnInit, OnDestroy {
     this.subscription.push(this.eventService.onWord2VecModelChange.subscribe((model: ModelData) => {
       if (model) {
         this.model = model;
+        this.cd.markForCheck();
 
         if (this.data !== undefined) {
           this.getProcess();

@@ -15,5 +15,8 @@
 
 <div class="scroll-container">
   <router-outlet></router-outlet>
+  <div *ngIf="selectedTabIndex !== navLinks[3].index" class="shelf">
+    <div *ngFor="let item of bookArr"></div>
+  </div>
 </div>
 
