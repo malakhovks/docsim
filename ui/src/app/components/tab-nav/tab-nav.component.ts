@@ -47,8 +47,27 @@ export class TabNavigationComponent implements OnInit {
     }, {
         label: 'Про проєкт',
         title: 'Відомості про проєкт',
-        link: ROUTS.root.processing.aboutProject.path,
-        index: 4
+        index: 4,
+        subNav: [
+          {
+            label: 'Про проект',
+            title: '',
+            link: ROUTS.root.aboutProject.aboutProject.path,
+            index: 0
+          },
+          {
+            label: 'Корисні посилання',
+            title: '',
+            link: ROUTS.root.aboutProject.sources.path,
+            index: 1
+          },
+          {
+            label: 'Колектив розробників',
+            title: '',
+            link: ROUTS.root.aboutProject.developers.path,
+            index: 2
+          }
+        ]
     }
   ];
 

@@ -1,3 +1,5 @@
+import { AboutSourcesComponent } from './../about-sources/about-sources.component';
+import { AboutDevelopersComponent } from './../about-developers/about-developers.component';
 import { TabEnum } from './../../enums/tab-enum';
 import { WordsSimilarityComponent } from './words-similarity/words-similarity.component';
 import { TermProcessingComponent } from './term-processing/term-processing.component';
@@ -6,6 +8,7 @@ import { SemanticMapComponent } from './semantic-map/semantic-map.component';
 import { ROUTS } from '../../shared/const';
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+
 
 
 const routes: Routes = [
@@ -41,7 +44,17 @@ const routes: Routes = [
         component: SemanticMapComponent,
       },
       {
-        path: ROUTS.root.processing.aboutProject.path,
+        path: ROUTS.root.aboutProject.developers.path,
+        pathMatch: 'full',
+        component: AboutDevelopersComponent,
+      },
+      {
+        path: ROUTS.root.aboutProject.sources.path,
+        pathMatch: 'full',
+        component: AboutSourcesComponent,
+      },
+      {
+        path: ROUTS.root.aboutProject.aboutProject.path,
         pathMatch: 'full',
         component: AboutProcessingComponent,
       }

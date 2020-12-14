@@ -10,6 +10,7 @@ import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatSelectModule } from '@angular/material/select';
 import { MatListModule } from '@angular/material/list';
 import { MatDividerModule } from '@angular/material/divider';
+import { MatMenuModule } from '@angular/material/menu';
 
 
 @NgModule({
@@ -23,7 +24,8 @@ import { MatDividerModule } from '@angular/material/divider';
     MatToolbarModule,
     MatSelectModule,
     MatListModule,
-    MatDividerModule
+    MatDividerModule,
+    MatMenuModule
   ],
   providers: [],
   bootstrap: []

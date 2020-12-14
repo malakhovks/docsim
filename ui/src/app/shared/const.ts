@@ -6,7 +6,11 @@ export const ROUTS = {
       terms: { path: 'terms' },
       similarity: { path: 'similarity' },
       semanticMap: { path: 'semantic-map' },
-      aboutProject: { path: 'about' }
+    },
+    aboutProject: {
+      developers: { path: 'developers' },
+      sources: { path: 'sources' },
+      aboutProject: { path: 'about-project' },
     },
     about: {
       path: 'about',
