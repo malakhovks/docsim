@@ -19,7 +19,7 @@
   ],
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
+    "start": "ng serve --open",
     "build": "node_modules/@angular/cli/bin/ng build --deploy-url ./static/",
     "test": "ng test",
     "lint": "ng lint",
