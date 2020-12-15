@@ -103,6 +103,11 @@ def fallback(page):
 def favicon():
     return send_from_directory(os.path.join(app.root_path, 'static'), 'favicon.ico', mimetype='image/vnd.microsoft.icon')
 
+# serve static images
+@app.route('/assets/img/<path:path>')
+def send_js(path):
+    return send_from_directory('static/img', path)
+
 # * models list
 @app.route('/api/models')
 def get_models_list():
