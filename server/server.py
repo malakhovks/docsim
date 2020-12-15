@@ -110,7 +110,7 @@ def send_img(path):
 
 # serve static images about-sources
 @app.route('/assets/sources-logos/<path:path>')
-def send_img(path):
+def send_logos(path):
     return send_from_directory('static/sources-logos', path)
 
 # * models list
