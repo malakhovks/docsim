@@ -1,4 +1,4 @@
-import { AboutComponent } from './components/about/about.component';
+// import { AboutComponent } from './components/about/about.component';
 import { TabNavigationComponent } from './components/tab-nav/tab-nav.component';
 import { RouterModule, Routes } from '@angular/router';
 import { NgModule } from '@angular/core';
@@ -21,7 +21,7 @@ const routes: Routes = [
       },
     ]
   },
-  { path: ROUTS.root.about.path, component: AboutComponent },
+ /*  { path: ROUTS.root.about.path, component: AboutComponent }, */
 ];
 
 @NgModule({

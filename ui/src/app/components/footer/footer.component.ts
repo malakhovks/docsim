@@ -6,6 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./footer.component.sass']
 })
 export class FooterComponent {
-
   constructor() { }
 }

@@ -1,3 +1,5 @@
+import { AboutSourcesComponent } from './components/about-sources/about-sources.component';
+import { AboutDevelopersComponent } from './components/about-developers/about-developers.component';
 import { SemanticMapComponent } from './components/term-processing/semantic-map/semantic-map.component';
 import { WordsSimilarityComponent } from './components/term-processing/words-similarity/words-similarity.component';
 import { TermProcessingComponent } from './components/term-processing/term-processing/term-processing.component';
@@ -19,7 +21,6 @@ import { MatModule } from './mat.module';
 import { FooterComponent } from './components/footer/footer.component';
 import { AppComponent } from './app.component';
 import { TabNavigationComponent } from './components/tab-nav/tab-nav.component';
-import { AboutComponent } from './components/about/about.component';
 
 @NgModule({
   declarations: [
@@ -27,8 +28,9 @@ import { AboutComponent } from './components/about/about.component';
     FooterComponent,
     TabNavigationComponent,
     AboutProcessingComponent,
+    AboutSourcesComponent,
     TermProcessingComponent,
-    AboutComponent,
+    AboutDevelopersComponent,
     WordsSimilarityComponent,
     SemanticMapComponent
   ],

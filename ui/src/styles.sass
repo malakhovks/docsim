@@ -29,6 +29,9 @@ body, html
 .scroll-container
   flex-grow: 1
   overflow: auto
+  justify-content: space-between
+  display: flex
+  flex-direction: column
   & > *
     display: block
 
@@ -91,3 +94,12 @@ h3
 
 p
   font-size: 16px
+
+.section-title
+  line-height: 1.5
+  font-size: 26px
+  font-weight: 500
+  margin: 25px 0 15px
+
+app-semantic-map + .shelf
+  display: none!important

@@ -1,8 +1,110 @@
+$col-1: #52aca2
+$col-2: #bada55
+$col-3: #999999
+$col-4: #78d663
+$col-5: #f1ab4f
+$col-6: #f04f6b
+$col-7: #ffda4f
+$col-8: #55cdfc
+$col-9: #aa7d42
+$col-11: #f7850a
+$col-10: #ced5df
+$col-12: #935357
+$col-13: #b190a5
+$col-14: #90b19c
+$col-15: #fdbdb8
+$col-16: #ffe4e1
+$col-17: #666666
+$col-18: #93786f
+$col-19: #f6c9b9
+$col-20: #ecc2bf
+$col-21: #aa5e40
+$col-22: #aa5e40
+$col-23: #408caa
+$col-24: #489cbd
+$col-25: #bada55
+$col-26: #062542
+$col-27: #998888
+$col-28: #cdcdd2
+$col-29: #cbc2bf
+$col-30: #e7d5c9
+$col-31: #e9d7c7
+$col-32: #a2697d
+$col-33: #86516b
+$col-34: #dbdcff
+$col-35: #feffa3
+$col-36: #00b8ff
+$col-37: #ff9966
+$col-38: #a52a5e
+$col-39: #008080
+$col-40: #000000
+$col-41: #01f6f1
+$col-42: #ffc0cb
+  
+$colours: $col-1, $col-2, $col-3, $col-4, $col-5, $col-6, $col-7, $col-8, $col-9, $col-10, $col-11, $col-12, $col-13, $col-14, $col-15, $col-16, $col-17, $col-18, $col-19, $col-20, $col-21, $col-22, $col-23, $col-24, $col-25, $col-26, $col-27, $col-28, $col-29, $col-30, $col-31, $col-32, $col-33, $col-34, $col-35, $col-36, $col-37, $col-38, $col-39, $col-40, $col-41, $col-42
+$text: "", "", "", "", "", "", "--", "--", "--", "---", "---", "---", "", "", "", "", "", "--", "--", "--", "---", "---", "------------------------"
+$text-col: #111111, #eeeeee, #111111
+  
 :host
   flex-grow: 1
   overflow: hidden
   display: flex
   flex-direction: column
+  position: relative
+
+  .shelf 
+    flex: auto
+    width: 1200px
+    margin: 0 auto
+    display: flex
+    align-items: flex-end 
+    justify-content: space-between
+    opacity: .2
+    transition: opacity .2s linear
+    margin-top: 15px
+    &:hover
+      opacity: 1
+      transition: opacity .3s ease-out
+      div
+        cursor: pointer 
+        animation: book-bounce 0.5s ease 
+        animation-iteration-count: 1 
+
+    div
+      display: flex 
+      flex-wrap: wrap 
+      border-radius: 2px 
+      font-size: 20px 
+      overflow: hidden 
+      line-height: 15% 
+      text-align: center 
+      font-weight: lighter 
+
+@keyframes book-bounce 
+  0%
+      transform: translateY(0)
+  40%
+      transform: translateY(-20px)
+  80%
+      transform: translateY(-2px)
+  100%
+      transform: translateY(0)
+
+@for $i from 1 through 119
+  .shelf > div:nth-child(#{$i}):before 
+      content: nth($text, random(length($text))) 
+      color: nth($text-col, random(length($text-col))) 
+  .shelf > div:nth-child(#{$i}) 
+      height: random(30) + 40px 
+      animation-delay: $i * 0.002s!important
+      background-color: nth($colours, random(length($colours))) 
+      width: random(4) + 7px 
+  
+/** :host
+  flex-grow: 1
+  overflow: hidden
+  display: flex
+  flex-direction: column **/
 
 .model-dropdown-wrap
   flex-grow: 1
