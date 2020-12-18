@@ -24,8 +24,8 @@ from flask_cors import CORS
 import gensim
 from gensim.models import Word2Vec as WV_model
 
-__author__ = "Kyrylo Malakhov <malakhovks@nas.gov.ua> and Vitalii Velychko <aduisukr@gmail.com>"
-__copyright__ = "Copyright (C) 2020 Kyrylo Malakhov <malakhovks@nas.gov.ua> and Vitalii Velychko <aduisukr@gmail.com>"
+__author__ = "Kyrylo Malakhov <malakhovks@nas.gov.ua> and Vitalii Velychko <aduisukr@gmail.com> and Alexander Shchurov <alexandershchurov@gmail.com>"
+__copyright__ = "Copyright (C) 2020 Kyrylo Malakhov <malakhovks@nas.gov.ua> and Vitalii Velychko <aduisukr@gmail.com> and Alexander Shchurov <alexandershchurov@gmail.com>"
 
 app = Flask(__name__)
 CORS(app)
