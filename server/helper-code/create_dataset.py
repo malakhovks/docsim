@@ -164,13 +164,14 @@ def ua_tokenizer(text,ua_stemmer=True,stop_words=[]):
 
 # text_bytes = get_bytes_from_pdf('/Users/MalahovKS/Documents/Velychko/2020/docsim-project/Supporting documentation/dataset/honchar/honchar_mails.pdf')
 
-text_string = get_text_from_pdf('honchar.pdf')
+# text_string = get_text_from_pdf('honchar.pdf')
+text_string = get_text_from_pdf('./dataset/suhomlinskyy-serdtse-2018/suhomlinskyy-serdtse-2018.pdf')
 
 text_normal = normalization_default(text_string)
 
 
-with open('extracted_raw.txt', 'w') as fout:
+with open('./dataset/suhomlinskyy-serdtse-2018/extracted_raw.txt', 'w') as fout:
     fout.write(text_string)
 
-with open('extracted.txt', 'w') as fout:
+with open('./dataset/suhomlinskyy-serdtse-2018/extracted.txt', 'w') as fout:
     fout.write(text_normal)

@@ -24,8 +24,8 @@ from flask_cors import CORS
 import gensim
 from gensim.models import Word2Vec as WV_model
 
-__author__ = "Kyrylo Malakhov <malakhovks@nas.gov.ua> and Vitalii Velychko <aduisukr@gmail.com>"
-__copyright__ = "Copyright (C) 2020 Kyrylo Malakhov <malakhovks@nas.gov.ua> and Vitalii Velychko <aduisukr@gmail.com>"
+__author__ = "Kyrylo Malakhov <malakhovks@nas.gov.ua> and Vitalii Velychko <aduisukr@gmail.com> and Alexander Shchurov <alexandershchurov@gmail.com>"
+__copyright__ = "Copyright (C) 2020 Kyrylo Malakhov <malakhovks@nas.gov.ua> and Vitalii Velychko <aduisukr@gmail.com> and Alexander Shchurov <alexandershchurov@gmail.com>"
 
 app = Flask(__name__)
 CORS(app)
@@ -51,32 +51,45 @@ word_vectors_fiction = gensim.models.KeyedVectors.load_word2vec_format('./models
 word_vectors_fiction.init_sims(replace=True)
 
 model = WV_model.load('./models/honchar.lowercased.lemmatized.word2vec.FINAL.500d')
-# model.wv.save_word2vec_format('./models/honchar.lowercased.lemmatized.word2vec.GOOD.500d')
 # switch to the KeyedVectors instance
 word_vectors_honchar = model.wv
 word_vectors_honchar.init_sims(replace=True)
 del model
 
+model = WV_model.load('./models/suhomlinskyy.lowercased.lemmatized.word2vec.500d')
+# switch to the KeyedVectors instance
+word_vectors_suhomlinskyy = model.wv
+word_vectors_suhomlinskyy.init_sims(replace=True)
+del model
+
 models_array = []
 models_array.append(word_vectors_honchar)
 models_array.append(word_vectors_fiction)
+models_array.append(word_vectors_suhomlinskyy)
 
 models = {
     "models": {
         "word2vec":[
             {
-                "description":"Використовується нейронна векторна модель представлення слів Гончар (з використанням набору даних – проблеми поетики творчого доробку Олеся Гончара), алгоритм word2vec word embeddings розмірністю 500d. Сутність - слово, лематизовано, приведено до нижнього регистру. Параметри word2vec: -size 500 -negative 5 -window 5 -threads 24 -min_count 10 -iter 20.",
+                "description":"Використовується нейронна векторна модель представлення слів «Олесь Гончар» (з використанням набору даних – проблеми поетики творчого доробку Олеся Гончара), алгоритм word2vec word embeddings розмірністю 500d. Сутність - слово, лематизовано, приведено до нижнього регистру. Параметри word2vec: -size 500 -negative 5 -window 5 -threads 24 -min_count 10 -iter 20.",
                 "name":"honchar.lowercased.lemmatized.word2vec.FINAL.500d",
                 "link":"",
                 "language": "ua",
                 "index": 0
             },
             {
-                "description":"Використовується нейронна векторна модель представлення слів Художня література (з використанням набору даних – художня література), алгоритм word2vec word embeddings розмірністю 300d. Сутність - слово, лематизовано, приведено до нижнього регистру. Параметри word2vec: -size 300 -negative 7 -window 4 -threads 6 -min_count 10 -iter 5 -alpha 0.030",
+                "description":"Використовується нейронна векторна модель представлення слів «Художня література» (з використанням набору даних – художня література), алгоритм word2vec word embeddings розмірністю 300d. Сутність - слово, лематизовано, приведено до нижнього регистру. Параметри word2vec: -size 300 -negative 7 -window 4 -threads 6 -min_count 10 -iter 5 -alpha 0.030",
                 "name":"fiction.lowercased.lemmatized.word2vec.300d",
                 "link":"https://lang.org.ua/static/downloads/models/fiction.lowercased.lemmatized.word2vec.300d.bz2",
                 "language": "ua",
                 "index": 1
+            },
+            {
+                "description":"Використовується нейронна векторна модель представлення слів «Cухомлинський» (з використанням набору даних – книга «Серце віддаю дітям»), алгоритм word2vec word embeddings розмірністю 500d. Сутність – слово, лематизовано, приведено до нижнього регистру. Параметри word2vec: -size 500 -negative 7 -window 4 -min_count 10 -iter 10.",
+                "name":"suhomlinskyy.lowercased.lemmatized.word2vec.500d",
+                "link":"",
+                "language": "ua",
+                "index": 2
             }
         ]
     }
@@ -153,7 +166,7 @@ def find_lexical_cluster_center():
     n = 100
     try:
         if request.args.get('model', type = int):
-            cosine_center = models_array[request.args.get('model', type = int)].most_similar(positive=getExistsWordsInModel(request.json['words'], word_vectors_honchar), topn=n)
+            cosine_center = models_array[request.args.get('model', type = int)].most_similar(positive=getExistsWordsInModel(request.json['words'], models_array[request.args.get('model', type = int)]), topn=n)
         else:
             cosine_center = models_array[0].most_similar(positive=getExistsWordsInModel(request.json['words'], word_vectors_honchar), topn=n)
         return jsonify({"center" : cosine_center})
