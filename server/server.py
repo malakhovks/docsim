@@ -57,9 +57,16 @@ word_vectors_honchar = model.wv
 word_vectors_honchar.init_sims(replace=True)
 del model
 
+model = WV_model.load('./models/suhomlinskyy.lowercased.lemmatized.word2vec.500d')
+# switch to the KeyedVectors instance
+word_vectors_suhomlinskyy = model.wv
+word_vectors_suhomlinskyy.init_sims(replace=True)
+del model
+
 models_array = []
 models_array.append(word_vectors_honchar)
 models_array.append(word_vectors_fiction)
+models_array.append(word_vectors_suhomlinskyy)
 
 models = {
     "models": {
@@ -77,6 +84,13 @@ models = {
                 "link":"https://lang.org.ua/static/downloads/models/fiction.lowercased.lemmatized.word2vec.300d.bz2",
                 "language": "ua",
                 "index": 1
+            },
+            {
+                "description":"Використовується нейронна векторна модель представлення слів «Cухомлинський» (з використанням набору даних – книга «Серце віддаю дітям»), алгоритм word2vec word embeddings розмірністю 500d. Сутність – слово, лематизовано, приведено до нижнього регистру. Параметри word2vec: -size 500 -negative 7 -window 4 -min_count 10 -iter 10.",
+                "name":"suhomlinskyy.lowercased.lemmatized.word2vec.500d",
+                "link":"",
+                "language": "ua",
+                "index": 2
             }
         ]
     }
