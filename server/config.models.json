@@ -2,7 +2,7 @@
     "models": {
         "word2vec": [
             {
-                "description": "Використовується нейронна векторна модель представлення слів Гончар (з використанням набору даних – проблеми поетики творчого доробку Олеся Гончара), алгоритм word2vec word embeddings розмірністю 500d. Сутність - слово, лематизовано, приведено до нижнього регистру. Параметри word2vec: -size 500 -negative 5 -window 5 -threads 24 -min_count 10 -iter 20.",
+                "description": "Використовується нейронна векторна модель представлення слів «Олесь Гончар» (з використанням набору даних – проблеми поетики творчого доробку Олеся Гончара), алгоритм word2vec word embeddings розмірністю 500d. Сутність – слово, лематизовано, приведено до нижнього регистру. Параметри word2vec: -size 500 -negative 5 -window 5 -min_count 10 -iter 20.",
                 "datasetDescription": "Проблеми поетики творчого доробку Олеся Гончара",
                 "name": "honchar.lowercased.lemmatized.word2vec.FINAL.500d",
                 "wordEmbeddings": "word2vec",
@@ -14,7 +14,6 @@
                     "window": "5",
                     "minCount": "10",
                     "iter": "20",
-                    "threads": "20",
                     "sample": "1e-5",
                     "lowercased": true
                 },
@@ -25,7 +24,7 @@
                 "index": 0
             },
             {
-                "description": "Використовується нейронна векторна модель представлення слів Художня література (з використанням набору даних – художня література), алгоритм word2vec word embeddings розмірністю 300d. Сутність - слово, лематизовано, приведено до нижнього регистру. Параметри word2vec: -size 300 -negative 7 -window 4 -threads 6 -min_count 10 -iter 5 -alpha 0.030",
+                "description": "Використовується нейронна векторна модель представлення слів «Художня література» (з використанням набору даних – художня література), алгоритм word2vec word embeddings розмірністю 300d. Сутність – слово, лематизовано, приведено до нижнього регистру. Параметри word2vec: -size 300 -negative 7 -window 4 -threads 6 -min_count 10 -iter 5 -alpha 0.030.",
                 "name": "fiction.lowercased.lemmatized.word2vec.300d",
                 "wordEmbeddings": "word2vec",
                 "hyperparameters": {
@@ -46,6 +45,27 @@
                 "tensorBoardInternalURL": "",
                 "language": "ua",
                 "index": 1
+            },
+            {
+                "description": "Використовується нейронна векторна модель представлення слів «Cухомлинський» (з використанням набору даних – книга «Серце віддаю дітям»), алгоритм word2vec word embeddings розмірністю 500d. Сутність – слово, лематизовано, приведено до нижнього регистру. Параметри word2vec: -size 500 -negative 7 -window 4 -min_count 10 -iter 10.",
+                "name": "suhomlinskyy.lowercased.lemmatized.word2vec.500d",
+                "wordEmbeddings": "word2vec",
+                "hyperparameters": {
+                    "api": "gensim.models.word2vec",
+                    "sg": "1",
+                    "vectorSize": "500",
+                    "negativeSampling": "7",
+                    "window": "4",
+                    "minCount": "10",
+                    "iter": "10",
+                    "lowercased": true
+                },
+                "modelURL": "",
+                "datasetDescription": "Книга «Серце віддаю дітям»",
+                "tensorBoardExternalURL": "",
+                "tensorBoardInternalURL": "",
+                "language": "ua",
+                "index": 2
             }
         ]
     }
