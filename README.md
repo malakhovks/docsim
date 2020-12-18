@@ -1,6 +1,6 @@
 # docsim / UkrVectōrēs
 
-**docsim/UkrVectōrēs** - An NLU-Powered tool for knowledge discovery, classification, diagnostics and prediction.
+**docsim/UkrVectōrēs** – An NLU-powered tool for knowledge discovery, classification, diagnostics and prediction.
 
 ## Choose your language / Оберіть мову
 
@@ -10,7 +10,7 @@
 -------
 
 <a name="toc-ua"></a>
-## docsim/UkrVectōrēs - інструмент, що працює на основі NLU, для виявлення, класифікації, діагностики та прогнозування знань.
+## docsim/UkrVectōrēs – інструмент, що працює на основі NLU, для виявлення, класифікації, діагностики та прогнозування знань.
 
 Сервіс **docsim/UkrVectōrēs** обчислює семантичні відношення між сутностями української мови в рамках обраної дистрибутино-семантичної моделі векторного представлення сутностей.
 
