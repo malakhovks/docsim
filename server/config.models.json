@@ -18,6 +18,7 @@
                     "lowercased": true
                 },
                 "modelURL": "",
+                "modelURLParameter": "honchar",
                 "tensorBoardExternalURL": "https://projector.tensorflow.org/?config=https://gist.githubusercontent.com/malakhovks/e45b2890a21189f87cea3d7ea75bb088/raw/a00ebf13d4c8f0095aec237ae37617fef6bd2266/honchar-tensorboard-config.json",
                 "tensorBoardInternalURL": "",
                 "language": "ua",
@@ -40,6 +41,7 @@
                     "lowercased": true
                 },
                 "modelURL": "https://lang.org.ua/static/downloads/models/fiction.lowercased.lemmatized.word2vec.300d.bz2",
+                "modelURLParameter": "fiction",
                 "datasetDescription": "Загальна художня література",
                 "tensorBoardExternalURL": "",
                 "tensorBoardInternalURL": "",
@@ -61,6 +63,7 @@
                     "lowercased": true
                 },
                 "modelURL": "",
+                "modelURLParameter": "suhomlinskyy",
                 "datasetDescription": "Книга «Серце віддаю дітям»",
                 "tensorBoardExternalURL": "",
                 "tensorBoardInternalURL": "",
