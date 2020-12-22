@@ -65,7 +65,7 @@
                 "modelURL": "",
                 "modelURLParameter": "suhomlinskyy",
                 "datasetDescription": "Книга «Серце віддаю дітям»",
-                "tensorBoardExternalURL": "",
+                "tensorBoardExternalURL": "https://projector.tensorflow.org/?config=https://gist.githubusercontent.com/malakhovks/10e06a95970819a1f3297d5f2febfb18/raw/971dc56bef69ee5a31431dfe1daeede08c0f8640/suhomlinskyy-serdtse-small-tensorboard-config.json",
                 "tensorBoardInternalURL": "",
                 "language": "ua",
                 "index": 2
