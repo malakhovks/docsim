@@ -5,14 +5,12 @@
         {{link.label}}
       </a>
       <mat-menu #menu="matMenu">
- <!--        <button [routerLink]="link.subNav[2].link" mat-menu-item>Про розробників</button>
-        <button [routerLink]="link.link" mat-menu-item>Про проект</button> -->
         <button *ngFor="let subLink of link.subNav" [title]="link.title" [routerLink]="subLink.link" mat-menu-item>{{subLink.label}}</button>
       </mat-menu>
     </ng-container>
 
     <ng-template #standartTabLinkTemplate>
-      <a mat-tab-link [routerLink]="link.link" routerLinkActive #rla="routerLinkActive" [active]="rla.isActive">
+      <a mat-tab-link [routerLink]="link.link" [queryParams]="{ model: activeModelIndex}" routerLinkActive #rla="routerLinkActive" [active]="rla.isActive">
         {{link.label}}
       </a>
     </ng-template>
@@ -22,7 +20,7 @@
 
   <div class="model-dropdown-wrap">
     <mat-label>Моделі:</mat-label>
-    <mat-select *ngIf="vectorModels?.length" [value]="vectorModels[0].index" (selectionChange)="onModelSelectionChange($event)" title="Оберіть дистрибутивно-семантичну модель представлення сутностей">
+    <mat-select *ngIf="vectorModels?.length" [value]="activeModelIndex" (selectionChange)="onModelSelectionChange($event)" title="Оберіть дистрибутивно-семантичну модель представлення сутностей">
       <mat-option *ngFor="let option of vectorModels" [value]="option.index">{{option.name}}</mat-option>
     </mat-select>
   </div>
