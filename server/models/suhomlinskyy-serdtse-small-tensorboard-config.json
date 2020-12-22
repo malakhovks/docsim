@@ -1,0 +1,13 @@
+{
+    "embeddings": [
+        {
+            "tensorName": "Suhomlinskyy serdtse 2018",
+            "tensorShape": [
+                1000,
+                50
+            ],
+            "tensorPath": "https://gist.githubusercontent.com/malakhovks/d91cc0c92591b3b3c147e31c24919c75/raw/e8abe0dbd7676efca8c6711dce09855dee5df439/suhomlinskyy-small-tensor.tsv",
+            "metadataPath": "https://gist.githubusercontent.com/malakhovks/761a2519374853c55c16e750dc0d0050/raw/f8818c294b06b85e52a78eef59aea8b0064d9360/suhomlinskyy-small-metadata.tsv"
+        }
+    ]
+}
