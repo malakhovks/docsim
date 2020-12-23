@@ -2,6 +2,10 @@
 
 **docsim/UkrVectōrēs** – An NLU-powered tool for knowledge discovery, classification, diagnostics and prediction.
 
+## Caution/Disclaimer
+
+Project and documentation are in active development! For any technical clarifications and questions contact us via email [malakhovks@nas.gov.ua](mailto:malakhovks@nas.gov.ua) or via Issues.
+
 ## Choose your language / Оберіть мову
 
 - **[Українська](#toc-ua)**
@@ -13,6 +17,10 @@
 ## docsim/UkrVectōrēs – інструмент, що працює на основі NLU, для виявлення, класифікації, діагностики та прогнозування знань.
 
 Сервіс **docsim/UkrVectōrēs** обчислює семантичні відношення між сутностями української мови в рамках обраної дистрибутино-семантичної моделі векторного представлення сутностей.
+
+### Увага
+
+Проєкт та документація знаходяться в активній розробці! За будь-якими технічними роз'ясненнями та питаннями зв'яжіться з нами електронною поштою [malakhovks@nas.gov.ua](mailto:malakhovks@nas.gov.ua) або через розділ Issues.
 
 ### Поняття векторного представлення сутностей
 
@@ -31,6 +39,10 @@
 
 <a name="toc-en"></a>
 ## docsim/UkrVectōrēs - An NLU-Powered tool for knowledge discovery, classification, diagnostics and prediction.
+
+### Caution/Disclaimer
+
+Project and documentation are in active development! For any technical clarifications and questions contact us via email [malakhovks@nas.gov.ua](mailto:malakhovks@nas.gov.ua) or via Issues.
 
 ### Table of Contents
 
