@@ -14,7 +14,7 @@ Project and documentation are in active development! For any technical clarifica
 -------
 
 <a name="toc-ua"></a>
-## docsim/UkrVectōrēs – інструмент, що працює на основі NLU, для виявлення, класифікації, діагностики та прогнозування знань.
+## docsim/UkrVectōrēs – інструмент, "когнітивно-семантичний калькулятор", що працює на основі NLU, для виявлення, класифікації, діагностики та прогнозування знань.
 
 Сервіс **docsim/UkrVectōrēs** обчислює семантичні відношення між сутностями української мови в рамках обраної дистрибутино-семантичної моделі векторного представлення сутностей.
 
@@ -43,7 +43,7 @@ Project and documentation are in active development! For any technical clarifica
 
 Мережевий засіб **docsim/UkrVectōrēs** (у вигляді веб-сервісу з API) – це інструмент, який дозволяє досліджувати семантичні відношення між словами в рамках прогностичних моделей дистрибутивної семантики, з використанням програмної бібліотеки з відкритим вихідним кодом для передової обробки та математичного моделювання природної мови [gensim](https://github.com/RaRe-Technologies/gensim) (яка включає інтерфейс прикладного програмування для роботи з алгоритмами Word2vec, fastText та інші).
 
-Можна образно назвати Мережевий засіб **docsim/UkrVectōrēs** "семантичним калькулятором". Користувач може вибрати одну або кілька з ретельно підготовлених (або використовувати інші векторні представлення для слів української мови, які вільно поширюються) прогностичних моделей дистрибутивної семантики, навчених на різних корпусах текстів, зокрема, таких наборів даних:
+Можна образно назвати Мережевий засіб **docsim/UkrVectōrēs** "когнітивно-семантичним калькулятором". Користувач може вибрати одну або кілька з ретельно підготовлених (або використовувати інші векторні представлення для слів Word Embeddings, які вільно поширюються) прогностичних моделей дистрибутивної семантики, навчених на різних корпусах текстів, зокрема, таких наборів даних:
 
 - проблеми поетики творчого доробку Олеся Гончара;
 - художня література;
@@ -70,7 +70,7 @@ Project and documentation are in active development! For any technical clarifica
 - Flask-CORS – розширення Flask для обробки спільного використання ресурсів з різних джерел (англ. Cross-Origin Resource Sharing, CORS);
 - uWSGI – веб-сервер і сервер веб-додатків, спочатку реалізований для запуску додатків Python через протокол WSGI (і його бінарний варіант uwsgi);
 - Pandas – програмна бібліотека, написана для мови програмування Python для маніпулювання даними та їхнього аналізу. Вона, зокрема, пропонує структури даних та операції для маніпулювання чисельними таблицями та часовими рядами;
-- nginx – вільний веб-сервер і проксі-сервер.
+- nginx – вільний веб-сервер і проксі-серверl;
 - Angular – написаний на TypeScript front-end фреймворк з відкритим кодом для розробки односторінкових застосунків (англ. Single-page application, SPA). В програмній інженерії терміни «front-end» та «back-end» розрізняють за принципом розділення відповідальності між рівнем представлення та рівнем доступу до даних відповідно. Front-end – це  інтерфейс для взаємодії між користувачем і back-end. Front-end та back-end можуть бути розподілені між однією або кількома системами. В програмній архітектурі може бути багато рівнів між апаратним забезпеченням та кінцевим користувачем. Кожен з цих рівнів може мати як front-end, так і back-end. Front – це абстракція, спрощення базового компоненту через надання користувачу зручного інтерфейсу взаємодію з SPA.
 - Docker – інструментарій для управління ізольованими Linux-контейнерами.
 
@@ -88,6 +88,37 @@ Project and documentation are in active development! For any technical clarifica
 - **[Features](#features-en)**
 - **[Dependencies](#dependencies-en)**
 - **[Building and running under UNIX (Linux/MacOS) with Docker](#building-running-linux)**
+
+-------
+
+<a name="features-en"></a>
+## Features
+
+You can think about **docsim/UkrVectōrēs** as a kind of "cognitive-semantic calculator".
+The online toolkit **docsim/UkrVectōrēs** covers the following elements of distributional analysis:
+
+- calculate semantic similarity between pairs of words;
+- find words semantically closest to the query word;
+- apply simple algebraic operations to word vectors (addition, subtraction, finding average vector for a group of words and distances to this average value);
+- draw semantic maps of relations between input words (it is useful to explore clusters and oppositions, or to test your hypotheses about them);
+- get the raw vectors (arrays of real values) and their visualizations for words in the chosen model;
+- download default models;
+- use other prognostic models distributive semantics freely distributed, by adjusting the configuration file.
+
+-------
+
+<a name="dependencies-en"></a>
+## Dependencies
+
+- Python 3.8.6+;
+- gensim 3.8.3;
+- Flask 1.1.2;
+- Flask-CORS 3.0.9;
+- uWSGI 2.0.19.1;
+- Pandas latest;
+- nginx latest;
+- Angular latest;
+- Docker latest.
 
 -------
 
