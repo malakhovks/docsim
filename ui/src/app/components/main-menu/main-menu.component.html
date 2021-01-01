@@ -1,0 +1,11 @@
+<input [(ngModel)]="isChecked" type="checkbox" id="menu-toggle"/>
+<label class="burger" [class.burger-white]="isChecked" for="menu-toggle">
+  <svg version="1.1" width="30px" height="29px" viewBox="0 0.5 30 29" xml:space="preserve">
+    <path id="the-burger" fill="none" stroke="#BADBAD" stroke-width="4" stroke-linecap="square" stroke-linejoin="bevel" stroke-miterlimit="10" d="M0,6.117h30.5c2.484,0,4.5,2.015,4.5,4.5c0,2.484-2.016,4.5-4.5,4.5h-30c-2.485,0-4.5,2.016-4.5,4.5s2.015,4.5,4.5,4.5H30h9.5l-25.833-9.469L39.5,5.883"/>
+  </svg>
+</label>
+<mat-list class="menu" role="list">
+  <mat-list-item *ngFor="let link of navLinks" role="listitem">
+    <a [title]="link.title" (click)="onClose()" [routerLink]="link.link" routerLinkActive="router-link-active">{{link.label}}</a>
+  </mat-list-item>
+</mat-list>

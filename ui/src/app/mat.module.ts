@@ -11,6 +11,7 @@ import { MatSelectModule } from '@angular/material/select';
 import { MatListModule } from '@angular/material/list';
 import { MatDividerModule } from '@angular/material/divider';
 import { MatMenuModule } from '@angular/material/menu';
+// import { MatTabNav } from '@angular/material/tabs';
 
 
 @NgModule({
@@ -25,7 +26,8 @@ import { MatMenuModule } from '@angular/material/menu';
     MatSelectModule,
     MatListModule,
     MatDividerModule,
-    MatMenuModule
+    MatMenuModule,
+    // MatTabNav
   ],
   providers: [],
   bootstrap: []

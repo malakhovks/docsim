@@ -42,21 +42,6 @@ const routes: Routes = [
         path: ROUTS.root.processing.semanticMap.path,
         pathMatch: 'full',
         component: SemanticMapComponent,
-      },
-      {
-        path: ROUTS.root.aboutProject.developers.path,
-        pathMatch: 'full',
-        component: AboutDevelopersComponent,
-      },
-      {
-        path: ROUTS.root.aboutProject.sources.path,
-        pathMatch: 'full',
-        component: AboutSourcesComponent,
-      },
-      {
-        path: ROUTS.root.aboutProject.aboutProject.path,
-        pathMatch: 'full',
-        component: AboutProcessingComponent,
       }
     ]
   },
