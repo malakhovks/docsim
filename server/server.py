@@ -53,6 +53,22 @@ try:
 except IOError as e:
     logging.error(e, exc_info=True)
 
+# try:
+#     with open('_config.models.advanced.json') as config_file:
+#         _models = json.load(config_file)
+# except IOError as e:
+#     logging.error(e, exc_info=True)
+# if 'word2vec' not in _models["models"]:
+#     raise ValueError("No word2vec models in given config file (config.models.simple.json)")
+# else:
+#     models_array = []
+#     models_word2vec = _models["models"]["word2vec"]
+#     for model_index, model in enumerate(models_word2vec):
+#         # Load and init word2vec model
+#         word_vectors = gensim.models.KeyedVectors.load_word2vec_format(model['modelPath'])
+#         word_vectors.init_sims(replace=True)
+#         models_array.append(word_vectors)
+
 # Load and init word2vec model
 word_vectors_fiction = gensim.models.KeyedVectors.load_word2vec_format('./models/fiction.lowercased.lemmatized.word2vec.300d')
 word_vectors_fiction.init_sims(replace=True)
