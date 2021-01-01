@@ -10,15 +10,20 @@
   display: flex
   justify-content: center
   align-items: center
-  
+
+  .menu-opened mat-icon
+    color: #fff
 
 [type="checkbox"]:not(:checked),
 [type="checkbox"]:checked
   display: none
 
-[type="checkbox"]:checked ~ .burger #the-burger
-  stroke-dashoffset: 179px
-  stroke-dasharray: 159px
+/** .share
+  mat-icon
+    font-size: 32px
+    &:hover
+      color: #000
+      cursor: pointer **/
 
 .burger
   width: 30px
@@ -26,20 +31,14 @@
   cursor: pointer
   position: relative
   z-index: 2
+  mat-icon
+    user-select: none
+    font-size: 32px
+    color: #000
 
 [type="checkbox"]:checked ~ .menu
   visibility: visible
   transform: translateX(0)
-
-#the-burger
-  stroke: #673AB7
-  stroke-dashoffset: 25px
-  stroke-dasharray: 143px
-  transition: stroke-dashoffset 0.6s cubic-bezier(0.215, 0.61, 0.355, 1), stroke-dasharray 0.4s
-
-.burger-white
-  #the-burger
-    stroke: #fff
 
 .menu
   top: 0
