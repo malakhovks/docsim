@@ -22,7 +22,6 @@ from flask import Flask, jsonify, flash, request, Response, redirect, url_for, a
 from flask_cors import CORS
 
 import gensim
-from gensim.models import Word2Vec as WV_model
 
 __author__ = "Kyrylo Malakhov <malakhovks@nas.gov.ua> and Vitalii Velychko <aduisukr@gmail.com> and Alexander Shchurov <alexandershchurov@gmail.com>"
 __copyright__ = "Copyright (C) 2020 Kyrylo Malakhov <malakhovks@nas.gov.ua> and Vitalii Velychko <aduisukr@gmail.com> and Alexander Shchurov <alexandershchurov@gmail.com>"
@@ -46,53 +45,36 @@ b'_5#y2L"F4Q8z\n\xec]/'
 # app.secret_key = b'_5#y2L"F4Q8z\n\xec]/'
 app.secret_key = os.urandom(42)
 
-# * Load config file
+# * Load models from config file to memory
+# ! Caution: Loading a large number of models requires a significant amount of RAM
 try:
-    with open('config.models.simple.json') as config_file:
+    with open('./config.models.simple.json') as config_file:
         models = json.load(config_file)
 except IOError as e:
     logging.error(e, exc_info=True)
+if 'word2vec' not in models["models"]:
+    raise ValueError("No word2vec models in given config file (config.models.simple.json)")
+else:
+    models_array = []
+    models_word2vec = models["models"]["word2vec"]
+    for model_index, model in enumerate(models_word2vec):
+        # Load and init word2vec model
+        word_vectors = gensim.models.KeyedVectors.load_word2vec_format(model['link'])
+        word_vectors.init_sims(replace=True)
+        models_array.append(word_vectors)
+    del word_vectors
 
-# try:
-#     with open('_config.models.advanced.json') as config_file:
-#         _models = json.load(config_file)
-# except IOError as e:
-#     logging.error(e, exc_info=True)
-# if 'word2vec' not in _models["models"]:
-#     raise ValueError("No word2vec models in given config file (config.models.simple.json)")
-# else:
-#     models_array = []
-#     models_word2vec = _models["models"]["word2vec"]
-#     for model_index, model in enumerate(models_word2vec):
-#         # Load and init word2vec model
-#         word_vectors = gensim.models.KeyedVectors.load_word2vec_format(model['modelPath'])
-#         word_vectors.init_sims(replace=True)
-#         models_array.append(word_vectors)
-
-# Load and init word2vec model
-word_vectors_fiction = gensim.models.KeyedVectors.load_word2vec_format('./models/fiction.lowercased.lemmatized.word2vec.300d')
-word_vectors_fiction.init_sims(replace=True)
-
-model = WV_model.load('./models/honchar.lowercased.lemmatized.word2vec.FINAL.500d')
-# model.wv.save_word2vec_format('honchar.lowercased.lemmatized.word2vec.FINAL.500d')
-# switch to the KeyedVectors instance
-word_vectors_honchar = model.wv
-word_vectors_honchar.init_sims(replace=True)
-del model
-
+"""
+from gensim.models import Word2Vec as WV_model
 model = WV_model.load('./models/suhomlinskyy.lowercased.lemmatized.word2vec.500d')
-# * For word2vec2tensor, the model should be in "word2vec_format" (this isn't same as result of .save())
-# * You need to call model.wv.save_word2vec_format(...), and after this, use word2vec2tensor on result file.
-# model.wv.save_word2vec_format('suhomlinskyy.lowercased.lemmatized.word2vec.500d')
-# switch to the KeyedVectors instance
+* For word2vec2tensor, the model should be in "word2vec_format" (this isn't same as result of .save())
+* You need to call model.wv.save_word2vec_format(...), and after this, use word2vec2tensor on result file.
+model.wv.save_word2vec_format('suhomlinskyy.lowercased.lemmatized.word2vec.500d')
+switch to the KeyedVectors instance
 word_vectors_suhomlinskyy = model.wv
 word_vectors_suhomlinskyy.init_sims(replace=True)
 del model
-
-models_array = []
-models_array.append(word_vectors_honchar)
-models_array.append(word_vectors_fiction)
-models_array.append(word_vectors_suhomlinskyy)
+"""
 
 def getExistsWordsInModel(words, keyed_vectors):
     exists = []
@@ -167,7 +149,7 @@ def find_lexical_cluster_center():
         if request.args.get('model', type = int):
             cosine_center = models_array[request.args.get('model', type = int)].most_similar(positive=getExistsWordsInModel(request.json['words'], models_array[request.args.get('model', type = int)]), topn=n)
         else:
-            cosine_center = models_array[0].most_similar(positive=getExistsWordsInModel(request.json['words'], word_vectors_honchar), topn=n)
+            cosine_center = models_array[0].most_similar(positive=getExistsWordsInModel(request.json['words'], models_array[0]), topn=n)
         return jsonify({"center" : cosine_center})
     except KeyError:
         return jsonify({"Error": {"KeyError": "Some words does not exist in the word2vec model" , "Words": request.json['words']}})
