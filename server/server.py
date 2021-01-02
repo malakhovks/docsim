@@ -74,13 +74,14 @@ word_vectors_fiction = gensim.models.KeyedVectors.load_word2vec_format('./models
 word_vectors_fiction.init_sims(replace=True)
 
 model = WV_model.load('./models/honchar.lowercased.lemmatized.word2vec.FINAL.500d')
+# model.wv.save_word2vec_format('honchar.lowercased.lemmatized.word2vec.FINAL.500d')
 # switch to the KeyedVectors instance
 word_vectors_honchar = model.wv
 word_vectors_honchar.init_sims(replace=True)
 del model
 
 model = WV_model.load('./models/suhomlinskyy.lowercased.lemmatized.word2vec.500d')
-# * For word2vec2tensor, the model should be in "word2vec_format" (this isn't same as result of .save)
+# * For word2vec2tensor, the model should be in "word2vec_format" (this isn't same as result of .save())
 # * You need to call model.wv.save_word2vec_format(...), and after this, use word2vec2tensor on result file.
 # model.wv.save_word2vec_format('suhomlinskyy.lowercased.lemmatized.word2vec.500d')
 # switch to the KeyedVectors instance
