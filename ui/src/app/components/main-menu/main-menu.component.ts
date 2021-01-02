@@ -12,13 +12,13 @@ export class MainMenuComponent {
   public isChecked: boolean;
   public navLinks: Array<IMenuNavLink> = [
     {
-      label: 'Робота з моделями',
-      title: 'Обчислення за допомогою векторних моделей',
+      label: 'Дистрибутивний аналіз',
+      title: 'Когнітивно-семантичні обчислення за допомогою векторних моделей дистрибутивної семантики',
       link: [ROUTS.root.processing.path, ROUTS.root.processing.terms.path],
     },
     {
-      label: 'Про проект',
-      title: 'Про цей проект',
+      label: 'Про проєкт',
+      title: 'Загальна відомості про цей проєкт',
       link: [ROUTS.root.aboutProject.aboutProject.path],
     },
     {
@@ -28,7 +28,7 @@ export class MainMenuComponent {
     },
     {
       label: 'Колектив розробників',
-      title: 'Інформація про розробників проекту',
+      title: 'Інформація про розробників проєкту',
       link: ['/', ROUTS.root.aboutProject.developers.path],
     }
   ];
