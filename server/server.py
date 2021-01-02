@@ -149,7 +149,7 @@ def find_lexical_cluster_center():
         if request.args.get('model', type = int):
             cosine_center = models_array[request.args.get('model', type = int)].most_similar(positive=getExistsWordsInModel(request.json['words'], models_array[request.args.get('model', type = int)]), topn=n)
         else:
-            cosine_center = models_array[0].most_similar(positive=getExistsWordsInModel(request.json['words'], word_vectors_honchar), topn=n)
+            cosine_center = models_array[0].most_similar(positive=getExistsWordsInModel(request.json['words'], models_array[0]), topn=n)
         return jsonify({"center" : cosine_center})
     except KeyError:
         return jsonify({"Error": {"KeyError": "Some words does not exist in the word2vec model" , "Words": request.json['words']}})
