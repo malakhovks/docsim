@@ -1,3 +1,5 @@
+@import "../../var.sass"
+  
 $col-1: #52aca2
 $col-2: #bada55
 $col-3: #999999
@@ -99,18 +101,14 @@ $text-col: #111111, #eeeeee, #111111
       animation-delay: $i * 0.002s!important
       background-color: nth($colours, random(length($colours))) 
       width: random(4) + 7px 
-  
-/** :host
-  flex-grow: 1
-  overflow: hidden
-  display: flex
-  flex-direction: column **/
+
 
 .model-dropdown-wrap
-  flex-grow: 1
   color: #fff
   text-align: end
   margin: 3px 10px 0 0
+  position: absolute
+  right: 0
+  top: 0
   mat-label
     font-size: 15px
-

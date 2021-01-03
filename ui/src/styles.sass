@@ -1,6 +1,15 @@
+@import "./app/var.sass"
+  
 /* You can add global styles to this file, and also import other style files */
 *
   box-sizing: border-box
+
+.mat-tab-links
+  justify-content: center
+
+app-tab-nav + app-main-menu
+  mat-icon
+    color: #fff!important
 
 app-root
   display: flex
@@ -12,16 +21,14 @@ body, html
   margin: 0
 
 .mat-tab-links
-  // justify-content: center
   .mat-tab-link.mat-tab-label-active
     opacity: 1
 
 .mat-select-trigger
   text-align: end
-  font-size: 12px
+  font-size: 14px
   .mat-select-value
     max-width: 100%
-    padding-right: 7px
   .mat-select-arrow,
   .mat-select-value
     color: white
@@ -39,7 +46,7 @@ iframe
   border: none
 
 .container
-  width: 1240px
+  width: 1200px
   display: flex
   margin: 0 auto
   flex-direction: column
@@ -103,3 +110,7 @@ p
 
 app-semantic-map + .shelf
   display: none!important
+
+.model-dropdown-wrap .mat-select-value-text
+  max-width: 185px
+  display: inline-block

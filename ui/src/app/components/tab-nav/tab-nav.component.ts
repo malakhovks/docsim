@@ -50,30 +50,6 @@ export class TabNavigationComponent implements OnInit {
         title: 'Семантична карта з використанням TensorFlow Projector',
         link: ROUTS.root.processing.semanticMap.path,
         index: 3
-    }, {
-        label: 'Про проєкт',
-        title: 'Відомості про проєкт',
-        index: 4,
-        subNav: [
-          {
-            label: 'Про проект',
-            title: '',
-            link: ROUTS.root.aboutProject.aboutProject.path,
-            index: 0
-          },
-          {
-            label: 'Корисні посилання',
-            title: '',
-            link: ROUTS.root.aboutProject.sources.path,
-            index: 1
-          },
-          {
-            label: 'Колектив розробників',
-            title: '',
-            link: ROUTS.root.aboutProject.developers.path,
-            index: 2
-          }
-        ]
     }
   ];
 
@@ -104,7 +80,6 @@ export class TabNavigationComponent implements OnInit {
         }
       });
     });
-  
   }
 
   public onModelSelectionChange($ev: MatSelectChange): void {
