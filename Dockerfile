@@ -28,7 +28,7 @@ RUN apt-get -y clean \
     && apt-get -y install curl \
     # ------------------------------------------------------------------
     && pip install -r ./deploy/requirements.txt --src /usr/local/src \
-    # Download models
+    # Download fiction model as a default
     && wget -O ./models/fiction.lowercased.lemmatized.word2vec.300d.bz2 https://lang.org.ua/static/downloads/models/fiction.lowercased.lemmatized.word2vec.300d.bz2 \
     && bzip2 -d ./models/fiction.lowercased.lemmatized.word2vec.300d.bz2 \
     && rm -r /root/.cache \

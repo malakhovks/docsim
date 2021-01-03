@@ -1,9 +1,10 @@
-// import { AboutComponent } from './components/about/about.component';
+import { AboutDevelopersComponent } from './components/about-developers/about-developers.component';
 import { TabNavigationComponent } from './components/tab-nav/tab-nav.component';
 import { RouterModule, Routes } from '@angular/router';
 import { NgModule } from '@angular/core';
 import { ROUTS } from './shared/const';
-
+import { AboutSourcesComponent } from './components/about-sources/about-sources.component';
+import { AboutProcessingComponent } from './components/term-processing/about-processing/about-processing.component';
 
 const routes: Routes = [
   {
@@ -21,7 +22,21 @@ const routes: Routes = [
       },
     ]
   },
- /*  { path: ROUTS.root.about.path, component: AboutComponent }, */
+  {
+    path: ROUTS.root.aboutProject.developers.path,
+    pathMatch: 'full',
+    component: AboutDevelopersComponent,
+  },
+  {
+    path: ROUTS.root.aboutProject.sources.path,
+    pathMatch: 'full',
+    component: AboutSourcesComponent,
+  },
+  {
+    path: ROUTS.root.aboutProject.aboutProject.path,
+    pathMatch: 'full',
+    component: AboutProcessingComponent,
+  }
 ];
 
 @NgModule({

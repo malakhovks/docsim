@@ -1,3 +1,4 @@
+import { MainMenuComponent } from './components/main-menu/main-menu.component';
 import { AboutSourcesComponent } from './components/about-sources/about-sources.component';
 import { AboutDevelopersComponent } from './components/about-developers/about-developers.component';
 import { SemanticMapComponent } from './components/term-processing/semantic-map/semantic-map.component';
@@ -10,6 +11,7 @@ import { CommonModule } from '@angular/common';
 import { BrowserModule } from '@angular/platform-browser';
 import { HttpClientModule } from '@angular/common/http';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+
 
 // Modules
 import { AppRoutingModule } from './app-routing.module';
@@ -32,7 +34,8 @@ import { TabNavigationComponent } from './components/tab-nav/tab-nav.component';
     TermProcessingComponent,
     AboutDevelopersComponent,
     WordsSimilarityComponent,
-    SemanticMapComponent
+    SemanticMapComponent,
+    MainMenuComponent,
   ],
   imports: [
     CommonModule,
