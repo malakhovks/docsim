@@ -1,3 +1,4 @@
+import { UtilsService } from './../../services/utils-service';
 import { Component } from '@angular/core';
 
 @Component({
@@ -6,5 +7,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./footer.component.sass']
 })
 export class FooterComponent {
-  constructor() { }
+  public currentYear: number = this.utilsService.getCurrentYear();
+
+  constructor(
+    private utilsService: UtilsService
+  ) { }
+
+
 }
