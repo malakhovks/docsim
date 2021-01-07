@@ -1,9 +1,40 @@
 footer
     position: relative
+
     .mat-toolbar-row,
     .mat-toolbar-single-row
         height: auto
+        padding: 1px 0  
+        // justify-content: space-between
+        // padding: 2px calc(calc(100% - 1200px) / 2)
         justify-content: center
+
+        div
+            margin-left: 20px
+
+    .footer_bottom
+        display: flex
+        justify-content: flex-start
+
+        .gthb
+            display: flex
+            align-items: center
+            font-size: 14px
+            line-height: 24px
+            color: #000
+            font-weight: normal
+            text-decoration: none
+            transition: all .6s cubic-bezier(0.65, 0, 0.35, 1)
+            svg
+                margin-right: 5px
+                transition: all .6s cubic-bezier(0.65, 0, 0.35, 1)
+                & + span
+                    margin-top: 2px
+            &:hover
+                color: #fff
+                svg
+                    fill: #fff
+                    
 
     small
         font-size: 14px
