@@ -35,6 +35,9 @@
     user-select: none
     font-size: 32px
     color: #000
+    transition: opacity .6s cubic-bezier(0.65, 0, 0.35, 1)
+    &:hover
+      opacity: .6
 
 [type="checkbox"]:checked ~ .menu
   visibility: visible
@@ -48,7 +51,7 @@
   height: 100vh
   width: auto
   margin: 0
-  padding: 40px 30px 20px 60px
+  padding: 20px 50px 10px 5px
   background-color: #673AB7
   visibility: hidden
   transition: transform .5s
@@ -62,6 +65,18 @@
     z-index: 1
     background-color: rgba(0, 0, 0, .4)
 
+  .close
+    color: #fff
+    position: absolute
+    top: 8px
+    right: 14px
+    font-size: 30px
+    user-select: none
+    cursor: pointer
+    transition: opacity .6s cubic-bezier(0.65, 0, 0.35, 1)
+    &:hover
+      opacity: .6
+  
   a
     text-decoration: none
     font-size: 16px
