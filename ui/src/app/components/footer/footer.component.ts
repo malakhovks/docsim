@@ -8,10 +8,11 @@ import { Component } from '@angular/core';
 })
 export class FooterComponent {
   public currentYear: number = this.utilsService.getCurrentYear();
+  public currentURL: string = this.utilsService.getCurrentURL();
 
   constructor(
     private utilsService: UtilsService
-  ) { }
+  ) {}
 
 
 }
