@@ -1,0 +1,42 @@
+<ng-container *ngIf="showLinks">
+    <div class="links">
+   
+        <a href="https://www.linkedin.com/sharing/share-offsite/?url={{currentURL}}" target="_blank"  title="Розповісти на LinkedIn"rel="noreferrer">
+            <svg width="22" height="22" viewBox="0 0 34 34">
+                <path d="M34,2.5v29A2.5,2.5,0,0,1,31.5,34H2.5A2.5,2.5,0,0,1,0,31.5V2.5A2.5,2.5,0,0,1,2.5,0h29A2.5,2.5,0,0,1,34,2.5ZM10,13H5V29h5Zm.45-5.5A2.88,2.88,0,0,0,7.59,4.6H7.5a2.9,2.9,0,0,0,0,5.8h0a2.88,2.88,0,0,0,2.95-2.81ZM29,19.28c0-4.81-3.06-6.68-6.1-6.68a5.7,5.7,0,0,0-5.06,2.58H17.7V13H13V29h5V20.49a3.32,3.32,0,0,1,3-3.58h.19c1.59,0,2.77,1,2.77,3.52V29h5Z"></path>
+            </svg>
+            <span>LinkedIn</span>
+        </a>
+    
+        <a href="mailto:?subject=Я хочу розповісти вам про цей сайт&amp;body=Перейдіть за цим посиланням {{currentURL}}." target="_blank" title="Поділитись посиланням по пошті" rel="noreferrer">
+            <mat-icon>email</mat-icon>
+            <span>Email</span>
+        </a>
+    
+        <i title="Копіювати посилання" (click)="copyLink()">
+            <mat-icon>link</mat-icon>
+            <span>Копіювати URL</span>
+        </i>
+    
+        <a href="https://www.facebook.com/sharer/sharer.php?u={{currentURL}}" target="_blank" title="Розповісти на Facebook" rel="noreferrer">
+            <mat-icon>facebook</mat-icon>
+            <span>Facebook</span>
+        </a>
+    
+        <a target="_blank" href="https://twitter.com/intent/tweet?hashtags=UkrVectōrēs,linguistic&text=Застосунок UkrVectōrēs дозволяє обчислювати семантичні відношення між сутностями української мови в рамках обраної або завантаженної дистрибутино-семантичної моделі векторного представлення сутностей">
+            <svg viewBox="0 0 24 24" width="24px" height="24px">
+                <path d="M23.643 4.937c-.835.37-1.732.62-2.675.733.962-.576 1.7-1.49 2.048-2.578-.9.534-1.897.922-2.958 1.13-.85-.904-2.06-1.47-3.4-1.47-2.572 0-4.658 2.086-4.658 4.66 0 .364.042.718.12 1.06-3.873-.195-7.304-2.05-9.602-4.868-.4.69-.63 1.49-.63 2.342 0 1.616.823 3.043 2.072 3.878-.764-.025-1.482-.234-2.11-.583v.06c0 2.257 1.605 4.14 3.737 4.568-.392.106-.803.162-1.227.162-.3 0-.593-.028-.877-.082.593 1.85 2.313 3.198 4.352 3.234-1.595 1.25-3.604 1.995-5.786 1.995-.376 0-.747-.022-1.112-.065 2.062 1.323 4.51 2.093 7.14 2.093 8.57 0 13.255-7.098 13.255-13.254 0-.2-.005-.402-.014-.602.91-.658 1.7-1.477 2.323-2.41z"></path>
+            </svg>
+            <span>Twitter</span>
+        </a>
+
+    </div>
+    <div class="bg"></div>
+    
+</ng-container>
+
+<div class="icon" (click)="showLinks = !showLinks" title="Поділитись посиланням">
+    <mat-icon *ngIf="!showLinks">share</mat-icon>
+    <mat-icon *ngIf="showLinks">close</mat-icon>
+</div>
+

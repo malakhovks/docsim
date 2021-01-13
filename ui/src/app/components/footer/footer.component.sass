@@ -1,44 +1,25 @@
-footer
-    position: relative
+.mat-toolbar-single-row
+    height: auto
+    padding: 2px 0  
+    justify-content: center
 
-    .mat-toolbar-row,
-    .mat-toolbar-single-row
-        height: auto
-        padding: 2px 0  
-        // justify-content: space-between
-        // padding: 2px calc(calc(100% - 1200px) / 2)
-        justify-content: center
+    a
+        color: #fff
+        font-size: 14px
+        text-decoration: none
+        transition: opacity .4s cubic-bezier(0.65, 0, 0.35, 1)
+        &:hover
+            opacity: .5
 
-    .footer_links
+    .gthb
         display: flex
         align-items: center
-
-        .fb-share-button
-            display: inherit
-            margin: 0 20px
-
-        a
-            margin-left: 20px
-
-        .gthb
-            display: flex
-            align-items: center
-            font-size: 14px
-            line-height: 24px
-            color: #000
-            font-weight: normal
-            text-decoration: none
-            transition: all .6s cubic-bezier(0.65, 0, 0.35, 1)
-            svg
-                margin-right: 5px
-                transition: all .6s cubic-bezier(0.65, 0, 0.35, 1)
-                & + span
-                    margin-top: 2px
-            &:hover
-                color: #fff
-                svg
-                    fill: #fff
-                    
-
-    small
         font-size: 14px
+        line-height: 24px
+        margin-left: 40px
+        font-weight: normal
+        svg
+            fill: #fff
+            margin-right: 8px
+            & + span
+                margin-top: 2px    
