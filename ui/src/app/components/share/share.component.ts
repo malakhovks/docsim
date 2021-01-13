@@ -1,17 +1,14 @@
-import { ROUTS } from './../../shared/const';
 import { UtilsService } from './../../services/utils-service';
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-footer',
-  templateUrl: './footer.component.html',
-  styleUrls: ['./footer.component.sass']
+  selector: 'app-share',
+  templateUrl: './share.component.html',
+  styleUrls: ['./share.component.sass']
 })
-export class FooterComponent {
-  public currentYear: number = this.utilsService.getCurrentYear();
+export class ShareComponent {
+  public showLinks: boolean;
   public currentURL: string = this.utilsService.getCurrentURL();
-
-  public aboutProjectLink: string = ROUTS.root.aboutProject.aboutProject.path;
 
   constructor(
     private utilsService: UtilsService
@@ -20,5 +17,6 @@ export class FooterComponent {
 
   public copyLink(): void {
     navigator.clipboard.writeText(this.utilsService.getCurrentURL());
+    this.showLinks = false;
   }
 }

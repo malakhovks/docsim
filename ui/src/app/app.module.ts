@@ -1,3 +1,4 @@
+import { ShareComponent } from './components/share/share.component';
 import { MainMenuComponent } from './components/main-menu/main-menu.component';
 import { AboutSourcesComponent } from './components/about-sources/about-sources.component';
 import { AboutDevelopersComponent } from './components/about-developers/about-developers.component';
@@ -36,6 +37,7 @@ import { TabNavigationComponent } from './components/tab-nav/tab-nav.component';
     WordsSimilarityComponent,
     SemanticMapComponent,
     MainMenuComponent,
+    ShareComponent
   ],
   imports: [
     CommonModule,
