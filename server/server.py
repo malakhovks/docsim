@@ -70,7 +70,7 @@ model = WV_model.load('./models/suhomlinskyy.lowercased.lemmatized.word2vec.500d
 * For word2vec2tensor, the model should be in "word2vec_format" (this isn't same as result of .save())
 * You need to call model.wv.save_word2vec_format(...), and after this, use word2vec2tensor on result file.
 model.wv.save_word2vec_format('suhomlinskyy.lowercased.lemmatized.word2vec.500d')
-switch to the KeyedVectors instance
+# * switch to the KeyedVectors instance
 word_vectors_suhomlinskyy = model.wv
 word_vectors_suhomlinskyy.init_sims(replace=True)
 del model
