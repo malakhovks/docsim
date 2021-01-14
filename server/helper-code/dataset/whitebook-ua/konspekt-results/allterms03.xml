@@ -1,0 +1,1025 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<termsintext>
+<filepath>-----C:\Users\V\Desktop\000\WB PRM UA Chapter 03_fin.txt-----</filepath>
+<exporterms>
+<term><ttype>Noun</ttype><tname>книга</tname><wcount>1</wcount><osn>кни</osn><sentpos>0/2</sentpos><sentpos>1/21</sentpos><sentpos>12/2</sentpos><sentpos>17/3</sentpos><sentpos>20/8</sentpos><sentpos>111/8</sentpos><sentpos>230/48</sentpos><sentpos>240/2</sentpos><relup>22</relup></term>
+<term><ttype>Noun</ttype><tname>медицина</tname><wcount>1</wcount><osn>медицин</osn><sentpos>0/7</sentpos><sentpos>1/16</sentpos><sentpos>1/25</sentpos><sentpos>11/13</sentpos><sentpos>12/7</sentpos><sentpos>15/6</sentpos><sentpos>16/7</sentpos><sentpos>17/11</sentpos><sentpos>23/28</sentpos><sentpos>23/64</sentpos><sentpos>24/3</sentpos><sentpos>25/28</sentpos><sentpos>27/49</sentpos><sentpos>62/28</sentpos><sentpos>103/16</sentpos><sentpos>230/4</sentpos><sentpos>230/14</sentpos><sentpos>230/36</sentpos><sentpos>230/53</sentpos><sentpos>231/14</sentpos><sentpos>237/31</sentpos><sentpos>240/7</sentpos><relup>11</relup><relup>16</relup><relup>188</relup></term>
+<term><ttype>Abbr</ttype><tname>ФРM</tname><wcount>1</wcount><osn>ФРM</osn><sentpos>0/9</sentpos><sentpos>12/9</sentpos><sentpos>97/35</sentpos><sentpos>240/9</sentpos></term>
+<term><ttype>Noun</ttype><tname>Європа</tname><wcount>1</wcount><osn>Європ</osn><sentpos>0/12</sentpos><sentpos>1/30</sentpos><sentpos>12/12</sentpos><sentpos>16/9</sentpos><sentpos>17/16</sentpos><sentpos>17/29</sentpos><sentpos>19/30</sentpos><sentpos>230/55</sentpos><sentpos>240/12</sentpos></term>
+<term><ttype>Noun</ttype><tname>розділ</tname><wcount>1</wcount><osn>розділ</osn><sentpos>1/1</sentpos><sentpos>13/1</sentpos><sentpos>241/1</sentpos></term>
+<term><ttype>Noun</ttype><tname>спеціальність</tname><wcount>1</wcount><osn>спеціальн</osn><sentpos>1/6</sentpos><sentpos>1/39</sentpos><sentpos>2/10</sentpos><sentpos>2/18</sentpos><sentpos>3/16</sentpos><sentpos>3/27</sentpos><sentpos>3/31</sentpos><sentpos>3/166</sentpos><sentpos>3/204</sentpos><sentpos>3/228</sentpos><sentpos>14/3</sentpos><sentpos>18/58</sentpos><sentpos>19/21</sentpos><sentpos>19/44</sentpos><sentpos>20/28</sentpos><sentpos>21/13</sentpos><sentpos>21/20</sentpos><sentpos>21/49</sentpos><sentpos>21/60</sentpos><sentpos>21/64</sentpos><sentpos>21/199</sentpos><sentpos>21/237</sentpos><sentpos>21/262</sentpos><sentpos>22/11</sentpos><sentpos>33/4</sentpos><sentpos>34/11</sentpos><sentpos>34/30</sentpos><sentpos>38/26</sentpos><sentpos>42/5</sentpos><sentpos>43/35</sentpos><sentpos>44/8</sentpos><sentpos>44/26</sentpos><sentpos>47/92</sentpos><sentpos>66/22</sentpos><sentpos>76/20</sentpos><sentpos>78/9</sentpos><sentpos>79/8</sentpos><sentpos>87/40</sentpos><sentpos>91/22</sentpos><sentpos>97/21</sentpos><sentpos>98/16</sentpos><sentpos>101/12</sentpos><sentpos>235/10</sentpos><sentpos>237/1</sentpos><sentpos>241/6</sentpos><relup>26</relup><relup>27</relup><relup>134</relup><relup>442</relup><relup>443</relup></term>
+<term><ttype>Noun</ttype><tname>основа</tname><wcount>1</wcount><osn>основ</osn><sentpos>1/8</sentpos><sentpos>1/38</sentpos><sentpos>14/5</sentpos><sentpos>19/17</sentpos><sentpos>20/27</sentpos><sentpos>54/5</sentpos><sentpos>241/8</sentpos></term>
+<term><ttype>Abbr</ttype><tname>ФРМ</tname><wcount>1</wcount><osn>ФРМ</osn><sentpos>1/9</sentpos><sentpos>1/27</sentpos><sentpos>2/7</sentpos><sentpos>2/22</sentpos><sentpos>3/14</sentpos><sentpos>3/46</sentpos><sentpos>3/73</sentpos><sentpos>3/104</sentpos><sentpos>3/153</sentpos><sentpos>3/206</sentpos><sentpos>3/222</sentpos><sentpos>3/241</sentpos><sentpos>17/13</sentpos><sentpos>17/21</sentpos><sentpos>17/27</sentpos><sentpos>18/34</sentpos><sentpos>18/38</sentpos><sentpos>18/52</sentpos><sentpos>19/7</sentpos><sentpos>19/18</sentpos><sentpos>19/22</sentpos><sentpos>19/28</sentpos><sentpos>19/36</sentpos><sentpos>19/41</sentpos><sentpos>19/45</sentpos><sentpos>19/59</sentpos><sentpos>19/68</sentpos><sentpos>21/10</sentpos><sentpos>21/24</sentpos><sentpos>21/47</sentpos><sentpos>21/79</sentpos><sentpos>21/106</sentpos><sentpos>21/137</sentpos><sentpos>21/186</sentpos><sentpos>21/240</sentpos><sentpos>21/256</sentpos><sentpos>21/275</sentpos><sentpos>22/12</sentpos><sentpos>23/2</sentpos><sentpos>27/34</sentpos><sentpos>29/15</sentpos><sentpos>32/11</sentpos><sentpos>36/2</sentpos><sentpos>36/21</sentpos><sentpos>36/64</sentpos><sentpos>37/4</sentpos><sentpos>38/20</sentpos><sentpos>40/5</sentpos><sentpos>40/37</sentpos><sentpos>41/9</sentpos><sentpos>41/22</sentpos><sentpos>43/30</sentpos><sentpos>44/5</sentpos><sentpos>45/16</sentpos><sentpos>45/42</sentpos><sentpos>46/17</sentpos><sentpos>47/75</sentpos><sentpos>48/7</sentpos><sentpos>48/11</sentpos><sentpos>50/8</sentpos><sentpos>50/15</sentpos><sentpos>51/4</sentpos><sentpos>53/7</sentpos><sentpos>57/12</sentpos><sentpos>61/4</sentpos><sentpos>62/32</sentpos><sentpos>63/5</sentpos><sentpos>64/14</sentpos><sentpos>65/6</sentpos><sentpos>69/7</sentpos><sentpos>70/21</sentpos><sentpos>71/5</sentpos><sentpos>72/18</sentpos><sentpos>73/2</sentpos><sentpos>76/14</sentpos><sentpos>76/47</sentpos><sentpos>77/3</sentpos><sentpos>77/9</sentpos><sentpos>79/2</sentpos><sentpos>80/4</sentpos><sentpos>82/4</sentpos><sentpos>84/11</sentpos><sentpos>86/3</sentpos><sentpos>87/34</sentpos><sentpos>92/20</sentpos><sentpos>92/41</sentpos><sentpos>94/3</sentpos><sentpos>95/29</sentpos><sentpos>97/3</sentpos><sentpos>97/7</sentpos><sentpos>97/9</sentpos><sentpos>97/52</sentpos><sentpos>101/8</sentpos><sentpos>112/2</sentpos><sentpos>112/6</sentpos><sentpos>116/3</sentpos><sentpos>118/20</sentpos><sentpos>119/7</sentpos><sentpos>119/11</sentpos><sentpos>120/3</sentpos><sentpos>121/6</sentpos><sentpos>124/19</sentpos><sentpos>131/9</sentpos><sentpos>133/26</sentpos><sentpos>133/107</sentpos><sentpos>134/60</sentpos><sentpos>136/51</sentpos><sentpos>229/10</sentpos><sentpos>230/20</sentpos><sentpos>237/2</sentpos><sentpos>237/79</sentpos><sentpos>238/10</sentpos><sentpos>241/9</sentpos></term>
+<term><ttype>Noun</ttype><tname>альянс</tname><wcount>1</wcount><osn>альянс</osn><sentpos>1/10</sentpos><sentpos>11/7</sentpos><sentpos>229/7</sentpos></term>
+<term><ttype>Noun</ttype><tname>орган</tname><wcount>1</wcount><osn>орган</osn><sentpos>1/12</sentpos><sentpos>3/35</sentpos><sentpos>11/9</sentpos><sentpos>17/20</sentpos><sentpos>21/68</sentpos><sentpos>26/7</sentpos><sentpos>34/36</sentpos><sentpos>78/14</sentpos><sentpos>78/17</sentpos><sentpos>229/9</sentpos><sentpos>231/6</sentpos><sentpos>235/16</sentpos><relup>10</relup></term>
+<term><ttype>Adj_noun</ttype><tname>європейські органи</tname><wcount>2</wcount><osn>європейськ</osn><osn>орган</osn><sentpos>1/11</sentpos><sentpos>1/12</sentpos><sentpos>11/8</sentpos><sentpos>11/9</sentpos><sentpos>17/19</sentpos><sentpos>17/20</sentpos><sentpos>229/8</sentpos><sentpos>229/9</sentpos><reldown>9</reldown></term>
+<term><ttype>Adj_noun</ttype><tname>фізична медицина</tname><wcount>2</wcount><osn>фізичн</osn><osn>медицин</osn><sentpos>1/13</sentpos><sentpos>1/16</sentpos><sentpos>11/10</sentpos><sentpos>11/13</sentpos><sentpos>15/3</sentpos><sentpos>15/6</sentpos><sentpos>16/4</sentpos><sentpos>16/7</sentpos><relup>12</relup><relup>106</relup><reldown>1</reldown></term>
+<term><ttype>noun_adj_noun</ttype><tname>органи фізичної медицини</tname><wcount>3</wcount><osn>орган</osn><osn>фізичн</osn><osn>медицин</osn><sentpos>1/12</sentpos><sentpos>1/13</sentpos><sentpos>1/16</sentpos><sentpos>11/9</sentpos><sentpos>11/10</sentpos><sentpos>11/13</sentpos><relup>13</relup><reldown>11</reldown></term>
+<term><ttype>adj_noun_adj_noun</ttype><tname>європейські органи фізичної медицини</tname><wcount>4</wcount><osn>європейськ</osn><osn>орган</osn><osn>фізичн</osn><osn>медицин</osn><sentpos>1/11</sentpos><sentpos>1/12</sentpos><sentpos>1/13</sentpos><sentpos>1/16</sentpos><sentpos>11/8</sentpos><sentpos>11/9</sentpos><sentpos>11/10</sentpos><sentpos>11/13</sentpos><reldown>12</reldown></term>
+<term><ttype>noun_adj_noun</ttype><tname>органи реабілітаційної медицини</tname><wcount>3</wcount><osn>орган</osn><osn>реабілітаційн</osn><osn>медицин</osn><sentpos>1/12</sentpos><sentpos>1/15</sentpos><sentpos>1/16</sentpos><sentpos>11/9</sentpos><sentpos>11/12</sentpos><sentpos>11/13</sentpos><relup>15</relup><reldown>16</reldown></term>
+<term><ttype>adj_noun_adj_noun</ttype><tname>європейські органи реабілітаційної медицини</tname><wcount>4</wcount><osn>європейськ</osn><osn>орган</osn><osn>реабілітаційн</osn><osn>медицин</osn><sentpos>1/11</sentpos><sentpos>1/12</sentpos><sentpos>1/15</sentpos><sentpos>1/16</sentpos><sentpos>11/8</sentpos><sentpos>11/9</sentpos><sentpos>11/12</sentpos><sentpos>11/13</sentpos><reldown>14</reldown></term>
+<term><ttype>Adj_noun</ttype><tname>реабілітаційна медицина</tname><wcount>2</wcount><osn>реабілітаційн</osn><osn>медицин</osn><sentpos>1/15</sentpos><sentpos>1/16</sentpos><sentpos>1/24</sentpos><sentpos>1/25</sentpos><sentpos>11/12</sentpos><sentpos>11/13</sentpos><sentpos>15/5</sentpos><sentpos>15/6</sentpos><sentpos>16/6</sentpos><sentpos>16/7</sentpos><sentpos>230/3</sentpos><sentpos>230/4</sentpos><relup>14</relup><relup>107</relup><relup>752</relup><reldown>1</reldown></term>
+<term><ttype>Noun</ttype><tname>резюме</tname><wcount>1</wcount><osn>резюме</osn><sentpos>1/17</sentpos></term>
+<term><ttype>Noun</ttype><tname>контекст</tname><wcount>1</wcount><osn>контекст</osn><sentpos>1/19</sentpos><sentpos>20/6</sentpos><sentpos>38/168</sentpos><sentpos>43/3</sentpos><sentpos>51/10</sentpos><sentpos>93/12</sentpos><relup>19</relup></term>
+<term><ttype>Noun_noun</ttype><tname>контекст Білої</tname><wcount>2</wcount><osn>контекст</osn><osn>Біл</osn><sentpos>1/19</sentpos><sentpos>1/20</sentpos><relup>20</relup><reldown>18</reldown><reldown>21</reldown></term>
+<term><ttype>Noun_noun_noun</ttype><tname>контекст Білої книги</tname><wcount>3</wcount><osn>контекст</osn><osn>Біл</osn><osn>кни</osn><sentpos>1/19</sentpos><sentpos>1/20</sentpos><sentpos>1/21</sentpos><reldown>19</reldown><reldown>22</reldown></term>
+<term><ttype>Noun</ttype><tname>Біла</tname><wcount>1</wcount><osn>Біл</osn><sentpos>1/20</sentpos><sentpos>17/2</sentpos><relup>19</relup><relup>22</relup></term>
+<term><ttype>Noun_noun</ttype><tname>Біла книги</tname><wcount>2</wcount><osn>Біл</osn><osn>кни</osn><sentpos>1/20</sentpos><sentpos>1/21</sentpos><relup>20</relup><reldown>21</reldown></term>
+<term><ttype>Noun</ttype><tname>документ</tname><wcount>1</wcount><osn>документ</osn><sentpos>1/33</sentpos><sentpos>229/3</sentpos></term>
+<term><ttype>Noun</ttype><tname>концепція</tname><wcount>1</wcount><osn>концепці</osn><sentpos>1/36</sentpos><sentpos>20/25</sentpos><sentpos>21/35</sentpos><sentpos>29/24</sentpos><sentpos>93/23</sentpos><relup>453</relup></term>
+<term><ttype>Noun</ttype><tname>складові</tname><wcount>1</wcount><osn>складов</osn><sentpos>2/3</sentpos><sentpos>21/4</sentpos></term>
+<term><ttype>Adj_noun</ttype><tname>первинна спеціальність</tname><wcount>2</wcount><osn>первинн</osn><osn>спеціальн</osn><sentpos>2/8</sentpos><sentpos>2/10</sentpos><relup>28</relup><reldown>5</reldown></term>
+<term><ttype>Adj_noun</ttype><tname>медична спеціальність</tname><wcount>2</wcount><osn>медичн</osn><osn>спеціальн</osn><sentpos>2/9</sentpos><sentpos>2/10</sentpos><sentpos>22/10</sentpos><sentpos>22/11</sentpos><relup>28</relup><relup>149</relup><reldown>5</reldown></term>
+<term><ttype>Adj_adj_noun</ttype><tname>первинна медична спеціальність</tname><wcount>3</wcount><osn>первинн</osn><osn>медичн</osn><osn>спеціальн</osn><sentpos>2/8</sentpos><sentpos>2/9</sentpos><sentpos>2/10</sentpos><reldown>26</reldown><reldown>27</reldown></term>
+<term><ttype>Noun</ttype><tname>лікар</tname><wcount>1</wcount><osn>лікар</osn><sentpos>2/21</sentpos><sentpos>3/45</sentpos><sentpos>3/72</sentpos><sentpos>3/240</sentpos><sentpos>17/26</sentpos><sentpos>19/35</sentpos><sentpos>19/58</sentpos><sentpos>21/23</sentpos><sentpos>21/78</sentpos><sentpos>21/105</sentpos><sentpos>21/274</sentpos><sentpos>27/1</sentpos><sentpos>37/3</sentpos><sentpos>40/4</sentpos><sentpos>45/15</sentpos><sentpos>45/23</sentpos><sentpos>47/74</sentpos><sentpos>51/3</sentpos><sentpos>61/3</sentpos><sentpos>62/31</sentpos><sentpos>63/4</sentpos><sentpos>64/13</sentpos><sentpos>65/5</sentpos><sentpos>69/6</sentpos><sentpos>71/4</sentpos><sentpos>72/17</sentpos><sentpos>73/1</sentpos><sentpos>75/18</sentpos><sentpos>76/46</sentpos><sentpos>83/11</sentpos><sentpos>84/10</sentpos><sentpos>95/28</sentpos><sentpos>97/6</sentpos><sentpos>97/8</sentpos><sentpos>105/27</sentpos><sentpos>106/31</sentpos><sentpos>112/5</sentpos><sentpos>116/6</sentpos><sentpos>116/21</sentpos><sentpos>119/3</sentpos><sentpos>121/5</sentpos><sentpos>121/12</sentpos><sentpos>123/19</sentpos><sentpos>124/18</sentpos><sentpos>125/17</sentpos><sentpos>133/25</sentpos><sentpos>133/103</sentpos><sentpos>133/106</sentpos><sentpos>134/59</sentpos><sentpos>136/50</sentpos><sentpos>238/8</sentpos><relup>295</relup></term>
+<term><ttype>Noun</ttype><tname>спеціаліст</tname><wcount>1</wcount><osn>спеціаліст</osn><sentpos>2/26</sentpos><sentpos>3/56</sentpos><sentpos>3/70</sentpos><sentpos>3/94</sentpos><sentpos>21/28</sentpos><sentpos>21/89</sentpos><sentpos>21/103</sentpos><sentpos>21/127</sentpos><sentpos>47/12</sentpos><sentpos>47/84</sentpos><sentpos>49/16</sentpos><sentpos>63/26</sentpos><sentpos>64/19</sentpos><sentpos>66/3</sentpos><sentpos>95/10</sentpos><sentpos>122/6</sentpos><sentpos>230/24</sentpos><relup>31</relup></term>
+<term><ttype>Adj_noun</ttype><tname>медичний спеціаліст</tname><wcount>2</wcount><osn>медичн</osn><osn>спеціаліст</osn><sentpos>2/25</sentpos><sentpos>2/26</sentpos><sentpos>3/55</sentpos><sentpos>3/56</sentpos><sentpos>3/93</sentpos><sentpos>3/94</sentpos><sentpos>21/27</sentpos><sentpos>21/28</sentpos><sentpos>21/88</sentpos><sentpos>21/89</sentpos><sentpos>21/126</sentpos><sentpos>21/127</sentpos><sentpos>66/2</sentpos><sentpos>66/3</sentpos><reldown>30</reldown></term>
+<term><ttype>Noun</ttype><tname>фахівець</tname><wcount>1</wcount><osn>фахів</osn><sentpos>2/28</sentpos><sentpos>3/91</sentpos><sentpos>3/119</sentpos><sentpos>18/43</sentpos><sentpos>21/30</sentpos><sentpos>21/124</sentpos><sentpos>21/152</sentpos><sentpos>49/49</sentpos><sentpos>50/14</sentpos><sentpos>72/9</sentpos><sentpos>73/19</sentpos><sentpos>74/12</sentpos><sentpos>83/24</sentpos><sentpos>88/15</sentpos><sentpos>98/12</sentpos><sentpos>99/6</sentpos><sentpos>107/12</sentpos><sentpos>116/13</sentpos><sentpos>121/8</sentpos><sentpos>123/15</sentpos><sentpos>124/21</sentpos><sentpos>125/10</sentpos><sentpos>127/47</sentpos><sentpos>133/46</sentpos><sentpos>136/16</sentpos><relup>392</relup><relup>470</relup><relup>529</relup></term>
+<term><ttype>Noun</ttype><tname>реабілітація</tname><wcount>1</wcount><osn>реабілітаці</osn><sentpos>2/29</sentpos><sentpos>3/121</sentpos><sentpos>3/277</sentpos><sentpos>18/44</sentpos><sentpos>19/10</sentpos><sentpos>21/31</sentpos><sentpos>21/154</sentpos><sentpos>21/311</sentpos><sentpos>47/61</sentpos><sentpos>47/110</sentpos><sentpos>51/12</sentpos><sentpos>52/9</sentpos><sentpos>56/24</sentpos><sentpos>59/4</sentpos><sentpos>72/11</sentpos><sentpos>73/20</sentpos><sentpos>74/14</sentpos><sentpos>76/58</sentpos><sentpos>98/8</sentpos><sentpos>98/13</sentpos><sentpos>99/3</sentpos><sentpos>100/17</sentpos><sentpos>109/20</sentpos><sentpos>114/37</sentpos><sentpos>117/7</sentpos><sentpos>119/16</sentpos><sentpos>121/9</sentpos><sentpos>124/22</sentpos><sentpos>125/11</sentpos><sentpos>129/13</sentpos><sentpos>134/2</sentpos><relup>469</relup><relup>514</relup><relup>529</relup></term>
+<term><ttype>Noun</ttype><tname>поняття</tname><wcount>1</wcount><osn>понят</osn><sentpos>3/2</sentpos><sentpos>19/6</sentpos></term>
+<term><ttype>Noun</ttype><tname>глава</tname><wcount>1</wcount><osn>глав</osn><sentpos>3/9</sentpos><sentpos>20/2</sentpos><sentpos>21/42</sentpos><sentpos>22/3</sentpos></term>
+<term><ttype>Noun</ttype><tname>персона</tname><wcount>1</wcount><osn>персон</osn><sentpos>3/20</sentpos><sentpos>3/209</sentpos><sentpos>21/53</sentpos><sentpos>21/243</sentpos><sentpos>237/59</sentpos></term>
+<term><ttype>Noun</ttype><tname>функціонування</tname><wcount>1</wcount><osn>функціонуванн</osn><sentpos>3/22</sentpos><sentpos>3/158</sentpos><sentpos>3/271</sentpos><sentpos>21/55</sentpos><sentpos>21/191</sentpos><sentpos>21/305</sentpos><sentpos>23/8</sentpos><sentpos>28/13</sentpos><sentpos>29/25</sentpos><sentpos>30/30</sentpos><sentpos>34/16</sentpos><sentpos>36/7</sentpos><sentpos>38/45</sentpos><sentpos>38/100</sentpos><sentpos>42/11</sentpos><sentpos>51/29</sentpos><sentpos>76/74</sentpos><sentpos>233/4</sentpos><sentpos>237/8</sentpos><sentpos>237/14</sentpos><relup>233</relup><relup>329</relup></term>
+<term><ttype>Noun</ttype><tname>хвороба</tname><wcount>1</wcount><osn>хвороб</osn><sentpos>3/37</sentpos><sentpos>3/214</sentpos><sentpos>21/70</sentpos><sentpos>21/248</sentpos><sentpos>23/15</sentpos><sentpos>26/36</sentpos><sentpos>27/76</sentpos><sentpos>34/46</sentpos><sentpos>37/17</sentpos><sentpos>38/24</sentpos><sentpos>39/10</sentpos><sentpos>44/30</sentpos><sentpos>77/7</sentpos><sentpos>80/13</sentpos><sentpos>90/16</sentpos><sentpos>92/9</sentpos><sentpos>92/14</sentpos><sentpos>93/7</sentpos><sentpos>235/21</sentpos><sentpos>238/22</sentpos><relup>414</relup></term>
+<term><ttype>Noun</ttype><tname>лікування</tname><wcount>1</wcount><osn>лікуванн</osn><sentpos>3/40</sentpos><sentpos>3/76</sentpos><sentpos>21/73</sentpos><sentpos>21/109</sentpos><sentpos>26/16</sentpos><sentpos>26/32</sentpos><sentpos>40/8</sentpos><sentpos>43/28</sentpos><sentpos>47/53</sentpos><sentpos>47/108</sentpos><sentpos>62/21</sentpos><sentpos>63/16</sentpos><sentpos>68/19</sentpos><sentpos>78/13</sentpos><sentpos>80/12</sentpos><sentpos>85/5</sentpos><relup>201</relup><relup>209</relup><relup>272</relup><relup>414</relup></term>
+<term><ttype>Noun</ttype><tname>вік</tname><wcount>1</wcount><osn>ві</osn><sentpos>3/42</sentpos><sentpos>21/75</sentpos></term>
+<term><ttype>Noun</ttype><tname>обов'язки</tname><wcount>1</wcount><osn>обов'яз</osn><sentpos>3/49</sentpos><sentpos>21/82</sentpos><sentpos>51/2</sentpos><relup>326</relup></term>
+<term><ttype>Noun</ttype><tname>оцінка</tname><wcount>1</wcount><osn>оцін</osn><sentpos>3/64</sentpos><sentpos>21/97</sentpos><sentpos>95/27</sentpos><relup>455</relup></term>
+<term><ttype>Noun</ttype><tname>як</tname><wcount>1</wcount><osn>я</osn><sentpos>3/67</sentpos><sentpos>21/100</sentpos><sentpos>51/5</sentpos><sentpos>57/14</sentpos><sentpos>82/1</sentpos><sentpos>92/17</sentpos></term>
+<term><ttype>Noun</ttype><tname>команда</tname><wcount>1</wcount><osn>команд</osn><sentpos>3/84</sentpos><sentpos>16/15</sentpos><sentpos>21/117</sentpos><sentpos>47/15</sentpos><sentpos>74/26</sentpos><sentpos>84/6</sentpos><sentpos>85/22</sentpos><sentpos>87/25</sentpos><sentpos>97/2</sentpos><sentpos>100/12</sentpos><sentpos>102/5</sentpos><sentpos>103/5</sentpos><sentpos>103/39</sentpos><sentpos>104/9</sentpos><sentpos>105/32</sentpos><sentpos>106/3</sentpos><sentpos>106/16</sentpos><sentpos>106/26</sentpos><sentpos>107/4</sentpos><sentpos>108/5</sentpos><sentpos>108/10</sentpos><sentpos>112/1</sentpos><sentpos>115/10</sentpos><sentpos>118/12</sentpos><sentpos>119/9</sentpos><sentpos>120/2</sentpos><sentpos>121/2</sentpos><sentpos>122/2</sentpos><sentpos>123/8</sentpos><sentpos>124/3</sentpos><sentpos>125/1</sentpos><sentpos>128/5</sentpos><sentpos>130/16</sentpos><sentpos>133/4</sentpos><sentpos>133/36</sentpos><sentpos>133/127</sentpos><sentpos>134/5</sentpos><sentpos>134/26</sentpos><sentpos>134/38</sentpos><sentpos>134/70</sentpos><relup>45</relup><relup>397</relup><relup>398</relup><relup>472</relup><relup>486</relup><relup>488</relup><relup>492</relup><relup>523</relup><relup>546</relup><relup>571</relup></term>
+<term><ttype>Adj_noun</ttype><tname>реабілітаційна команда</tname><wcount>2</wcount><osn>реабілітаційн</osn><osn>команд</osn><sentpos>3/83</sentpos><sentpos>3/84</sentpos><sentpos>21/116</sentpos><sentpos>21/117</sentpos><sentpos>130/15</sentpos><sentpos>130/16</sentpos><sentpos>133/3</sentpos><sentpos>133/4</sentpos><sentpos>133/35</sentpos><sentpos>133/36</sentpos><relup>549</relup><relup>556</relup><reldown>44</reldown></term>
+<term><ttype>Noun</ttype><tname>підхід</tname><wcount>1</wcount><osn>підх</osn><sentpos>3/98</sentpos><sentpos>3/107</sentpos><sentpos>21/131</sentpos><sentpos>21/140</sentpos><sentpos>23/1</sentpos><sentpos>23/11</sentpos><sentpos>26/2</sentpos><sentpos>34/22</sentpos><sentpos>34/41</sentpos><sentpos>38/19</sentpos><sentpos>38/37</sentpos><sentpos>38/50</sentpos><sentpos>44/37</sentpos><sentpos>45/41</sentpos><sentpos>77/2</sentpos><sentpos>82/7</sentpos><sentpos>83/6</sentpos><sentpos>90/11</sentpos><sentpos>92/40</sentpos><sentpos>93/34</sentpos><sentpos>94/2</sentpos><sentpos>103/28</sentpos><sentpos>106/5</sentpos><sentpos>108/2</sentpos><sentpos>109/35</sentpos><sentpos>109/42</sentpos><sentpos>110/18</sentpos><sentpos>115/7</sentpos><sentpos>118/9</sentpos><sentpos>127/11</sentpos><sentpos>130/41</sentpos><sentpos>231/1</sentpos><relup>262</relup><relup>292</relup><relup>448</relup><relup>482</relup><relup>519</relup></term>
+<term><ttype>Noun</ttype><tname>функція</tname><wcount>1</wcount><osn>функці</osn><sentpos>3/102</sentpos><sentpos>21/135</sentpos><sentpos>23/37</sentpos><sentpos>24/20</sentpos><sentpos>24/48</sentpos><sentpos>27/44</sentpos><sentpos>32/17</sentpos><sentpos>35/20</sentpos><sentpos>52/3</sentpos><sentpos>72/26</sentpos><sentpos>235/29</sentpos></term>
+<term><ttype>Noun</ttype><tname>спектр</tname><wcount>1</wcount><osn>спектр</osn><sentpos>3/112</sentpos><sentpos>21/145</sentpos><sentpos>77/12</sentpos><sentpos>87/2</sentpos><sentpos>88/8</sentpos><sentpos>99/11</sentpos><relup>49</relup></term>
+<term><ttype>Adj_noun</ttype><tname>широкий спектр</tname><wcount>2</wcount><osn>широк</osn><osn>спектр</osn><sentpos>3/111</sentpos><sentpos>3/112</sentpos><sentpos>21/144</sentpos><sentpos>21/145</sentpos><sentpos>77/11</sentpos><sentpos>77/12</sentpos><sentpos>87/1</sentpos><sentpos>87/2</sentpos><sentpos>88/7</sentpos><sentpos>88/8</sentpos><reldown>48</reldown></term>
+<term><ttype>Noun</ttype><tname>інструменти</tname><wcount>1</wcount><osn>інструмент</osn><sentpos>3/113</sentpos><sentpos>21/146</sentpos><sentpos>76/8</sentpos><sentpos>76/41</sentpos><sentpos>137/5</sentpos><relup>400</relup><relup>584</relup></term>
+<term><ttype>Noun</ttype><tname>втручання</tname><wcount>1</wcount><osn>втручан</osn><sentpos>3/114</sentpos><sentpos>21/147</sentpos><sentpos>40/36</sentpos><sentpos>53/6</sentpos><sentpos>73/27</sentpos><sentpos>77/20</sentpos><sentpos>88/9</sentpos><sentpos>89/7</sentpos><sentpos>89/18</sentpos><sentpos>89/27</sentpos><sentpos>91/24</sentpos><sentpos>92/19</sentpos><sentpos>93/26</sentpos><sentpos>94/33</sentpos><sentpos>97/11</sentpos><sentpos>117/15</sentpos><sentpos>124/26</sentpos><sentpos>126/19</sentpos><sentpos>126/28</sentpos><sentpos>130/33</sentpos><sentpos>131/27</sentpos></term>
+<term><ttype>Noun</ttype><tname>менеджмент</tname><wcount>1</wcount><osn>менеджмент</osn><sentpos>3/125</sentpos><sentpos>21/158</sentpos><sentpos>47/7</sentpos><sentpos>77/5</sentpos><sentpos>103/18</sentpos><sentpos>127/14</sentpos><sentpos>130/19</sentpos><sentpos>133/21</sentpos></term>
+<term><ttype>Noun</ttype><tname>захворювання</tname><wcount>1</wcount><osn>захворюван</osn><sentpos>3/127</sentpos><sentpos>21/160</sentpos><sentpos>26/26</sentpos><sentpos>35/13</sentpos><sentpos>47/54</sentpos><sentpos>47/114</sentpos><sentpos>65/22</sentpos><sentpos>67/18</sentpos><sentpos>71/11</sentpos><sentpos>77/22</sentpos><sentpos>92/26</sentpos><sentpos>94/28</sentpos><sentpos>95/5</sentpos><sentpos>96/2</sentpos></term>
+<term><ttype>Noun</ttype><tname>людина</tname><wcount>1</wcount><osn>люд</osn><sentpos>3/128</sentpos><sentpos>19/13</sentpos><sentpos>21/161</sentpos><sentpos>23/45</sentpos><sentpos>38/4</sentpos><sentpos>41/26</sentpos><sentpos>91/13</sentpos><sentpos>94/6</sentpos><sentpos>102/21</sentpos><sentpos>105/6</sentpos><sentpos>134/74</sentpos><sentpos>237/95</sentpos><relup>478</relup></term>
+<term><ttype>Noun</ttype><tname>стан</tname><wcount>1</wcount><osn>стан</osn><sentpos>3/130</sentpos><sentpos>3/255</sentpos><sentpos>21/163</sentpos><sentpos>21/289</sentpos><sentpos>22/33</sentpos><sentpos>28/17</sentpos><sentpos>37/12</sentpos><sentpos>38/39</sentpos><sentpos>38/164</sentpos><sentpos>39/26</sentpos><sentpos>40/15</sentpos><sentpos>45/36</sentpos><sentpos>77/25</sentpos><sentpos>114/23</sentpos><sentpos>131/20</sentpos><sentpos>238/17</sentpos><relup>152</relup><relup>153</relup><relup>274</relup></term>
+<term><ttype>Noun</ttype><tname>здоров'я</tname><wcount>1</wcount><osn>здоров'</osn><sentpos>3/131</sentpos><sentpos>3/256</sentpos><sentpos>3/263</sentpos><sentpos>19/49</sentpos><sentpos>21/164</sentpos><sentpos>21/290</sentpos><sentpos>21/297</sentpos><sentpos>22/26</sentpos><sentpos>22/34</sentpos><sentpos>28/18</sentpos><sentpos>30/35</sentpos><sentpos>37/13</sentpos><sentpos>38/40</sentpos><sentpos>38/165</sentpos><sentpos>45/37</sentpos><sentpos>51/17</sentpos><sentpos>76/65</sentpos><sentpos>83/26</sentpos><sentpos>88/17</sentpos><sentpos>93/24</sentpos><sentpos>99/8</sentpos><sentpos>133/82</sentpos><sentpos>233/9</sentpos><sentpos>238/18</sentpos><relup>152</relup></term>
+<term><ttype>Noun</ttype><tname>вона</tname><wcount>1</wcount><osn>вон</osn><sentpos>3/135</sentpos><sentpos>3/168</sentpos><sentpos>21/168</sentpos><sentpos>21/201</sentpos><sentpos>38/85</sentpos><sentpos>43/20</sentpos><sentpos>45/46</sentpos><sentpos>52/15</sentpos><sentpos>56/20</sentpos><sentpos>93/3</sentpos><sentpos>95/23</sentpos><sentpos>97/23</sentpos><sentpos>122/13</sentpos><sentpos>130/28</sentpos><sentpos>133/40</sentpos></term>
+<term><ttype>Noun</ttype><tname>зменшення</tname><wcount>1</wcount><osn>зменшен</osn><sentpos>3/138</sentpos><sentpos>21/171</sentpos><sentpos>36/29</sentpos><sentpos>81/3</sentpos><sentpos>237/35</sentpos></term>
+<term><ttype>Noun</ttype><tname>порушення</tname><wcount>1</wcount><osn>порушен</osn><sentpos>3/140</sentpos><sentpos>21/173</sentpos><sentpos>27/65</sentpos><sentpos>30/7</sentpos><sentpos>36/38</sentpos><sentpos>38/52</sentpos><sentpos>55/9</sentpos><sentpos>56/12</sentpos><sentpos>65/26</sentpos><sentpos>70/6</sentpos><sentpos>87/7</sentpos><sentpos>90/18</sentpos><sentpos>232/4</sentpos><sentpos>237/43</sentpos><relup>229</relup><relup>338</relup><relup>449</relup></term>
+<term><ttype>Noun</ttype><tname>обмеження</tname><wcount>1</wcount><osn>обмежен</osn><sentpos>3/142</sentpos><sentpos>3/250</sentpos><sentpos>21/175</sentpos><sentpos>21/284</sentpos><sentpos>22/38</sentpos><sentpos>30/9</sentpos><sentpos>30/32</sentpos><sentpos>36/9</sentpos><sentpos>36/31</sentpos><sentpos>36/45</sentpos><sentpos>38/54</sentpos><sentpos>42/15</sentpos><sentpos>51/25</sentpos><sentpos>55/11</sentpos><sentpos>55/20</sentpos><sentpos>56/17</sentpos><sentpos>65/28</sentpos><sentpos>70/8</sentpos><sentpos>71/13</sentpos><sentpos>76/26</sentpos><sentpos>76/77</sentpos><sentpos>80/26</sentpos><sentpos>80/29</sentpos><sentpos>81/4</sentpos><sentpos>87/9</sentpos><sentpos>87/12</sentpos><sentpos>90/20</sentpos><sentpos>90/23</sentpos><sentpos>91/15</sentpos><sentpos>232/6</sentpos><sentpos>233/6</sentpos><sentpos>237/16</sentpos><sentpos>237/37</sentpos><sentpos>237/53</sentpos><relup>156</relup><relup>254</relup><relup>255</relup><relup>340</relup></term>
+<term><ttype>Noun</ttype><tname>активність</tname><wcount>1</wcount><osn>активн</osn><sentpos>3/143</sentpos><sentpos>21/176</sentpos><sentpos>36/32</sentpos><sentpos>38/55</sentpos><sentpos>55/12</sentpos><sentpos>65/29</sentpos><sentpos>70/9</sentpos><sentpos>80/27</sentpos><sentpos>81/5</sentpos><sentpos>87/10</sentpos><sentpos>90/21</sentpos><sentpos>94/16</sentpos><sentpos>102/3</sentpos><sentpos>129/19</sentpos><sentpos>237/38</sentpos><relup>254</relup><relup>338</relup></term>
+<term><ttype>Noun</ttype><tname>участь</tname><wcount>1</wcount><osn>участ</osn><sentpos>3/149</sentpos><sentpos>3/273</sentpos><sentpos>21/182</sentpos><sentpos>21/307</sentpos><sentpos>32/48</sentpos><sentpos>36/46</sentpos><sentpos>38/10</sentpos><sentpos>38/70</sentpos><sentpos>38/144</sentpos><sentpos>40/51</sentpos><sentpos>55/22</sentpos><sentpos>70/26</sentpos><sentpos>80/31</sentpos><sentpos>81/8</sentpos><sentpos>87/14</sentpos><sentpos>90/25</sentpos><sentpos>94/22</sentpos><sentpos>237/54</sentpos><sentpos>239/7</sentpos><relup>255</relup><relup>375</relup><relup>376</relup><relup>419</relup></term>
+<term><ttype>Noun</ttype><tname>пацієнт</tname><wcount>1</wcount><osn>пацієнт</osn><sentpos>3/150</sentpos><sentpos>16/19</sentpos><sentpos>21/183</sentpos><sentpos>26/39</sentpos><sentpos>27/59</sentpos><sentpos>38/76</sentpos><sentpos>38/145</sentpos><sentpos>38/151</sentpos><sentpos>45/51</sentpos><sentpos>47/26</sentpos><sentpos>47/37</sentpos><sentpos>53/18</sentpos><sentpos>58/8</sentpos><sentpos>59/5</sentpos><sentpos>62/11</sentpos><sentpos>62/41</sentpos><sentpos>63/11</sentpos><sentpos>65/15</sentpos><sentpos>67/3</sentpos><sentpos>69/14</sentpos><sentpos>71/17</sentpos><sentpos>82/14</sentpos><sentpos>84/17</sentpos><sentpos>85/17</sentpos><sentpos>87/3</sentpos><sentpos>88/2</sentpos><sentpos>90/2</sentpos><sentpos>92/2</sentpos><sentpos>95/16</sentpos><sentpos>100/19</sentpos><sentpos>105/18</sentpos><sentpos>109/13</sentpos><sentpos>109/50</sentpos><sentpos>112/16</sentpos><sentpos>117/2</sentpos><sentpos>117/13</sentpos><sentpos>126/9</sentpos><sentpos>127/15</sentpos><sentpos>129/22</sentpos><sentpos>130/22</sentpos><sentpos>131/15</sentpos><sentpos>133/94</sentpos><relup>207</relup><relup>208</relup><relup>209</relup><relup>310</relup><relup>364</relup></term>
+<term><ttype>Noun</ttype><tname>робот</tname><wcount>1</wcount><osn>робот</osn><sentpos>3/156</sentpos><sentpos>21/189</sentpos><sentpos>49/8</sentpos><sentpos>108/9</sentpos><sentpos>133/72</sentpos><relup>492</relup></term>
+<term><ttype>Noun</ttype><tname>роль</tname><wcount>1</wcount><osn>рол</osn><sentpos>3/163</sentpos><sentpos>21/196</sentpos><sentpos>63/8</sentpos><sentpos>65/4</sentpos><sentpos>93/6</sentpos><sentpos>107/18</sentpos><sentpos>118/6</sentpos><sentpos>120/6</sentpos><sentpos>134/32</sentpos><sentpos>134/50</sentpos><sentpos>136/42</sentpos><sentpos>136/54</sentpos></term>
+<term><ttype>Noun</ttype><tname>частина</tname><wcount>1</wcount><osn>частин</osn><sentpos>3/175</sentpos><sentpos>21/208</sentpos><sentpos>72/1</sentpos></term>
+<term><ttype>Noun</ttype><tname>знання</tname><wcount>1</wcount><osn>знан</osn><sentpos>3/177</sentpos><sentpos>3/196</sentpos><sentpos>19/32</sentpos><sentpos>21/210</sentpos><sentpos>21/229</sentpos><sentpos>23/34</sentpos><sentpos>40/1</sentpos><sentpos>44/11</sentpos><sentpos>45/34</sentpos><sentpos>47/66</sentpos><sentpos>49/33</sentpos><sentpos>49/40</sentpos><sentpos>49/45</sentpos></term>
+<term><ttype>Noun</ttype><tname>заклади</tname><wcount>1</wcount><osn>заклад</osn><sentpos>3/218</sentpos><sentpos>3/233</sentpos><sentpos>3/266</sentpos><sentpos>21/252</sentpos><sentpos>21/267</sentpos><sentpos>21/300</sentpos><sentpos>48/15</sentpos><sentpos>48/22</sentpos><sentpos>85/35</sentpos><sentpos>109/30</sentpos><sentpos>110/3</sentpos><sentpos>111/32</sentpos><sentpos>115/14</sentpos><sentpos>123/4</sentpos><sentpos>126/5</sentpos><sentpos>130/6</sentpos><sentpos>131/8</sentpos><relup>319</relup><relup>528</relup></term>
+<term><ttype>Noun</ttype><tname>допомога</tname><wcount>1</wcount><osn>допомо</osn><sentpos>3/237</sentpos><sentpos>16/18</sentpos><sentpos>21/271</sentpos><sentpos>31/17</sentpos><sentpos>36/62</sentpos><sentpos>46/21</sentpos><sentpos>47/42</sentpos><sentpos>59/13</sentpos><sentpos>64/11</sentpos><sentpos>84/22</sentpos><sentpos>85/19</sentpos><sentpos>96/7</sentpos><sentpos>97/59</sentpos><sentpos>109/39</sentpos><sentpos>109/46</sentpos><sentpos>116/10</sentpos><sentpos>131/11</sentpos><sentpos>237/77</sentpos><relup>302</relup><relup>303</relup><relup>311</relup><relup>358</relup><relup>496</relup><relup>497</relup><relup>550</relup></term>
+<term><ttype>Noun</ttype><tname>різня</tname><wcount>1</wcount><osn>різн</osn><sentpos>3/245</sentpos><sentpos>21/279</sentpos><sentpos>134/40</sentpos></term>
+<term><ttype>Noun</ttype><tname>особа</tname><wcount>1</wcount><osn>ос</osn><sentpos>3/248</sentpos><sentpos>18/16</sentpos><sentpos>21/282</sentpos><sentpos>23/6</sentpos><sentpos>31/18</sentpos><sentpos>34/24</sentpos><sentpos>36/16</sentpos><sentpos>36/80</sentpos><sentpos>44/15</sentpos><sentpos>51/23</sentpos><sentpos>76/80</sentpos><sentpos>133/85</sentpos><sentpos>230/39</sentpos><sentpos>237/23</sentpos><sentpos>239/10</sentpos><relup>118</relup><relup>119</relup></term>
+<term><ttype>Noun</ttype><tname>життєдіяльність</tname><wcount>1</wcount><osn>життєдіяльн</osn><sentpos>3/251</sentpos><sentpos>21/285</sentpos><sentpos>22/39</sentpos><sentpos>30/10</sentpos><sentpos>30/33</sentpos><sentpos>36/10</sentpos><sentpos>42/16</sentpos><sentpos>51/26</sentpos><sentpos>71/14</sentpos><sentpos>76/27</sentpos><sentpos>76/78</sentpos><sentpos>91/16</sentpos><sentpos>232/7</sentpos><sentpos>233/7</sentpos><sentpos>237/17</sentpos><relup>156</relup><relup>229</relup><relup>233</relup></term>
+<term><ttype>Noun</ttype><tname>система</tname><wcount>1</wcount><osn>систем</osn><sentpos>3/261</sentpos><sentpos>18/10</sentpos><sentpos>19/47</sentpos><sentpos>21/295</sentpos><sentpos>33/3</sentpos><sentpos>76/34</sentpos><sentpos>76/63</sentpos><sentpos>78/16</sentpos><sentpos>133/80</sentpos><relup>245</relup><relup>246</relup></term>
+<term><ttype>Noun</ttype><tname>процес</tname><wcount>1</wcount><osn>процес</osn><sentpos>3/276</sentpos><sentpos>21/310</sentpos><sentpos>51/31</sentpos><sentpos>52/8</sentpos><sentpos>56/23</sentpos><sentpos>59/3</sentpos><sentpos>60/21</sentpos><sentpos>69/17</sentpos><sentpos>96/30</sentpos><sentpos>98/7</sentpos><relup>349</relup></term>
+<term><ttype>Noun</ttype><tname>посилання</tname><wcount>1</wcount><osn>посилан</osn><sentpos>4/1</sentpos><sentpos>11/1</sentpos><sentpos>138/1</sentpos></term>
+<term><ttype>Noun</ttype><tname>версія</tname><wcount>1</wcount><osn>версі</osn><sentpos>4/4</sentpos><sentpos>11/4</sentpos></term>
+<term><ttype>Noun</ttype><tname>статті</tname><wcount>1</wcount><osn>стат</osn><sentpos>4/5</sentpos><sentpos>11/5</sentpos></term>
+<term><ttype>Abbr</ttype><tname>European</tname><wcount>1</wcount><osn>European</osn><sentpos>4/7</sentpos></term>
+<term><ttype>Abbr</ttype><tname>Physіcal</tname><wcount>1</wcount><osn>Physіcal</osn><sentpos>4/8</sentpos><sentpos>5/4</sentpos><sentpos>190/1</sentpos><sentpos>215/5</sentpos></term>
+<term><ttype>Abbr</ttype><tname>and</tname><wcount>1</wcount><osn>and</osn><sentpos>4/9</sentpos><sentpos>140/8</sentpos><sentpos>142/13</sentpos><sentpos>149/7</sentpos><sentpos>164/17</sentpos><sentpos>169/11</sentpos><sentpos>169/20</sentpos><sentpos>178/19</sentpos><sentpos>189/5</sentpos><sentpos>190/6</sentpos><sentpos>204/16</sentpos><sentpos>215/6</sentpos></term>
+<term><ttype>Abbr</ttype><tname>Rehabіlіtatіon</tname><wcount>1</wcount><osn>Rehabіlіtatіon</osn><sentpos>4/10</sentpos><sentpos>154/9</sentpos><sentpos>159/9</sentpos><sentpos>164/32</sentpos><sentpos>169/23</sentpos><sentpos>178/22</sentpos><sentpos>190/3</sentpos><sentpos>199/11</sentpos><sentpos>200/2</sentpos><sentpos>204/10</sentpos><sentpos>209/9</sentpos><sentpos>215/7</sentpos><sentpos>220/20</sentpos><sentpos>225/17</sentpos></term>
+<term><ttype>Abbr</ttype><tname>Medіcіne</tname><wcount>1</wcount><osn>Medіcіne</osn><sentpos>4/11</sentpos><sentpos>5/6</sentpos><sentpos>169/24</sentpos><sentpos>174/11</sentpos><sentpos>190/2</sentpos><sentpos>215/8</sentpos></term>
+<term><ttype>Abbr</ttype><tname>Bodіes</tname><wcount>1</wcount><osn>Bodіes</osn><sentpos>4/12</sentpos></term>
+<term><ttype>Abbr</ttype><tname>Allіance</tname><wcount>1</wcount><osn>Allіance</osn><sentpos>4/13</sentpos></term>
+<term><ttype>Abbr</ttype><tname>Whіte</tname><wcount>1</wcount><osn>Whіte</osn><sentpos>5/1</sentpos></term>
+<term><ttype>Abbr</ttype><tname>Book</tname><wcount>1</wcount><osn>Book</osn><sentpos>5/2</sentpos></term>
+<term><ttype>Abbr</ttype><tname>on</tname><wcount>1</wcount><osn>on</osn><sentpos>5/3</sentpos></term>
+<term><ttype>Abbr</ttype><tname>andRehabіlіtatіon</tname><wcount>1</wcount><osn>andRehabіlіtatіon</osn><sentpos>5/5</sentpos></term>
+<term><ttype>Abbr</ttype><tname>PRM</tname><wcount>1</wcount><osn>PRM</osn><sentpos>5/8</sentpos><sentpos>7/9</sentpos><sentpos>28/4</sentpos><sentpos>83/12</sentpos></term>
+<term><ttype>Abbr</ttype><tname>Europe</tname><wcount>1</wcount><osn>Europe</osn><sentpos>5/11</sentpos></term>
+<term><ttype>Abbr</ttype><tname>Chapter</tname><wcount>1</wcount><osn>Chapter</osn><sentpos>6/1</sentpos><sentpos>199/7</sentpos></term>
+<term><ttype>Abbr</ttype><tname>A</tname><wcount>1</wcount><osn>A</osn><sentpos>7/1</sentpos><sentpos>144/7</sentpos><sentpos>144/12</sentpos><sentpos>154/12</sentpos><sentpos>159/12</sentpos><sentpos>164/5</sentpos><sentpos>164/23</sentpos><sentpos>169/17</sentpos><sentpos>189/2</sentpos><sentpos>200/5</sentpos><sentpos>204/12</sentpos><sentpos>214/17</sentpos><sentpos>230/81</sentpos><sentpos>230/122</sentpos><sentpos>230/135</sentpos></term>
+<term><ttype>Abbr</ttype><tname>prіmary</tname><wcount>1</wcount><osn>prіmary</osn><sentpos>7/2</sentpos></term>
+<term><ttype>Abbr</ttype><tname>medіcal</tname><wcount>1</wcount><osn>medіcal</osn><sentpos>7/3</sentpos><sentpos>144/9</sentpos><sentpos>204/9</sentpos></term>
+<term><ttype>Abbr</ttype><tname>specіalty</tname><wcount>1</wcount><osn>specіalty</osn><sentpos>7/4</sentpos></term>
+<term><ttype>Abbr</ttype><tname>the</tname><wcount>1</wcount><osn>the</osn><sentpos>7/6</sentpos><sentpos>144/4</sentpos><sentpos>149/4</sentpos><sentpos>149/8</sentpos><sentpos>154/7</sentpos><sentpos>154/16</sentpos><sentpos>159/7</sentpos><sentpos>159/16</sentpos><sentpos>164/10</sentpos><sentpos>164/27</sentpos><sentpos>164/31</sentpos><sentpos>174/8</sentpos><sentpos>178/13</sentpos><sentpos>178/16</sentpos><sentpos>183/1</sentpos></term>
+<term><ttype>Abbr</ttype><tname>fundamentals</tname><wcount>1</wcount><osn>fundamentals</osn><sentpos>7/7</sentpos></term>
+<term><ttype>Abbr</ttype><tname>of</tname><wcount>1</wcount><osn>of</osn><sentpos>7/8</sentpos><sentpos>140/3</sentpos><sentpos>142/9</sentpos><sentpos>149/10</sentpos><sentpos>164/13</sentpos><sentpos>164/30</sentpos><sentpos>169/6</sentpos><sentpos>204/14</sentpos><sentpos>220/24</sentpos><sentpos>225/15</sentpos></term>
+<term><ttype>Abbr</ttype><tname>Eur</tname><wcount>1</wcount><osn>Eur</osn><sentpos>8/1</sentpos><sentpos>160/1</sentpos></term>
+<term><ttype>Abbr</ttype><tname>J</tname><wcount>1</wcount><osn>J</osn><sentpos>8/2</sentpos><sentpos>155/2</sentpos><sentpos>160/2</sentpos><sentpos>164/8</sentpos><sentpos>165/1</sentpos><sentpos>170/2</sentpos><sentpos>175/1</sentpos><sentpos>178/10</sentpos><sentpos>195/1</sentpos><sentpos>199/2</sentpos><sentpos>210/1</sentpos><sentpos>216/1</sentpos><sentpos>221/1</sentpos><sentpos>230/112</sentpos><sentpos>230/148</sentpos></term>
+<term><ttype>Abbr</ttype><tname>Phys</tname><wcount>1</wcount><osn>Phys</osn><sentpos>8/3</sentpos><sentpos>155/3</sentpos><sentpos>160/3</sentpos><sentpos>170/3</sentpos><sentpos>226/2</sentpos></term>
+<term><ttype>Abbr</ttype><tname>Rehabіl</tname><wcount>1</wcount><osn>Rehabіl</osn><sentpos>8/4</sentpos><sentpos>155/5</sentpos><sentpos>160/4</sentpos><sentpos>165/2</sentpos><sentpos>170/5</sentpos><sentpos>175/2</sentpos><sentpos>179/2</sentpos><sentpos>205/2</sentpos><sentpos>210/2</sentpos><sentpos>216/2</sentpos><sentpos>221/2</sentpos><sentpos>226/4</sentpos></term>
+<term><ttype>Abbr</ttype><tname>Med</tname><wcount>1</wcount><osn>Med</osn><sentpos>8/5</sentpos><sentpos>155/4</sentpos><sentpos>160/5</sentpos><sentpos>165/3</sentpos><sentpos>170/4</sentpos><sentpos>175/3</sentpos><sentpos>210/3</sentpos><sentpos>216/3</sentpos><sentpos>221/3</sentpos><sentpos>226/3</sentpos></term>
+<term><ttype>Abbr</ttype><tname>Apr</tname><wcount>1</wcount><osn>Apr</osn><sentpos>8/8</sentpos><sentpos>145/4</sentpos><sentpos>179/5</sentpos></term>
+<term><ttype>Noun</ttype><tname>журнал</tname><wcount>1</wcount><osn>журнал</osn><sentpos>15/2</sentpos></term>
+<term><ttype>noun_adj_noun</ttype><tname>журнал фізичної медицини</tname><wcount>3</wcount><osn>журнал</osn><osn>фізичн</osn><osn>медицин</osn><sentpos>15/2</sentpos><sentpos>15/3</sentpos><sentpos>15/6</sentpos><reldown>11</reldown></term>
+<term><ttype>noun_adj_noun</ttype><tname>журнал реабілітаційної медицини</tname><wcount>3</wcount><osn>журнал</osn><osn>реабілітаційн</osn><osn>медицин</osn><sentpos>15/2</sentpos><sentpos>15/5</sentpos><sentpos>15/6</sentpos><reldown>16</reldown></term>
+<term><ttype>Noun</ttype><tname>слово</tname><wcount>1</wcount><osn>сл</osn><sentpos>16/2</sentpos><sentpos>41/2</sentpos><sentpos>42/2</sentpos></term>
+<term><ttype>Noun</ttype><tname>діагноз</tname><wcount>1</wcount><osn>діагноз</osn><sentpos>16/11</sentpos><sentpos>37/9</sentpos><sentpos>40/2</sentpos><sentpos>52/20</sentpos><sentpos>55/4</sentpos><sentpos>56/5</sentpos><sentpos>57/4</sentpos><sentpos>58/2</sentpos><sentpos>62/44</sentpos><sentpos>65/14</sentpos><sentpos>67/14</sentpos><sentpos>68/17</sentpos><sentpos>68/31</sentpos><sentpos>69/4</sentpos><sentpos>238/14</sentpos><relup>257</relup><relup>369</relup></term>
+<term><ttype>Noun</ttype><tname>Введення</tname><wcount>1</wcount><osn>Введенн</osn><sentpos>17/1</sentpos></term>
+<term><ttype>Abbr</ttype><tname>БК</tname><wcount>1</wcount><osn>БК</osn><sentpos>17/5</sentpos><sentpos>18/48</sentpos></term>
+<term><ttype>Noun</ttype><tname>довідник</tname><wcount>1</wcount><osn>довідник</osn><sentpos>17/24</sentpos></term>
+<term><ttype>Noun</ttype><tname>кілька</tname><wcount>1</wcount><osn>кіль</osn><sentpos>18/3</sentpos></term>
+<term><ttype>Noun</ttype><tname>значення</tname><wcount>1</wcount><osn>значен</osn><sentpos>18/4</sentpos><sentpos>43/4</sentpos><sentpos>43/12</sentpos><sentpos>104/25</sentpos></term>
+<term><ttype>Noun</ttype><tname>забезпечення</tname><wcount>1</wcount><osn>забезпеченн</osn><sentpos>18/8</sentpos><sentpos>38/140</sentpos></term>
+<term><ttype>Noun</ttype><tname>країни</tname><wcount>1</wcount><osn>країн</osn><sentpos>18/13</sentpos><sentpos>38/128</sentpos><relup>119</relup></term>
+<term><ttype>Noun</ttype><tname>інформування</tname><wcount>1</wcount><osn>інформуванн</osn><sentpos>18/15</sentpos><sentpos>18/36</sentpos><sentpos>76/61</sentpos><relup>118</relup></term>
+<term><ttype>Noun_noun</ttype><tname>інформування осіб</tname><wcount>2</wcount><osn>інформуванн</osn><osn>ос</osn><sentpos>18/15</sentpos><sentpos>18/16</sentpos><reldown>71</reldown><reldown>117</reldown></term>
+<term><ttype>Noun_noun</ttype><tname>країни осіб</tname><wcount>2</wcount><osn>країн</osn><osn>ос</osn><sentpos>18/13</sentpos><sentpos>18/16</sentpos><reldown>71</reldown><reldown>116</reldown></term>
+<term><ttype>Noun</ttype><tname>рішення</tname><wcount>1</wcount><osn>рішен</osn><sentpos>18/20</sentpos><sentpos>36/84</sentpos><sentpos>133/55</sentpos><sentpos>133/100</sentpos><sentpos>237/99</sentpos></term>
+<term><ttype>Noun</ttype><tname>рівень</tname><wcount>1</wcount><osn>рів</osn><sentpos>18/25</sentpos><sentpos>38/127</sentpos><sentpos>56/10</sentpos><sentpos>106/10</sentpos></term>
+<term><ttype>Noun</ttype><tname>пропонування</tname><wcount>1</wcount><osn>пропонуванн</osn><sentpos>18/27</sentpos></term>
+<term><ttype>Noun</ttype><tname>матеріали</tname><wcount>1</wcount><osn>матеріал</osn><sentpos>18/29</sentpos><relup>124</relup></term>
+<term><ttype>Adj_noun</ttype><tname>навчальні матеріали</tname><wcount>2</wcount><osn>навчальн</osn><osn>матеріал</osn><sentpos>18/28</sentpos><sentpos>18/29</sentpos><reldown>123</reldown></term>
+<term><ttype>Noun</ttype><tname>резиденти</tname><wcount>1</wcount><osn>резидент</osn><sentpos>18/31</sentpos></term>
+<term><ttype>Noun</ttype><tname>спільнота</tname><wcount>1</wcount><osn>спільнот</osn><sentpos>18/40</sentpos><relup>127</relup></term>
+<term><ttype>Adj_noun</ttype><tname>медична спільнота</tname><wcount>2</wcount><osn>медичн</osn><osn>спільнот</osn><sentpos>18/39</sentpos><sentpos>18/40</sentpos><reldown>126</reldown></term>
+<term><ttype>Noun</ttype><tname>громадськість</tname><wcount>1</wcount><osn>громадськ</osn><sentpos>18/46</sentpos></term>
+<term><ttype>Noun</ttype><tname>важливість</tname><wcount>1</wcount><osn>важлив</osn><sentpos>18/51</sentpos><sentpos>76/53</sentpos></term>
+<term><ttype>Noun</ttype><tname>зміст</tname><wcount>1</wcount><osn>зміст</osn><sentpos>19/1</sentpos></term>
+<term><ttype>Noun</ttype><tname>визначення</tname><wcount>1</wcount><osn>визначен</osn><sentpos>19/4</sentpos><sentpos>42/21</sentpos><sentpos>60/18</sentpos><sentpos>70/5</sentpos><sentpos>70/18</sentpos><sentpos>118/8</sentpos></term>
+<term><ttype>Noun</ttype><tname>суспільство</tname><wcount>1</wcount><osn>суспільств</osn><sentpos>19/15</sentpos><sentpos>19/51</sentpos><sentpos>36/70</sentpos><sentpos>237/85</sentpos></term>
+<term><ttype>Noun</ttype><tname>історія</tname><wcount>1</wcount><osn>історі</osn><sentpos>19/20</sentpos><sentpos>23/68</sentpos><relup>134</relup></term>
+<term><ttype>Noun_noun</ttype><tname>історія спеціальності</tname><wcount>2</wcount><osn>історі</osn><osn>спеціальн</osn><sentpos>19/20</sentpos><sentpos>19/21</sentpos><reldown>5</reldown><reldown>133</reldown></term>
+<term><ttype>Noun</ttype><tname>структура</tname><wcount>1</wcount><osn>структур</osn><sentpos>19/24</sentpos><sentpos>23/35</sentpos><sentpos>24/18</sentpos><sentpos>27/42</sentpos><sentpos>32/15</sentpos><sentpos>35/18</sentpos><sentpos>72/24</sentpos><sentpos>235/27</sentpos><relup>174</relup></term>
+<term><ttype>Noun</ttype><tname>діяльність</tname><wcount>1</wcount><osn>діяльн</osn><sentpos>19/26</sentpos><sentpos>130/14</sentpos></term>
+<term><ttype>Noun</ttype><tname>організації</tname><wcount>1</wcount><osn>організаці</osn><sentpos>19/27</sentpos></term>
+<term><ttype>Noun</ttype><tname>навички</tname><wcount>1</wcount><osn>навич</osn><sentpos>19/34</sentpos><sentpos>78/43</sentpos><sentpos>99/13</sentpos><sentpos>105/5</sentpos></term>
+<term><ttype>Noun</ttype><tname>сфера</tname><wcount>1</wcount><osn>сфер</osn><sentpos>19/38</sentpos><sentpos>130/13</sentpos></term>
+<term><ttype>Noun</ttype><tname>місце</tname><wcount>1</wcount><osn>місц</osn><sentpos>19/43</sentpos><sentpos>124/36</sentpos><sentpos>136/26</sentpos></term>
+<term><ttype>Noun</ttype><tname>особливості</tname><wcount>1</wcount><osn>особлив</osn><sentpos>19/61</sentpos><sentpos>133/7</sentpos></term>
+<term><ttype>Noun</ttype><tname>наука</tname><wcount>1</wcount><osn>нау</osn><sentpos>19/64</sentpos><sentpos>23/25</sentpos></term>
+<term><ttype>Noun</ttype><tname>перспектива</tname><wcount>1</wcount><osn>перспектив</osn><sentpos>19/72</sentpos><sentpos>53/21</sentpos><sentpos>54/2</sentpos><sentpos>67/9</sentpos><sentpos>73/10</sentpos><sentpos>75/6</sentpos><sentpos>76/4</sentpos></term>
+<term><ttype>Noun</ttype><tname>тога</tname><wcount>1</wcount><osn>то</osn><sentpos>20/17</sentpos><sentpos>68/24</sentpos><sentpos>71/2</sentpos><sentpos>74/2</sentpos><sentpos>76/44</sentpos><sentpos>80/2</sentpos><sentpos>95/2</sentpos><sentpos>137/2</sentpos><sentpos>238/2</sentpos></term>
+<term><ttype>Noun</ttype><tname>увага</tname><wcount>1</wcount><osn>ува</osn><sentpos>20/22</sentpos><sentpos>24/17</sentpos><sentpos>27/86</sentpos><sentpos>28/3</sentpos><sentpos>87/16</sentpos><sentpos>235/20</sentpos><sentpos>237/12</sentpos><relup>174</relup><relup>440</relup></term>
+<term><ttype>Noun</ttype><tname>мета</tname><wcount>1</wcount><osn>мет</osn><sentpos>22/1</sentpos><sentpos>38/2</sentpos><sentpos>38/150</sentpos><sentpos>76/71</sentpos><sentpos>94/11</sentpos><relup>259</relup></term>
+<term><ttype>Noun</ttype><tname>принципи</tname><wcount>1</wcount><osn>принцип</osn><sentpos>22/9</sentpos><relup>148</relup></term>
+<term><ttype>Adj_noun</ttype><tname>центральні принципи</tname><wcount>2</wcount><osn>центральн</osn><osn>принцип</osn><sentpos>22/8</sentpos><sentpos>22/9</sentpos><reldown>147</reldown></term>
+<term><ttype>noun_adj_noun</ttype><tname>принципи медичної спеціальності</tname><wcount>3</wcount><osn>принцип</osn><osn>медичн</osn><osn>спеціальн</osn><sentpos>22/9</sentpos><sentpos>22/10</sentpos><sentpos>22/11</sentpos><relup>150</relup><reldown>27</reldown></term>
+<term><ttype>adj_noun_adj_noun</ttype><tname>центральні принципи медичної спеціальності</tname><wcount>4</wcount><osn>центральн</osn><osn>принцип</osn><osn>медичн</osn><osn>спеціальн</osn><sentpos>22/8</sentpos><sentpos>22/9</sentpos><sentpos>22/10</sentpos><sentpos>22/11</sentpos><reldown>149</reldown></term>
+<term><ttype>Noun</ttype><tname>тенденція</tname><wcount>1</wcount><osn>тенденці</osn><sentpos>22/24</sentpos></term>
+<term><ttype>Noun_noun</ttype><tname>стани здоров'я</tname><wcount>2</wcount><osn>стан</osn><osn>здоров'</osn><sentpos>22/33</sentpos><sentpos>22/34</sentpos><relup>154</relup><reldown>55</reldown><reldown>56</reldown></term>
+<term><ttype>Adj_noun</ttype><tname>довготривалі стани</tname><wcount>2</wcount><osn>довготривал</osn><osn>стан</osn><sentpos>22/32</sentpos><sentpos>22/33</sentpos><relup>154</relup><reldown>55</reldown></term>
+<term><ttype>adj_noun_noun</ttype><tname>довготривалі стани здоров'я</tname><wcount>3</wcount><osn>довготривал</osn><osn>стан</osn><osn>здоров'</osn><sentpos>22/32</sentpos><sentpos>22/33</sentpos><sentpos>22/34</sentpos><reldown>152</reldown><reldown>153</reldown></term>
+<term><ttype>Noun</ttype><tname>збільшення</tname><wcount>1</wcount><osn>збільшенн</osn><sentpos>22/37</sentpos><sentpos>94/18</sentpos></term>
+<term><ttype>Noun_noun</ttype><tname>обмеження життєдіяльності</tname><wcount>2</wcount><osn>обмежен</osn><osn>життєдіяльн</osn><sentpos>22/38</sentpos><sentpos>22/39</sentpos><sentpos>30/9</sentpos><sentpos>30/10</sentpos><sentpos>30/32</sentpos><sentpos>30/33</sentpos><sentpos>42/15</sentpos><sentpos>42/16</sentpos><sentpos>71/13</sentpos><sentpos>71/14</sentpos><sentpos>76/77</sentpos><sentpos>76/78</sentpos><sentpos>232/6</sentpos><sentpos>232/7</sentpos><sentpos>233/6</sentpos><sentpos>233/7</sentpos><reldown>60</reldown><reldown>72</reldown></term>
+<term><ttype>Noun</ttype><tname>поліпшення</tname><wcount>1</wcount><osn>поліпшен</osn><sentpos>22/42</sentpos><sentpos>36/35</sentpos><sentpos>38/69</sentpos><sentpos>94/12</sentpos><sentpos>114/13</sentpos><sentpos>237/41</sentpos></term>
+<term><ttype>Noun</ttype><tname>виживання</tname><wcount>1</wcount><osn>виживанн</osn><sentpos>22/43</sentpos></term>
+<term><ttype>Noun</ttype><tname>старіння</tname><wcount>1</wcount><osn>старінн</osn><sentpos>22/46</sentpos><sentpos>91/1</sentpos></term>
+<term><ttype>Noun</ttype><tname>популяції</tname><wcount>1</wcount><osn>популяці</osn><sentpos>22/48</sentpos></term>
+<term><ttype>Noun</ttype><tname>розтини</tname><wcount>1</wcount><osn>розтин</osn><sentpos>23/18</sentpos></term>
+<term><ttype>Noun</ttype><tname>розуміння</tname><wcount>1</wcount><osn>розумінн</osn><sentpos>23/20</sentpos></term>
+<term><ttype>Noun</ttype><tname>анатомія</tname><wcount>1</wcount><osn>анатомі</osn><sentpos>23/21</sentpos><sentpos>26/23</sentpos><sentpos>27/19</sentpos><relup>197</relup></term>
+<term><ttype>Noun</ttype><tname>фізіологія</tname><wcount>1</wcount><osn>фізіологі</osn><sentpos>23/23</sentpos><sentpos>26/25</sentpos></term>
+<term><ttype>Noun</ttype><tname>організм</tname><wcount>1</wcount><osn>організм</osn><sentpos>23/38</sentpos><sentpos>24/21</sentpos><sentpos>27/45</sentpos><sentpos>32/18</sentpos><sentpos>35/21</sentpos><sentpos>72/27</sentpos><sentpos>235/30</sentpos></term>
+<term><ttype>Noun</ttype><tname>відносини</tname><wcount>1</wcount><osn>відносин</osn><sentpos>23/42</sentpos><sentpos>133/67</sentpos><sentpos>133/112</sentpos><relup>167</relup></term>
+<term><ttype>Adj_noun</ttype><tname>жорсткі відносини</tname><wcount>2</wcount><osn>жорстк</osn><osn>відносин</osn><sentpos>23/41</sentpos><sentpos>23/42</sentpos><reldown>166</reldown></term>
+<term><ttype>Noun</ttype><tname>віди</tname><wcount>1</wcount><osn>від</osn><sentpos>23/57</sentpos><sentpos>43/11</sentpos><sentpos>93/21</sentpos></term>
+<term><ttype>Noun</ttype><tname>початок</tname><wcount>1</wcount><osn>почат</osn><sentpos>23/67</sentpos><sentpos>28/7</sentpos><sentpos>32/5</sentpos><sentpos>59/2</sentpos><sentpos>69/16</sentpos></term>
+<term><ttype>Noun</ttype><tname>чин</tname><wcount>1</wcount><osn>чин</osn><sentpos>24/8</sentpos><sentpos>35/11</sentpos><sentpos>47/101</sentpos><sentpos>57/9</sentpos><sentpos>73/6</sentpos><relup>171</relup><relup>342</relup></term>
+<term><ttype>Adj_noun</ttype><tname>головний чин</tname><wcount>2</wcount><osn>головн</osn><osn>чин</osn><sentpos>24/7</sentpos><sentpos>24/8</sentpos><sentpos>47/100</sentpos><sentpos>47/101</sentpos><reldown>170</reldown></term>
+<term><ttype>Noun</ttype><tname>дисципліна</tname><wcount>1</wcount><osn>дисциплін</osn><sentpos>24/11</sentpos><sentpos>47/22</sentpos><sentpos>105/9</sentpos><sentpos>105/13</sentpos><sentpos>106/7</sentpos></term>
+<term><ttype>Noun</ttype><tname>центр</tname><wcount>1</wcount><osn>центр</osn><sentpos>24/16</sentpos></term>
+<term><ttype>Noun_noun</ttype><tname>увага структури</tname><wcount>2</wcount><osn>ува</osn><osn>структур</osn><sentpos>24/17</sentpos><sentpos>24/18</sentpos><reldown>135</reldown><reldown>145</reldown></term>
+<term><ttype>Noun</ttype><tname>серце</tname><wcount>1</wcount><osn>сер</osn><sentpos>24/26</sentpos></term>
+<term><ttype>Noun</ttype><tname>кардіологія</tname><wcount>1</wcount><osn>кардіологі</osn><sentpos>24/28</sentpos><sentpos>78/21</sentpos></term>
+<term><ttype>Noun</ttype><tname>легені</tname><wcount>1</wcount><osn>леген</osn><sentpos>24/31</sentpos></term>
+<term><ttype>Noun</ttype><tname>суглоби</tname><wcount>1</wcount><osn>суглоб</osn><sentpos>24/36</sentpos></term>
+<term><ttype>Noun</ttype><tname>кістки</tname><wcount>1</wcount><osn>кіст</osn><sentpos>24/38</sentpos></term>
+<term><ttype>Noun</ttype><tname>м'язи</tname><wcount>1</wcount><osn>м'яз</osn><sentpos>24/40</sentpos></term>
+<term><ttype>Noun</ttype><tname>ортопедія</tname><wcount>1</wcount><osn>ортопеді</osn><sentpos>24/42</sentpos></term>
+<term><ttype>Noun</ttype><tname>неврологія</tname><wcount>1</wcount><osn>неврологі</osn><sentpos>24/50</sentpos></term>
+<term><ttype>Noun</ttype><tname>вік</tname><wcount>1</wcount><osn></osn><sentpos>24/53</sentpos><sentpos>92/5</sentpos></term>
+<term><ttype>Noun</ttype><tname>офтальмологія</tname><wcount>1</wcount><osn>офтальмологі</osn><sentpos>24/55</sentpos></term>
+<term><ttype>Noun</ttype><tname>виняток</tname><wcount>1</wcount><osn>винят</osn><sentpos>25/3</sentpos><sentpos>68/1</sentpos><sentpos>127/27</sentpos></term>
+<term><ttype>Noun</ttype><tname>правило</tname><wcount>1</wcount><osn>правил</osn><sentpos>25/7</sentpos><sentpos>68/5</sentpos></term>
+<term><ttype>Noun</ttype><tname>області</tname><wcount>1</wcount><osn>област</osn><sentpos>25/10</sentpos><sentpos>47/69</sentpos></term>
+<term><ttype>Adj_noun</ttype><tname>загальна медицина</tname><wcount>2</wcount><osn>загальн</osn><osn>медицин</osn><sentpos>25/27</sentpos><sentpos>25/28</sentpos><reldown>1</reldown></term>
+<term><ttype>Adj_noun</ttype><tname>загальна педіатрія</tname><wcount>2</wcount><osn>загальн</osn><osn>педіатрі</osn><sentpos>25/27</sentpos><sentpos>25/30</sentpos><reldown>191</reldown></term>
+<term><ttype>Adj_noun</ttype><tname>загальна геріатрія</tname><wcount>2</wcount><osn>загальн</osn><osn>геріатрі</osn><sentpos>25/27</sentpos><sentpos>25/32</sentpos><reldown>192</reldown></term>
+<term><ttype>Noun</ttype><tname>педіатрія</tname><wcount>1</wcount><osn>педіатрі</osn><sentpos>25/30</sentpos><sentpos>78/34</sentpos><relup>189</relup></term>
+<term><ttype>Noun</ttype><tname>геріатрія</tname><wcount>1</wcount><osn>геріатрі</osn><sentpos>25/32</sentpos><sentpos>78/36</sentpos><relup>190</relup></term>
+<term><ttype>Noun</ttype><tname>модель</tname><wcount>1</wcount><osn>модел</osn><sentpos>26/14</sentpos><sentpos>27/6</sentpos><sentpos>29/9</sentpos><sentpos>31/9</sentpos><sentpos>35/5</sentpos><sentpos>46/2</sentpos><sentpos>103/30</sentpos><sentpos>104/14</sentpos><sentpos>105/3</sentpos><sentpos>106/1</sentpos><sentpos>107/2</sentpos><sentpos>108/8</sentpos><sentpos>109/23</sentpos><sentpos>110/5</sentpos><sentpos>111/26</sentpos><sentpos>231/11</sentpos><sentpos>232/1</sentpos><sentpos>233/1</sentpos><sentpos>235/5</sentpos><relup>194</relup><relup>771</relup></term>
+<term><ttype>Adj_noun</ttype><tname>біомедична модель</tname><wcount>2</wcount><osn>біомедичн</osn><osn>модел</osn><sentpos>26/13</sentpos><sentpos>26/14</sentpos><sentpos>35/4</sentpos><sentpos>35/5</sentpos><sentpos>231/10</sentpos><sentpos>231/11</sentpos><sentpos>235/4</sentpos><sentpos>235/5</sentpos><reldown>193</reldown></term>
+<term><ttype>Noun</ttype><tname>пошук</tname><wcount>1</wcount><osn>пошук</osn><sentpos>26/19</sentpos></term>
+<term><ttype>Noun</ttype><tname>етіологія</tname><wcount>1</wcount><osn>етіологі</osn><sentpos>26/20</sentpos></term>
+<term><ttype>Adj_noun</ttype><tname>патологічна анатомія</tname><wcount>2</wcount><osn>патологічн</osn><osn>анатомі</osn><sentpos>26/22</sentpos><sentpos>26/23</sentpos><reldown>163</reldown></term>
+<term><ttype>Noun</ttype><tname>шлях</tname><wcount>1</wcount><osn>шлях</osn><sentpos>26/28</sentpos></term>
+<term><ttype>Noun</ttype><tname>до</tname><wcount>1</wcount><osn>до</osn><sentpos>26/29</sentpos><sentpos>27/87</sentpos><sentpos>38/38</sentpos><sentpos>84/13</sentpos><sentpos>87/17</sentpos><sentpos>90/14</sentpos><sentpos>134/31</sentpos><relup>262</relup><relup>440</relup><relup>569</relup></term>
+<term><ttype>Noun</ttype><tname>вибір</tname><wcount>1</wcount><osn>виб</osn><sentpos>26/30</sentpos></term>
+<term><ttype>Adj_noun</ttype><tname>ефективне лікування</tname><wcount>2</wcount><osn>ефективн</osn><osn>лікуванн</osn><sentpos>26/31</sentpos><sentpos>26/32</sentpos><reldown>39</reldown></term>
+<term><ttype>Adj_noun</ttype><tname>ефективне усунення</tname><wcount>2</wcount><osn>ефективн</osn><osn>усуненн</osn><sentpos>26/31</sentpos><sentpos>26/34</sentpos><reldown>205</reldown></term>
+<term><ttype>Adj_noun</ttype><tname>ефективне виліковування</tname><wcount>2</wcount><osn>ефективн</osn><osn>виліковуванн</osn><sentpos>26/31</sentpos><sentpos>26/38</sentpos><relup>204</relup><reldown>206</reldown></term>
+<term><ttype>adj_noun_noun</ttype><tname>ефективне виліковування пацієнта</tname><wcount>3</wcount><osn>ефективн</osn><osn>виліковуванн</osn><osn>пацієнт</osn><sentpos>26/31</sentpos><sentpos>26/38</sentpos><sentpos>26/39</sentpos><reldown>203</reldown><reldown>207</reldown></term>
+<term><ttype>Noun</ttype><tname>усунення</tname><wcount>1</wcount><osn>усуненн</osn><sentpos>26/34</sentpos><relup>202</relup><relup>208</relup></term>
+<term><ttype>Noun</ttype><tname>виліковування</tname><wcount>1</wcount><osn>виліковуванн</osn><sentpos>26/38</sentpos><relup>203</relup><relup>207</relup></term>
+<term><ttype>Noun_noun</ttype><tname>виліковування пацієнта</tname><wcount>2</wcount><osn>виліковуванн</osn><osn>пацієнт</osn><sentpos>26/38</sentpos><sentpos>26/39</sentpos><relup>204</relup><reldown>63</reldown><reldown>206</reldown></term>
+<term><ttype>Noun_noun</ttype><tname>усунення пацієнта</tname><wcount>2</wcount><osn>усуненн</osn><osn>пацієнт</osn><sentpos>26/34</sentpos><sentpos>26/39</sentpos><reldown>63</reldown><reldown>205</reldown></term>
+<term><ttype>Noun_noun</ttype><tname>лікування пацієнта</tname><wcount>2</wcount><osn>лікуванн</osn><osn>пацієнт</osn><sentpos>26/32</sentpos><sentpos>26/39</sentpos><reldown>39</reldown><reldown>63</reldown></term>
+<term><ttype>Noun</ttype><tname>малюнок</tname><wcount>1</wcount><osn>малюн</osn><sentpos>26/41</sentpos><sentpos>30/19</sentpos><sentpos>30/41</sentpos><sentpos>33/13</sentpos><sentpos>35/23</sentpos><sentpos>36/23</sentpos><sentpos>230/185</sentpos><sentpos>230/186</sentpos><sentpos>231/15</sentpos><sentpos>232/15</sentpos><sentpos>234/1</sentpos><sentpos>236/1</sentpos></term>
+<term><ttype>Noun</ttype><tname>урахування</tname><wcount>1</wcount><osn>урахуванн</osn><sentpos>27/4</sentpos></term>
+<term><ttype>Noun</ttype><tname>предмети</tname><wcount>1</wcount><osn>предмет</osn><sentpos>27/12</sentpos><sentpos>27/25</sentpos><relup>213</relup></term>
+<term><ttype>Adj_noun</ttype><tname>основні предмети</tname><wcount>2</wcount><osn>основн</osn><osn>предмет</osn><sentpos>27/11</sentpos><sentpos>27/12</sentpos><reldown>212</reldown></term>
+<term><ttype>Noun</ttype><tname>роки</tname><wcount>1</wcount><osn>р</osn><sentpos>27/14</sentpos></term>
+<term><ttype>Noun</ttype><tname>навчання</tname><wcount>1</wcount><osn>навчан</osn><sentpos>27/15</sentpos><sentpos>85/7</sentpos><sentpos>135/15</sentpos></term>
+<term><ttype>Noun</ttype><tname>світ</tname><wcount>1</wcount><osn>світ</osn><sentpos>27/32</sentpos><sentpos>40/42</sentpos></term>
+<term><ttype>Noun</ttype><tname>хірургія</tname><wcount>1</wcount><osn>хірургі</osn><sentpos>27/51</sentpos><sentpos>78/50</sentpos></term>
+<term><ttype>Noun</ttype><tname>випадок</tname><wcount>1</wcount><osn>випад</osn><sentpos>27/68</sentpos><sentpos>47/4</sentpos><sentpos>47/80</sentpos><sentpos>49/4</sentpos><sentpos>49/21</sentpos><sentpos>63/3</sentpos><sentpos>95/13</sentpos><sentpos>109/44</sentpos><sentpos>127/6</sentpos><sentpos>127/37</sentpos><sentpos>130/39</sentpos><sentpos>132/3</sentpos></term>
+<term><ttype>Noun</ttype><tname>травма</tname><wcount>1</wcount><osn>травм</osn><sentpos>27/71</sentpos><sentpos>77/17</sentpos><sentpos>114/31</sentpos></term>
+<term><ttype>Noun</ttype><tname>наслідок</tname><wcount>1</wcount><osn>наслід</osn><sentpos>27/89</sentpos><sentpos>36/36</sentpos><sentpos>77/16</sentpos><sentpos>80/22</sentpos><sentpos>82/2</sentpos><sentpos>83/1</sentpos></term>
+<term><ttype>Noun</ttype><tname>досягнення</tname><wcount>1</wcount><osn>досягнен</osn><sentpos>28/9</sentpos><sentpos>38/98</sentpos><sentpos>58/12</sentpos><sentpos>70/23</sentpos><sentpos>76/72</sentpos><sentpos>99/1</sentpos><sentpos>100/15</sentpos><sentpos>112/26</sentpos></term>
+<term><ttype>Noun</ttype><tname>десятиліття</tname><wcount>1</wcount><osn>десятиліт</osn><sentpos>29/19</sentpos></term>
+<term><ttype>Noun</ttype><tname>перш</tname><wcount>1</wcount><osn>перш</osn><sentpos>29/21</sentpos></term>
+<term><ttype>Noun</ttype><tname>ніж</tname><wcount>1</wcount><osn>н</osn><sentpos>29/22</sentpos><sentpos>102/15</sentpos><relup>475</relup></term>
+<term><ttype>Noun</ttype><tname>прорив</tname><wcount>1</wcount><osn>прорив</osn><sentpos>30/1</sentpos></term>
+<term><ttype>Noun</ttype><tname>прийняття</tname><wcount>1</wcount><osn>прийнятт</osn><sentpos>30/4</sentpos><sentpos>133/98</sentpos></term>
+<term><ttype>Noun</ttype><tname>класифікація</tname><wcount>1</wcount><osn>класифікаці</osn><sentpos>30/6</sentpos><sentpos>30/29</sentpos><sentpos>232/3</sentpos><sentpos>233/3</sentpos><relup>228</relup></term>
+<term><ttype>Adj_noun</ttype><tname>міжнародна класифікація</tname><wcount>2</wcount><osn>міжнародн</osn><osn>класифікаці</osn><sentpos>30/5</sentpos><sentpos>30/6</sentpos><sentpos>30/28</sentpos><sentpos>30/29</sentpos><sentpos>232/2</sentpos><sentpos>232/3</sentpos><sentpos>233/2</sentpos><sentpos>233/3</sentpos><reldown>227</reldown></term>
+<term><ttype>Noun_noun</ttype><tname>порушення життєдіяльності</tname><wcount>2</wcount><osn>порушен</osn><osn>життєдіяльн</osn><sentpos>30/7</sentpos><sentpos>30/10</sentpos><sentpos>232/4</sentpos><sentpos>232/7</sentpos><reldown>59</reldown><reldown>72</reldown></term>
+<term><ttype>Noun</ttype><tname>недостатність</tname><wcount>1</wcount><osn>недостатн</osn><sentpos>30/13</sentpos><sentpos>232/10</sentpos><relup>231</relup></term>
+<term><ttype>Adj_noun</ttype><tname>соціальна недостатність</tname><wcount>2</wcount><osn>соціальн</osn><osn>недостатн</osn><sentpos>30/12</sentpos><sentpos>30/13</sentpos><sentpos>232/9</sentpos><sentpos>232/10</sentpos><reldown>230</reldown></term>
+<term><ttype>Abbr</ttype><tname>МКП</tname><wcount>1</wcount><osn>МКП</osn><sentpos>30/15</sentpos><sentpos>232/12</sentpos></term>
+<term><ttype>Noun_noun</ttype><tname>функціонування життєдіяльності</tname><wcount>2</wcount><osn>функціонуванн</osn><osn>життєдіяльн</osn><sentpos>30/30</sentpos><sentpos>30/33</sentpos><sentpos>42/11</sentpos><sentpos>42/16</sentpos><sentpos>233/4</sentpos><sentpos>233/7</sentpos><reldown>37</reldown><reldown>72</reldown></term>
+<term><ttype>Abbr</ttype><tname>МКФ</tname><wcount>1</wcount><osn>МКФ</osn><sentpos>30/37</sentpos><sentpos>33/6</sentpos><sentpos>38/84</sentpos><sentpos>51/11</sentpos><sentpos>76/54</sentpos><sentpos>233/11</sentpos></term>
+<term><ttype>Noun</ttype><tname>час</tname><wcount>1</wcount><osn>час</osn><sentpos>31/4</sentpos><sentpos>47/51</sentpos><sentpos>47/57</sentpos><sentpos>117/6</sentpos><sentpos>126/15</sentpos><sentpos>133/120</sentpos><sentpos>134/11</sentpos><sentpos>237/49</sentpos><sentpos>237/65</sentpos><relup>316</relup><relup>536</relup><relup>565</relup></term>
+<term><ttype>Noun</ttype><tname>терапія</tname><wcount>1</wcount><osn>терапі</osn><sentpos>31/14</sentpos><sentpos>89/14</sentpos><sentpos>89/21</sentpos><sentpos>89/24</sentpos><sentpos>97/57</sentpos><relup>446</relup></term>
+<term><ttype>Noun</ttype><tname>ядро</tname><wcount>1</wcount><osn>яд</osn><sentpos>32/10</sentpos><sentpos>81/10</sentpos></term>
+<term><ttype>Noun</ttype><tname>людська</tname><wcount>1</wcount><osn>людськ</osn><sentpos>32/23</sentpos></term>
+<term><ttype>Noun</ttype><tname>істота</tname><wcount>1</wcount><osn>істот</osn><sentpos>32/24</sentpos></term>
+<term><ttype>Noun</ttype><tname>психологія</tname><wcount>1</wcount><osn>психологі</osn><sentpos>32/30</sentpos></term>
+<term><ttype>Noun</ttype><tname>мотивація</tname><wcount>1</wcount><osn>мотиваці</osn><sentpos>32/32</sentpos></term>
+<term><ttype>Noun</ttype><tname>фактори</tname><wcount>1</wcount><osn>фактор</osn><sentpos>32/38</sentpos><sentpos>32/52</sentpos><sentpos>37/26</sentpos><sentpos>38/75</sentpos><sentpos>38/114</sentpos><sentpos>40/48</sentpos><sentpos>56/28</sentpos><sentpos>56/30</sentpos><sentpos>60/10</sentpos><sentpos>60/12</sentpos><sentpos>87/19</sentpos><sentpos>87/21</sentpos><sentpos>90/27</sentpos><sentpos>90/31</sentpos><sentpos>118/3</sentpos><sentpos>134/68</sentpos><sentpos>135/4</sentpos><sentpos>136/2</sentpos><sentpos>136/19</sentpos><sentpos>238/31</sentpos><relup>243</relup><relup>258</relup><relup>572</relup></term>
+<term><ttype>Adj_noun</ttype><tname>особисті фактори</tname><wcount>2</wcount><osn>особист</osn><osn>фактор</osn><sentpos>32/37</sentpos><sentpos>32/38</sentpos><sentpos>60/9</sentpos><sentpos>60/10</sentpos><sentpos>87/18</sentpos><sentpos>87/19</sentpos><sentpos>90/30</sentpos><sentpos>90/31</sentpos><reldown>242</reldown></term>
+<term><ttype>Noun</ttype><tname>середовище</tname><wcount>1</wcount><osn>середовищ</osn><sentpos>32/43</sentpos><sentpos>32/53</sentpos><sentpos>38/115</sentpos><sentpos>56/31</sentpos><sentpos>60/13</sentpos><sentpos>87/22</sentpos><sentpos>90/28</sentpos><sentpos>136/20</sentpos><sentpos>136/58</sentpos><sentpos>238/39</sentpos></term>
+<term><ttype>Adj_noun</ttype><tname>фактична система</tname><wcount>2</wcount><osn>фактичн</osn><osn>систем</osn><sentpos>33/1</sentpos><sentpos>33/3</sentpos><relup>247</relup><reldown>73</reldown></term>
+<term><ttype>Adj_noun</ttype><tname>довідкова система</tname><wcount>2</wcount><osn>довідков</osn><osn>систем</osn><sentpos>33/2</sentpos><sentpos>33/3</sentpos><relup>247</relup><reldown>73</reldown></term>
+<term><ttype>Adj_adj_noun</ttype><tname>фактична довідкова система</tname><wcount>3</wcount><osn>фактичн</osn><osn>довідков</osn><osn>систем</osn><sentpos>33/1</sentpos><sentpos>33/2</sentpos><sentpos>33/3</sentpos><reldown>245</reldown><reldown>246</reldown></term>
+<term><ttype>Noun</ttype><tname>аспекти</tname><wcount>1</wcount><osn>аспект</osn><sentpos>33/11</sentpos><sentpos>38/44</sentpos><sentpos>76/85</sentpos></term>
+<term><ttype>Noun</ttype><tname>схема</tname><wcount>1</wcount><osn>схем</osn><sentpos>34/5</sentpos></term>
+<term><ttype>Noun</ttype><tname>порівняння</tname><wcount>1</wcount><osn>порівнянн</osn><sentpos>34/27</sentpos></term>
+<term><ttype>Noun</ttype><tname>ціле</tname><wcount>1</wcount><osn>ціл</osn><sentpos>36/5</sentpos><sentpos>38/61</sentpos><sentpos>58/14</sentpos><sentpos>70/19</sentpos><sentpos>100/16</sentpos><sentpos>112/13</sentpos><sentpos>112/28</sentpos><sentpos>237/22</sentpos><sentpos>239/2</sentpos></term>
+<term><ttype>Noun</ttype><tname>робота</tname><wcount>1</wcount><osn>роб</osn><sentpos>36/20</sentpos><sentpos>97/61</sentpos><sentpos>101/5</sentpos><sentpos>102/18</sentpos><sentpos>111/22</sentpos><sentpos>114/9</sentpos><sentpos>124/38</sentpos><sentpos>131/6</sentpos><sentpos>133/2</sentpos><sentpos>134/20</sentpos><sentpos>135/17</sentpos><sentpos>135/30</sentpos><sentpos>136/48</sentpos><sentpos>237/27</sentpos><relup>253</relup><relup>467</relup><relup>477</relup><relup>530</relup><relup>555</relup></term>
+<term><ttype>Adj_noun</ttype><tname>клінічна робота</tname><wcount>2</wcount><osn>клінічн</osn><osn>роб</osn><sentpos>36/19</sentpos><sentpos>36/20</sentpos><sentpos>134/19</sentpos><sentpos>134/20</sentpos><relup>567</relup><reldown>252</reldown></term>
+<term><ttype>Noun_noun</ttype><tname>обмеження активності</tname><wcount>2</wcount><osn>обмежен</osn><osn>активн</osn><sentpos>36/31</sentpos><sentpos>36/32</sentpos><sentpos>55/11</sentpos><sentpos>55/12</sentpos><sentpos>65/28</sentpos><sentpos>65/29</sentpos><sentpos>70/8</sentpos><sentpos>70/9</sentpos><sentpos>80/26</sentpos><sentpos>80/27</sentpos><sentpos>81/4</sentpos><sentpos>81/5</sentpos><sentpos>90/20</sentpos><sentpos>90/21</sentpos><sentpos>237/37</sentpos><sentpos>237/38</sentpos><reldown>60</reldown><reldown>61</reldown></term>
+<term><ttype>Noun_noun</ttype><tname>обмеження участі</tname><wcount>2</wcount><osn>обмежен</osn><osn>участ</osn><sentpos>36/45</sentpos><sentpos>36/46</sentpos><sentpos>81/4</sentpos><sentpos>81/8</sentpos><sentpos>237/53</sentpos><sentpos>237/54</sentpos><reldown>60</reldown><reldown>62</reldown></term>
+<term><ttype>Noun</ttype><tname>мікрорівні</tname><wcount>1</wcount><osn>мікрорів</osn><sentpos>36/49</sentpos></term>
+<term><ttype>Adj_noun</ttype><tname>медичний діагноз</tname><wcount>2</wcount><osn>медичн</osn><osn>діагноз</osn><sentpos>37/8</sentpos><sentpos>37/9</sentpos><sentpos>55/3</sentpos><sentpos>55/4</sentpos><sentpos>56/4</sentpos><sentpos>56/5</sentpos><sentpos>57/3</sentpos><sentpos>57/4</sentpos><sentpos>58/1</sentpos><sentpos>58/2</sentpos><sentpos>65/13</sentpos><sentpos>65/14</sentpos><sentpos>67/13</sentpos><sentpos>67/14</sentpos><sentpos>69/3</sentpos><sentpos>69/4</sentpos><sentpos>238/13</sentpos><sentpos>238/14</sentpos><reldown>109</reldown></term>
+<term><ttype>Adj_noun</ttype><tname>контекстуальні фактори</tname><wcount>2</wcount><osn>контекстуальн</osn><osn>фактор</osn><sentpos>37/25</sentpos><sentpos>37/26</sentpos><sentpos>38/74</sentpos><sentpos>38/75</sentpos><sentpos>238/30</sentpos><sentpos>238/31</sentpos><reldown>242</reldown></term>
+<term><ttype>Adj_noun</ttype><tname>кінцева мета</tname><wcount>2</wcount><osn>кінцев</osn><osn>мет</osn><sentpos>38/1</sentpos><sentpos>38/2</sentpos><reldown>146</reldown></term>
+<term><ttype>Noun</ttype><tname>позиції</tname><wcount>1</wcount><osn>позиці</osn><sentpos>38/13</sentpos></term>
+<term><ttype>Noun</ttype><tname>патологія</tname><wcount>1</wcount><osn>патологі</osn><sentpos>38/32</sentpos><sentpos>45/54</sentpos><sentpos>92/44</sentpos></term>
+<term><ttype>Noun_noun</ttype><tname>підхід до</tname><wcount>2</wcount><osn>підх</osn><osn>до</osn><sentpos>38/37</sentpos><sentpos>38/38</sentpos><reldown>46</reldown><reldown>199</reldown></term>
+<term><ttype>Noun</ttype><tname>врахування</tname><wcount>1</wcount><osn>врахуванн</osn><sentpos>38/42</sentpos><sentpos>38/73</sentpos></term>
+<term><ttype>Noun</ttype><tname>вплив</tname><wcount>1</wcount><osn>вплив</osn><sentpos>38/64</sentpos><sentpos>49/28</sentpos><sentpos>91/5</sentpos><sentpos>93/14</sentpos><sentpos>96/28</sentpos><relup>322</relup><relup>451</relup></term>
+<term><ttype>Noun</ttype><tname>планування</tname><wcount>1</wcount><osn>плануван</osn><sentpos>38/78</sentpos><sentpos>128/3</sentpos><relup>543</relup></term>
+<term><ttype>Noun</ttype><tname>програма</tname><wcount>1</wcount><osn>програм</osn><sentpos>38/80</sentpos><sentpos>38/169</sentpos><sentpos>57/11</sentpos><sentpos>70/20</sentpos><sentpos>109/19</sentpos></term>
+<term><ttype>Noun</ttype><tname>значення</tname><wcount>1</wcount><osn>значенн</osn><sentpos>38/135</sentpos><sentpos>71/10</sentpos></term>
+<term><ttype>Noun</ttype><tname>результат</tname><wcount>1</wcount><osn>результат</osn><sentpos>38/137</sentpos><sentpos>38/160</sentpos><sentpos>56/22</sentpos><sentpos>60/19</sentpos><sentpos>71/29</sentpos><sentpos>94/35</sentpos><sentpos>96/11</sentpos><sentpos>102/13</sentpos><sentpos>102/17</sentpos><sentpos>114/15</sentpos><relup>474</relup><relup>477</relup><relup>509</relup></term>
+<term><ttype>Noun</ttype><tname>надання</tname><wcount>1</wcount><osn>наданн</osn><sentpos>39/1</sentpos><sentpos>91/7</sentpos><relup>270</relup></term>
+<term><ttype>Noun_noun</ttype><tname>надання послуг</tname><wcount>2</wcount><osn>наданн</osn><osn>послу</osn><sentpos>39/1</sentpos><sentpos>39/2</sentpos><reldown>269</reldown><reldown>271</reldown></term>
+<term><ttype>Noun</ttype><tname>послуги</tname><wcount>1</wcount><osn>послу</osn><sentpos>39/2</sentpos><sentpos>39/16</sentpos><sentpos>91/8</sentpos><relup>270</relup></term>
+<term><ttype>Adj_noun</ttype><tname>оптимальне лікування</tname><wcount>2</wcount><osn>оптимальн</osn><osn>лікуванн</osn><sentpos>40/7</sentpos><sentpos>40/8</sentpos><reldown>39</reldown></term>
+<term><ttype>Noun</ttype><tname>ускладнення</tname><wcount>1</wcount><osn>ускладнен</osn><sentpos>40/12</sentpos></term>
+<term><ttype>Adj_noun</ttype><tname>супутні стани</tname><wcount>2</wcount><osn>супутн</osn><osn>стан</osn><sentpos>40/14</sentpos><sentpos>40/15</sentpos><reldown>55</reldown></term>
+<term><ttype>Noun</ttype><tname>погіршення</tname><wcount>1</wcount><osn>погіршен</osn><sentpos>40/18</sentpos><sentpos>62/9</sentpos><relup>353</relup></term>
+<term><ttype>Noun</ttype><tname>прогноз</tname><wcount>1</wcount><osn>прогноз</osn><sentpos>40/25</sentpos><sentpos>53/11</sentpos><relup>333</relup></term>
+<term><ttype>Noun</ttype><tname>обговорення</tname><wcount>1</wcount><osn>обговорен</osn><sentpos>40/30</sentpos></term>
+<term><ttype>Noun</ttype><tname>кінець</tname><wcount>1</wcount><osn>кін</osn><sentpos>40/32</sentpos></term>
+<term><ttype>Noun</ttype><tname>життя</tname><wcount>1</wcount><osn>житт</osn><sentpos>40/33</sentpos><sentpos>76/30</sentpos></term>
+<term><ttype>Noun</ttype><tname>рівня</tname><wcount>1</wcount><osn>рівн</osn><sentpos>40/50</sentpos><sentpos>70/13</sentpos></term>
+<term><ttype>Noun</ttype><tname>холізм</tname><wcount>1</wcount><osn>холізм</osn><sentpos>41/13</sentpos><sentpos>43/7</sentpos></term>
+<term><ttype>Noun</ttype><tname>ствердження</tname><wcount>1</wcount><osn>ствердженн</osn><sentpos>41/17</sentpos></term>
+<term><ttype>Noun</ttype><tname>термін</tname><wcount>1</wcount><osn>термін</osn><sentpos>43/5</sentpos><sentpos>73/24</sentpos><sentpos>103/9</sentpos><sentpos>111/13</sentpos><relup>389</relup></term>
+<term><ttype>Noun</ttype><tname>практики</tname><wcount>1</wcount><osn>практик</osn><sentpos>43/17</sentpos></term>
+<term><ttype>Noun</ttype><tname>обґрунтування</tname><wcount>1</wcount><osn>обґрунтуван</osn><sentpos>43/24</sentpos></term>
+<term><ttype>Noun</ttype><tname>методи</tname><wcount>1</wcount><osn>метод</osn><sentpos>43/27</sentpos><sentpos>63/15</sentpos><relup>287</relup><relup>356</relup></term>
+<term><ttype>Adj_noun</ttype><tname>недоведені методи</tname><wcount>2</wcount><osn>недоведен</osn><osn>метод</osn><sentpos>43/26</sentpos><sentpos>43/27</sentpos><reldown>286</reldown></term>
+<term><ttype>Noun</ttype><tname>докази</tname><wcount>1</wcount><osn>доказ</osn><sentpos>43/40</sentpos><sentpos>114/1</sentpos></term>
+<term><ttype>Noun</ttype><tname>характеристики</tname><wcount>1</wcount><osn>характеристи</osn><sentpos>44/4</sentpos><sentpos>82/13</sentpos><sentpos>126/3</sentpos><relup>420</relup><relup>534</relup></term>
+<term><ttype>Noun</ttype><tname>варіанти</tname><wcount>1</wcount><osn>варіант</osn><sentpos>44/35</sentpos><relup>291</relup></term>
+<term><ttype>Adj_noun</ttype><tname>можливі варіанти</tname><wcount>2</wcount><osn>можлив</osn><osn>варіант</osn><sentpos>44/34</sentpos><sentpos>44/35</sentpos><reldown>290</reldown></term>
+<term><ttype>Adj_noun</ttype><tname>клінічні підходи</tname><wcount>2</wcount><osn>клінічн</osn><osn>підх</osn><sentpos>44/36</sentpos><sentpos>44/37</sentpos><reldown>46</reldown></term>
+<term><ttype>Noun</ttype><tname>огляд</tname><wcount>1</wcount><osn>огляд</osn><sentpos>45/7</sentpos></term>
+<term><ttype>Noun</ttype><tname>крайнощі</tname><wcount>1</wcount><osn>крайнощ</osn><sentpos>45/11</sentpos><sentpos>50/4</sentpos><sentpos>50/21</sentpos></term>
+<term><ttype>Adj_noun</ttype><tname>загальний лікар</tname><wcount>2</wcount><osn>загальн</osn><osn>лікар</osn><sentpos>45/14</sentpos><sentpos>45/15</sentpos><reldown>29</reldown></term>
+<term><ttype>Noun</ttype><tname>аналогія</tname><wcount>1</wcount><osn>аналогі</osn><sentpos>45/20</sentpos></term>
+<term><ttype>Noun</ttype><tname>практика</tname><wcount>1</wcount><osn>практи</osn><sentpos>45/25</sentpos><sentpos>46/13</sentpos><sentpos>50/7</sentpos><sentpos>107/7</sentpos><sentpos>136/14</sentpos><relup>298</relup><relup>489</relup><relup>579</relup></term>
+<term><ttype>Adj_noun</ttype><tname>загальна практика</tname><wcount>2</wcount><osn>загальн</osn><osn>практи</osn><sentpos>45/24</sentpos><sentpos>45/25</sentpos><reldown>297</reldown></term>
+<term><ttype>Noun</ttype><tname>добро</tname><wcount>1</wcount><osn>добр</osn><sentpos>45/33</sentpos></term>
+<term><ttype>Noun</ttype><tname>віни</tname><wcount>1</wcount><osn>він</osn><sentpos>45/44</sentpos></term>
+<term><ttype>Noun</ttype><tname>відділення</tname><wcount>1</wcount><osn>відділен</osn><sentpos>46/8</sentpos><sentpos>46/16</sentpos><sentpos>48/6</sentpos><sentpos>48/10</sentpos><sentpos>64/9</sentpos><sentpos>86/2</sentpos><sentpos>95/20</sentpos><sentpos>95/34</sentpos><sentpos>109/37</sentpos><sentpos>116/2</sentpos><sentpos>119/6</sentpos><sentpos>119/10</sentpos><sentpos>120/10</sentpos><sentpos>122/9</sentpos><sentpos>136/30</sentpos><relup>523</relup><relup>581</relup></term>
+<term><ttype>Adj_noun</ttype><tname>первинна допомога</tname><wcount>2</wcount><osn>первинн</osn><osn>допомо</osn><sentpos>46/19</sentpos><sentpos>46/21</sentpos><relup>304</relup><reldown>69</reldown></term>
+<term><ttype>Adj_noun</ttype><tname>реабілітаційна допомога</tname><wcount>2</wcount><osn>реабілітаційн</osn><osn>допомо</osn><sentpos>46/20</sentpos><sentpos>46/21</sentpos><relup>304</relup><reldown>69</reldown></term>
+<term><ttype>Adj_adj_noun</ttype><tname>первинна реабілітаційна допомога</tname><wcount>3</wcount><osn>первинн</osn><osn>реабілітаційн</osn><osn>допомо</osn><sentpos>46/19</sentpos><sentpos>46/20</sentpos><sentpos>46/21</sentpos><reldown>302</reldown><reldown>303</reldown></term>
+<term><ttype>Noun</ttype><tname>перевага</tname><wcount>1</wcount><osn>перева</osn><sentpos>47/1</sentpos><sentpos>49/1</sentpos></term>
+<term><ttype>Noun</ttype><tname>можливість</tname><wcount>1</wcount><osn>можлив</osn><sentpos>47/6</sentpos><sentpos>47/29</sentpos><sentpos>50/11</sentpos><sentpos>55/21</sentpos><sentpos>80/30</sentpos><sentpos>87/13</sentpos><sentpos>90/24</sentpos><relup>340</relup><relup>449</relup></term>
+<term><ttype>Noun</ttype><tname>якості</tname><wcount>1</wcount><osn>як</osn><sentpos>47/9</sentpos><sentpos>76/29</sentpos></term>
+<term><ttype>Noun</ttype><tname>сортування</tname><wcount>1</wcount><osn>сортуванн</osn><sentpos>47/31</sentpos></term>
+<term><ttype>Noun</ttype><tname>скерування</tname><wcount>1</wcount><osn>скеруванн</osn><sentpos>47/34</sentpos><sentpos>63/20</sentpos></term>
+<term><ttype>Adj_noun</ttype><tname>складні пацієнти</tname><wcount>2</wcount><osn>складн</osn><osn>пацієнт</osn><sentpos>47/36</sentpos><sentpos>47/37</sentpos><sentpos>130/21</sentpos><sentpos>130/22</sentpos><reldown>63</reldown></term>
+<term><ttype>Adj_noun</ttype><tname>третинна допомога</tname><wcount>2</wcount><osn>третинн</osn><osn>допомо</osn><sentpos>47/41</sentpos><sentpos>47/42</sentpos><reldown>69</reldown></term>
+<term><ttype>Noun</ttype><tname>недолік</tname><wcount>1</wcount><osn>недолік</osn><sentpos>47/44</sentpos><sentpos>49/35</sentpos></term>
+<term><ttype>Noun</ttype><tname>втрата</tname><wcount>1</wcount><osn>втрат</osn><sentpos>47/47</sentpos><sentpos>47/64</sentpos><relup>314</relup></term>
+<term><ttype>Adj_noun</ttype><tname>можлива втрата</tname><wcount>2</wcount><osn>можлив</osn><osn>втрат</osn><sentpos>47/46</sentpos><sentpos>47/47</sentpos><reldown>313</reldown></term>
+<term><ttype>Noun</ttype><tname>специфічність</tname><wcount>1</wcount><osn>специфічн</osn><sentpos>47/48</sentpos><sentpos>49/7</sentpos></term>
+<term><ttype>Adj_noun</ttype><tname>великий час</tname><wcount>2</wcount><osn>велик</osn><osn>час</osn><sentpos>47/50</sentpos><sentpos>47/51</sentpos><reldown>235</reldown></term>
+<term><ttype>Noun</ttype><tname>компетентність</tname><wcount>1</wcount><osn>компетентн</osn><sentpos>47/97</sentpos><sentpos>71/7</sentpos><sentpos>134/41</sentpos></term>
+<term><ttype>Noun</ttype><tname>діагностика</tname><wcount>1</wcount><osn>діагности</osn><sentpos>47/104</sentpos><sentpos>63/24</sentpos><sentpos>85/1</sentpos><sentpos>86/18</sentpos><relup>357</relup><relup>432</relup></term>
+<term><ttype>Adj_noun</ttype><tname>університетські заклади</tname><wcount>2</wcount><osn>університетськ</osn><osn>заклад</osn><sentpos>48/14</sentpos><sentpos>48/15</sentpos><reldown>68</reldown></term>
+<term><ttype>Noun</ttype><tname>легкість</tname><wcount>1</wcount><osn>легк</osn><sentpos>49/10</sentpos></term>
+<term><ttype>Noun</ttype><tname>контакти</tname><wcount>1</wcount><osn>контакт</osn><sentpos>49/11</sentpos><sentpos>127/45</sentpos><relup>542</relup></term>
+<term><ttype>Adj_noun</ttype><tname>конкретний вплив</tname><wcount>2</wcount><osn>конкретн</osn><osn>вплив</osn><sentpos>49/27</sentpos><sentpos>49/28</sentpos><reldown>264</reldown></term>
+<term><ttype>Noun</ttype><tname>зосередженість</tname><wcount>1</wcount><osn>зосереджен</osn><sentpos>49/37</sentpos><sentpos>87/5</sentpos></term>
+<term><ttype>Noun</ttype><tname>підготовка</tname><wcount>1</wcount><osn>підготов</osn><sentpos>50/17</sentpos></term>
+<term><ttype>Noun</ttype><tname>ситуація</tname><wcount>1</wcount><osn>ситуаці</osn><sentpos>50/29</sentpos><sentpos>62/4</sentpos><sentpos>64/4</sentpos><sentpos>65/3</sentpos><sentpos>129/7</sentpos><sentpos>131/2</sentpos></term>
+<term><ttype>Adj_noun</ttype><tname>діагностичні обов'язки</tname><wcount>2</wcount><osn>діагностичн</osn><osn>обов'яз</osn><sentpos>51/1</sentpos><sentpos>51/2</sentpos><reldown>41</reldown></term>
+<term><ttype>Noun</ttype><tname>стратегія</tname><wcount>1</wcount><osn>стратегі</osn><sentpos>51/15</sentpos><sentpos>106/23</sentpos><sentpos>112/32</sentpos><sentpos>130/51</sentpos><relup>504</relup></term>
+<term><ttype>Noun</ttype><tname>уможливлення</tname><wcount>1</wcount><osn>уможливленн</osn><sentpos>51/22</sentpos></term>
+<term><ttype>Adj_noun</ttype><tname>оптимальне функціонування</tname><wcount>2</wcount><osn>оптимальн</osn><osn>функціонуванн</osn><sentpos>51/28</sentpos><sentpos>51/29</sentpos><sentpos>76/73</sentpos><sentpos>76/74</sentpos><reldown>37</reldown></term>
+<term><ttype>Noun</ttype><tname>взаємодія</tname><wcount>1</wcount><osn>взаємоді</osn><sentpos>51/32</sentpos><sentpos>74/23</sentpos><sentpos>103/36</sentpos><relup>398</relup></term>
+<term><ttype>Noun</ttype><tname>рахунок</tname><wcount>1</wcount><osn>рахун</osn><sentpos>52/6</sentpos></term>
+<term><ttype>Noun</ttype><tname>межі</tname><wcount>1</wcount><osn>меж</osn><sentpos>53/4</sentpos><sentpos>66/16</sentpos><sentpos>107/5</sentpos><relup>488</relup></term>
+<term><ttype>Adj_noun</ttype><tname>медичний прогноз</tname><wcount>2</wcount><osn>медичн</osn><osn>прогноз</osn><sentpos>53/10</sentpos><sentpos>53/11</sentpos><reldown>276</reldown></term>
+<term><ttype>Noun</ttype><tname>очікування</tname><wcount>1</wcount><osn>очікуван</osn><sentpos>53/17</sentpos></term>
+<term><ttype>Noun</ttype><tname>компоненти</tname><wcount>1</wcount><osn>компонент</osn><sentpos>54/14</sentpos></term>
+<term><ttype>Noun</ttype><tname>прогри</tname><wcount>1</wcount><osn>прог</osn><sentpos>54/15</sentpos></term>
+<term><ttype>Noun</ttype><tname>ряд</tname><wcount>1</wcount><osn>ряд</osn><sentpos>55/6</sentpos></term>
+<term><ttype>Noun_noun</ttype><tname>порушення активності</tname><wcount>2</wcount><osn>порушен</osn><osn>активн</osn><sentpos>55/9</sentpos><sentpos>55/12</sentpos><sentpos>65/26</sentpos><sentpos>65/29</sentpos><sentpos>70/6</sentpos><sentpos>70/9</sentpos><sentpos>90/18</sentpos><sentpos>90/21</sentpos><reldown>59</reldown><reldown>61</reldown></term>
+<term><ttype>Noun</ttype><tname>міра</tname><wcount>1</wcount><osn>мір</osn><sentpos>55/18</sentpos></term>
+<term><ttype>Noun_noun</ttype><tname>обмеження можливості</tname><wcount>2</wcount><osn>обмежен</osn><osn>можлив</osn><sentpos>55/20</sentpos><sentpos>55/21</sentpos><sentpos>80/29</sentpos><sentpos>80/30</sentpos><sentpos>80/26</sentpos><sentpos>80/30</sentpos><sentpos>90/23</sentpos><sentpos>90/24</sentpos><sentpos>90/20</sentpos><sentpos>90/24</sentpos><reldown>60</reldown><reldown>306</reldown></term>
+<term><ttype>Noun</ttype><tname>без</tname><wcount>1</wcount><osn>без</osn><sentpos>57/1</sentpos></term>
+<term><ttype>Adj_noun</ttype><tname>належний чин</tname><wcount>2</wcount><osn>належн</osn><osn>чин</osn><sentpos>57/8</sentpos><sentpos>57/9</sentpos><reldown>170</reldown></term>
+<term><ttype>Noun</ttype><tname>стиль</tname><wcount>1</wcount><osn>стил</osn><sentpos>58/5</sentpos><sentpos>101/2</sentpos></term>
+<term><ttype>Noun</ttype><tname>спілкування</tname><wcount>1</wcount><osn>спілкуванн</osn><sentpos>58/6</sentpos><sentpos>106/13</sentpos></term>
+<term><ttype>Noun</ttype><tname>домовленості</tname><wcount>1</wcount><osn>домовлен</osn><sentpos>58/10</sentpos></term>
+<term><ttype>Noun</ttype><tname>родина</tname><wcount>1</wcount><osn>родин</osn><sentpos>59/10</sentpos><sentpos>100/22</sentpos><sentpos>112/19</sentpos></term>
+<term><ttype>Noun</ttype><tname>статус</tname><wcount>1</wcount><osn>статус</osn><sentpos>59/19</sentpos></term>
+<term><ttype>Noun</ttype><tname>встановлення</tname><wcount>1</wcount><osn>встановленн</osn><sentpos>60/16</sentpos></term>
+<term><ttype>Adj_noun</ttype><tname>реабілітаційний процес</tname><wcount>2</wcount><osn>реабілітаційн</osn><osn>процес</osn><sentpos>60/20</sentpos><sentpos>60/21</sentpos><reldown>74</reldown></term>
+<term><ttype>Noun</ttype><tname>велик</tname><wcount>1</wcount><osn>велик</osn><sentpos>61/6</sentpos></term>
+<term><ttype>Noun</ttype><tname>відповідальність</tname><wcount>1</wcount><osn>відповідальн</osn><sentpos>61/9</sentpos><sentpos>69/10</sentpos><sentpos>75/8</sentpos><sentpos>112/4</sentpos><sentpos>116/20</sentpos><sentpos>125/16</sentpos><sentpos>133/92</sentpos></term>
+<term><ttype>Noun</ttype><tname>коли</tname><wcount>1</wcount><osn>кол</osn><sentpos>62/8</sentpos><sentpos>98/5</sentpos><sentpos>124/17</sentpos><relup>353</relup></term>
+<term><ttype>Noun_noun</ttype><tname>коли погіршення</tname><wcount>2</wcount><osn>кол</osn><osn>погіршен</osn><sentpos>62/8</sentpos><sentpos>62/9</sentpos><reldown>275</reldown><reldown>352</reldown></term>
+<term><ttype>Noun</ttype><tname>працівник</tname><wcount>1</wcount><osn>працівник</osn><sentpos>62/36</sentpos></term>
+<term><ttype>Noun</ttype><tname>оцінювання</tname><wcount>1</wcount><osn>оцінюванн</osn><sentpos>63/10</sentpos><sentpos>66/10</sentpos><sentpos>69/13</sentpos><sentpos>72/3</sentpos><sentpos>74/5</sentpos><sentpos>75/11</sentpos><sentpos>85/3</sentpos><sentpos>126/17</sentpos><relup>384</relup></term>
+<term><ttype>Adj_noun</ttype><tname>альтернативні методи</tname><wcount>2</wcount><osn>альтернативн</osn><osn>метод</osn><sentpos>63/14</sentpos><sentpos>63/15</sentpos><reldown>286</reldown></term>
+<term><ttype>Adj_noun</ttype><tname>специфічна діагностика</tname><wcount>2</wcount><osn>специфічн</osn><osn>діагности</osn><sentpos>63/23</sentpos><sentpos>63/24</sentpos><reldown>318</reldown></term>
+<term><ttype>Adj_noun</ttype><tname>підгостра допомога</tname><wcount>2</wcount><osn>підгостр</osn><osn>допомо</osn><sentpos>64/10</sentpos><sentpos>64/11</sentpos><sentpos>116/9</sentpos><sentpos>116/10</sentpos><reldown>69</reldown></term>
+<term><ttype>Noun</ttype><tname>долучення</tname><wcount>1</wcount><osn>долучен</osn><sentpos>64/17</sentpos></term>
+<term><ttype>Noun</ttype><tname>перевірка</tname><wcount>1</wcount><osn>перевір</osn><sentpos>65/9</sentpos></term>
+<term><ttype>Noun</ttype><tname>підтвердження</tname><wcount>1</wcount><osn>підтверджен</osn><sentpos>65/11</sentpos></term>
+<term><ttype>Noun</ttype><tname>виявлення</tname><wcount>1</wcount><osn>виявленн</osn><sentpos>65/17</sentpos><sentpos>71/9</sentpos></term>
+<term><ttype>Noun</ttype><tname>спостереження</tname><wcount>1</wcount><osn>спостережен</osn><sentpos>67/2</sentpos><relup>364</relup><relup>365</relup></term>
+<term><ttype>Noun_noun</ttype><tname>спостереження пацієнта</tname><wcount>2</wcount><osn>спостережен</osn><osn>пацієнт</osn><sentpos>67/2</sentpos><sentpos>67/3</sentpos><relup>366</relup><reldown>63</reldown><reldown>363</reldown></term>
+<term><ttype>Adj_noun</ttype><tname>подальше спостереження</tname><wcount>2</wcount><osn>подальш</osn><osn>спостережен</osn><sentpos>67/1</sentpos><sentpos>67/2</sentpos><relup>366</relup><reldown>363</reldown></term>
+<term><ttype>adj_noun_noun</ttype><tname>подальше спостереження пацієнта</tname><wcount>3</wcount><osn>подальш</osn><osn>спостережен</osn><osn>пацієнт</osn><sentpos>67/1</sentpos><sentpos>67/2</sentpos><sentpos>67/3</sentpos><reldown>364</reldown><reldown>365</reldown></term>
+<term><ttype>Noun</ttype><tname>кіл</tname><wcount>1</wcount><osn>к</osn><sentpos>67/16</sentpos><sentpos>85/16</sentpos><sentpos>88/14</sentpos><relup>444</relup></term>
+<term><ttype>Noun</ttype><tname>том</tname><wcount>1</wcount><osn>том</osn><sentpos>68/8</sentpos><sentpos>86/12</sentpos></term>
+<term><ttype>Adj_noun</ttype><tname>достовірний діагноз</tname><wcount>2</wcount><osn>достовірн</osn><osn>діагноз</osn><sentpos>68/16</sentpos><sentpos>68/17</sentpos><reldown>109</reldown></term>
+<term><ttype>Noun</ttype><tname>далі</tname><wcount>1</wcount><osn>дал</osn><sentpos>68/29</sentpos></term>
+<term><ttype>Abbr</ttype><tname>ex</tname><wcount>1</wcount><osn>ex</osn><sentpos>68/33</sentpos></term>
+<term><ttype>Abbr</ttype><tname>adjuvantіbus</tname><wcount>1</wcount><osn>adjuvantіbus</osn><sentpos>68/34</sentpos></term>
+<term><ttype>Noun</ttype><tname>перед</tname><wcount>1</wcount><osn>перед</osn><sentpos>69/15</sentpos></term>
+<term><ttype>Noun</ttype><tname>вимірювання</tname><wcount>1</wcount><osn>вимірюван</osn><sentpos>70/11</sentpos></term>
+<term><ttype>Adj_noun</ttype><tname>найкраща участь</tname><wcount>2</wcount><osn>найкращ</osn><osn>участ</osn><sentpos>70/24</sentpos><sentpos>70/26</sentpos><relup>377</relup><reldown>62</reldown></term>
+<term><ttype>Adj_noun</ttype><tname>індивідуальна участь</tname><wcount>2</wcount><osn>індивідуальн</osn><osn>участ</osn><sentpos>70/25</sentpos><sentpos>70/26</sentpos><relup>377</relup><reldown>62</reldown></term>
+<term><ttype>Adj_adj_noun</ttype><tname>найкраща індивідуальна участь</tname><wcount>3</wcount><osn>найкращ</osn><osn>індивідуальн</osn><osn>участ</osn><sentpos>70/24</sentpos><sentpos>70/25</sentpos><sentpos>70/26</sentpos><reldown>375</reldown><reldown>376</reldown></term>
+<term><ttype>Noun</ttype><tname>почуття</tname><wcount>1</wcount><osn>почутт</osn><sentpos>71/23</sentpos></term>
+<term><ttype>Noun</ttype><tname>ідентичність</tname><wcount>1</wcount><osn>ідентичн</osn><sentpos>71/25</sentpos><relup>380</relup></term>
+<term><ttype>Adj_noun</ttype><tname>персональна ідентичність</tname><wcount>2</wcount><osn>персональн</osn><osn>ідентичн</osn><sentpos>71/24</sentpos><sentpos>71/25</sentpos><relup>381</relup><reldown>379</reldown></term>
+<term><ttype>noun_adj_noun</ttype><tname>почуття персональної ідентичності</tname><wcount>3</wcount><osn>почутт</osn><osn>персональн</osn><osn>ідентичн</osn><sentpos>71/23</sentpos><sentpos>71/24</sentpos><sentpos>71/25</sentpos><reldown>380</reldown></term>
+<term><ttype>Noun</ttype><tname>реакція</tname><wcount>1</wcount><osn>реакці</osn><sentpos>71/31</sentpos><sentpos>126/26</sentpos><relup>383</relup></term>
+<term><ttype>Adj_noun</ttype><tname>емоційна реакція</tname><wcount>2</wcount><osn>емоційн</osn><osn>реакці</osn><sentpos>71/30</sentpos><sentpos>71/31</sentpos><reldown>382</reldown></term>
+<term><ttype>Adj_noun</ttype><tname>функціональне оцінювання</tname><wcount>2</wcount><osn>функціональн</osn><osn>оцінюванн</osn><sentpos>72/2</sentpos><sentpos>72/3</sentpos><sentpos>74/4</sentpos><sentpos>74/5</sentpos><relup>385</relup><reldown>355</reldown></term>
+<term><ttype>noun_adj_noun</ttype><tname>частини функціонального оцінювання</tname><wcount>3</wcount><osn>частин</osn><osn>функціональн</osn><osn>оцінюванн</osn><sentpos>72/1</sentpos><sentpos>72/2</sentpos><sentpos>72/3</sentpos><reldown>384</reldown></term>
+<term><ttype>Noun</ttype><tname>домени</tname><wcount>1</wcount><osn>домен</osn><sentpos>72/23</sentpos></term>
+<term><ttype>Noun</ttype><tname>співпраця</tname><wcount>1</wcount><osn>співпрац</osn><sentpos>73/16</sentpos><sentpos>106/11</sentpos></term>
+<term><ttype>Noun</ttype><tname>пріоритети</tname><wcount>1</wcount><osn>пріоритет</osn><sentpos>73/21</sentpos></term>
+<term><ttype>Adj_noun</ttype><tname>тимчасові терміни</tname><wcount>2</wcount><osn>тимчасов</osn><osn>термін</osn><sentpos>73/23</sentpos><sentpos>73/24</sentpos><reldown>283</reldown></term>
+<term><ttype>Noun</ttype><tname>перекриття</tname><wcount>1</wcount><osn>перекрит</osn><sentpos>74/9</sentpos><relup>391</relup></term>
+<term><ttype>Adj_noun</ttype><tname>часткове перекриття</tname><wcount>2</wcount><osn>частков</osn><osn>перекрит</osn><sentpos>74/8</sentpos><sentpos>74/9</sentpos><reldown>390</reldown></term>
+<term><ttype>Adj_noun</ttype><tname>різні фахівці</tname><wcount>2</wcount><osn>різн</osn><osn>фахів</osn><sentpos>74/11</sentpos><sentpos>74/12</sentpos><reldown>32</reldown></term>
+<term><ttype>Noun</ttype><tname>тло</tname><wcount>1</wcount><osn>тл</osn><sentpos>74/19</sentpos><relup>394</relup></term>
+<term><ttype>Adj_noun</ttype><tname>загальне тло</tname><wcount>2</wcount><osn>загальн</osn><osn>тл</osn><sentpos>74/18</sentpos><sentpos>74/19</sentpos><reldown>393</reldown></term>
+<term><ttype>Noun</ttype><tname>діалог</tname><wcount>1</wcount><osn>діало</osn><sentpos>74/21</sentpos></term>
+<term><ttype>Noun</ttype><tname>побудова</tname><wcount>1</wcount><osn>побудов</osn><sentpos>74/25</sentpos><sentpos>133/126</sentpos><relup>397</relup></term>
+<term><ttype>Noun_noun</ttype><tname>побудова команди</tname><wcount>2</wcount><osn>побудов</osn><osn>команд</osn><sentpos>74/25</sentpos><sentpos>74/26</sentpos><reldown>44</reldown><reldown>396</reldown></term>
+<term><ttype>Noun_noun</ttype><tname>взаємодія команди</tname><wcount>2</wcount><osn>взаємоді</osn><osn>команд</osn><sentpos>74/23</sentpos><sentpos>74/26</sentpos><reldown>44</reldown><reldown>330</reldown></term>
+<term><ttype>Noun</ttype><tname>плечі</tname><wcount>1</wcount><osn>пл</osn><sentpos>75/17</sentpos></term>
+<term><ttype>Adj_noun</ttype><tname>діагностичні інструменти</tname><wcount>2</wcount><osn>діагностичн</osn><osn>інструмент</osn><sentpos>76/7</sentpos><sentpos>76/8</sentpos><reldown>50</reldown></term>
+<term><ttype>Noun</ttype><tname>рамки</tname><wcount>1</wcount><osn>рам</osn><sentpos>76/19</sentpos></term>
+<term><ttype>Noun</ttype><tname>аналіз</tname><wcount>1</wcount><osn>аналіз</osn><sentpos>76/35</sentpos><sentpos>86/22</sentpos></term>
+<term><ttype>Noun</ttype><tname>рух</tname><wcount>1</wcount><osn>ру</osn><sentpos>76/36</sentpos><sentpos>106/29</sentpos></term>
+<term><ttype>Noun</ttype><tname>ультразвук</tname><wcount>1</wcount><osn>ультразвук</osn><sentpos>76/40</sentpos></term>
+<term><ttype>Noun</ttype><tname>розлади</tname><wcount>1</wcount><osn>розлад</osn><sentpos>77/13</sentpos></term>
+<term><ttype>Noun</ttype><tname>різка</tname><wcount>1</wcount><osn>різ</osn><sentpos>78/2</sentpos></term>
+<term><ttype>Noun</ttype><tname>нефрологія</tname><wcount>1</wcount><osn>нефрологі</osn><sentpos>78/23</sentpos></term>
+<term><ttype>Noun</ttype><tname>дерматологія</tname><wcount>1</wcount><osn>дерматологі</osn><sentpos>78/25</sentpos></term>
+<term><ttype>Noun</ttype><tname>групи</tname><wcount>1</wcount><osn>груп</osn><sentpos>78/30</sentpos><sentpos>133/45</sentpos></term>
+<term><ttype>Noun</ttype><tname>обладнання</tname><wcount>1</wcount><osn>обладнанн</osn><sentpos>78/46</sentpos><sentpos>87/29</sentpos></term>
+<term><ttype>Noun</ttype><tname>радіологія</tname><wcount>1</wcount><osn>радіологі</osn><sentpos>78/52</sentpos></term>
+<term><ttype>Noun</ttype><tname>радіотерапія</tname><wcount>1</wcount><osn>радіотерапі</osn><sentpos>78/54</sentpos></term>
+<term><ttype>Noun</ttype><tname>профілактика</tname><wcount>1</wcount><osn>профілакти</osn><sentpos>80/10</sentpos></term>
+<term><ttype>Noun_noun</ttype><tname>лікування хвороби</tname><wcount>2</wcount><osn>лікуванн</osn><osn>хвороб</osn><sentpos>80/12</sentpos><sentpos>80/13</sentpos><reldown>38</reldown><reldown>39</reldown></term>
+<term><ttype>Noun</ttype><tname>точка</tname><wcount>1</wcount><osn>точ</osn><sentpos>80/24</sentpos><sentpos>105/22</sentpos><relup>484</relup></term>
+<term><ttype>Noun</ttype><tname>зір</tname><wcount>1</wcount><osn>з</osn><sentpos>80/25</sentpos><sentpos>105/23</sentpos></term>
+<term><ttype>Noun</ttype><tname>запобігання</tname><wcount>1</wcount><osn>запобіганн</osn><sentpos>81/1</sentpos></term>
+<term><ttype>Noun</ttype><tname>оптимізація</tname><wcount>1</wcount><osn>оптимізаці</osn><sentpos>81/7</sentpos><relup>419</relup></term>
+<term><ttype>Noun_noun</ttype><tname>оптимізація участі</tname><wcount>2</wcount><osn>оптимізаці</osn><osn>участ</osn><sentpos>81/7</sentpos><sentpos>81/8</sentpos><reldown>62</reldown><reldown>418</reldown></term>
+<term><ttype>Adj_noun</ttype><tname>персональні характеристики</tname><wcount>2</wcount><osn>персональн</osn><osn>характеристи</osn><sentpos>82/12</sentpos><sentpos>82/13</sentpos><reldown>289</reldown></term>
+<term><ttype>Noun</ttype><tname>залучення</tname><wcount>1</wcount><osn>залученн</osn><sentpos>83/20</sentpos></term>
+<term><ttype>Noun</ttype><tname>кількість</tname><wcount>1</wcount><osn>кільк</osn><sentpos>83/22</sentpos><sentpos>126/8</sentpos><relup>423</relup></term>
+<term><ttype>Adj_noun</ttype><tname>велика кількість</tname><wcount>2</wcount><osn>велик</osn><osn>кільк</osn><sentpos>83/21</sentpos><sentpos>83/22</sentpos><relup>424</relup><reldown>422</reldown></term>
+<term><ttype>noun_adj_noun</ttype><tname>залучення великої кількості</tname><wcount>3</wcount><osn>залученн</osn><osn>велик</osn><osn>кільк</osn><sentpos>83/20</sentpos><sentpos>83/21</sentpos><sentpos>83/22</sentpos><reldown>423</reldown></term>
+<term><ttype>Noun</ttype><tname>тренування</tname><wcount>1</wcount><osn>тренуван</osn><sentpos>85/9</sentpos></term>
+<term><ttype>Noun</ttype><tname>підтримка</tname><wcount>1</wcount><osn>підтрим</osn><sentpos>85/13</sentpos><sentpos>129/18</sentpos></term>
+<term><ttype>Noun</ttype><tname>фаза</tname><wcount>1</wcount><osn>фаз</osn><sentpos>85/29</sentpos></term>
+<term><ttype>Noun</ttype><tname>засоби</tname><wcount>1</wcount><osn>зас</osn><sentpos>86/5</sentpos><sentpos>87/32</sentpos><sentpos>115/3</sentpos><sentpos>137/7</sentpos><relup>517</relup><relup>585</relup></term>
+<term><ttype>Noun</ttype><tname>персонал</tname><wcount>1</wcount><osn>персонал</osn><sentpos>86/8</sentpos></term>
+<term><ttype>Noun</ttype><tname>число</tname><wcount>1</wcount><osn>чис</osn><sentpos>86/13</sentpos></term>
+<term><ttype>Noun</ttype><tname>електроміографія</tname><wcount>1</wcount><osn>електроміографі</osn><sentpos>86/15</sentpos></term>
+<term><ttype>Adj_noun</ttype><tname>ультразвукова діагностика</tname><wcount>2</wcount><osn>ультразвуков</osn><osn>діагности</osn><sentpos>86/17</sentpos><sentpos>86/18</sentpos><reldown>318</reldown></term>
+<term><ttype>Noun</ttype><tname>динамометрія</tname><wcount>1</wcount><osn>динамометрі</osn><sentpos>86/20</sentpos></term>
+<term><ttype>Noun</ttype><tname>хода</tname><wcount>1</wcount><osn>ход</osn><sentpos>86/23</sentpos></term>
+<term><ttype>Noun</ttype><tname>тестування</tname><wcount>1</wcount><osn>тестуван</osn><sentpos>86/26</sentpos></term>
+<term><ttype>Noun</ttype><tname>зал</tname><wcount>1</wcount><osn>зал</osn><sentpos>86/29</sentpos><relup>437</relup></term>
+<term><ttype>Adj_noun</ttype><tname>гімнастичний зал</tname><wcount>2</wcount><osn>гімнастичн</osn><osn>зал</osn><sentpos>86/28</sentpos><sentpos>86/29</sentpos><reldown>436</reldown></term>
+<term><ttype>Noun</ttype><tname>кімнати</tname><wcount>1</wcount><osn>кімнат</osn><sentpos>86/31</sentpos></term>
+<term><ttype>Noun</ttype><tname>фізіотерапія</tname><wcount>1</wcount><osn>фізіотерапі</osn><sentpos>86/38</sentpos></term>
+<term><ttype>Noun_noun</ttype><tname>увага до</tname><wcount>2</wcount><osn>ува</osn><osn>до</osn><sentpos>87/16</sentpos><sentpos>87/17</sentpos><reldown>145</reldown><reldown>199</reldown></term>
+<term><ttype>Noun</ttype><tname>необхідність</tname><wcount>1</wcount><osn>необхідн</osn><sentpos>87/27</sentpos></term>
+<term><ttype>Adj_noun</ttype><tname>всеосяжна спеціальність</tname><wcount>2</wcount><osn>всеосяжн</osn><osn>спеціальн</osn><sentpos>87/39</sentpos><sentpos>87/40</sentpos><reldown>5</reldown></term>
+<term><ttype>Adj_noun</ttype><tname>складна спеціальність</tname><wcount>2</wcount><osn>складн</osn><osn>спеціальн</osn><sentpos>87/35</sentpos><sentpos>87/40</sentpos><reldown>5</reldown></term>
+<term><ttype>Adj_noun</ttype><tname>широкий кіл</tname><wcount>2</wcount><osn>широк</osn><osn>к</osn><sentpos>88/13</sentpos><sentpos>88/14</sentpos><reldown>367</reldown></term>
+<term><ttype>Noun</ttype><tname>вправи</tname><wcount>1</wcount><osn>вправ</osn><sentpos>89/10</sentpos></term>
+<term><ttype>Noun_noun</ttype><tname>терапія мови</tname><wcount>2</wcount><osn>терапі</osn><osn>мов</osn><sentpos>89/14</sentpos><sentpos>89/15</sentpos><reldown>236</reldown><reldown>447</reldown></term>
+<term><ttype>Noun</ttype><tname>мова</tname><wcount>1</wcount><osn>мов</osn><sentpos>89/15</sentpos><sentpos>230/178</sentpos><relup>446</relup></term>
+<term><ttype>Adj_noun</ttype><tname>терапевтичний підхід</tname><wcount>2</wcount><osn>терапевтичн</osn><osn>підх</osn><sentpos>90/10</sentpos><sentpos>90/11</sentpos><reldown>46</reldown></term>
+<term><ttype>Noun_noun</ttype><tname>порушення можливості</tname><wcount>2</wcount><osn>порушен</osn><osn>можлив</osn><sentpos>90/18</sentpos><sentpos>90/24</sentpos><reldown>59</reldown><reldown>306</reldown></term>
+<term><ttype>Noun</ttype><tname>населення</tname><wcount>1</wcount><osn>населенн</osn><sentpos>91/2</sentpos></term>
+<term><ttype>Adj_noun</ttype><tname>величезний вплив</tname><wcount>2</wcount><osn>величезн</osn><osn>вплив</osn><sentpos>91/4</sentpos><sentpos>91/5</sentpos><reldown>264</reldown></term>
+<term><ttype>Noun</ttype><tname>перебіг</tname><wcount>1</wcount><osn>перебіг</osn><sentpos>93/17</sentpos></term>
+<term><ttype>Adj_noun</ttype><tname>біосоціальна концепція</tname><wcount>2</wcount><osn>біосоціальн</osn><osn>концепці</osn><sentpos>93/22</sentpos><sentpos>93/23</sentpos><reldown>24</reldown></term>
+<term><ttype>Noun</ttype><tname>індивідуалізація</tname><wcount>1</wcount><osn>індивідуалізаці</osn><sentpos>93/33</sentpos></term>
+<term><ttype>Adj_noun</ttype><tname>діагностична оцінка</tname><wcount>2</wcount><osn>діагностичн</osn><osn>оцін</osn><sentpos>95/26</sentpos><sentpos>95/27</sentpos><reldown>42</reldown></term>
+<term><ttype>Noun</ttype><tname>надходження</tname><wcount>1</wcount><osn>надходжен</osn><sentpos>95/31</sentpos></term>
+<term><ttype>Noun</ttype><tname>тягар</tname><wcount>1</wcount><osn>тягар</osn><sentpos>96/6</sentpos></term>
+<term><ttype>Noun</ttype><tname>шкали</tname><wcount>1</wcount><osn>шкал</osn><sentpos>96/16</sentpos><relup>459</relup></term>
+<term><ttype>Adj_noun</ttype><tname>специфічні шкали</tname><wcount>2</wcount><osn>специфічн</osn><osn>шкал</osn><sentpos>96/15</sentpos><sentpos>96/16</sentpos><reldown>458</reldown></term>
+<term><ttype>Noun</ttype><tname>спосіб</tname><wcount>1</wcount><osn>спос</osn><sentpos>97/14</sentpos><sentpos>97/53</sentpos><relup>461</relup></term>
+<term><ttype>Adj_noun</ttype><tname>різні способи</tname><wcount>2</wcount><osn>різн</osn><osn>спос</osn><sentpos>97/13</sentpos><sentpos>97/14</sentpos><reldown>460</reldown></term>
+<term><ttype>Noun</ttype><tname>техніки</tname><wcount>1</wcount><osn>технік</osn><sentpos>97/30</sentpos><relup>463</relup></term>
+<term><ttype>Adj_noun</ttype><tname>спеціальні техніки</tname><wcount>2</wcount><osn>спеціальн</osn><osn>технік</osn><sentpos>97/29</sentpos><sentpos>97/30</sentpos><reldown>462</reldown></term>
+<term><ttype>Noun</ttype><tname>ін'єкції</tname><wcount>1</wcount><osn>ін'єкці</osn><sentpos>97/37</sentpos></term>
+<term><ttype>Noun</ttype><tname>маніпуляції</tname><wcount>1</wcount><osn>маніпуляці</osn><sentpos>97/39</sentpos></term>
+<term><ttype>Abbr</ttype><tname>manu</tname><wcount>1</wcount><osn>manu</osn><sentpos>97/41</sentpos></term>
+<term><ttype>Adj_noun</ttype><tname>командна робота</tname><wcount>2</wcount><osn>командн</osn><osn>роб</osn><sentpos>97/60</sentpos><sentpos>97/61</sentpos><sentpos>101/4</sentpos><sentpos>101/5</sentpos><sentpos>131/5</sentpos><sentpos>131/6</sentpos><reldown>252</reldown></term>
+<term><ttype>Noun</ttype><tname>включення</tname><wcount>1</wcount><osn>включен</osn><sentpos>98/10</sentpos></term>
+<term><ttype>Adj_noun</ttype><tname>успішна реабілітація</tname><wcount>2</wcount><osn>успішн</osn><osn>реабілітаці</osn><sentpos>99/2</sentpos><sentpos>99/3</sentpos><reldown>33</reldown></term>
+<term><ttype>Adj_noun</ttype><tname>численні фахівці</tname><wcount>2</wcount><osn>численн</osn><osn>фахів</osn><sentpos>99/5</sentpos><sentpos>99/6</sentpos><reldown>32</reldown></term>
+<term><ttype>Noun</ttype><tname>досвід</tname><wcount>1</wcount><osn>досвід</osn><sentpos>99/15</sentpos></term>
+<term><ttype>Adj_noun</ttype><tname>ефективна команда</tname><wcount>2</wcount><osn>ефективн</osn><osn>команд</osn><sentpos>102/4</sentpos><sentpos>102/5</sentpos><reldown>44</reldown></term>
+<term><ttype>Noun</ttype><tname>синергія</tname><wcount>1</wcount><osn>синергі</osn><sentpos>102/8</sentpos></term>
+<term><ttype>Adj_noun</ttype><tname>кращі результати</tname><wcount>2</wcount><osn>кращ</osn><osn>результат</osn><sentpos>102/12</sentpos><sentpos>102/13</sentpos><reldown>268</reldown></term>
+<term><ttype>Noun_noun</ttype><tname>ніж сума</tname><wcount>2</wcount><osn>н</osn><osn>сум</osn><sentpos>102/15</sentpos><sentpos>102/16</sentpos><reldown>224</reldown><reldown>476</reldown></term>
+<term><ttype>Noun</ttype><tname>сум</tname><wcount>1</wcount><osn>сум</osn><sentpos>102/16</sentpos><relup>475</relup></term>
+<term><ttype>Noun_noun</ttype><tname>результати роботи</tname><wcount>2</wcount><osn>результат</osn><osn>роб</osn><sentpos>102/17</sentpos><sentpos>102/18</sentpos><reldown>252</reldown><reldown>268</reldown></term>
+<term><ttype>Adj_noun</ttype><tname>окрема людина</tname><wcount>2</wcount><osn>окрем</osn><osn>люд</osn><sentpos>102/20</sentpos><sentpos>102/21</sentpos><reldown>54</reldown></term>
+<term><ttype>Noun</ttype><tname>природа</tname><wcount>1</wcount><osn>природ</osn><sentpos>103/3</sentpos></term>
+<term><ttype>Noun</ttype><tname>література</tname><wcount>1</wcount><osn>літератур</osn><sentpos>103/14</sentpos></term>
+<term><ttype>Noun</ttype><tname>заплутаність</tname><wcount>1</wcount><osn>заплутан</osn><sentpos>103/22</sentpos></term>
+<term><ttype>Adj_noun</ttype><tname>командний підхід</tname><wcount>2</wcount><osn>командн</osn><osn>підх</osn><sentpos>103/27</sentpos><sentpos>103/28</sentpos><sentpos>130/40</sentpos><sentpos>130/41</sentpos><reldown>46</reldown></term>
+<term><ttype>Noun</ttype><tname>члени</tname><wcount>1</wcount><osn>член</osn><sentpos>103/38</sentpos><sentpos>134/37</sentpos></term>
+<term><ttype>Adj_noun</ttype><tname>власна точка</tname><wcount>2</wcount><osn>власн</osn><osn>точ</osn><sentpos>105/21</sentpos><sentpos>105/22</sentpos><reldown>415</reldown></term>
+<term><ttype>Noun</ttype><tname>професіонали</tname><wcount>1</wcount><osn>професіонал</osn><sentpos>105/31</sentpos><sentpos>106/15</sentpos></term>
+<term><ttype>Adj_noun</ttype><tname>міждисциплінарна команда</tname><wcount>2</wcount><osn>міждисциплінарн</osn><osn>команд</osn><sentpos>106/2</sentpos><sentpos>106/3</sentpos><reldown>44</reldown></term>
+<term><ttype>Noun</ttype><tname>керівництво</tname><wcount>1</wcount><osn>керівництв</osn><sentpos>106/25</sentpos><sentpos>121/11</sentpos><sentpos>123/18</sentpos></term>
+<term><ttype>Noun_noun</ttype><tname>команди межі</tname><wcount>2</wcount><osn>команд</osn><osn>меж</osn><sentpos>107/4</sentpos><sentpos>107/5</sentpos><reldown>44</reldown><reldown>332</reldown></term>
+<term><ttype>Adj_noun</ttype><tname>професійна практика</tname><wcount>2</wcount><osn>професійн</osn><osn>практи</osn><sentpos>107/6</sentpos><sentpos>107/7</sentpos><relup>490</relup><reldown>297</reldown></term>
+<term><ttype>noun_adj_noun</ttype><tname>межі професійної практики</tname><wcount>3</wcount><osn>меж</osn><osn>професійн</osn><osn>практи</osn><sentpos>107/5</sentpos><sentpos>107/6</sentpos><sentpos>107/7</sentpos><relup>491</relup><reldown>489</reldown></term>
+<term><ttype>Noun_noun_adj_noun</ttype><tname>команди межі професійної практики</tname><wcount>4</wcount><osn>команд</osn><osn>меж</osn><osn>професійн</osn><osn>практи</osn><sentpos>107/4</sentpos><sentpos>107/5</sentpos><sentpos>107/6</sentpos><sentpos>107/7</sentpos><reldown>490</reldown></term>
+<term><ttype>Noun_noun</ttype><tname>роботи команди</tname><wcount>2</wcount><osn>робот</osn><osn>команд</osn><sentpos>108/9</sentpos><sentpos>108/10</sentpos><reldown>44</reldown><reldown>64</reldown></term>
+<term><ttype>Noun</ttype><tname>відповідь</tname><wcount>1</wcount><osn>відповід</osn><sentpos>109/10</sentpos><sentpos>117/12</sentpos><relup>494</relup></term>
+<term><ttype>Adj_noun</ttype><tname>доречна відповідь</tname><wcount>2</wcount><osn>доречн</osn><osn>відповід</osn><sentpos>109/9</sentpos><sentpos>109/10</sentpos><reldown>493</reldown></term>
+<term><ttype>Noun</ttype><tname>потреби</tname><wcount>1</wcount><osn>потр</osn><sentpos>109/12</sentpos></term>
+<term><ttype>Adj_noun</ttype><tname>гостра допомога</tname><wcount>2</wcount><osn>гостр</osn><osn>допомо</osn><sentpos>109/38</sentpos><sentpos>109/39</sentpos><sentpos>116/7</sentpos><sentpos>116/10</sentpos><reldown>69</reldown></term>
+<term><ttype>Adj_noun</ttype><tname>довгострокова допомога</tname><wcount>2</wcount><osn>довгостроков</osn><osn>допомо</osn><sentpos>109/45</sentpos><sentpos>109/46</sentpos><reldown>69</reldown></term>
+<term><ttype>Noun</ttype><tname>громада</tname><wcount>1</wcount><osn>громад</osn><sentpos>109/48</sentpos></term>
+<term><ttype>Noun</ttype><tname>більшість</tname><wcount>1</wcount><osn>більш</osn><sentpos>110/2</sentpos></term>
+<term><ttype>Noun</ttype><tname>ухо</tname><wcount>1</wcount><osn>у</osn><sentpos>111/3</sentpos></term>
+<term><ttype>Noun</ttype><tname>під</tname><wcount>1</wcount><osn>п</osn><sentpos>112/3</sentpos><sentpos>116/19</sentpos><sentpos>121/10</sentpos><sentpos>123/17</sentpos><sentpos>125/15</sentpos></term>
+<term><ttype>Noun</ttype><tname>раз</tname><wcount>1</wcount><osn>раз</osn><sentpos>112/14</sentpos><sentpos>116/15</sentpos><sentpos>127/26</sentpos></term>
+<term><ttype>Noun</ttype><tname>використання</tname><wcount>1</wcount><osn>використанн</osn><sentpos>112/30</sentpos></term>
+<term><ttype>Adj_noun</ttype><tname>спільна стратегія</tname><wcount>2</wcount><osn>спільн</osn><osn>стратегі</osn><sentpos>112/31</sentpos><sentpos>112/32</sentpos><reldown>327</reldown></term>
+<term><ttype>Noun</ttype><tname>сесії</tname><wcount>1</wcount><osn>сесі</osn><sentpos>113/6</sentpos></term>
+<term><ttype>Noun</ttype><tname>стимуляція</tname><wcount>1</wcount><osn>стимуляці</osn><sentpos>113/13</sentpos><relup>507</relup></term>
+<term><ttype>Adj_noun</ttype><tname>надмірна стимуляція</tname><wcount>2</wcount><osn>надмірн</osn><osn>стимуляці</osn><sentpos>113/12</sentpos><sentpos>113/13</sentpos><reldown>506</reldown></term>
+<term><ttype>Noun</ttype><tname>повторення</tname><wcount>1</wcount><osn>повторен</osn><sentpos>113/17</sentpos></term>
+<term><ttype>Adj_noun</ttype><tname>функціональні результати</tname><wcount>2</wcount><osn>функціональн</osn><osn>результат</osn><sentpos>114/14</sentpos><sentpos>114/15</sentpos><reldown>268</reldown></term>
+<term><ttype>Noun</ttype><tname>виживаність</tname><wcount>1</wcount><osn>виживан</osn><sentpos>114/20</sentpos></term>
+<term><ttype>Noun</ttype><tname>інсульт</tname><wcount>1</wcount><osn>інсульт</osn><sentpos>114/28</sentpos></term>
+<term><ttype>Noun</ttype><tname>переломи</tname><wcount>1</wcount><osn>перелом</osn><sentpos>114/33</sentpos></term>
+<term><ttype>Noun</ttype><tname>стегна</tname><wcount>1</wcount><osn>стег</osn><sentpos>114/34</sentpos></term>
+<term><ttype>Adj_noun</ttype><tname>легенева реабілітація</tname><wcount>2</wcount><osn>легенев</osn><osn>реабілітаці</osn><sentpos>114/36</sentpos><sentpos>114/37</sentpos><reldown>33</reldown></term>
+<term><ttype>Noun</ttype><tname>біль</tname><wcount>1</wcount><osn>б</osn><sentpos>114/39</sentpos></term>
+<term><ttype>Noun</ttype><tname>інтерпретація</tname><wcount>1</wcount><osn>інтерпретаці</osn><sentpos>115/1</sentpos></term>
+<term><ttype>Noun_noun</ttype><tname>засоби отримання</tname><wcount>2</wcount><osn>зас</osn><osn>отриманн</osn><sentpos>115/3</sentpos><sentpos>115/4</sentpos><reldown>428</reldown><reldown>518</reldown></term>
+<term><ttype>Noun</ttype><tname>отримання</tname><wcount>1</wcount><osn>отриманн</osn><sentpos>115/4</sentpos><relup>517</relup></term>
+<term><ttype>Adj_noun</ttype><tname>спільний підхід</tname><wcount>2</wcount><osn>спільн</osn><osn>підх</osn><sentpos>115/6</sentpos><sentpos>115/7</sentpos><reldown>46</reldown></term>
+<term><ttype>Noun</ttype><tname>підрозділ</tname><wcount>1</wcount><osn>підрозділ</osn><sentpos>116/18</sentpos><sentpos>133/75</sentpos><sentpos>133/135</sentpos><sentpos>137/13</sentpos></term>
+<term><ttype>Noun</ttype><tname>оберт</tname><wcount>1</wcount><osn>оберт</osn><sentpos>117/1</sentpos><sentpos>126/12</sentpos><sentpos>131/14</sentpos><relup>535</relup></term>
+<term><ttype>Noun</ttype><tname>управління</tname><wcount>1</wcount><osn>управлін</osn><sentpos>118/11</sentpos><sentpos>131/4</sentpos><sentpos>136/38</sentpos></term>
+<term><ttype>Noun_noun</ttype><tname>команда відділення</tname><wcount>2</wcount><osn>команд</osn><osn>відділен</osn><sentpos>119/9</sentpos><sentpos>119/10</sentpos><reldown>44</reldown><reldown>301</reldown></term>
+<term><ttype>Noun</ttype><tname>питання</tname><wcount>1</wcount><osn>питан</osn><sentpos>119/15</sentpos></term>
+<term><ttype>Noun</ttype><tname>шпиталь</tname><wcount>1</wcount><osn>шпитал</osn><sentpos>119/19</sentpos></term>
+<term><ttype>Noun</ttype><tname>дія</tname><wcount>1</wcount><osn>ді</osn><sentpos>120/4</sentpos></term>
+<term><ttype>Noun</ttype><tname>консультанти</tname><wcount>1</wcount><osn>консультант</osn><sentpos>120/7</sentpos></term>
+<term><ttype>Adj_noun</ttype><tname>амбулаторні заклади</tname><wcount>2</wcount><osn>амбулаторн</osn><osn>заклад</osn><sentpos>123/3</sentpos><sentpos>123/4</sentpos><reldown>68</reldown></term>
+<term><ttype>Noun_noun</ttype><tname>фахівці реабілітації</tname><wcount>2</wcount><osn>фахів</osn><osn>реабілітаці</osn><sentpos>124/21</sentpos><sentpos>124/22</sentpos><reldown>32</reldown><reldown>33</reldown></term>
+<term><ttype>Adj_noun</ttype><tname>спільна робота</tname><wcount>2</wcount><osn>спільн</osn><osn>роб</osn><sentpos>124/37</sentpos><sentpos>124/38</sentpos><relup>531</relup><reldown>252</reldown></term>
+<term><ttype>noun_adj_noun</ttype><tname>місце спільної роботи</tname><wcount>3</wcount><osn>місц</osn><osn>спільн</osn><osn>роб</osn><sentpos>124/36</sentpos><sentpos>124/37</sentpos><sentpos>124/38</sentpos><reldown>530</reldown></term>
+<term><ttype>Noun</ttype><tname>присутність</tname><wcount>1</wcount><osn>присутн</osn><sentpos>125/6</sentpos><relup>533</relup></term>
+<term><ttype>Adj_noun</ttype><tname>фізична присутність</tname><wcount>2</wcount><osn>фізичн</osn><osn>присутн</osn><sentpos>125/5</sentpos><sentpos>125/6</sentpos><reldown>532</reldown></term>
+<term><ttype>Adj_noun</ttype><tname>специфічні характеристики</tname><wcount>2</wcount><osn>специфічн</osn><osn>характеристи</osn><sentpos>126/2</sentpos><sentpos>126/3</sentpos><reldown>289</reldown></term>
+<term><ttype>Adj_noun</ttype><tname>швидкий оберт</tname><wcount>2</wcount><osn>швидк</osn><osn>оберт</osn><sentpos>126/11</sentpos><sentpos>126/12</sentpos><reldown>521</reldown></term>
+<term><ttype>Adj_noun</ttype><tname>короткий час</tname><wcount>2</wcount><osn>коротк</osn><osn>час</osn><sentpos>126/14</sentpos><sentpos>126/15</sentpos><reldown>235</reldown></term>
+<term><ttype>Noun</ttype><tname>сеанси</tname><wcount>1</wcount><osn>сеанс</osn><sentpos>126/22</sentpos></term>
+<term><ttype>Noun</ttype><tname>труднощі</tname><wcount>1</wcount><osn>труднощ</osn><sentpos>127/8</sentpos></term>
+<term><ttype>Noun</ttype><tname>протоколи</tname><wcount>1</wcount><osn>протокол</osn><sentpos>127/18</sentpos><sentpos>127/29</sentpos></term>
+<term><ttype>Noun</ttype><tname>призначення</tname><wcount>1</wcount><osn>призначен</osn><sentpos>127/23</sentpos></term>
+<term><ttype>Noun</ttype><tname>розбіжності</tname><wcount>1</wcount><osn>розбіжн</osn><sentpos>127/31</sentpos></term>
+<term><ttype>Adj_noun</ttype><tname>усні контакти</tname><wcount>2</wcount><osn>усн</osn><osn>контакт</osn><sentpos>127/44</sentpos><sentpos>127/45</sentpos><reldown>321</reldown></term>
+<term><ttype>Noun_noun</ttype><tname>планування нарад</tname><wcount>2</wcount><osn>плануван</osn><osn>нарад</osn><sentpos>128/3</sentpos><sentpos>128/4</sentpos><relup>544</relup><reldown>265</reldown><reldown>545</reldown></term>
+<term><ttype>Noun_noun_noun</ttype><tname>планування нарад команди</tname><wcount>3</wcount><osn>плануван</osn><osn>нарад</osn><osn>команд</osn><sentpos>128/3</sentpos><sentpos>128/4</sentpos><sentpos>128/5</sentpos><reldown>543</reldown><reldown>546</reldown></term>
+<term><ttype>Noun</ttype><tname>наради</tname><wcount>1</wcount><osn>нарад</osn><sentpos>128/4</sentpos><relup>543</relup><relup>546</relup></term>
+<term><ttype>Noun_noun</ttype><tname>наради команди</tname><wcount>2</wcount><osn>нарад</osn><osn>команд</osn><sentpos>128/4</sentpos><sentpos>128/5</sentpos><relup>544</relup><reldown>44</reldown><reldown>545</reldown></term>
+<term><ttype>Noun</ttype><tname>частота</tname><wcount>1</wcount><osn>частот</osn><sentpos>128/11</sentpos><sentpos>132/14</sentpos><relup>554</relup></term>
+<term><ttype>Noun</ttype><tname>формат</tname><wcount>1</wcount><osn>формат</osn><sentpos>129/5</sentpos></term>
+<term><ttype>noun_adj_noun</ttype><tname>діяльність реабілітаційної команди</tname><wcount>3</wcount><osn>діяльн</osn><osn>реабілітаційн</osn><osn>команд</osn><sentpos>130/14</sentpos><sentpos>130/15</sentpos><sentpos>130/16</sentpos><reldown>45</reldown></term>
+<term><ttype>Adj_noun</ttype><tname>довготривала допомога</tname><wcount>2</wcount><osn>довготривал</osn><osn>допомо</osn><sentpos>131/10</sentpos><sentpos>131/11</sentpos><reldown>69</reldown></term>
+<term><ttype>Noun</ttype><tname>зміни</tname><wcount>1</wcount><osn>змін</osn><sentpos>131/18</sentpos><sentpos>135/10</sentpos><relup>552</relup></term>
+<term><ttype>Adj_noun</ttype><tname>клінічні зміни</tname><wcount>2</wcount><osn>клінічн</osn><osn>змін</osn><sentpos>131/17</sentpos><sentpos>131/18</sentpos><reldown>551</reldown></term>
+<term><ttype>Noun</ttype><tname>зустрічі</tname><wcount>1</wcount><osn>зустріч</osn><sentpos>132/5</sentpos></term>
+<term><ttype>Adj_noun</ttype><tname>низька частота</tname><wcount>2</wcount><osn>низьк</osn><osn>частот</osn><sentpos>132/13</sentpos><sentpos>132/14</sentpos><reldown>547</reldown></term>
+<term><ttype>Adj_noun</ttype><tname>успішна робота</tname><wcount>2</wcount><osn>успішн</osn><osn>роб</osn><sentpos>133/1</sentpos><sentpos>133/2</sentpos><reldown>252</reldown></term>
+<term><ttype>noun_adj_noun</ttype><tname>робота реабілітаційної команди</tname><wcount>3</wcount><osn>роб</osn><osn>реабілітаційн</osn><osn>команд</osn><sentpos>133/2</sentpos><sentpos>133/3</sentpos><sentpos>133/4</sentpos><relup>557</relup><reldown>45</reldown></term>
+<term><ttype>adj_noun_adj_noun</ttype><tname>успішна робота реабілітаційної команди</tname><wcount>4</wcount><osn>успішн</osn><osn>роб</osn><osn>реабілітаційн</osn><osn>команд</osn><sentpos>133/1</sentpos><sentpos>133/2</sentpos><sentpos>133/3</sentpos><sentpos>133/4</sentpos><reldown>556</reldown></term>
+<term><ttype>Noun</ttype><tname>установи</tname><wcount>1</wcount><osn>установ</osn><sentpos>133/18</sentpos></term>
+<term><ttype>Noun</ttype><tname>лідерство</tname><wcount>1</wcount><osn>лідерств</osn><sentpos>133/23</sentpos><sentpos>134/58</sentpos></term>
+<term><ttype>Noun</ttype><tname>менеджери</tname><wcount>1</wcount><osn>менеджер</osn><sentpos>133/29</sentpos><relup>561</relup></term>
+<term><ttype>Adj_noun</ttype><tname>клінічні менеджери</tname><wcount>2</wcount><osn>клінічн</osn><osn>менеджер</osn><sentpos>133/28</sentpos><sentpos>133/29</sentpos><reldown>560</reldown></term>
+<term><ttype>Noun</ttype><tname>лідери</tname><wcount>1</wcount><osn>лідер</osn><sentpos>133/34</sentpos><relup>563</relup></term>
+<term><ttype>Adj_noun</ttype><tname>хороші лідери</tname><wcount>2</wcount><osn>хорош</osn><osn>лідер</osn><sentpos>133/33</sentpos><sentpos>133/34</sentpos><reldown>562</reldown></term>
+<term><ttype>Noun</ttype><tname>здатні</tname><wcount>1</wcount><osn>здат</osn><sentpos>133/43</sentpos></term>
+<term><ttype>Adj_noun</ttype><tname>робочий час</tname><wcount>2</wcount><osn>робоч</osn><osn>час</osn><sentpos>134/10</sentpos><sentpos>134/11</sentpos><reldown>235</reldown></term>
+<term><ttype>Noun</ttype><tname>стандарти</tname><wcount>1</wcount><osn>стандарт</osn><sentpos>134/18</sentpos></term>
+<term><ttype>noun_adj_noun</ttype><tname>стандарти клінічної роботи</tname><wcount>3</wcount><osn>стандарт</osn><osn>клінічн</osn><osn>роб</osn><sentpos>134/18</sentpos><sentpos>134/19</sentpos><sentpos>134/20</sentpos><reldown>253</reldown></term>
+<term><ttype>Noun</ttype><tname>повага</tname><wcount>1</wcount><osn>пова</osn><sentpos>134/30</sentpos><relup>569</relup></term>
+<term><ttype>Noun_noun</ttype><tname>повага до</tname><wcount>2</wcount><osn>пова</osn><osn>до</osn><sentpos>134/30</sentpos><sentpos>134/31</sentpos><reldown>199</reldown><reldown>568</reldown></term>
+<term><ttype>Noun</ttype><tname>професії</tname><wcount>1</wcount><osn>професі</osn><sentpos>134/34</sentpos></term>
+<term><ttype>Noun_noun</ttype><tname>члени команди</tname><wcount>2</wcount><osn>член</osn><osn>команд</osn><sentpos>134/37</sentpos><sentpos>134/38</sentpos><reldown>44</reldown></term>
+<term><ttype>Adj_noun</ttype><tname>персональні фактори</tname><wcount>2</wcount><osn>персональн</osn><osn>фактор</osn><sentpos>135/3</sentpos><sentpos>135/4</sentpos><reldown>242</reldown></term>
+<term><ttype>Noun</ttype><tname>готовність</tname><wcount>1</wcount><osn>готовн</osn><sentpos>135/8</sentpos></term>
+<term><ttype>Noun</ttype><tname>здатність</tname><wcount>1</wcount><osn>здатн</osn><sentpos>135/12</sentpos></term>
+<term><ttype>Noun</ttype><tname>баланс</tname><wcount>1</wcount><osn>баланс</osn><sentpos>135/20</sentpos></term>
+<term><ttype>Noun</ttype><tname>сили</tname><wcount>1</wcount><osn>сил</osn><sentpos>135/22</sentpos></term>
+<term><ttype>Noun</ttype><tname>уміння</tname><wcount>1</wcount><osn>умін</osn><sentpos>135/39</sentpos></term>
+<term><ttype>Noun</ttype><tname>здійснення</tname><wcount>1</wcount><osn>здійсненн</osn><sentpos>136/12</sentpos></term>
+<term><ttype>Adj_noun</ttype><tname>реабілітаційна практика</tname><wcount>2</wcount><osn>реабілітаційн</osn><osn>практи</osn><sentpos>136/13</sentpos><sentpos>136/14</sentpos><reldown>297</reldown></term>
+<term><ttype>Noun</ttype><tname>ставлення</tname><wcount>1</wcount><osn>ставленн</osn><sentpos>136/23</sentpos></term>
+<term><ttype>Adj_noun</ttype><tname>реабілітаційне відділення</tname><wcount>2</wcount><osn>реабілітаційн</osn><osn>відділен</osn><sentpos>136/29</sentpos><sentpos>136/30</sentpos><reldown>301</reldown></term>
+<term><ttype>Adj_noun</ttype><tname>реабілітаційна поза</tname><wcount>2</wcount><osn>реабілітаційн</osn><osn>поз</osn><sentpos>136/29</sentpos><sentpos>136/32</sentpos><reldown>583</reldown></term>
+<term><ttype>Noun</ttype><tname>поза</tname><wcount>1</wcount><osn>поз</osn><sentpos>136/32</sentpos><relup>582</relup></term>
+<term><ttype>Adj_noun</ttype><tname>специфічні інструменти</tname><wcount>2</wcount><osn>специфічн</osn><osn>інструмент</osn><sentpos>137/4</sentpos><sentpos>137/5</sentpos><reldown>50</reldown></term>
+<term><ttype>Noun_noun</ttype><tname>засоби комунікації</tname><wcount>2</wcount><osn>зас</osn><osn>комунікаці</osn><sentpos>137/7</sentpos><sentpos>137/8</sentpos><reldown>428</reldown><reldown>586</reldown></term>
+<term><ttype>Noun</ttype><tname>комунікації</tname><wcount>1</wcount><osn>комунікаці</osn><sentpos>137/8</sentpos><relup>585</relup></term>
+<term><ttype>Abbr</ttype><tname>World</tname><wcount>1</wcount><osn>World</osn><sentpos>139/1</sentpos><sentpos>142/1</sentpos></term>
+<term><ttype>Abbr</ttype><tname>Health</tname><wcount>1</wcount><osn>Health</osn><sentpos>139/2</sentpos><sentpos>142/2</sentpos><sentpos>142/14</sentpos><sentpos>149/11</sentpos><sentpos>164/18</sentpos><sentpos>169/12</sentpos><sentpos>184/3</sentpos></term>
+<term><ttype>Abbr</ttype><tname>Organіzatіon</tname><wcount>1</wcount><osn>Organіzatіon</osn><sentpos>139/3</sentpos><sentpos>142/3</sentpos></term>
+<term><ttype>Abbr</ttype><tname>Classіfіcatіon</tname><wcount>1</wcount><osn>Classіfіcatіon</osn><sentpos>140/2</sentpos><sentpos>142/8</sentpos><sentpos>164/12</sentpos><sentpos>169/5</sentpos><sentpos>169/21</sentpos></term>
+<term><ttype>Abbr</ttype><tname>Dіsabіlіtіes</tname><wcount>1</wcount><osn>Dіsabіlіtіes</osn><sentpos>140/6</sentpos></term>
+<term><ttype>Abbr</ttype><tname>Handіcaps</tname><wcount>1</wcount><osn>Handіcaps</osn><sentpos>140/9</sentpos></term>
+<term><ttype>Abbr</ttype><tname>p</tname><wcount>1</wcount><osn>p</osn><sentpos>140/14</sentpos><sentpos>230/159</sentpos></term>
+<term><ttype>Abbr</ttype><tname>WHO</tname><wcount>1</wcount><osn>WHO</osn><sentpos>142/5</sentpos><sentpos>142/22</sentpos><sentpos>143/10</sentpos></term>
+<term><ttype>Abbr</ttype><tname>Functіonіng</tname><wcount>1</wcount><osn>Functіonіng</osn><sentpos>142/10</sentpos><sentpos>164/14</sentpos><sentpos>169/7</sentpos></term>
+<term><ttype>Abbr</ttype><tname>Dіsabіlіty</tname><wcount>1</wcount><osn>Dіsabіlіty</osn><sentpos>142/12</sentpos><sentpos>164/16</sentpos><sentpos>169/9</sentpos></term>
+<term><ttype>Abbr</ttype><tname>ICF</tname><wcount>1</wcount><osn>ICF</osn><sentpos>142/16</sentpos><sentpos>143/16</sentpos><sentpos>164/20</sentpos><sentpos>169/14</sentpos></term>
+<term><ttype>Abbr</ttype><tname>cіted</tname><wcount>1</wcount><osn>cіted</osn><sentpos>142/25</sentpos></term>
+<term><ttype>Abbr</ttype><tname>Aug</tname><wcount>1</wcount><osn>Aug</osn><sentpos>142/27</sentpos><sentpos>195/6</sentpos><sentpos>205/5</sentpos></term>
+<term><ttype>Abbr</ttype><tname>Avaіlable</tname><wcount>1</wcount><osn>Avaіlable</osn><sentpos>143/1</sentpos></term>
+<term><ttype>Abbr</ttype><tname>from</tname><wcount>1</wcount><osn>from</osn><sentpos>143/2</sentpos></term>
+<term><ttype>Abbr</ttype><tname>http</tname><wcount>1</wcount><osn>http</osn><sentpos>143/4</sentpos></term>
+<term><ttype>Abbr</ttype><tname>www</tname><wcount>1</wcount><osn>www</osn><sentpos>143/8</sentpos></term>
+<term><ttype>Abbr</ttype><tname>int</tname><wcount>1</wcount><osn>int</osn><sentpos>143/12</sentpos></term>
+<term><ttype>Abbr</ttype><tname>classіfіcatіons</tname><wcount>1</wcount><osn>classіfіcatіons</osn><sentpos>143/14</sentpos></term>
+<term><ttype>Abbr</ttype><tname>en</tname><wcount>1</wcount><osn>en</osn><sentpos>143/18</sentpos></term>
+<term><ttype>Abbr</ttype><tname>Engel</tname><wcount>1</wcount><osn>Engel</osn><sentpos>144/1</sentpos><sentpos>149/1</sentpos></term>
+<term><ttype>Abbr</ttype><tname>GL</tname><wcount>1</wcount><osn>GL</osn><sentpos>144/2</sentpos><sentpos>149/2</sentpos></term>
+<term><ttype>Abbr</ttype><tname>need</tname><wcount>1</wcount><osn>need</osn><sentpos>144/5</sentpos></term>
+<term><ttype>Abbr</ttype><tname>for</tname><wcount>1</wcount><osn>for</osn><sentpos>144/6</sentpos><sentpos>144/14</sentpos><sentpos>164/26</sentpos><sentpos>169/22</sentpos><sentpos>178/15</sentpos></term>
+<term><ttype>Abbr</ttype><tname>new</tname><wcount>1</wcount><osn>new</osn><sentpos>144/8</sentpos></term>
+<term><ttype>Abbr</ttype><tname>model</tname><wcount>1</wcount><osn>model</osn><sentpos>144/10</sentpos><sentpos>149/6</sentpos><sentpos>164/25</sentpos></term>
+<term><ttype>Abbr</ttype><tname>challenge</tname><wcount>1</wcount><osn>challenge</osn><sentpos>144/13</sentpos></term>
+<term><ttype>Abbr</ttype><tname>bіomedіcіne</tname><wcount>1</wcount><osn>bіomedіcіne</osn><sentpos>144/15</sentpos></term>
+<term><ttype>Abbr</ttype><tname>Scіence</tname><wcount>1</wcount><osn>Scіence</osn><sentpos>145/1</sentpos></term>
+<term><ttype>Abbr</ttype><tname>bіopsychosocіal</tname><wcount>1</wcount><osn>bіopsychosocіal</osn><sentpos>149/5</sentpos></term>
+<term><ttype>Abbr</ttype><tname>educatіon</tname><wcount>1</wcount><osn>educatіon</osn><sentpos>149/9</sentpos></term>
+<term><ttype>Abbr</ttype><tname>professіonals</tname><wcount>1</wcount><osn>professіonals</osn><sentpos>149/12</sentpos></term>
+<term><ttype>Abbr</ttype><tname>Ann</tname><wcount>1</wcount><osn>Ann</osn><sentpos>150/1</sentpos></term>
+<term><ttype>Abbr</ttype><tname>N</tname><wcount>1</wcount><osn>N</osn><sentpos>150/2</sentpos><sentpos>178/6</sentpos><sentpos>199/5</sentpos><sentpos>214/11</sentpos></term>
+<term><ttype>Abbr</ttype><tname>Y</tname><wcount>1</wcount><osn>Y</osn><sentpos>150/3</sentpos></term>
+<term><ttype>Abbr</ttype><tname>Acad</tname><wcount>1</wcount><osn>Acad</osn><sentpos>150/4</sentpos></term>
+<term><ttype>Abbr</ttype><tname>Scі</tname><wcount>1</wcount><osn>Scі</osn><sentpos>150/5</sentpos></term>
+<term><ttype>Abbr</ttype><tname>Jun</tname><wcount>1</wcount><osn>Jun</osn><sentpos>150/8</sentpos><sentpos>160/8</sentpos><sentpos>226/7</sentpos></term>
+<term><ttype>Abbr</ttype><tname>Negrіnі</tname><wcount>1</wcount><osn>Negrіnі</osn><sentpos>154/1</sentpos><sentpos>159/1</sentpos><sentpos>230/58</sentpos><sentpos>230/105</sentpos></term>
+<term><ttype>Abbr</ttype><tname>S</tname><wcount>1</wcount><osn>S</osn><sentpos>154/2</sentpos><sentpos>159/2</sentpos></term>
+<term><ttype>Abbr</ttype><tname>Frontera</tname><wcount>1</wcount><osn>Frontera</osn><sentpos>154/4</sentpos><sentpos>159/4</sentpos></term>
+<term><ttype>Abbr</ttype><tname>WR</tname><wcount>1</wcount><osn>WR</osn><sentpos>154/5</sentpos></term>
+<term><ttype>Abbr</ttype><tname>Euro-Amerіcan</tname><wcount>1</wcount><osn>Euro-Amerіcan</osn><sentpos>154/8</sentpos><sentpos>159/8</sentpos></term>
+<term><ttype>Abbr</ttype><tname>focus</tname><wcount>1</wcount><osn>focus</osn><sentpos>154/10</sentpos><sentpos>159/10</sentpos></term>
+<term><ttype>Abbr</ttype><tname>cultural</tname><wcount>1</wcount><osn>cultural</osn><sentpos>154/13</sentpos><sentpos>159/13</sentpos></term>
+<term><ttype>Abbr</ttype><tname>brіdge</tname><wcount>1</wcount><osn>brіdge</osn><sentpos>154/14</sentpos><sentpos>159/14</sentpos></term>
+<term><ttype>Abbr</ttype><tname>across</tname><wcount>1</wcount><osn>across</osn><sentpos>154/15</sentpos><sentpos>159/15</sentpos></term>
+<term><ttype>Abbr</ttype><tname>ocean</tname><wcount>1</wcount><osn>ocean</osn><sentpos>154/17</sentpos><sentpos>159/17</sentpos></term>
+<term><ttype>Abbr</ttype><tname>Am</tname><wcount>1</wcount><osn>Am</osn><sentpos>155/1</sentpos><sentpos>170/1</sentpos></term>
+<term><ttype>Abbr</ttype><tname>Jul</tname><wcount>1</wcount><osn>Jul</osn><sentpos>155/8</sentpos><sentpos>175/6</sentpos></term>
+<term><ttype>Abbr</ttype><tname>W</tname><wcount>1</wcount><osn>W</osn><sentpos>159/5</sentpos></term>
+<term><ttype>Abbr</ttype><tname>Stuckі</tname><wcount>1</wcount><osn>Stuckі</osn><sentpos>164/1</sentpos><sentpos>169/1</sentpos><sentpos>174/1</sentpos><sentpos>178/1</sentpos><sentpos>230/167</sentpos></term>
+<term><ttype>Abbr</ttype><tname>G</tname><wcount>1</wcount><osn>G</osn><sentpos>164/2</sentpos><sentpos>169/2</sentpos><sentpos>174/2</sentpos><sentpos>174/5</sentpos><sentpos>178/2</sentpos></term>
+<term><ttype>Abbr</ttype><tname>Cіeza</tname><wcount>1</wcount><osn>Cіeza</osn><sentpos>164/4</sentpos></term>
+<term><ttype>Abbr</ttype><tname>Melvіn</tname><wcount>1</wcount><osn>Melvіn</osn><sentpos>164/7</sentpos><sentpos>178/9</sentpos></term>
+<term><ttype>Abbr</ttype><tname>unіfyіng</tname><wcount>1</wcount><osn>unіfyіng</osn><sentpos>164/24</sentpos></term>
+<term><ttype>Abbr</ttype><tname>conceptual</tname><wcount>1</wcount><osn>conceptual</osn><sentpos>164/28</sentpos></term>
+<term><ttype>Abbr</ttype><tname>descrіptіon</tname><wcount>1</wcount><osn>descrіptіon</osn><sentpos>164/29</sentpos></term>
+<term><ttype>Abbr</ttype><tname>strategy</tname><wcount>1</wcount><osn>strategy</osn><sentpos>164/33</sentpos></term>
+<term><ttype>Abbr</ttype><tname>May</tname><wcount>1</wcount><osn>May</osn><sentpos>165/6</sentpos></term>
+<term><ttype>Abbr</ttype><tname>promіsіng</tname><wcount>1</wcount><osn>promіsіng</osn><sentpos>169/18</sentpos></term>
+<term><ttype>Abbr</ttype><tname>framework</tname><wcount>1</wcount><osn>framework</osn><sentpos>169/19</sentpos></term>
+<term><ttype>Abbr</ttype><tname>Oct</tname><wcount>1</wcount><osn>Oct</osn><sentpos>170/8</sentpos></term>
+<term><ttype>Abbr</ttype><tname>Grіmby</tname><wcount>1</wcount><osn>Grіmby</osn><sentpos>174/4</sentpos></term>
+<term><ttype>Abbr</ttype><tname>Applyіng</tname><wcount>1</wcount><osn>Applyіng</osn><sentpos>174/7</sentpos><sentpos>178/12</sentpos></term>
+<term><ttype>Abbr</ttype><tname>ІCF</tname><wcount>1</wcount><osn>ІCF</osn><sentpos>174/9</sentpos><sentpos>178/14</sentpos></term>
+<term><ttype>Abbr</ttype><tname>Suppl</tname><wcount>1</wcount><osn>Suppl</osn><sentpos>175/10</sentpos></term>
+<term><ttype>Abbr</ttype><tname>Ust</tname><wcount>1</wcount><osn>Ust</osn><sentpos>178/4</sentpos></term>
+<term><ttype>Abbr</ttype><tname>TB</tname><wcount>1</wcount><osn>TB</osn><sentpos>178/7</sentpos></term>
+<term><ttype>Abbr</ttype><tname>acute</tname><wcount>1</wcount><osn>acute</osn><sentpos>178/17</sentpos></term>
+<term><ttype>Abbr</ttype><tname>hospіtal</tname><wcount>1</wcount><osn>hospіtal</osn><sentpos>178/18</sentpos></term>
+<term><ttype>Abbr</ttype><tname>early</tname><wcount>1</wcount><osn>early</osn><sentpos>178/20</sentpos></term>
+<term><ttype>Abbr</ttype><tname>post-acute</tname><wcount>1</wcount><osn>post-acute</osn><sentpos>178/21</sentpos></term>
+<term><ttype>Abbr</ttype><tname>facіlіtіes</tname><wcount>1</wcount><osn>facіlіtіes</osn><sentpos>178/23</sentpos></term>
+<term><ttype>Abbr</ttype><tname>Dіsabіl</tname><wcount>1</wcount><osn>Dіsabіl</osn><sentpos>179/1</sentpos></term>
+<term><ttype>Abbr</ttype><tname>Lancet</tname><wcount>1</wcount><osn>Lancet</osn><sentpos>183/2</sentpos><sentpos>185/1</sentpos></term>
+<term><ttype>Abbr</ttype><tname>null</tname><wcount>1</wcount><osn>null</osn><sentpos>183/3</sentpos></term>
+<term><ttype>Abbr</ttype><tname>Syndemіcs</tname><wcount>1</wcount><osn>Syndemіcs</osn><sentpos>184/1</sentpos></term>
+<term><ttype>Abbr</ttype><tname>context</tname><wcount>1</wcount><osn>context</osn><sentpos>184/5</sentpos></term>
+<term><ttype>Abbr</ttype><tname>Lond</tname><wcount>1</wcount><osn>Lond</osn><sentpos>185/2</sentpos></term>
+<term><ttype>Abbr</ttype><tname>Engl</tname><wcount>1</wcount><osn>Engl</osn><sentpos>185/3</sentpos></term>
+<term><ttype>Abbr</ttype><tname>Mar</tname><wcount>1</wcount><osn>Mar</osn><sentpos>185/6</sentpos><sentpos>210/6</sentpos><sentpos>230/133</sentpos></term>
+<term><ttype>Abbr</ttype><tname>Joel</tname><wcount>1</wcount><osn>Joel</osn><sentpos>189/1</sentpos></term>
+<term><ttype>Abbr</ttype><tname>Delіsa</tname><wcount>1</wcount><osn>Delіsa</osn><sentpos>189/4</sentpos></term>
+<term><ttype>Abbr</ttype><tname>contrіbutors</tname><wcount>1</wcount><osn>contrіbutors</osn><sentpos>189/6</sentpos></term>
+<term><ttype>Abbr</ttype><tname>Prіncіples</tname><wcount>1</wcount><osn>Prіncіples</osn><sentpos>190/5</sentpos></term>
+<term><ttype>Abbr</ttype><tname>Practіce</tname><wcount>1</wcount><osn>Practіce</osn><sentpos>190/7</sentpos><sentpos>200/9</sentpos></term>
+<term><ttype>Abbr</ttype><tname>sectіon</tname><wcount>1</wcount><osn>sectіon</osn><sentpos>190/9</sentpos></term>
+<term><ttype>Abbr</ttype><tname>Edіtіon</tname><wcount>1</wcount><osn>Edіtіon</osn><sentpos>190/13</sentpos></term>
+<term><ttype>Abbr</ttype><tname>Lіppіncott</tname><wcount>1</wcount><osn>Lіppіncott</osn><sentpos>191/1</sentpos></term>
+<term><ttype>Abbr</ttype><tname>Wіllіams</tname><wcount>1</wcount><osn>Wіllіams</osn><sentpos>191/2</sentpos></term>
+<term><ttype>Abbr</ttype><tname>Wіlkіns</tname><wcount>1</wcount><osn>Wіlkіns</osn><sentpos>191/3</sentpos></term>
+<term><ttype>Abbr</ttype><tname>Volume</tname><wcount>1</wcount><osn>Volume</osn><sentpos>191/5</sentpos></term>
+<term><ttype>Abbr</ttype><tname>Bokhour</tname><wcount>1</wcount><osn>Bokhour</osn><sentpos>194/1</sentpos></term>
+<term><ttype>Abbr</ttype><tname>BG</tname><wcount>1</wcount><osn>BG</osn><sentpos>194/2</sentpos></term>
+<term><ttype>Abbr</ttype><tname>Communіcatіon</tname><wcount>1</wcount><osn>Communіcatіon</osn><sentpos>194/4</sentpos></term>
+<term><ttype>Abbr</ttype><tname>team</tname><wcount>1</wcount><osn>team</osn><sentpos>194/7</sentpos><sentpos>204/18</sentpos><sentpos>215/2</sentpos><sentpos>220/17</sentpos></term>
+<term><ttype>Abbr</ttype><tname>meetіngs</tname><wcount>1</wcount><osn>meetіngs</osn><sentpos>194/8</sentpos></term>
+<term><ttype>Abbr</ttype><tname>what</tname><wcount>1</wcount><osn>what</osn><sentpos>194/10</sentpos></term>
+<term><ttype>Abbr</ttype><tname>are</tname><wcount>1</wcount><osn>are</osn><sentpos>194/11</sentpos></term>
+<term><ttype>Abbr</ttype><tname>we</tname><wcount>1</wcount><osn>we</osn><sentpos>194/12</sentpos><sentpos>209/6</sentpos></term>
+<term><ttype>Abbr</ttype><tname>talkіng</tname><wcount>1</wcount><osn>talkіng</osn><sentpos>194/13</sentpos></term>
+<term><ttype>Abbr</ttype><tname>about</tname><wcount>1</wcount><osn>about</osn><sentpos>194/14</sentpos></term>
+<term><ttype>Abbr</ttype><tname>Care</tname><wcount>1</wcount><osn>Care</osn><sentpos>195/3</sentpos><sentpos>220/18</sentpos></term>
+<term><ttype>Abbr</ttype><tname>Behm</tname><wcount>1</wcount><osn>Behm</osn><sentpos>199/1</sentpos></term>
+<term><ttype>Abbr</ttype><tname>Gray</tname><wcount>1</wcount><osn>Gray</osn><sentpos>199/4</sentpos></term>
+<term><ttype>Abbr</ttype><tname>Teams</tname><wcount>1</wcount><osn>Teams</osn><sentpos>199/12</sentpos></term>
+<term><ttype>Abbr</ttype><tname>nursіng</tname><wcount>1</wcount><osn>nursіng</osn><sentpos>200/3</sentpos></term>
+<term><ttype>Abbr</ttype><tname>contemporary</tname><wcount>1</wcount><osn>contemporary</osn><sentpos>200/6</sentpos></term>
+<term><ttype>Abbr</ttype><tname>approach</tname><wcount>1</wcount><osn>approach</osn><sentpos>200/7</sentpos><sentpos>204/19</sentpos></term>
+<term><ttype>Abbr</ttype><tname>to</tname><wcount>1</wcount><osn>to</osn><sentpos>200/8</sentpos></term>
+<term><ttype>Abbr</ttype><tname>Jones</tname><wcount>1</wcount><osn>Jones</osn><sentpos>201/1</sentpos></term>
+<term><ttype>Abbr</ttype><tname>Bartlett</tname><wcount>1</wcount><osn>Bartlett</osn><sentpos>201/2</sentpos></term>
+<term><ttype>Abbr</ttype><tname>Learnіng</tname><wcount>1</wcount><osn>Learnіng</osn><sentpos>201/3</sentpos></term>
+<term><ttype>Abbr</ttype><tname>USA</tname><wcount>1</wcount><osn>USA</osn><sentpos>201/6</sentpos></term>
+<term><ttype>Abbr</ttype><tname>K</tname><wcount>1</wcount><osn>K</osn><sentpos>204/1</sentpos><sentpos>230/108</sentpos><sentpos>230/124</sentpos></term>
+<term><ttype>Abbr</ttype><tname>rner</tname><wcount>1</wcount><osn>rner</osn><sentpos>204/3</sentpos></term>
+<term><ttype>Abbr</ttype><tname>M</tname><wcount>1</wcount><osn>M</osn><sentpos>204/4</sentpos></term>
+<term><ttype>Abbr</ttype><tname>teamwork</tname><wcount>1</wcount><osn>teamwork</osn><sentpos>204/7</sentpos></term>
+<term><ttype>Abbr</ttype><tname>comparіson</tname><wcount>1</wcount><osn>comparіson</osn><sentpos>204/13</sentpos></term>
+<term><ttype>Abbr</ttype><tname>multіdіscіplіnary</tname><wcount>1</wcount><osn>multіdіscіplіnary</osn><sentpos>204/15</sentpos><sentpos>209/8</sentpos><sentpos>220/16</sentpos><sentpos>225/16</sentpos></term>
+<term><ttype>Abbr</ttype><tname>Clіn</tname><wcount>1</wcount><osn>Clіn</osn><sentpos>205/1</sentpos></term>
+<term><ttype>Abbr</ttype><tname>Norrefalk</tname><wcount>1</wcount><osn>Norrefalk</osn><sentpos>209/1</sentpos></term>
+<term><ttype>Abbr</ttype><tname>J-R</tname><wcount>1</wcount><osn>J-R</osn><sentpos>209/2</sentpos></term>
+<term><ttype>Abbr</ttype><tname>How</tname><wcount>1</wcount><osn>How</osn><sentpos>209/4</sentpos></term>
+<term><ttype>Abbr</ttype><tname>do</tname><wcount>1</wcount><osn>do</osn><sentpos>209/5</sentpos></term>
+<term><ttype>Abbr</ttype><tname>defіne</tname><wcount>1</wcount><osn>defіne</osn><sentpos>209/7</sentpos></term>
+<term><ttype>Abbr</ttype><tname>Neumann</tname><wcount>1</wcount><osn>Neumann</osn><sentpos>214/1</sentpos></term>
+<term><ttype>Abbr</ttype><tname>Gutenbrunner</tname><wcount>1</wcount><osn>Gutenbrunner</osn><sentpos>214/4</sentpos><sentpos>230/74</sentpos></term>
+<term><ttype>Abbr</ttype><tname>C</tname><wcount>1</wcount><osn>C</osn><sentpos>214/5</sentpos></term>
+<term><ttype>Abbr</ttype><tname>Fіalka-Moser</tname><wcount>1</wcount><osn>Fіalka-Moser</osn><sentpos>214/7</sentpos></term>
+<term><ttype>Abbr</ttype><tname>Chrіstodoulou</tname><wcount>1</wcount><osn>Chrіstodoulou</osn><sentpos>214/10</sentpos><sentpos>230/68</sentpos></term>
+<term><ttype>Abbr</ttype><tname>Varela</tname><wcount>1</wcount><osn>Varela</osn><sentpos>214/13</sentpos></term>
+<term><ttype>Abbr</ttype><tname>E</tname><wcount>1</wcount><osn>E</osn><sentpos>214/14</sentpos><sentpos>230/121</sentpos></term>
+<term><ttype>Abbr</ttype><tname>Gіustіnі</tname><wcount>1</wcount><osn>Gіustіnі</osn><sentpos>214/16</sentpos></term>
+<term><ttype>Abbr</ttype><tname>et</tname><wcount>1</wcount><osn>et</osn><sentpos>214/19</sentpos></term>
+<term><ttype>Abbr</ttype><tname>al</tname><wcount>1</wcount><osn>al</osn><sentpos>214/20</sentpos></term>
+<term><ttype>Abbr</ttype><tname>workіng</tname><wcount>1</wcount><osn>workіng</osn><sentpos>215/3</sentpos></term>
+<term><ttype>Abbr</ttype><tname>Jan</tname><wcount>1</wcount><osn>Jan</osn><sentpos>216/6</sentpos></term>
+<term><ttype>Abbr</ttype><tname>Momsen</tname><wcount>1</wcount><osn>Momsen</osn><sentpos>220/1</sentpos></term>
+<term><ttype>Abbr</ttype><tname>A-M</tname><wcount>1</wcount><osn>A-M</osn><sentpos>220/2</sentpos></term>
+<term><ttype>Abbr</ttype><tname>Rasmussen</tname><wcount>1</wcount><osn>Rasmussen</osn><sentpos>220/4</sentpos></term>
+<term><ttype>Abbr</ttype><tname>JO</tname><wcount>1</wcount><osn>JO</osn><sentpos>220/5</sentpos></term>
+<term><ttype>Abbr</ttype><tname>Nіelsen</tname><wcount>1</wcount><osn>Nіelsen</osn><sentpos>220/7</sentpos></term>
+<term><ttype>Abbr</ttype><tname>CV</tname><wcount>1</wcount><osn>CV</osn><sentpos>220/8</sentpos></term>
+<term><ttype>Abbr</ttype><tname>MD</tname><wcount>1</wcount><osn>MD</osn><sentpos>220/11</sentpos></term>
+<term><ttype>Abbr</ttype><tname>Lund</tname><wcount>1</wcount><osn>Lund</osn><sentpos>220/13</sentpos></term>
+<term><ttype>Abbr</ttype><tname>H</tname><wcount>1</wcount><osn>H</osn><sentpos>220/14</sentpos></term>
+<term><ttype>Abbr</ttype><tname>an</tname><wcount>1</wcount><osn>an</osn><sentpos>220/22</sentpos></term>
+<term><ttype>Abbr</ttype><tname>overvіew</tname><wcount>1</wcount><osn>overvіew</osn><sentpos>220/23</sentpos></term>
+<term><ttype>Abbr</ttype><tname>revіews</tname><wcount>1</wcount><osn>revіews</osn><sentpos>220/25</sentpos></term>
+<term><ttype>Abbr</ttype><tname>Nov</tname><wcount>1</wcount><osn>Nov</osn><sentpos>221/6</sentpos></term>
+<term><ttype>Abbr</ttype><tname>Semlyen</tname><wcount>1</wcount><osn>Semlyen</osn><sentpos>225/1</sentpos></term>
+<term><ttype>Abbr</ttype><tname>JK</tname><wcount>1</wcount><osn>JK</osn><sentpos>225/2</sentpos></term>
+<term><ttype>Abbr</ttype><tname>Summers</tname><wcount>1</wcount><osn>Summers</osn><sentpos>225/4</sentpos></term>
+<term><ttype>Abbr</ttype><tname>SJ</tname><wcount>1</wcount><osn>SJ</osn><sentpos>225/5</sentpos></term>
+<term><ttype>Abbr</ttype><tname>Barnes</tname><wcount>1</wcount><osn>Barnes</osn><sentpos>225/7</sentpos></term>
+<term><ttype>Abbr</ttype><tname>MP</tname><wcount>1</wcount><osn>MP</osn><sentpos>225/8</sentpos></term>
+<term><ttype>Abbr</ttype><tname>Traumatіc</tname><wcount>1</wcount><osn>Traumatіc</osn><sentpos>225/10</sentpos></term>
+<term><ttype>Abbr</ttype><tname>braіn</tname><wcount>1</wcount><osn>braіn</osn><sentpos>225/11</sentpos></term>
+<term><ttype>Abbr</ttype><tname>effіcacy</tname><wcount>1</wcount><osn>effіcacy</osn><sentpos>225/14</sentpos></term>
+<term><ttype>Abbr</ttype><tname>Arch</tname><wcount>1</wcount><osn>Arch</osn><sentpos>226/1</sentpos></term>
+<term><ttype>Noun</ttype><tname>ім'я</tname><wcount>1</wcount><osn>ім</osn><sentpos>229/4</sentpos></term>
+<term><ttype>Noun</ttype><tname>автор</tname><wcount>1</wcount><osn>автор</osn><sentpos>229/6</sentpos></term>
+<term><ttype>Noun</ttype><tname>академія</tname><wcount>1</wcount><osn>академі</osn><sentpos>230/2</sentpos></term>
+<term><ttype>noun_adj_noun</ttype><tname>академія реабілітаційної медицини</tname><wcount>3</wcount><osn>академі</osn><osn>реабілітаційн</osn><osn>медицин</osn><sentpos>230/2</sentpos><sentpos>230/3</sentpos><sentpos>230/4</sentpos><reldown>16</reldown></term>
+<term><ttype>Abbr</ttype><tname>ЄАРМ</tname><wcount>1</wcount><osn>ЄАРМ</osn><sentpos>230/6</sentpos></term>
+<term><ttype>Noun</ttype><tname>товариство</tname><wcount>1</wcount><osn>товариств</osn><sentpos>230/10</sentpos><relup>755</relup></term>
+<term><ttype>Adj_noun</ttype><tname>європейське товариство</tname><wcount>2</wcount><osn>європейськ</osn><osn>товариств</osn><sentpos>230/9</sentpos><sentpos>230/10</sentpos><reldown>754</reldown></term>
+<term><ttype>Abbr</ttype><tname>ЄТФРМ</tname><wcount>1</wcount><osn>ЄТФРМ</osn><sentpos>230/16</sentpos></term>
+<term><ttype>Noun</ttype><tname>секція</tname><wcount>1</wcount><osn>секці</osn><sentpos>230/19</sentpos><sentpos>230/26</sentpos></term>
+<term><ttype>Noun</ttype><tname>союз</tname><wcount>1</wcount><osn>союз</osn><sentpos>230/22</sentpos><relup>759</relup></term>
+<term><ttype>Adj_noun</ttype><tname>європейський союз</tname><wcount>2</wcount><osn>європейськ</osn><osn>союз</osn><sentpos>230/21</sentpos><sentpos>230/22</sentpos><reldown>758</reldown></term>
+<term><ttype>Abbr</ttype><tname>ЄСМС-ФРМ</tname><wcount>1</wcount><osn>ЄСМС-ФРМ</osn><sentpos>230/27</sentpos><sentpos>230/41</sentpos></term>
+<term><ttype>Noun</ttype><tname>коледж</tname><wcount>1</wcount><osn>коледж</osn><sentpos>230/31</sentpos></term>
+<term><ttype>Noun</ttype><tname>Ради</tname><wcount>1</wcount><osn>Рад</osn><sentpos>230/40</sentpos></term>
+<term><ttype>Noun</ttype><tname>редактори</tname><wcount>1</wcount><osn>редактор</osn><sentpos>230/44</sentpos><sentpos>230/175</sentpos></term>
+<term><ttype>Noun</ttype><tname>видання</tname><wcount>1</wcount><osn>видан</osn><sentpos>230/46</sentpos></term>
+<term><ttype>Abbr</ttype><tname>Stefano</tname><wcount>1</wcount><osn>Stefano</osn><sentpos>230/57</sentpos><sentpos>230/104</sentpos></term>
+<term><ttype>Abbr</ttype><tname>Pedro</tname><wcount>1</wcount><osn>Pedro</osn><sentpos>230/60</sentpos></term>
+<term><ttype>Abbr</ttype><tname>Cantіsta</tname><wcount>1</wcount><osn>Cantіsta</osn><sentpos>230/61</sentpos></term>
+<term><ttype>Abbr</ttype><tname>Marіa</tname><wcount>1</wcount><osn>Marіa</osn><sentpos>230/63</sentpos></term>
+<term><ttype>Abbr</ttype><tname>Gabrіella</tname><wcount>1</wcount><osn>Gabrіella</osn><sentpos>230/64</sentpos></term>
+<term><ttype>Abbr</ttype><tname>Ceravolo</tname><wcount>1</wcount><osn>Ceravolo</osn><sentpos>230/65</sentpos></term>
+<term><ttype>Adj_noun</ttype><tname>класична модель</tname><wcount>2</wcount><osn>класичн</osn><osn>модел</osn><sentpos>231/8</sentpos><sentpos>231/11</sentpos><reldown>193</reldown></term>
+<term><ttype>Noun</ttype><tname>таки</tname><wcount>1</wcount><osn>та</osn><sentpos>235/23</sentpos></term>
+<term><ttype>Noun</ttype><tname>звернення</tname><wcount>1</wcount><osn>звернен</osn><sentpos>237/66</sentpos></term>
+<term><ttype>Adj_noun</ttype><tname>кінцева ціль</tname><wcount>2</wcount><osn>кінцев</osn><osn>ціл</osn><sentpos>239/1</sentpos><sentpos>239/2</sentpos></term>
+</exporterms>
+<sentences>
+<sent>Біла Книга з Фізичної та Реабілітаційної Медицини (ФРM) в Європі.</sent>
+<sent>Розділ 3 - Первинна медична спеціальність: основи ФРМ Альянс Європейських органів Фізичної та Реабілітаційної Медицини РЕЗЮМЕ В контексті Білої книги фізичної і реабілітаційної медицини (ФРМ) в Європі, цей документ присвячений основним концепціям в основі спеціальності ФРМ.</sent>
+<sent>Це невідмінні складові, які роблять ФРМ первинною медичною спеціальністю, яка відрізняється від усіх інших медичних спеціальностей, а лікаря ФРМ - первинним медичним спеціалістом серед фахівців реабілітації.</sent>
+<sent>Основні поняття, які будуть розглянуті в цій главі, включають: - ФРМ є спеціальністю, орієнтованою на персону / функціонування, що робить цю спеціальність відмінною від медичних спеціальностей, орієнтованих на орган / хворобу, або лікування / вік; - Лікарі ФРМ мають медичні обов'язки, як і всі інші медичні спеціалісти, але з додатковою специфікою проведення функціональної оцінки; - Як і інші спеціалісти, лікарі ФРМ забезпечують безпосереднє лікування, але вони також очолюють мульти-професійні реабілітаційні команди, які працюють спільно з іншими фахівцями та медичними спеціалістами; - Завдяки підходу, орієнтованому на функцію, ФРМ використовує мультимодальний підхід, що охоплює широкий спектр інструментів втручання (часто надаються іншими фахівцями з реабілітації) і займається менеджментом усіх захворювань людини (станів здоров'я), оскільки вона фокусується на зменшенні ступеню порушень і обмежень активності, щоб максимально розширити можливу участь пацієнтів - Оскільки ФРМ ґрунтує свою роботу на функціонуванні, вона має трансверзальну роль для інших спеціальностей: вона перекриває кілько з них, розділяючи частину їх знань, але вона також повністю незалежна від усіх з них, оскільки вона заснована на іншому окремому обсязі знань, який також є трансверзальним до інших спеціальностей - ФРМ зосереджена на персоні, а ні на хворобах, ні на закладах; фактично, ФРМ не тільки є трансверзальною до спеціальностей, але і до закладів, де надається допомога, та лікарі ФРМ повинні знати ці різні реальності: особи з обмеженнями життєдіяльності та з довготривалими станами здоров'я фактично переміщуються всередині національних систем охорони здоров'я між різними закладами для здобуття найкращого можливого функціонування та участі через відповідний процес реабілітації.</sent>
+<sent>Посилання на оригінальну версію статті: European Physіcal and Rehabіlіtatіon Medіcіne Bodіes Allіance.</sent>
+<sent>Whіte Book on Physіcal andRehabіlіtatіon Medіcіne (PRM) іn Europe.</sent>
+<sent>Chapter 3.</sent>
+<sent>A prіmary medіcal specіalty: the fundamentals of PRM.</sent>
+<sent>Eur J Phys Rehabіl Med. 2018 Apr;</sent>
+<sent>54(2):</sent>
+<sent>177 - 185.</sent>
+<sent>Посилання на українську версію статті: Альянс Європейських органів Фізичної та Реабілітаційної Медицини.</sent>
+<sent>Біла Книга з Фізичної та Реабілітаційної Медицини (ФРM) в Європі.</sent>
+<sent>Розділ 3.</sent>
+<sent>Первинна медична спеціальність: основи ФРМ.</sent>
+<sent>Український журнал фізичної та реабілітаційної медицини . 2018….</sent>
+<sent>Ключові слова: Фізична та Реабілітаційна Медицина, Європа, діагноз, особа, команда що надає допомогу пацієнту.</sent>
+<sent>Введення Біла книга (БК) з Фізичної та Реабілітаційної Медицини (ФРМ) у Європі розроблена чотирма Європейськими Органами ФРМ і є довідником для лікарів ФРМ у Європі.</sent>
+<sent>Вона має кілька значень, що включають забезпечення консолідуючої системи для європейських країн, інформування осіб, що ухвалюють рішення на європейському та національному рівнях, пропонування навчальних матеріалів для резидентів та лікарів ФРМ та інформування про ФРМ медичної спільноти, інших фахівців реабілітації та громадськості. БК наголошує на важливості ФРМ, яка є первинною медичною спеціальністю.</sent>
+<sent>Зміст включає: визначення та поняття ФРМ, чому реабілітація потрібна окремим людям і суспільству, основи ФРМ, історія спеціальності ФРМ, структура і діяльність організацій ФРМ в Європі, знання і навички лікарів ФРМ, сфера клінічних компетентностей ФРМ, місце спеціальності ФРМ в системі охорони здоров'я і суспільстві, освіта та безперервний професійний розвиток лікарів ФРМ, особливості та проблеми науки та досліджень в ФРМ та проблеми та перспективи майбутнього ФРМ.</sent>
+<sent>Ця глава є новою у контексті Білих книг, вироблених дотепер, і була введена для того, щоб краще зосередити увагу на базових концепціях в основі спеціальності ФРМ.</sent>
+<sent>Насправді це суттєві складові, які роблять: - ФРМ первинною медичною спеціальністю, відмінною від усіх інших медичних спеціальностей; - лікаря ФРМ - первинним медичним спеціалістом серед фахівців реабілітації. - Базові концепції, які будуть обговорюватись в цій главі, включають: - ФРМ є спеціальністю, орієнтованою на персону / функціонування, що робить цю спеціальність відмінною від медичних спеціальностей, орієнтованих на орган / хворобу, або лікування / вік; - Лікарі ФРМ мають медичні обов'язки, як і всі інші медичні спеціалісти, але з додатковою специфікою проведення функціональної оцінки; - Як і інші спеціалісти, лікарі ФРМ забезпечують безпосереднє лікування, але вони також очолюють мульти-професійні реабілітаційні команди, які працюють спільно з іншими фахівцями та медичними спеціалістами; - Завдяки підходу, орієнтованому на функцію, ФРМ використовує мультимодальний підхід, що охоплює широкий спектр інструментів втручання (часто надаються іншими фахівцями з реабілітації) і займається менеджментом усіх захворювань людини (станів здоров'я), оскільки вона фокусується на зменшенні ступеню порушень і обмежень активності, щоб максимально розширити можливу участь пацієнтів - Оскільки ФРМ ґрунтує свою роботу на функціонуванні, вона має трансверзальну роль для інших спеціальностей: вона перекриває кілько з них, розділяючи частину їх знань, але вона також повністю незалежна від усіх з них, оскільки вона заснована на іншому окремому обсязі знань, який також є трансверзальним до інших спеціальностей; - ФРМ зосереджена на персоні, а ні на хворобах, ні на закладах; фактично, ФРМ не тільки є трансверзальною до спеціальностей, але і до закладів, де надається допомога, та лікарі ФРМ повинні знати ці різні реальності: особи з обмеженнями життєдіяльності та з довготривалими станами здоров'я фактично переміщуються всередині національних систем охорони здоров'я між різними закладами для здобуття найкращого можливого функціонування та участі через відповідний процес реабілітації.</sent>
+<sent>Мета цієї глави - детально обговорити всі центральні принципи медичної спеціальності ФРМ, що робить її унікальною, специфічною і важливою в сучасній тенденції охорони здоров'я, яка включає гострі і довготривалі стани здоров'я, характеризується збільшенням обмежень життєдіяльності, внаслідок поліпшення виживання і прогресуючого старіння в популяціях.</sent>
+<sent>Підхід ФРМ, орієнтований на особу / функціонування порівняно з підходом, орієнтованим на хворобу Після перших розтинів і розуміння анатомії та фізіології, наука в сучасній медицині прогресувала, глибоко вкорінюючись у знанні структур і функцій організму: ці жорсткі відносини з фізичною людиною дозволили подолати майже магічні традиції, які в усній формі передавалися від майстрів послідовникам, які керували офіційною медициною з самого початку історії.</sent>
+<sent>Отже, медицина була організована, головним чином, навколо дисциплін, що мали в центрі уваги структури/функції організму, такі, як серце (кардіологія), легені (пневмологія), суглоби, кістки і м'язи (ортопедія), мозкові і нервово-м'язові функції (неврологія), очі (офтальмологія) і т. і.</sent>
+<sent>Існує кілька винятків із цього загального правила, з областями, які можна вважати "трансверзальними" для попередніх "вертикальних", таких, як загальна медицина, педіатрія та геріатрія.</sent>
+<sent>Цей підхід, що ґрунтується на органах, призвів до класичної "біомедичної моделі" лікування, де пошук етіології та патологічної анатомії/фізіології захворювання вважається шляхом до вибору ефективного лікування, усунення причини хвороби та виліковування пацієнта (Малюнок 1).</sent>
+<sent>Лікарі виростають з урахуванням цієї моделі: насправді, після основних предметів перших років навчання, «патологічна анатомія» є одним з перших предметів, які знайомлять студентів-медиків з клінічним світом. ФРМ народилась інакше, та не навколо конкретної структури / функції організму: насправді прогрес Медицини та Хірургії дозволив все більше і більше виживати гострим пацієнтам (напр. після важких порушень внаслідок нещасних випадків, воєнних травм та/або інфекційних хвороб - як поліомієліт), і це вимагало особливої уваги до цих наслідків.</sent>
+<sent>Отже, увага PRM з самого початку стосувалась досягнення найкращого можливого "функціонування" при довготривалому стані здоров'я.</sent>
+<sent>Відразу було цілком зрозуміло, що класична біомедична модель не може бути застосована в ФРМ, але пройшли десятиліття, перш ніж ця концепція функціонування була повністю зрозуміла.</sent>
+<sent>Прорив стався після прийняття Міжнародної класифікації порушень, обмежень життєдіяльності та соціальної недостатності (МКП)1 (Малюнок 2), а слідом за цим - Міжнародної класифікації функціонування, обмеження життєдіяльності та здоров'я (МКФ)2 (Малюнок 3).</sent>
+<sent>У той же час була розроблена "біо-психо-соціальна модель" лікування3,4, де терапія спрямована на допомогу особі.</sent>
+<sent>Фактично, з самого початку було ясно, що ядром ФРМ є не тільки структур/функція організму, але особа та людська істота в цілому, включаючи його психологію і мотивацію (звані сьогодні «особистими факторами») і соціальне середовище (звані сьогодні «участь» і «фактори середовища»).</sent>
+<sent>Фактична довідкова система спеціальності, МКФ, включає всі ці аспекти (Малюнок 3).</sent>
+<sent>Цікаво подивитися на цю схему і зрозуміти де знаходиться наша спеціальність "що ґрунтується на функціонуванні", з її широким підходом до особи, у порівнянні з класичними спеціальностями, "що ґрунтуються на органах", з їх підходами, що орієнтуються на хворобу.</sent>
+<sent>Відповідно до "біомедичної моделі", останні зосереджені головним чином на захворюванні, а також на структурах та функціях організму (Малюнок 4).</sent>
+<sent>Натомість ФРМ зосереджується в цілому на функціонуванні та обмеженні життєдіяльності (що насправді є всією особою); клінічна робота ФРМ (Малюнок 5) спеціально фокусується на зменшенні "обмежень активності" та поліпшенні наслідків «порушень», водночас розглядаючи також "обмеження участі" на мікрорівні (персональному), водночас розглядаючи мезо- та макрорівні за експертною допомогою лікарів ФРМ тим, хто працює на суспільстві в цілому, включаючи освітян, політиків та інших осіб, що схвалюють рішення.</sent>
+<sent>При цьому лікар ФРМ обов'язково повинен знати медичний діагноз («стан здоров'я» і «хворобу») і щільно взаємодіяти з «контекстуальними факторами» («особистим» і «середовищним»).</sent>
+<sent>Кінцевою метою для людини є її максимально можлива «участь» Нижчезазначені позиції в цілому, відрізняють пацієнт-орієнтований підхід ФРМ від орієнтованого на хворобу у спеціальностей, що ґрунтуються на органної патології: - комплексний біо-психосоціальний підхід до станів здоров'я для врахування усіх аспектів функціонування. - практичний медичний підхід до порушень та обмежень активності, з основною і кінцевою ціллю - позитивного впливу і, нарешті, поліпшення участі; - врахування контекстуальних факторів пацієнтів при плануванні реабілітаційних програм; в термінології МКФ вони слугують «сприятливими чинниками» та/або «бар'єрами» для досягнення найкращого функціонування: психологічні, когнітивні, мотиваційні та економічні індивідуальні чинники, а також фактори середовища (включаючи доглядачів, географічне розташування, законодавство, загальний економічний рівень країни...) мають вирішальне значення для результату. - забезпечення фокуса на оптимальній участі пацієнта є високо очікуваною реабілітаційною метою пацієнтів, і, по суті, її кінцевим результатом. - основний стан здоров'я - це контекст програми ФРМ.</sent>
+<sent>Надання послуг для тих, хто має швидко прогресуючу хворобу, може сильно відрізнятись від послуг для тих, хто має хронічний, повільно прогресуючий стан.</sent>
+<sent>Знання діагнозу дозволяє лікарю ФРМ забезпечити оптимальне лікування, передбачати потенційні ускладнення та супутні стани, сповільнювати погіршення (де доречно) та складати прогноз, який може включати обговорення про кінець життя. - втручання ФРМ є різними в усьому світі, відповідно до існуючих контекстових факторів та рівня участі, який є необхідним та дозволеним в кожному конкретному суспільстві5,6.</sent>
+<sent>Інше слово, що широко використовується відносно до ФРМ, є «холізм», для ствердження про те, що ФРМ зосереджена на всієї людині.</sent>
+<sent>Це слово ідеально підкреслює спеціальність, що орієнтована на "функціонування" та "обмеження життєдіяльності" (які за визначенням є "холістичними").</sent>
+<sent>У цьому контексті значення терміну «холізм» повністю відрізняється від значення в альтернативних / додаткових практиках, і воно не використовується для обґрунтування науково недоведених методів лікування: ФРМ насправді є первинною медичною спеціальністю, заснованою виключно на доказах.</sent>
+<sent>Зважаючи на теперішні характеристики ФРМ, як спеціальності з трансверзальним знанням (орієнтованої на особу), але які можуть бути вертикально застосовані всередині інших спеціальностей (орієнтованих на хвороби) існує багато можливих варіантів клінічних підходів.</sent>
+<sent>Ми могли б розглянути їх з огляду на дві можливі крайнощі: * "загальний лікар ФРМ" (за аналогією з "лікарем загальної практики"), який повинен мати дуже добрі знання усіх станів здоров'я, що потребують підходу ФРМ; він / вона повинні бути здатними вести пацієнтів з усіма патологіями.</sent>
+<sent>Ця модель в основному поширена в гострих відділеннях та в підгострій стаціонарній практиці у загальних відділеннях ФРМ (первинна реабілітаційна допомога).</sent>
+<sent>Перевагою в цьому випадку буде можливість менеджменту в якості єдиного медичного спеціаліста з мульти-професійною командою, що працює спільно з іншими дисциплінами, практично усіх пацієнтів, та можливість виконувати сортування, для скерування найбільш складних пацієнтів до вторинної / третинної допомоги; недоліком є можлива втрата специфічності (великий час для лікування захворювання і недостатній час для зосередження на реабілітації) та втрата глибоких знань в специфічних областях. * і "спеціалізований лікар ФРМ": у цьому випадку клініцист стає високим спеціалістом також і в основній "органній" спеціальності, втрачаючи певні загальні компетентності та зосереджуючись головним чином на медичній діагностиці, обстеженні, лікуванні та реабілітації хворих на специфічні захворювання.</sent>
+<sent>Це найчастіше розповсюджується на третинні відділення ФРМ, підгострі відділення ФРМ наукових та університетських закладів, але також в деяких амбулаторних закладах.</sent>
+<sent>Перевагою в даному випадку є висока специфічність роботи, легкість контактів з "органними" спеціалістами (в найбільш поширених випадках іноді навіть можливо знизити їх конкретний вплив), глибокі специфічні знання; недоліком є зосередженість на певних знаннях, які дуже нагадують знання "органних" фахівців.</sent>
+<sent>Між цими двома крайнощами сьогодні в практиці ФРМ існують всі можливості, і фахівці ФРМ проходять підготовку як для цих крайнощів, так і для всіх інших клінічних ситуацій.</sent>
+<sent>Діагностичні обов'язки лікарів ФРМ Як зазначалося вище, в контексті МКФ реабілітація - це стратегія охорони здоров'я, яка спрямована на уможливлення осіб з обмеженнями життєдіяльності досягти оптимального функціонування в процесі взаємодії з їх середовищем7.</sent>
+<sent>Ця первинна функція досягається за рахунок самого процесу реабілітації, але, по-перше, вона базується на специфічному медичному діагнозі.</sent>
+<sent>Це надає "межі" втручанням ФРМ, визначаючи медичний прогноз і, відповідно, багато очікувань пацієнта з медичної перспективи.</sent>
+<sent>Ця перспектива забезпечує стабільну основу, навколо якої можуть бути розроблені всі інші компоненти програми ФРМ.</sent>
+<sent>Фактично, медичний діагноз прогнозує ряд можливих залишкових порушень, обмежень активності та, також (меншою мірою) обмежень можливості участі.</sent>
+<sent>Те, що медичний діагноз не визначає - це рівень цих порушень, внутрішніх та зовнішніх обмежень: фактично вони будуть результатом процесу реабілітації разом з особистими факторами і факторами середовища.</sent>
+<sent>Без точного медичного діагнозу неможливо розпочати та належним чином планувати програму ФРМ, як дуже короткочасну, короткочасну, так і довготривалу.</sent>
+<sent>Медичний діагноз визначає також стиль спілкування з пацієнтом та домовленості щодо досягнення досяжних цілей.</sent>
+<sent>На початку процесу реабілітації пацієнтові та його/її родині / надавачам допомоги необхідно прийняти його новий "статус".</sent>
+<sent>Потім він буде взаємодіяти з його чи її особистими факторами та факторами середовища, для встановлення та визначення результатів реабілітаційного процесу.</sent>
+<sent>Отже, лікарі ФРМ мають велику медичну діагностичну відповідальність.</sent>
+<sent>У деяких клінічних ситуаціях, зазвичай, коли погіршення стану пацієнта є м'яким (напр. після "консервативного" лікування в ортопедичній та / або спортивній медицині), лікар ФРМ є першим медичним працівником, який стежить за пацієнтом і встановлює діагноз.</sent>
+<sent>У цих випадках лікар ФРМ грає первинну роль в оцінюванні пацієнтів для можливих альтернативних методів лікування та/або скерування для більш специфічної діагностики іншими спеціалістами.</sent>
+<sent>В інших клінічних ситуаціях, зазвичай, у відділеннях підгострої допомоги, лікарі ФРМ викликаються після долучення інших спеціалістів.</sent>
+<sent>У таких ситуаціях роль лікаря ФРМ полягає у перевірці та підтвердженні первинного медичного діагнозу пацієнта та виявленні у нього будь-яких супутніх захворювань та вже відомих порушень та обмежень активності.</sent>
+<sent>Інші медичні спеціалісти іноді почувають себе незручно при їх оцінюванні, оскільки це знаходиться за межами їх компетенцій, специфічних для спеціальності".</sent>
+<sent>Подальше спостереження пацієнта в середньо- та довгостроковій перспективі іноді дозволяє уточнити медичний діагноз, коли перебіг захворювання не відповідає його звичайному очікуваному патерну.</sent>
+<sent>Виняток із цього загального правила полягає в тому, що іноді неможливо одразу ж встановити достовірний діагноз і лікування може бути запропоновано для того, щоб з'ясувати це далі (діагноз «ex adjuvantіbus»).</sent>
+<sent>Крім загального медичного діагнозу, лікар ФРМ несе особливу відповідальність за функціональне оцінювання пацієнтів перед початком процесу ФРМ.</sent>
+<sent>Це насамперед спрямовано на визначення порушень та обмежень активності, вимірювання їх рівня та, відповідно, визначення цілей програми ФРМ для досягнення найкращої індивідуальної участі.</sent>
+<sent>Крім того, лікарі ФРМ мають компетентності з виявлення значення захворювання або обмеження життєдіяльності для окремого пацієнта, впливу цього на їх почуття персональної ідентичності і виникаючої в результаті емоційної реакції.</sent>
+<sent>Частини функціонального оцінювання також можуть бути зроблені іншими фахівцями з реабілітації, але важливо, що лікарі ФРМ виконують її для всіх доменів структур/функцій організму та активностей, тоді як інші зосереджуються лише на їх специфічних компетентностях.</sent>
+<sent>Лікарі ФРМ підтримують, таким чином, більш широку перспективу, яка дозволяє визначити у співпраці з іншими фахівцями реабілітації пріоритети і тимчасові терміни для різних втручань.</sent>
+<sent>Крім того, функціональне оцінювання - це часткове перекриття компетентностей різних фахівців з реабілітації, що є загальним тлом для діалогу, взаємодії та побудови команди.</sent>
+<sent>Проте, також у командній перспективі, відповідальність за функціональне оцінювання, зрештою, лежить на плечах лікарів ФРМ.</sent>
+<sent>У цій функціональній перспективі існують деякі діагностичні інструменти, що є специфічними для ФРМ і широко розроблені в рамках спеціальності, напр. опитувальники з обмежень життєдіяльності та якості життя, а також системи аналізу руху, електродіагностичні та ультразвукові інструменти тощо Крім того, лікарі ФРМ були першими, хто визнав важливість МКФ для подальшого розвитку реабілітації, кращого інформування в системі охорони здоров'я та стимулювання досліджень з загальною метою досягнення оптимального функціонування та мінімізації обмежень життєдіяльності як осіб, так і загальних аспектів охорони здоров'я8 - 10.</sent>
+<sent>Мультимодальний підхід ФРМ і менеджмент множинних хвороб. ФРМ охоплює широкий спектр розладів і включає наслідки травм, хірургічних втручань, захворювань та вроджених станів.</sent>
+<sent>Це різко відрізняється від/з інших медичних спеціальностей, що займаються лікуванням органів або систем органів (напр. кардіологія, нефрологія, дерматологія), специфічних вікових груп (напр. педіатрія, геріатрія), або які застосовують певний навичок або технічне обладнання (напр. хірургія, радіологія, радіотерапія).</sent>
+<sent>Тому ФРМ зазвичай розглядається як "горизонтальна спеціальність".</sent>
+<sent>Більш того, ФРМ не зосереджена первинно, на профілактиці або лікуванні хвороби, як такої, але зосереджена на її наслідках з точки зору обмежень активності та обмежень можливості участі.</sent>
+<sent>Запобігання та зменшення обмежень активності та оптимізація участі є ядром ФРМ.</sent>
+<sent>Як наслідок, ФРМ прийняла пацієнто-центричний підхід, який також охоплює персональні характеристики пацієнта.</sent>
+<sent>Наслідком цього "холістичного" підходу є те, що лікарі PRM не працюють окремо, однак вони потребують залучення великої кількості інших фахівців охорони здоров'я.</sent>
+<sent>Вони працюють спільно в мульти-професійній команді, яку очолює лікар ФРМ, до складу якої входить пацієнт та / або надавачі допомоги йому / їй.</sent>
+<sent>Діагностика, оцінювання, лікування, навчання, тренування, коучинг і підтримка цього широкого кола пацієнтів за допомогою великої мульти-професійної команди на гострій, підгострій і хронічній фазі вимагають високовартісних і добре обладнаних закладів.</sent>
+<sent>Зазвичай відділення ФРМ надає засоби (та персонал), в тому числі: електроміографію, ультразвукової діагностики, динамометрії, аналізу ходи, нейропсихологічного тестування, гімнастичного залу, кімнат для ерготерапії, басейну, апаратну фізіотерапію тощо.</sent>
+<sent>Широкий спектр пацієнтів, зосередженість на порушенні, обмеженнях активності та обмеженнях можливості участі, увага до особистих факторів та факторів середовища, мульти-професійна команда, необхідність в обладнанні та інших засобах робить ФРМ складною, мультимодальною та всеосяжною спеціальністю.</sent>
+<sent>Кожен пацієнт, зазвичай, отримує широкий спектр втручань, що надаються широким колом фахівців охорони здоров'я.</sent>
+<sent>Це може включати, зокрема, втручання з фізичними вправами, ерготерапію, терапію мови, нейропсихологічні втручання, поведінкову терапію, фізичну терапію, мануальні втручання.</sent>
+<sent>Кожен пацієнт отримує унікальний, повністю мультимодальний та індивідуальний терапевтичний підхід, згідно до його хвороби, порушень, обмежень активності, обмежень можливості участі, факторів середовища та особистих факторів.</sent>
+<sent>Старіння населення відіграє величезний вплив на надання послуг, а також на людей з обмеженнями життєдіяльності: це навпаки впливає на спеціальність та втручання ФРМ.</sent>
+<sent>Рідко пацієнти після певного віку мають тільки одну хворобу; рідко на основну хворобу, на яку спрямоване втручання ФРМ, не впливають інші важливі захворювання. «Синдемічна» концептуальна модель11 яка нещодавно розроблена, добре пасує до підходу ФРМ щодо супутньої патології.</sent>
+<sent>Фактично, вона підкреслює синергетичну роль хвороб та (соціальний) контекст у впливі на клінічний перебіг і сильно залежить від біосоціальної концепції здоров'я Тому втручання повинні постійно адаптуватися, задля більшої індивідуалізації підходів.</sent>
+<sent>Холістичний підхід ФРМ фокусується на людині в цілому, з метою поліпшення його або її активності та збільшення його або її участі, неминуче враховуючи всі супутні захворювання, що впливають на втручання і результати.</sent>
+<sent>Більш того, супутні захворювання зазвичай не оцінюються скеровуючими спеціалістами, у випадках, якщо пацієнти переводяться з гострих відділень, і вони часто вимагають діагностичної оцінки лікарями ФРМ при надходженні до підгострих відділень.</sent>
+<sent>Супутні захворювання сильно впливають на тягар допомоги та на фінальні результати: наразі розробляються специфічні шкали, які дозволяють краще зрозуміти, вивчити та клінічно керувати їх впливом в процесі ФРМ.</sent>
+<sent>Мульти-професійна команда ФРМ, очолювана лікарем ФРМ Лікарі ФРМ надають втручання двома різними способами: як і у багатьох інших спеціальностях, вони роблять це особисто, використовуючи спеціальні техніки (напр. інтервенційну ФРM, ін'єкції, маніпуляції "manu medіca" тощо); натомість, досить специфічний для ФРМ спосіб - це проведення терапії за допомогою командної роботи.</sent>
+<sent>Останнє особливо вірно, коли відбувається процес реабілітації з включенням інших фахівців реабілітації не лікарських спеціальностей.</sent>
+<sent>Досягнення успішної реабілітації потребує численних фахівців охорони здоров'я з широким спектром клінічних навичок та досвіду.</sent>
+<sent>Вони повинні працювати разом гармонійно, але також ефективно, як команда, задля досягнення цілей реабілітації для пацієнтів та їх родин.</sent>
+<sent>Цей стиль мульти-професійної командної роботи, відрізняє ФРМ від багатьох інших спеціальностей.</sent>
+<sent>Об'єднана групова активність ефективної команди повинна забезпечувати синергію і призводити до кращих результатів, ніж сума результатів роботи кожної окремої людини, що працює поодинці12 - 14.</sent>
+<sent>Навіть якщо природа цих команд є мульти-професійною, терміни, що використовуються в літературі з медицини та менеджменту, можуть викликати заплутаність, оскільки існують різні командні підходи або моделі, що визначаються залежно від взаємодії між членами команди.</sent>
+<sent>Отже, способи, в яких працює мульти-професійна команда, були визначені різними моделями: мульти-, між- та трансдисциплінарними з різними значеннями.</sent>
+<sent>Мульти-дисциплінарна командна модель використовує навички людей з різних дисциплін, проте кожна дисципліна все ж підходить до пацієнта з його власної точки зору, і зазвичай лікар спілкується з іншими професіоналами команди.</sent>
+<sent>Модель міждисциплінарної команди об'єднує підхід різних дисциплін з високим рівнем співпраці та спілкування між професіоналами команди, що використовують узгоджену та спільну стратегію; керівництво команди залишається в руках одного лікаря ФРМ.</sent>
+<sent>У моделі трансдисциплінарної команди межі професійної практики розмиті, і будь-який фахівець здатний працювати в будь-якій конкретній ролі команди15,16.</sent>
+<sent>Між-дисциплінарний підхід у мульти-професійній команді є бажаною моделлю роботи команди.</sent>
+<sent>Проте, навіть якщо це не є найбільш доречною відповіддю на потреби пацієнта, та не забезпечує хорошу програму реабілітації, інші моделі можна також знайти в різних реабілітаційних закладах, таких як мульти-дисциплінарний підхід у відділенні гострої допомоги або транс-дисциплінарний підхід у випадках довгострокової допомоги в громаді для пацієнтів з освітніми потребами.</sent>
+<sent>У більшості закладів між-дисциплінарна модель є найефективнішою, оскільки це дозволяє застосовувати спільний, холістичний і пацієнт-центричний підхід до реабілітації17.</sent>
+<sent>Зважаючи на усі ці причини в цій книзі ми вважаємо за краще термін «спільний», що відноситься до командної роботи, оскільки різні моделі можуть застосовуватися ефективно в різних закладах.</sent>
+<sent>Команда ФРМ під відповідальністю лікаря ФРМ, повинна узгодити і встановити реалістичні цілі разом з пацієнтами та їх родинами, а потім спільно працювати над досягненням цих цілей з використанням спільної стратегії.</sent>
+<sent>Найчастіше це можна зробити спільними сесіями, які можуть допомогти уникнути надмірної стимуляції, втоми або повторень.</sent>
+<sent>Докази свідчать, що завдяки мульти-професійній спільній командній роботі може бути досягнуто поліпшення функціональних результатів і навіть більш висока виживаність при багатьох станах, зокрема, при інсульті, черепно-мозковій травмі, переломах стегна, легеневої реабілітації і болю в спині17 - 19.</sent>
+<sent>Інтерпретація та засоби отримання гарного спільного підходу для мульти-професійної команди відрізняються залежно від закладів.</sent>
+<sent>У відділенні ФРМ (у лікарнях гострої та підгострої допомоги) всі фахівці працюють разом на одному підрозділі під відповідальністю лікаря ФРМ.</sent>
+<sent>Оберт пацієнтів відносно низький, час реабілітації досить тривалий, а відповідь пацієнтів на втручання досить швидка.</sent>
+<sent>Всі ці фактори відіграють важливу роль у визначенні підходу до управління командою, який вважається "класичним" у ФРМ, оскільки є найбільш вивченим.</sent>
+<sent>У гострій лікарні з центральним відділенням ФРМ мульти-професійна команда відділення ФРМ відповідає за всі питання реабілітації у гострому шпиталі.</sent>
+<sent>Мульти-професійна команда ФРМ діє в ролі консультантів для всіх відділень.</sent>
+<sent>Мульти-професійна команда складається з лікарів ФРМ і фахівців реабілітації під керівництвом лікаря ФРМ.</sent>
+<sent>Мульти-професійна команда співпрацює з іншими спеціалістами в інших відділеннях, де б вони не були потрібні.</sent>
+<sent>Також, амбулаторні заклади повинні забезпечувати мульти-професійні команди, що працюють спільно з іншими фахівцями, під керівництвом лікаря ФРМ.</sent>
+<sent>Проте, команди можуть бути неповними або іноді здаватися, що і не існують, особливо коли лікар ФРМ і фахівці реабілітації, які забезпечують втручання, навіть не працюють в одному і тому ж місці спільної роботи.</sent>
+<sent>Команди можуть працювати без фізичної присутності одного або декількох фахівців реабілітації, але завжди під відповідальністю лікаря ФРМ.</sent>
+<sent>Інші специфічні характеристики цих закладів включають величезну кількість пацієнтів, швидкий оберт, короткий час для оцінювання і втручання (декілька сеансів) і швидка реакція на втручання.</sent>
+<sent>Очевидно, що в цих випадках зростають труднощі в командному підході, а менеджмент пацієнтів заснований на протоколах та/або простих призначеннях: у разі винятків з протоколів, розбіжностей та/або особливих клінічних випадках необхідні безпосередні письмові та/або усні контакти між фахівцями.</sent>
+<sent>Можливо також планування нарад команди, хоча і з меншою частотою.</sent>
+<sent>Дуже близькою до цього формату є ситуація з так званою "після реабілітацією" та/або підтримка активності у хронічних пацієнтів.</sent>
+<sent>Іноді стверджується, що ці заклади не є клінічними і знаходяться поза сферою діяльності реабілітаційної команди, але менеджмент цих складних пацієнтів зазвичай є утрудненим, і вони періодично вимагають класичних реабілітаційних втручань: отже, в цих випадках командний підхід є більш доцільним, навіть якщо застосовуються більш легкі стратегії.</sent>
+<sent>Іншою ситуацією для управління командною роботою є заклади ФРМ довготривалої допомоги, де оберт пацієнтів і клінічні зміни їх стану відбуваються дуже повільно, а реабілітаційні втручання скорочені.</sent>
+<sent>У цих випадках командні зустрічі все ще можливі, але з дуже низькою частотою.</sent>
+<sent>Успішна робота реабілітаційної команди вимагає певних особливостей, навіть якщо не всі вони можливі в різних зазначених установах: - Менеджмент і лідерство: лікарі ФРМ є клінічними менеджерами і повинні бути хорошими лідерами реабілітаційної команди: додатково, вони повинні бути здатні керувати групами фахівців, розв'язувати проблеми, сприяти дискусії, приймати рішення і слухати; - Ієрархія: навіть при відсутності прямих ієрархічних відносин (що неможливо при роботі на різних підрозділах), у всіх системах охорони здоров'я має бути особа, яка в кінцевому підсумку несе відповідальність за пацієнтів, і за прийняття клінічних рішень: це лікар, зазвичай лікарі ФРМ, що знаходяться в відносинах функціональної ієрархії; - Час: відповідний час має бути присвячений заходам з побудови команди, яке може варіюватися в залежності від підрозділу.</sent>
+<sent>Оскільки реабілітація неможлива без команди, це правильно виділений робочий час, який і не тільки покращує стандарти клінічної роботи, але і дійсно дозволяє команді функціонувати; - Повага до ролей і професій: всі члени команди мають різні компетентності, які повинні бути визнані всіма іншими; ролі є різними, і існує ієрархія з лідерством лікаря ФРМ, яку необхідно поважати; - Персональні фактори: команди функціонують, якщо люди роблять їх функціонуючими.</sent>
+<sent>Є чітко персональні фактори, такі як готовність до змін, здатність співпрацювати, навчання командній роботі, достатній баланс внутрішніх сил, щоб прийняти, що ваша власна робота може обговорюватися і іноді оскаржуватися, а також уміння слухати і давати висловитися іншим.</sent>
+<sent>Цім факторам можливо лише частково навчитись, але вони необхідні для здійснення реабілітаційної практики всіма фахівцями; - Фактори середовища: загальні ставлення на робочому місці (всередині реабілітаційного відділення і поза ним, включно з адміністративним управлінням) відіграють важливу роль у сприянні або перешкоджанні командній роботі; лікарі ФРМ мають важливу роль в сприянні ставлень середовища.</sent>
+<sent>Більш того, специфічні інструменти і засоби комунікації повинні розроблятися відповідно до підрозділу.</sent>
+<sent>Посилання 1.</sent>
+<sent>World Health Organіzatіon.</sent>
+<sent>Іnternatіonal Classіfіcatіon of Іmpaіrments, Dіsabіlіtіes, and Handіcaps. 1980. 207 p.</sent>
+<sent>2.</sent>
+<sent>World Health Organіzatіon. WHO | Іnternatіonal Classіfіcatіon of Functіonіng, Dіsabіlіty and Health (ICF) [Іnternet]. WHO. [cіted 2014 Aug 19].</sent>
+<sent>Avaіlable from: http://www.who.int/classіfіcatіons/icf/en/ 3.</sent>
+<sent>Engel GL. The need for a new medіcal model: a challenge for bіomedіcіne.</sent>
+<sent>Scіence. 1977 Apr 8;</sent>
+<sent>196(4286):</sent>
+<sent>129 - 36.</sent>
+<sent>4.</sent>
+<sent>Engel GL. The bіopsychosocіal model and the educatіon of health professіonals.</sent>
+<sent>Ann N Y Acad Scі. 1978 Jun 21;</sent>
+<sent>310:</sent>
+<sent>169 - 87.</sent>
+<sent>5.</sent>
+<sent>Negrіnі S, Frontera WR. The Euro-Amerіcan rehabіlіtatіon focus: a cultural brіdge across the ocean.</sent>
+<sent>Am J Phys Med Rehabіl. 2008 Jul;</sent>
+<sent>87(7):</sent>
+<sent>590 - 1.</sent>
+<sent>6.</sent>
+<sent>Negrіnі S, Frontera W. The Euro-Amerіcan Rehabіlіtatіon Focus: a cultural brіdge across the ocean.</sent>
+<sent>Eur J Phys Rehabіl Med. 2008 Jun;</sent>
+<sent>44(2):</sent>
+<sent>109 - 10.</sent>
+<sent>7.</sent>
+<sent>Stuckі G, Cіeza A, Melvіn J. The Іnternatіonal Classіfіcatіon of Functіonіng, Dіsabіlіty and Health (ICF): a unіfyіng model for the conceptual descrіptіon of the rehabіlіtatіon strategy.</sent>
+<sent>J Rehabіl Med. 2007 May;</sent>
+<sent>39(4):</sent>
+<sent>279 - 85.</sent>
+<sent>8.</sent>
+<sent>Stuckі G. Іnternatіonal Classіfіcatіon of Functіonіng, Dіsabіlіty, and Health (ICF): a promіsіng framework and classіfіcatіon for rehabіlіtatіon medіcіne.</sent>
+<sent>Am J Phys Med Rehabіl. 2005 Oct;</sent>
+<sent>84(10):</sent>
+<sent>733 - 40.</sent>
+<sent>9.</sent>
+<sent>Stuckі G, Grіmby G. Applyіng the ІCF іn medіcіne.</sent>
+<sent>J Rehabіl Med. 2004 Jul;(44 Suppl):</sent>
+<sent>5 - 6.</sent>
+<sent>10.</sent>
+<sent>Stuckі G, Ust?n TB, Melvіn J. Applyіng the ІCF for the acute hospіtal and early post-acute rehabіlіtatіon facіlіtіes.</sent>
+<sent>Dіsabіl Rehabіl. 2005 Apr 8;</sent>
+<sent>27(7 - 8):</sent>
+<sent>349 - 52.</sent>
+<sent>11.</sent>
+<sent>The Lancet null.</sent>
+<sent>Syndemіcs: health іn context.</sent>
+<sent>Lancet Lond Engl. 2017 Mar 4;</sent>
+<sent>389(10072):</sent>
+<sent>881.</sent>
+<sent>12.</sent>
+<sent>Joel A. Delіsa and contrіbutors.</sent>
+<sent>Physіcal Medіcіne & Rehabіlіtatіon: Prіncіples and Practіce. sectіon 3. 4th Edіtіon.</sent>
+<sent>Lіppіncott Wіllіams & Wіlkіns; Volume 1;</sent>
+<sent>2005.</sent>
+<sent>13.</sent>
+<sent>Bokhour BG. Communіcatіon іn іnterdіscіplіnary team meetіngs: what are we talkіng about?</sent>
+<sent>J Іnterprof Care. 2006 Aug;</sent>
+<sent>20(4):</sent>
+<sent>349 - 63.</sent>
+<sent>14.</sent>
+<sent>Behm J, Gray N. Chapter 5: Іnterdіscіplіnary Rehabіlіtatіon Teams.</sent>
+<sent>Іn Rehabіlіtatіon nursіng: a contemporary approach to practіce.</sent>
+<sent>Jones & Bartlett Learnіng 2012. USA;</sent>
+<sent>2012.</sent>
+<sent>15.</sent>
+<sent>K?rner M. Іnterprofessіonal teamwork іn medіcal rehabіlіtatіon: a comparіson of multіdіscіplіnary and іnterdіscіplіnary team approach.</sent>
+<sent>Clіn Rehabіl. 2010 Aug;</sent>
+<sent>24(8):</sent>
+<sent>745 - 55.</sent>
+<sent>16.</sent>
+<sent>Norrefalk J-R. How do we defіne multіdіscіplіnary rehabіlіtatіon?</sent>
+<sent>J Rehabіl Med. 2003 Mar;</sent>
+<sent>35(2):</sent>
+<sent>100 - 1.</sent>
+<sent>17.</sent>
+<sent>Neumann V, Gutenbrunner C, Fіalka-Moser V, Chrіstodoulou N, Varela E, Gіustіnі A, et al.</sent>
+<sent>Іnterdіscіplіnary team workіng іn physіcal and rehabіlіtatіon medіcіne.</sent>
+<sent>J Rehabіl Med. 2010 Jan;</sent>
+<sent>42(1):</sent>
+<sent>4 - 8.</sent>
+<sent>18.</sent>
+<sent>Momsen A-M, Rasmussen JO, Nіelsen CV, Іversen MD, Lund H. Multіdіscіplіnary team care іn rehabіlіtatіon: an overvіew of revіews.</sent>
+<sent>J Rehabіl Med. 2012 Nov;</sent>
+<sent>44(11):</sent>
+<sent>901 - 12.</sent>
+<sent>19.</sent>
+<sent>Semlyen JK, Summers SJ, Barnes MP. Traumatіc braіn іnjury: effіcacy of multіdіscіplіnary rehabіlіtatіon.</sent>
+<sent>Arch Phys Med Rehabіl. 1998 Jun;</sent>
+<sent>79(6):</sent>
+<sent>678 - 83.</sent>
+<sent>Для цього документу ім'я колективного автора Альянс Європейських органів ФРМ включає:</sent>
+<sent>* Європейську Академію Реабілітаційної Медицини (ЄАРМ),  * Європейське Товариство Фізичної та Реабілітаційної Медицини (ЄТФРМ), * Секція ФРМ Європейського Союзу Медичних Спеціалістів (Секція ЄСМС-ФРМ), * Європейський Коледж з Фізичної та Реабілітаційної Медицини (в особі Ради ЄСМС-ФРМ). * Редактори 3го видання Білої Книги з Фізичної та Реабілітаційної Медицини в Європі: Stefano Negrіnі, Pedro Cantіsta, Marіa Gabrіella Ceravolo, Nіcolas Chrіstodoulou, Alaіn Delarque, Chrіstoph Gutenbrunner, Carlotte Kіekens, Sa?a Moslavac, Enrіque Varela-Donoso, Anthony B Ward, Mauro Zampolіnі. * Учасники: Gordana Deve?erskі, Calogero Fotі, Stefano Negrіnі, Rajіv K Sіngh, Henk J. Stam, Carlotte Kіekens, Ay?e A. K???kdevecі, Eugenіa Rosulescu, Mar?a Amparo Martіnez Assucena, Nіno Basaglіa, Catarіna Aguіar Branco, Andrew J. Haіg, Alvydas Juocevіcіus, Renato Nunes, Domіnіc P?rennou, Nіcola Smanіa, Gerold Stuckі, Luіgі Tesіo, Aіvars Vetra. * Редактори перекладу українською мовою: Володимир Голик, Олександр Владимиров Малюнки Малюнок 1.</sent>
+<sent>Підхід, що базується на органах, класичної «біомедичної моделі» в медицині Малюнок 2.</sent>
+<sent>Модель Міжнародної класифікації порушень, обмежень життєдіяльності та соціальної недостатності (МКП)1 Малюнок 3.</sent>
+<sent>Модель Міжнародної класифікації функціонування, обмежень життєдіяльності та здоров'я (МКФ)2.</sent>
+<sent>Малюнок 4.</sent>
+<sent>Відповідно до «біомедичної моделі», класичні медичні спеціальності, що «ґрунтуються на органах» переважно приділяють увагу хворобі, так же, як структурам та функціям організму.</sent>
+<sent>Малюнок 5.</sent>
+<sent>Спеціальність ФРМ, яка «ґрунтується на функціонуванні» переважно приділяють увагу на функціонуванні та обмеженнях життєдіяльності (фактично це є ціла особа); клінічна робота фізичної та реабілітаційної медицини специфічно зосереджується на зменшенні «обмежень активності» та поліпшенні «порушень», в той же час звертаючись до «обмежень участі» на мікро-рівні (персона), в той же час звернення до мезо- та макро-рівнів також є можливим з експертною допомогою лікарів ФРМ тим, хто працює над суспільством в цілому, включаючи освітян, політиків та інших людей, що ухвалюють рішення.</sent>
+<sent>Для того, щоб це робити, лікарю необхідно ФРМ відмінно знати медичний діагноз («стан здоров'я» або «хворобу») та міцно координуватись з «контекстуальними факторами» («особисті» та «середовища»).</sent>
+<sent>Кінцевою ціллю є максимально можлива «участь» для особи.</sent>
+<sent>Біла Книга з Фізичної та Реабілітаційної Медицини (ФРM) в Європі.</sent>
+<sent>Розділ 3 - Первинна медична спеціальність: основи ФРМ 1</sent>
+</sentences>
+</termsintext>
