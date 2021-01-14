@@ -1,0 +1,13 @@
+{
+    "embeddings": [
+        {
+            "tensorName": "White Book on PRM",
+            "tensorShape": [
+                1000,
+                500
+            ],
+            "tensorPath": "https://gist.githubusercontent.com/malakhovks/bd473d1e1dce8415127c9be3fdd7e24a/raw/d89f4cd44f1a261cca9671b76b93197a9f564db3/wb-tensor.tsv",
+            "metadataPath": "https://gist.githubusercontent.com/malakhovks/b2aac5e668effb4aaaa0a1fce9c15082/raw/e3c958684c6bd888dbdc211493732de2fc9b4a71/wb-metadata.tsv"
+        }
+    ]
+}

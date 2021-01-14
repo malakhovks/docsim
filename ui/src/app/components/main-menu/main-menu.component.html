@@ -1,9 +1,9 @@
 <input [(ngModel)]="isChecked" type="checkbox" id="menu-toggle"/>
 <label class="burger" [class.menu-opened]="isChecked" for="menu-toggle">
   <mat-icon *ngIf="!isChecked">menu</mat-icon>
-  <mat-icon *ngIf="isChecked">close</mat-icon>
 </label>
 <mat-list class="menu" role="list">
+  <mat-icon *ngIf="isChecked" class="close" (click)="isChecked = false" title="Закрити">close</mat-icon>
   <mat-list-item *ngFor="let link of navLinks" role="listitem">
     <a [title]="link.title" (click)="onClose()" [routerLink]="link.link" routerLinkActive="router-link-active">{{link.label}}</a>
   </mat-list-item>
