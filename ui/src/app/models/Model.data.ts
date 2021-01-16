@@ -4,4 +4,9 @@ export class ModelData {
   description: string;
   link: string;
   language: string;
+  placeholders: {
+    term: string;
+    terms: string;
+    similarity: string;
+  }
 }

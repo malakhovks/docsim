@@ -9,11 +9,11 @@
     <form class="main-form">
       <mat-form-field appearance="outline">
         <mat-label>Введіть лему слова для порівняння</mat-label>
-        <input type="text" [(ngModel)]="firstTerm" [ngModelOptions]="{standalone: true}" matInput placeholder="гончар">
+        <input type="text" [(ngModel)]="firstTerm" [ngModelOptions]="{standalone: true}" matInput [placeholder]="model?.placeholders?.term ? model.placeholders.term : 'гончар'">
       </mat-form-field>
       <mat-form-field appearance="outline">
         <mat-label>Введіть лему слова для порівняння</mat-label>
-        <input type="text" [(ngModel)]="secondTerm" [ngModelOptions]="{standalone: true}" matInput placeholder="письменник">
+        <input type="text" [(ngModel)]="secondTerm" [ngModelOptions]="{standalone: true}" matInput [placeholder]="model?.placeholders?.similarity ? model.placeholders.similarity : 'письменник'">
       </mat-form-field>
       <button mat-flat-button [disabled]="!firstTerm || !secondTerm" color="primary" (click)="getWordsSimilarity()">Обчислити</button>
     </form>
