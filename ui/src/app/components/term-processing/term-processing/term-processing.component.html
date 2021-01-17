@@ -9,7 +9,7 @@
       <form class="main-form">
         <mat-form-field appearance="outline">
           <mat-label>Введіть лему слова</mat-label>
-          <input type="text" [(ngModel)]="terms" [ngModelOptions]="{standalone: true}" matInput placeholder="гончар">
+          <input type="text" [(ngModel)]="terms" [ngModelOptions]="{standalone: true}" matInput [placeholder]="model?.placeholders?.term ? model.placeholders.term : 'гончар'">
         </mat-form-field>
         <button mat-flat-button [disabled]="!terms" color="primary" (click)="getProcess()">Обчислити</button>
       </form>
@@ -56,7 +56,7 @@
       <form class="main-form">
         <mat-form-field appearance="outline">
           <mat-label>Введіть леми слів через пробіл</mat-label>
-          <input type="text" [(ngModel)]="terms" [ngModelOptions]="{standalone: true}" matInput placeholder="гончар письменник герой">
+          <input type="text" [(ngModel)]="terms" [ngModelOptions]="{standalone: true}" matInput [placeholder]="model?.placeholders?.terms ? model.placeholders.terms : 'гончар письменник герой'">
         </mat-form-field>
         <button mat-flat-button [disabled]="!terms" color="primary" (click)="getProcess()">Обчислити</button>
       </form>

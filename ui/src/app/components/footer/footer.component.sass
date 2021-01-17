@@ -9,17 +9,43 @@
         text-decoration: none
         transition: opacity .4s cubic-bezier(0.65, 0, 0.35, 1)
         &:hover
-            opacity: .5
+            opacity: .5 
 
-    .gthb
-        display: flex
+.github-ribbon
+    position: absolute
+    width: 172px
+    height: 172px
+    right: 0
+    bottom: 0
+    overflow: hidden
+
+    &__link
+        font-size: .84em
+        display: inline-flex
+        justify-content: center
+        position: absolute
         align-items: center
-        font-size: 14px
-        line-height: 24px
-        margin-left: 40px
-        font-weight: normal
+        bottom: 58px
+        right: -48px
+        background-color: #000
+        width: 250px
+        transform: rotate(-45deg)
+        box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.5)
+        color: #fff
+        letter-spacing: 0.06em
+        text-shadow: 0 -1px #777
+        text-decoration: none
+        text-align: center
+        line-height: 30px
+        &::before
+            content: ''
+            position: absolute
+            top: 2px
+            left: 0
+            width: 100%
+            height: calc(100% - 5px)
+            pointer-events: none
+            border-top: 1px dashed #fff
+            border-bottom: 1px dashed #fff
         svg
-            fill: #fff
             margin-right: 8px
-            & + span
-                margin-top: 2px    

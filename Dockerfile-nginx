@@ -1,0 +1,21 @@
+FROM nginx:latest
+
+# Remove the default config file that
+# /etc/nginx/nginx.conf includes
+RUN rm /etc/nginx/conf.d/default.conf
+
+# We copy the requirements file in order to install
+# Python dependencies
+# COPY app.conf /etc/nginx/conf.d
+COPY ./server/deploy/nginx.conf /etc/nginx
+
+RUN apt-get -y install openssl \
+    && mkdir -p /deploy/ssl/ \
+    && openssl req \
+        -x509 \
+        -subj "/C=UA/ST=docsim/L=Ukraine/O=INCYB" \
+        -newkey rsa:2048 \
+        -nodes \
+        -keyout /etc/nginx/server.key \
+        -days 365 \
+        -out /etc/nginx/server.crt

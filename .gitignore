@@ -26,6 +26,8 @@ Temporary Items
 
 *.tmp
 
+*.code-workspace
+
 *.300d
 
 # Word temporary
