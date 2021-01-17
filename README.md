@@ -118,7 +118,8 @@ The online toolkit **docsim/UkrVectōrēs** covers the following elements of dis
 - Pandas latest;
 - nginx latest;
 - Angular latest;
-- Docker latest.
+- Docker latest;
+- docker-compose.
 
 -------
 
@@ -128,7 +129,7 @@ The online toolkit **docsim/UkrVectōrēs** covers the following elements of dis
 Clone from GitHub repository:
 
 ```bash
-git clone https://username:token@github.com/username/repo_name.git
+git clone https://github.com/malakhovks/docsim.git
 ```
 
 Or clone from the specific branch/tag of GitHub repository:
@@ -143,14 +144,8 @@ Checkout the branch you want to use:
 git checkout <branch_name>
 ```
 
-Build an docker image from a Dockerfile (It creates an image named `docsim_image`):
+Build an docker image from Dockerfile-nginx, Dockerfile-docsim with docker-compose:
 
 ```bash
-docker build . -t docsim_image
-```
-
-You can run the image `docsim_image` now with the command:
-
-```bash
-docker run --name docsim -d -p 80:80 docsim_image
+docker-compose up -d
 ```
