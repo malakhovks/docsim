@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en-US" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="d2304db3153cac12b6502778fbec2b143e487f59" datatype="html">
+        <source>Колектив розробників</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/about-developers/about-developers.component.ts</context>
+          <context context-type="linenumber">16</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="9602f81b7c857bc65f1cdc88f5371b6693e06f62" datatype="html">
+        <source>Величко Віталій Юрійович</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/about-developers/about-developers.component.ts</context>
+          <context context-type="linenumber">16</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3f2b4052529d25fd3758c07e63b5355c21f87aeb" datatype="html">
+        <source>Доцент, к.т.н., с.н.с.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/about-developers/about-developers.component.ts</context>
+          <context context-type="linenumber">16</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="9bfcc11761b2951fa8149300445c78417dc0f12b" datatype="html">
+        <source>Інститут кібернетики ім. В.М. Глушкова НАН України. Відділ мікропроцесорної техніки № 205</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/about-developers/about-developers.component.ts</context>
+          <context context-type="linenumber">16</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/about-developers/about-developers.component.ts</context>
+          <context context-type="linenumber">16</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/about-developers/about-developers.component.ts</context>
+          <context context-type="linenumber">16</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="46968104d5a00e719dc66e9dcebeffd77e9acdcf" datatype="html">
+        <source>Малахов Кирило Сергійович</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/about-developers/about-developers.component.ts</context>
+          <context context-type="linenumber">16</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="a36107016791ff24fd5dc3acc3b35ae0b08ae638" datatype="html">
+        <source>Науковий співробітник</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/about-developers/about-developers.component.ts</context>
+          <context context-type="linenumber">16</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="139611841a49272d75ed3abf50613ffaff8ae739" datatype="html">
+        <source>Щуров Олександр Сергійович</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/about-developers/about-developers.component.ts</context>
+          <context context-type="linenumber">16</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="11d1a224cd59833c51eb196d2b464dfe10aa5611" datatype="html">
+        <source>Молодший науковий співробітник</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/about-developers/about-developers.component.ts</context>
+          <context context-type="linenumber">16</context>
+        </context-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

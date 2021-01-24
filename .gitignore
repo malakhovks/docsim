@@ -30,6 +30,9 @@ Temporary Items
 
 *.300d
 
+# Code workspace of vs code
+*.code-workspace
+
 # Word temporary
 ~$*.doc*
 

@@ -20,7 +20,9 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve --open",
-    "build": "node_modules/@angular/cli/bin/ng build --deploy-url ./static/",
+    "startru": "ng serve --configuration=fr --open",
+    "build-ukr": "node_modules/@angular/cli/bin/ng build --aot=true --buildOptimizer=true --output-path ./dist/ukr --deploy-url ./static/ukr/ --configuration=production",
+    "build-eng": "node_modules/@angular/cli/bin/ng build --aot=true --buildOptimizer=true --output-path ./dist/eng --deploy-url ./static/eng/ --configuration=production,en",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
@@ -45,6 +47,7 @@
     "@angular-devkit/build-angular": "^0.1100.2",
     "@angular/cli": "~11.0.2",
     "@angular/compiler-cli": "~11.0.2",
+    "@angular/localize": "^11.0.2",
     "@types/jasmine": "~3.6.0",
     "@types/jasminewd2": "~2.0.3",
     "@types/node": "^12.11.1",

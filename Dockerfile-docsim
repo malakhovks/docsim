@@ -4,7 +4,8 @@ COPY ./ui /app/ui
 
 WORKDIR /app/ui
 RUN npm install \
-    && npm run build \
+    && npm run build-ukr \
+    && npm run build-eng \
     && rm -r ./node_modules
 
 FROM python:3.8-slim
@@ -14,8 +15,14 @@ LABEL description "docsim - An NLU-Powered tool for knowledge discovery, classif
 
 COPY ./server /docsim/server
 WORKDIR /docsim/server/
-COPY --from=compile-image /app/ui/dist/* /docsim/server/static/
-COPY --from=compile-image /app/ui/dist/index.html /docsim/server/templates
+
+RUN mkdir -p /static/ukr \
+&& mkdir -p /static/eng
+
+COPY --from=compile-image /app/ui/dist/ukr/* /docsim/server/static/ukr/
+COPY --from=compile-image /app/ui/dist/ukr/index.html /docsim/server/templates/index-ukr.html
+COPY --from=compile-image /app/ui/dist/eng/en/* /docsim/server/static/eng/
+COPY --from=compile-image /app/ui/dist/eng/en/index.html /docsim/server/templates/index-eng.html
 
 # Expose the port uWSGI will listen on
 EXPOSE 5000

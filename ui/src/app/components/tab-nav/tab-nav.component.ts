@@ -63,22 +63,24 @@ export class TabNavigationComponent implements OnInit {
 
   async ngOnInit(): Promise<void> {
     this.route.queryParams.subscribe((params: Params) => {
-      this.activeModelIndex = params[MODEL_QUERY_PARAM];  // try to get active model index by URL query params;
-
       if (this.activeModelIndex === undefined) {
-        this.activeModelIndex = Number(this.localStorageService.getItem(MODEL_QUERY_PARAM));  // try to get active model index from local storage;
-
-        if (this.activeModelIndex === null) {
-          this.activeModelIndex = 0;  // set active model index by default;
+        this.activeModelIndex = params[MODEL_QUERY_PARAM];  // try to get active model index by URL query params;
+  
+        if (this.activeModelIndex === undefined) {
+          this.activeModelIndex = Number(this.localStorageService.getItem(MODEL_QUERY_PARAM));  // try to get active model index from local storage;
+  
+          if (this.activeModelIndex === null) {
+            this.activeModelIndex = 0;  // set active model index by default;
+          }
         }
+  
+        this.apiService.getModels().then((resp: Array<ModelData>) => {
+          if (resp) {
+            this.vectorModels = resp;
+            this.onModelChange(this.vectorModels[this.activeModelIndex]);
+          }
+        });
       }
-
-      this.apiService.getModels().then((resp: Array<ModelData>) => {
-        if (resp) {
-          this.vectorModels = resp;
-          this.onModelChange(this.vectorModels[this.activeModelIndex]);
-        }
-      });
     });
   }
 
@@ -102,7 +104,7 @@ export class TabNavigationComponent implements OnInit {
     this.localStorageService.setItem(MODEL_QUERY_PARAM, model.index.toString());
 
     // Set query params with active model index:
-    this.router.navigate( [], {
+    this.router.navigate([], {
       relativeTo: this.route,
       queryParams: { model: model.index },
       queryParamsHandling: 'merge'

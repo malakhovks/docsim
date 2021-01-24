@@ -19,6 +19,12 @@ interface IModelDataResponse {
   };
 }
 
+interface IModelDataResponse {
+  models: {
+    word2vec: ModelData[];
+  };
+}
+
 
 @Injectable({
   providedIn: 'root',

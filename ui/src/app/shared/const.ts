@@ -12,9 +12,9 @@ export const ROUTS = {
       sources: { path: 'sources' },
       aboutProject: { path: 'about-project' },
     },
-    about: {
-      path: 'about',
-    }
+      // about: {
+      //   path: 'about',
+      // }
   }
 };
 
