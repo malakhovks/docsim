@@ -25,31 +25,29 @@ export class LanguageMenuComponent implements OnInit {
     this.route.queryParams.subscribe((params: Params) => {
       let lang: string = params[LANG_QUERY_PARAM];  // try to get current language by URL query params;
 
-      if (lang === undefined) {
+      if (!lang) {
         lang = this.localStorageService.getItem(LANG_QUERY_PARAM);  // try to get language from local storage;
-      }
 
-      // if () {
-      // }
-      this.onLangChange(lang ? lang : this.langList[0]);
+        this.onLangChange(lang ? lang : this.langList[0], true);
+      }
     });
   }
 
-  public onLangChange($ev: string): void {
-    if ($ev !== this.activeItem) {
-      this.activeItem = $ev;
-  
-      this.router.navigate([], {
-        relativeTo: this.route,
-        queryParams: { lang: this.activeItem },
-        queryParamsHandling: 'merge'
-      });
+  public onLangChange($ev: string, dontReload?: boolean): void {
+    this.activeItem = $ev;
 
-      // Add active model to local storage:
-      this.localStorageService.setItem(LANG_QUERY_PARAM, $ev);
+    this.router.navigate([], {
+      relativeTo: this.route,
+      queryParams: { lang: this.activeItem },
+      queryParamsHandling: 'merge'
+    });
 
-      // update and reload page with new language;
+    // Add active model to local storage:
+    this.localStorageService.setItem(LANG_QUERY_PARAM, $ev);
+
+    // Update and reload page with new language;
+    if (!dontReload) {
       location.reload();
-    } 
+    }
   }
 }
