@@ -1,9 +1,13 @@
 import { Component, OnInit } from '@angular/core';
-import { ActivatedRoute, Params, Router } from '@angular/router';
+import { Router } from '@angular/router';
+import { langList } from 'src/app/app-routing.module';
 import { LocalStorageService } from './../../services/local-storage-service';
+import { BehaviorSubject } from 'rxjs';
+import { Location } from '@angular/common';
 
 
 const LANG_QUERY_PARAM = 'lang';
+export const langSubject: BehaviorSubject<string> = new BehaviorSubject<string>(langList[0]);
 
 @Component({
   selector: 'app-lang-menu',
@@ -11,43 +15,58 @@ const LANG_QUERY_PARAM = 'lang';
   styleUrls: ['lang-menu.component.sass'],
 })
 export class LanguageMenuComponent implements OnInit {
-  public langList: string[] = ['ukr', 'eng'];
-  public activeItem: string;
+  public langList: string[] = langList;
 
   constructor(
     private router: Router,
-    private route: ActivatedRoute,
+    private location: Location,
     private localStorageService: LocalStorageService
   ) {}
 
-  // TODO: prevent reload loop!
-  async ngOnInit(): Promise<void> {
-    this.route.queryParams.subscribe((params: Params) => {
-      let lang: string = params[LANG_QUERY_PARAM];  // try to get current language by URL query params;
+  ngOnInit() {
+    const casсhedLangPath: string = this.localStorageService.getItem(LANG_QUERY_PARAM);  // try to get language from local storage;
+    
+    if (casсhedLangPath === null) {
+      const langPath: string = this.router.url.split('/')[1];
 
-      if (!lang) {
-        lang = this.localStorageService.getItem(LANG_QUERY_PARAM);  // try to get language from local storage;
-
-        this.onLangChange(lang ? lang : this.langList[0], true);
-      }
-    });
+      langSubject.next(langPath);
+      this.saveCurrentLangPath(langPath);
+    } else {
+      langSubject.next(casсhedLangPath);
+    }
   }
 
-  public onLangChange($ev: string, dontReload?: boolean): void {
-    this.activeItem = $ev;
+  public get activeItem(): string {
+    return langSubject.value;
+  }
 
-    this.router.navigate([], {
-      relativeTo: this.route,
-      queryParams: { lang: this.activeItem },
-      queryParamsHandling: 'merge'
-    });
 
-    // Add active model to local storage:
-    this.localStorageService.setItem(LANG_QUERY_PARAM, $ev);
+  public onLangChange($ev: string): void {
+    langSubject.next($ev);
 
-    // Update and reload page with new language;
-    if (!dontReload) {
-      location.reload();
-    }
+    const url: string = this.changeLangParamInUrl(this.router.url, $ev);
+    
+    // Change URL:
+    this.location.replaceState(url);
+
+    // Save lang path:
+    this.saveCurrentLangPath($ev);
+
+    // Reload and get new lang sources from server:
+    location.reload();
+  }
+
+
+  private saveCurrentLangPath(path: string): void {
+    this.localStorageService.setItem(LANG_QUERY_PARAM, path);
+  }
+
+
+  private changeLangParamInUrl(url: string, targetLang: string): string {
+    const urlArr: string[] = url.split('/');
+
+    urlArr[1] = targetLang;
+
+    return urlArr.join('/');
   }
 }

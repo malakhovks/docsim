@@ -1,3 +1,4 @@
+import { langSubject } from './../lang-menu/lang-menu.component';
 import { LocalStorageService } from './../../services/local-storage-service';
 import { ActivatedRoute, Params, Router } from '@angular/router';
 import { EventService } from './../../services/event-service';
@@ -29,29 +30,6 @@ export class TabNavigationComponent implements OnInit {
   public activeModelIndex: number;
   public vectorModels: ModelData[] = [];
   public bookArr: Array<any> = new Array(120);
-  public navLinks: Array<ITabNavLink> = [
-    {
-        label: 'Семантичні асоціати',
-        title: 'Обчислення семантичних асоціатів для однослівних термінів',
-        link: ROUTS.root.processing.terms.path,
-        index: 0
-    }, {
-        label: 'Центр лексичного кластера',
-        title: 'Обчислення центру лексичного кластера однослівних термінів',
-        link: ROUTS.root.processing.term.path,
-        index: 1
-    }, {
-        label: 'Семантична близькість',
-        title: 'Обчислення семантичної близькісті однослівних термінів',
-        link: ROUTS.root.processing.similarity.path,
-        index: 2
-    }, {
-        label: 'Семантична карта',
-        title: 'Семантична карта з використанням TensorFlow Projector',
-        link: ROUTS.root.processing.semanticMap.path,
-        index: 3
-    }
-  ];
 
   constructor(
     public apiService: ApiService,
@@ -113,4 +91,28 @@ export class TabNavigationComponent implements OnInit {
     this.activeModelIndex = model.index;
     this.eventService.onWord2VecModelChange.next(model);
   }
+
+  public navLinks: Array<ITabNavLink> = [
+      {
+          label: 'Семантичні асоціати',
+          title: 'Обчислення семантичних асоціатів для однослівних термінів',
+          link: [ROUTS.root.lang.processing.terms.path],
+          index: 0
+      }, {
+          label: 'Центр лексичного кластера',
+          title: 'Обчислення центру лексичного кластера однослівних термінів',
+          link: [ROUTS.root.lang.processing.term.path],
+          index: 1
+      }, {
+          label: 'Семантична близькість',
+          title: 'Обчислення семантичної близькісті однослівних термінів',
+          link: [ROUTS.root.lang.processing.similarity.path],
+          index: 2
+      }, {
+          label: 'Семантична карта',
+          title: 'Семантична карта з використанням TensorFlow Projector',
+          link: [ROUTS.root.lang.processing.semanticMap.path],
+          index: 3
+      }
+    ];
 }
