@@ -85,22 +85,16 @@ def getExistsWordsInModel(words, keyed_vectors):
 
 @app.route('/')
 def index():
-    if request.args.get('lang') == 'ukr':
-        return Response(render_template('index-ukr.html'), mimetype='text/html')
-    if request.args.get('lang') == 'eng':
-        return Response(render_template('index-eng.html'), mimetype='text/html')
     return Response(render_template('index-ukr.html'), mimetype='text/html')
-    # return Response(render_template('index.html'), mimetype='text/html')
 
 # let's Angular do the routs job
 @app.route('/<path:page>')
 def fallback(page):
-    if request.args.get('lang') == 'ukr':
+    print(page)
+    if 'ua' in page:
         return render_template('index-ukr.html')
-    if request.args.get('lang') == 'eng':
+    if 'en' in page:
         return render_template('index-eng.html')
-    return render_template('index-ukr.html')
-    # return render_template('index.html')
 
 # special file handlers
 @app.route('/favicon.ico')
