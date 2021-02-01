@@ -26,18 +26,18 @@ export class LanguageMenuComponent implements OnInit {
   ngOnInit() {
     const casсhedLangPath: string = this.localStorageService.getItem(LANG_QUERY_PARAM);  // try to get language from local storage;
     
-    console.log('casсhedLangPath', casсhedLangPath);
+    setTimeout(() => {
+      if (!casсhedLangPath) {
+        const langPath: string = location.href.split('/')[3];
+        console.log('langPath', langPath);
+  
+        langSubject.next(langPath);
+        this.saveCurrentLangPath(langPath);
+      } else {
+        langSubject.next(casсhedLangPath);
+      }
+    });
     
-    if (!casсhedLangPath) {
-      const langPath: string = location.href.split('/')[3];
-      console.log('langPath', langPath);
-      
-
-      langSubject.next(langPath);
-      this.saveCurrentLangPath(langPath);
-    } else {
-      langSubject.next(casсhedLangPath);
-    }
   }
 
   public get activeItem(): string {
