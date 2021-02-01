@@ -29,7 +29,7 @@ export class LanguageMenuComponent implements OnInit {
     console.log('casсhedLangPath', casсhedLangPath);
     
     if (!casсhedLangPath) {
-      const langPath: string = this.location.path().split('/')[1];
+      const langPath: string = location.href.split('/')[3];
       console.log('langPath', langPath);
       
 
