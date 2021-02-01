@@ -1,25 +1,25 @@
 <div class="container">
-  <h1>Обчислення семантичної близькості однослівних сутностей</h1>
-  <p>Сервіс обчислює семантичні відношення між словами українською мовою в рамках обраної моделі.</p>
+  <h1 i18n>Обчислення семантичної близькості однослівних сутностей</h1>
+  <p i18n>Сервіс обчислює семантичні відношення між словами українською мовою в рамках обраної моделі.</p>
 
-  <p>В дистрибутивній семантиці слова зазвичай представляються у вигляді векторів в багатовимірному просторі їх контекстів. Семантична схожість обчислюється як косинусна близькість між векторами двох слів і може приймати значення в проміжку [-1 ... 1] (на практиці часто використовуються тільки значення вище 0). Значення 0 приблизно означає, що у цих слів немає схожих контекстів і їх значення не пов'язані один з одним. Значення 1, навпаки, свідчить про повну ідентичність їх контекстів і, отже, про близькість значення.</p>
+  <p i18n>В дистрибутивній семантиці слова зазвичай представляються у вигляді векторів в багатовимірному просторі їх контекстів. Семантична схожість обчислюється як косинусна близькість між векторами двох слів і може приймати значення в проміжку [-1 ... 1] (на практиці часто використовуються тільки значення вище 0). Значення 0 приблизно означає, що у цих слів немає схожих контекстів і їх значення не пов'язані один з одним. Значення 1, навпаки, свідчить про повну ідентичність їх контекстів і, отже, про близькість значення.</p>
   <p *ngIf="model?.description?.length">{{model.description}}</p>
 
   <div class="container container_middle">
     <form class="main-form">
       <mat-form-field appearance="outline">
-        <mat-label>Введіть лему слова для порівняння</mat-label>
+        <mat-label i18n>Введіть лему слова для порівняння</mat-label>
         <input type="text" [(ngModel)]="firstTerm" [ngModelOptions]="{standalone: true}" matInput [placeholder]="model?.placeholders?.term ? model.placeholders.term : 'гончар'">
       </mat-form-field>
       <mat-form-field appearance="outline">
-        <mat-label>Введіть лему слова для порівняння</mat-label>
+        <mat-label i18n>Введіть лему слова для порівняння</mat-label>
         <input type="text" [(ngModel)]="secondTerm" [ngModelOptions]="{standalone: true}" matInput [placeholder]="model?.placeholders?.similarity ? model.placeholders.similarity : 'письменник'">
       </mat-form-field>
-      <button mat-flat-button [disabled]="!firstTerm || !secondTerm" color="primary" (click)="getWordsSimilarity()">Обчислити</button>
+      <button mat-flat-button [disabled]="!firstTerm || !secondTerm" color="primary" (click)="getWordsSimilarity()" i18n>Обчислити</button>
     </form>
 
     <div *ngIf="similarityData !== undefined" class="similarity-result">
-      <span>Косинусна близькість:</span>
+      <span i18n>Косинусна близькість:</span>
       <span>{{similarityData}}</span>
     </div>
   </div>

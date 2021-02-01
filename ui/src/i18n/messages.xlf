@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="ua" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="51cb0ea5588b9dcce1b1966ef29b0f20be14ceab" datatype="html">
+        <source>Копіювати URL</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/share/share.component.ts</context>
+          <context context-type="linenumber">23</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6b33c64deb0f223d8eb812977d8195b7c774608a" datatype="html">
+        <source>Корисні посилання</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/about-sources/about-sources.component.ts</context>
+          <context context-type="linenumber">16</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="942307a479f57503460f09d344d3e9cae83809c7" datatype="html">
+        <source>Туторіал з tensorflow.org на тему &quot;Векторне представлення слів/Навчання вкладень слів&quot;</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/about-sources/about-sources.component.ts</context>
+          <context context-type="linenumber">16</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="bd0070a476ab802750ada0b68365fcfbae4512a5" datatype="html">
+        <source>Програмна бібліотека з відкритим початковим кодом для навчання вкладень слів та класифікування тексту</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/about-sources/about-sources.component.ts</context>
+          <context context-type="linenumber">16</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="cc2430d66555e2854c7ac29f90daf455cb6197b7" datatype="html">
+        <source>Програмна бібліотека з відкритим початковим кодом для комплексного моделювання мовного векторного простору</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/about-sources/about-sources.component.ts</context>
+          <context context-type="linenumber">16</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ca3412f0a001955f8f86a275a61a2710205af3a7" datatype="html">
+        <source>Відкрита для приєднання спільнота фахівців в галузі комп&apos;ютерної обробки текстів</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/about-sources/about-sources.component.ts</context>
+          <context context-type="linenumber">16</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="12fca3fa34e8656e97fb346136371c497572947c" datatype="html">
+        <source>Проблеми програмування</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/about-sources/about-sources.component.ts</context>
+          <context context-type="linenumber">16</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="b55965ad8ac7a6e69c4f5c6eeac75a86c5cfb56a" datatype="html">
+        <source>Моделі:</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/tab-nav/tab-nav.component.ts</context>
+          <context context-type="linenumber">43,48</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="d2304db3153cac12b6502778fbec2b143e487f59" datatype="html">
+        <source>Колектив розробників</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/about-developers/about-developers.component.ts</context>
+          <context context-type="linenumber">16</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="9602f81b7c857bc65f1cdc88f5371b6693e06f62" datatype="html">
+        <source>Величко Віталій Юрійович</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/about-developers/about-developers.component.ts</context>
+          <context context-type="linenumber">16</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3f2b4052529d25fd3758c07e63b5355c21f87aeb" datatype="html">
+        <source>Доцент, к.т.н., с.н.с.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/about-developers/about-developers.component.ts</context>
+          <context context-type="linenumber">16</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="9bfcc11761b2951fa8149300445c78417dc0f12b" datatype="html">
+        <source>Інститут кібернетики ім. В.М. Глушкова НАН України. Відділ мікропроцесорної техніки № 205</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/about-developers/about-developers.component.ts</context>
+          <context context-type="linenumber">16</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/about-developers/about-developers.component.ts</context>
+          <context context-type="linenumber">16</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/about-developers/about-developers.component.ts</context>
+          <context context-type="linenumber">16</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="46968104d5a00e719dc66e9dcebeffd77e9acdcf" datatype="html">
+        <source>Малахов Кирило Сергійович</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/about-developers/about-developers.component.ts</context>
+          <context context-type="linenumber">16</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="a36107016791ff24fd5dc3acc3b35ae0b08ae638" datatype="html">
+        <source>Науковий співробітник</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/about-developers/about-developers.component.ts</context>
+          <context context-type="linenumber">16</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="139611841a49272d75ed3abf50613ffaff8ae739" datatype="html">
+        <source>Щуров Олександр Сергійович</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/about-developers/about-developers.component.ts</context>
+          <context context-type="linenumber">16</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="11d1a224cd59833c51eb196d2b464dfe10aa5611" datatype="html">
+        <source>Молодший науковий співробітник</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/about-developers/about-developers.component.ts</context>
+          <context context-type="linenumber">16</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="39cc6a2e5a7d8f6245302ca83108624e1aae4384" datatype="html">
+        <source>Обчислення семантичної близькості однослівних сутностей</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/term-processing/words-similarity/words-similarity.component.ts</context>
+          <context context-type="linenumber">46,64</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1ad66e600f265e1b6e70e01823a7a79ce24cf8a8" datatype="html">
+        <source>Сервіс обчислює семантичні відношення між словами українською мовою в рамках обраної моделі.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/term-processing/words-similarity/words-similarity.component.ts</context>
+          <context context-type="linenumber">64</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5111d9936499e97bad2d62d794024be9c10daed6" datatype="html">
+        <source>В дистрибутивній семантиці слова зазвичай представляються у вигляді векторів в багатовимірному просторі їх контекстів. Семантична схожість обчислюється як косинусна близькість між векторами двох слів і може приймати значення в проміжку [-1 ... 1] (на практиці часто використовуються тільки значення вище 0). Значення 0 приблизно означає, що у цих слів немає схожих контекстів і їх значення не пов&apos;язані один з одним. Значення 1, навпаки, свідчить про повну ідентичність їх контекстів і, отже, про близькість значення.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/term-processing/words-similarity/words-similarity.component.ts</context>
+          <context context-type="linenumber">64</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="a16860fa6a82e4cef149eb58c3e0b7cbf094d32b" datatype="html">
+        <source>Введіть лему слова для порівняння</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/term-processing/words-similarity/words-similarity.component.ts</context>
+          <context context-type="linenumber">64</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/term-processing/words-similarity/words-similarity.component.ts</context>
+          <context context-type="linenumber">64</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="06eb1b290560ba9891f6e87211fca52ec5746a18" datatype="html">
+        <source>Обчислити</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/term-processing/words-similarity/words-similarity.component.ts</context>
+          <context context-type="linenumber">64</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/term-processing/term-processing/term-processing.component.ts</context>
+          <context context-type="linenumber">109</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/term-processing/term-processing/term-processing.component.ts</context>
+          <context context-type="linenumber">109</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="f3635580655a8a70fd326c27b487f393eba6c4e9" datatype="html">
+        <source>Косинусна близькість:</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/term-processing/words-similarity/words-similarity.component.ts</context>
+          <context context-type="linenumber">64</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="05d42a3ed322b18fa30af206bd05d4785d21e8a9" datatype="html">
+        <source>Обчислення семантичних асоціатів для однослівних сутностей</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/term-processing/term-processing/term-processing.component.ts</context>
+          <context context-type="linenumber">67,89</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="27f0c5692ed20412347aa217bf61e89a13bfcddf" datatype="html">
+        <source>Сервіс обчислює семантичні асоціати слова українською мовою в рамках обраної моделі.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/term-processing/term-processing/term-processing.component.ts</context>
+          <context context-type="linenumber">109</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="639e25a949d9f5c22002d20b41d0dab7b5c024b2" datatype="html">
+        <source>Введіть лему слова</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/term-processing/term-processing/term-processing.component.ts</context>
+          <context context-type="linenumber">109</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="e46ce6516aa60a980a2c18ba81a45237f425494e" datatype="html">
+        <source>Семантичні асоціати</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/term-processing/term-processing/term-processing.component.ts</context>
+          <context context-type="linenumber">109</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="f72d55b8acae118420660946799bae386c21626e" datatype="html">
+        <source>Сутність</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/term-processing/term-processing/term-processing.component.ts</context>
+          <context context-type="linenumber">109</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/term-processing/term-processing/term-processing.component.ts</context>
+          <context context-type="linenumber">109</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2d76f7aa1bc3ca1466898567b22cb8ab17992fd1" datatype="html">
+        <source>Косинусна близькість</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/term-processing/term-processing/term-processing.component.ts</context>
+          <context context-type="linenumber">109</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/term-processing/term-processing/term-processing.component.ts</context>
+          <context context-type="linenumber">109</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="a0f307a920702aaf87e4f7fac7d19f0157ab2d5e" datatype="html">
+        <source>Обчислення центру лексичного кластера однослівних сутностей</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/term-processing/term-processing/term-processing.component.ts</context>
+          <context context-type="linenumber">109</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="b78763762a5025377f981f64aaac1838ea8fd585" datatype="html">
+        <source>Сервіс обчислює центр лексичного кластера слів українською мовою в рамках обраної моделі.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/term-processing/term-processing/term-processing.component.ts</context>
+          <context context-type="linenumber">109</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="b18dd11291e2e04a51de3e1fefa1b993bd1a992a" datatype="html">
+        <source>Введіть леми слів через пробіл</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/term-processing/term-processing/term-processing.component.ts</context>
+          <context context-type="linenumber">109</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="25d2ec3eabc8af44331df964529753f65b8798f9" datatype="html">
+        <source>Центр лексичного кластера</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/term-processing/term-processing/term-processing.component.ts</context>
+          <context context-type="linenumber">109</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="0dd7505cef6bff10e4f6daa6c8fb48a8fb3c6ed0" datatype="html">
+        <source>Про проєкт UkrVectōrēs</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/term-processing/about-processing/about-processing.component.ts</context>
+          <context context-type="linenumber">9</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2b686d3a5476a8a14c611b3b36e1eaa66c57ebf6" datatype="html">
+        <source>Сервіс UkrVectōrēs обчислює семантичні відношення між сутностями української мови в рамках обраної дистрибутино-семантичної моделі векторного представлення сутностей.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/term-processing/about-processing/about-processing.component.ts</context>
+          <context context-type="linenumber">9</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="28a836978f165739ff743a9721ead88b508c577a" datatype="html">
+        <source>Поняття векторного представлення сутностей</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/term-processing/about-processing/about-processing.component.ts</context>
+          <context context-type="linenumber">9</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="d82e2e451ea15d8fe91ed6f8316affc530c362e6" datatype="html">
+        <source>Векторне представлення (англ. Word embedding) – це техніка, яка розглядає сутності (слова, терміни, документи та інше) як вектори, відносна схожість між якими корелює з семантичною подібністю. Така техніка є одним із найуспішніших прикладів застосування навчання без учителя (unsupervised learning). Векторні представлення – техніка для опрацювання природної мови, альтернативна до традиційної, яка дозволяє відображати сутності (слова, словосполучення, терміни або документи зі &quot;словника&quot; на вектори дійсних чисел в малому щодо розміру &quot;словника&quot; просторі, а подібність між векторами корелює з семантичною подібністю між сутностями.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/term-processing/about-processing/about-processing.component.ts</context>
+          <context context-type="linenumber">9</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="bcb3d6d1cf45be15102ed849e0128653fb70c089" datatype="html">
+        <source>Застосування векторних представлень</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/term-processing/about-processing/about-processing.component.ts</context>
+          <context context-type="linenumber">9</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7ac121cc287f9571fdfd4294720212a92ef0aaad" datatype="html">
+        <source>Сучасні векторні моделі дозволяють обчислити семантичну подібність між словами, реченнями чи документами, і саме на цих можливостях ґрунтується їхнє використання для розв’язання завдань опрацювання природної мови. Векторні представлення використовують безпосередньо, а також як ознаки для розв’язання насамперед завдань класифікації та кластеризації: розпізнавання іменованих сутностей, морфологічний аналіз слів, аналіз тональности текстів, класифікація/кластеризація документів, класифікація/кластеризація пошукових запитів, класифікація веб-сторінок, ранжування документів, кластеризація заголовків веб-сторінок. Також із використанням векторних представлень вирішують завдання ґенерації текстів, машинного перекладання, виявлення парафраз, моделювання текстів.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/term-processing/about-processing/about-processing.component.ts</context>
+          <context context-type="linenumber">9</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="e5bc934c2f35ad78e0403efefa51748ce9500c30" datatype="html">
+        <source>UkrVectōrēs, Україна <x id="INTERPOLATION" equiv-text="а {{currentYear"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/footer/footer.component.ts</context>
+          <context context-type="linenumber">31</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="eafc6d86f86e47c743da7b7854e6825df2580b71" datatype="html">
+        <source> Проєкт на Github </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/footer/footer.component.html</context>
+          <context context-type="linenumber">8</context>
+        </context-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

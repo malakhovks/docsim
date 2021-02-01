@@ -34,7 +34,7 @@
 
 [type="checkbox"]:checked ~ .menu
   transform: translateX(0)
-  &::before
+  .bg
     visibility: visible
 
 .menu
@@ -48,9 +48,8 @@
   padding: 20px 50px 10px 5px
   background-color: #673AB7
   transition: transform .5s
-  &::before
+  .bg
     visibility: hidden
-    content: ''
     width: 100vw
     height: 100vh
     position: absolute

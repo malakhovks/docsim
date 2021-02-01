@@ -17,7 +17,7 @@
   </div>
 
   <div class="model-dropdown-wrap">
-    <mat-label>Моделі:</mat-label>
+    <mat-label i18n>Моделі:</mat-label>
     <mat-select *ngIf="vectorModels?.length" [value]="activeModelIndex" (selectionChange)="onModelSelectionChange($event)" title="Оберіть дистрибутивно-семантичну модель представлення сутностей">
       <mat-option *ngFor="let option of vectorModels" [title]="option.name" [value]="option.index">{{option.name}}</mat-option>
     </mat-select>

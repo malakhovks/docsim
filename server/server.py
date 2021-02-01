@@ -85,12 +85,16 @@ def getExistsWordsInModel(words, keyed_vectors):
 
 @app.route('/')
 def index():
-    return Response(render_template('index.html'), mimetype='text/html')
+    return Response(render_template('index-ukr.html'), mimetype='text/html')
 
 # let's Angular do the routs job
 @app.route('/<path:page>')
 def fallback(page):
-    return render_template('index.html')
+    print(page)
+    if 'ua' in page:
+        return render_template('index-ukr.html')
+    if 'en' in page:
+        return render_template('index-eng.html')
 
 # special file handlers
 @app.route('/favicon.ico')
@@ -100,12 +104,20 @@ def favicon():
 # serve static images about-developers
 @app.route('/assets/img/<path:path>')
 def send_img(path):
-    return send_from_directory('static/img', path)
+    if request.args.get('lang') == 'ukr':
+        return send_from_directory('static/ukr/img', path)
+    if request.args.get('lang') == 'eng':
+        return send_from_directory('static/eng/img', path)
+    return send_from_directory('static/ukr/img', path)
 
 # serve static images about-sources
 @app.route('/assets/sources-logos/<path:path>')
 def send_logos(path):
-    return send_from_directory('static/sources-logos', path)
+    if request.args.get('lang') == 'ukr':
+        return send_from_directory('static/ukr/sources-logos', path)
+    if request.args.get('lang') == 'eng':
+        return send_from_directory('static/eng/sources-logos', path)
+    return send_from_directory('static/ukr/sources-logos', path)
 
 # * models list
 @app.route('/api/models')
