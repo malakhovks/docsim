@@ -29,7 +29,6 @@ export class LanguageMenuComponent implements OnInit {
     setTimeout(() => {
       if (!casсhedLangPath) {
         const langPath: string = location.href.split('/')[3];
-        console.log('langPath', langPath);
   
         langSubject.next(langPath);
         this.saveCurrentLangPath(langPath);
