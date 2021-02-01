@@ -1,4 +1,4 @@
-import { Component, OnInit, ChangeDetectorRef, ChangeDetectionStrategy } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 import { langList } from 'src/app/app-routing.module';
 import { LocalStorageService } from './../../services/local-storage-service';
@@ -13,13 +13,11 @@ export const langSubject: BehaviorSubject<string> = new BehaviorSubject<string>(
   selector: 'app-lang-menu',
   templateUrl: 'lang-menu.component.html',
   styleUrls: ['lang-menu.component.sass'],
-  changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class LanguageMenuComponent implements OnInit {
   public langList: string[] = langList;
 
   constructor(
-    private cd: ChangeDetectorRef,
     private router: Router,
     private location: Location,
     private localStorageService: LocalStorageService
@@ -28,16 +26,14 @@ export class LanguageMenuComponent implements OnInit {
   ngOnInit() {
     const casсhedLangPath: string = this.localStorageService.getItem(LANG_QUERY_PARAM);  // try to get language from local storage;
     
-    if (casсhedLangPath === null) {
-      const langPath: string = this.router.url.split('/')[1];
+    if (!casсhedLangPath) {
+      const langPath: string = this.location.path().split('/')[1];
 
       langSubject.next(langPath);
       this.saveCurrentLangPath(langPath);
     } else {
       langSubject.next(casсhedLangPath);
     }
-
-    this.cd.markForCheck();
   }
 
   public get activeItem(): string {
@@ -52,7 +48,6 @@ export class LanguageMenuComponent implements OnInit {
     
     // Change URL:
     this.location.replaceState(url);
-    this.cd.markForCheck();
 
     // Save lang path:
     this.saveCurrentLangPath($ev);
