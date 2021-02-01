@@ -350,6 +350,38 @@
           <context context-type="linenumber">8</context>
         </context-group>
       </trans-unit>
+      <trans-unit id="7153593871548147556">
+        <source>Семантична близькість</source>
+        <target>Semantic similarity</target>
+      </trans-unit>
+      <trans-unit id="2841109839334702225">
+        <source>Семантичні асоціати</source>
+        <target>Semantic associates</target>
+      </trans-unit>
+      <trans-unit id="4980480150100964197">
+        <source>Центр лексичного кластера</source>
+        <target>Lexical cluster center</target>
+      </trans-unit>
+      <trans-unit id="7429588678004658944">
+        <source>Семантична карта</source>
+        <target>Semantic map</target>
+      </trans-unit>
+      <trans-unit id="1252162700722247765">
+        <source>Дистрибутивний аналіз</source>
+        <target>Distributional semantic modeling</target>
+      </trans-unit>
+      <trans-unit id="1147612909293800668">
+        <source>Про проєкт</source>
+        <target>About project</target>
+      </trans-unit>
+      <trans-unit id="3118197542317675922">
+        <source>Корисні посилання</source>
+        <target>References</target>
+      </trans-unit>
+      <trans-unit id="8182299170567176583">
+        <source>Колектив розробників</source>
+        <target>Team</target>
+      </trans-unit>
     </body>
   </file>
 </xliff>

@@ -94,22 +94,22 @@ export class TabNavigationComponent implements OnInit {
 
   public navLinks: Array<ITabNavLink> = [
       {
-          label: 'Семантичні асоціати',
+          label: $localize`Семантичні асоціати`,
           title: 'Обчислення семантичних асоціатів для однослівних термінів',
           link: [ROUTS.root.lang.processing.terms.path],
           index: 0
       }, {
-          label: 'Центр лексичного кластера',
+          label: $localize`Центр лексичного кластера`,
           title: 'Обчислення центру лексичного кластера однослівних термінів',
           link: [ROUTS.root.lang.processing.term.path],
           index: 1
       }, {
-          label: 'Семантична близькість',
+          label: $localize`Семантична близькість`,
           title: 'Обчислення семантичної близькісті однослівних термінів',
           link: [ROUTS.root.lang.processing.similarity.path],
           index: 2
       }, {
-          label: 'Семантична карта',
+          label: $localize`Семантична карта`,
           title: 'Семантична карта з використанням TensorFlow Projector',
           link: [ROUTS.root.lang.processing.semanticMap.path],
           index: 3
