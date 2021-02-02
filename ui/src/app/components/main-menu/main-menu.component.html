@@ -6,6 +6,6 @@
   <div class="bg" (click)="isChecked = false"></div>
   <mat-icon *ngIf="isChecked" class="close" (click)="isChecked = false" title="Закрити">close</mat-icon>
   <mat-list-item *ngFor="let link of navLinks" role="listitem">
-    <a [title]="link.title" (click)="onClose()" [routerLink]="link.link" routerLinkActive="router-link-active">{{link.label}}</a>
+    <a [title]="link.title" (click)="onClose()" [routerLink]="link.path" [class.router-link-active]="isLinkActive(link.path)">{{link.label}}</a>
   </mat-list-item>
 </mat-list>

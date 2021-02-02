@@ -26,7 +26,6 @@ const MODEL_QUERY_PARAM = 'model';
   styleUrls: ['tab-nav.component.sass'],
 })
 export class TabNavigationComponent implements OnInit {
-  public selectedTabIndex: number;
   public activeModelIndex: number;
   public vectorModels: ModelData[] = [];
   public bookArr: Array<any> = new Array(120);
@@ -72,8 +71,8 @@ export class TabNavigationComponent implements OnInit {
     }
   }
 
-  public onSelectedIndexChange(ev: number): void {
-    this.selectedTabIndex = ev;
+  public isLinkActive(url: string): boolean {
+    return [this.route.snapshot.firstChild.routeConfig.path][0] === url[0];
   }
 
   private onModelChange(model: ModelData): void {
@@ -96,23 +95,19 @@ export class TabNavigationComponent implements OnInit {
       {
           label: $localize`Семантичні асоціати`,
           title: 'Обчислення семантичних асоціатів для однослівних термінів',
-          link: [ROUTS.root.lang.processing.terms.path],
-          index: 0
+          path: [ROUTS.root.lang.processing.terms.path],
       }, {
           label: $localize`Центр лексичного кластера`,
           title: 'Обчислення центру лексичного кластера однослівних термінів',
-          link: [ROUTS.root.lang.processing.term.path],
-          index: 1
+          path: [ROUTS.root.lang.processing.term.path],
       }, {
           label: $localize`Семантична близькість`,
           title: 'Обчислення семантичної близькісті однослівних термінів',
-          link: [ROUTS.root.lang.processing.similarity.path],
-          index: 2
+          path: [ROUTS.root.lang.processing.similarity.path],
       }, {
           label: $localize`Семантична карта`,
           title: 'Семантична карта з використанням TensorFlow Projector',
-          link: [ROUTS.root.lang.processing.semanticMap.path],
-          index: 3
+          path: [ROUTS.root.lang.processing.semanticMap.path],
       }
     ];
 }
