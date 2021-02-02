@@ -1,0 +1,54 @@
+{
+    "models": {
+        "word2vec": [
+            {
+                "description": "Distributional semantic model of word representation «Oles Honchar» is used (using dataset - problems of poetics of Oles Honchar's creative work), word2vec algorithm with dimension 500d. Entity - a word, lemmatized, lowercased. Word2vec hyperparameters: -size 500 -negative 5 -window 5 -threads 24 -min_count 10 -iter 20.",
+                "name": "honchar.lowercased.lemmatized.word2vec.c.text.format.500d",
+                "link": "./models/honchar.lowercased.lemmatized.word2vec.c.text.format.500d",
+                "language": "ua",
+                "index": 0,
+                "placeholders": {
+                    "term": "гончар",
+                    "terms": "гончар письменник герой",
+                    "similarity": "письменник"
+                }
+            },
+            {
+                "description": "Distributional semantic model of word representation «Fiction» is used (using dataset - fiction literature), word2vec algorithm with dimension 300d. Entity - a word, lemmatized, lowercased. Word2vec hyperparameters: -size 300 -negative 7 -window 4 -threads 6 -min_count 10 -iter 5 -alpha 0.030.",
+                "name": "fiction.lowercased.lemmatized.word2vec.300d",
+                "link": "./models/fiction.lowercased.lemmatized.word2vec.300d",
+                "language": "ua",
+                "index": 1,
+                "placeholders": {
+                    "term": "казка",
+                    "terms": "казка легенда байка",
+                    "similarity": "вірш"
+                }
+            },
+            {
+                "description": "Distributional semantic model of word representation «Sukhomlinsky» is used (using dataset - the book «I give my heart to children»), word2vec algorithm with dimension 500d. Entity - a word, lemmatized, lowercased. Word2vec hyperparameters: -size 500 -negative 7 -window 4 -min_count 10 -iter 10.",
+                "name": "suhomlinskyy.lowercased.lemmatized.word2vec.c.text.format.500d",
+                "link": "./models/suhomlinskyy.lowercased.lemmatized.word2vec.c.text.format.500d",
+                "language": "ua",
+                "index": 2,
+                "placeholders": {
+                    "term": "сухомлинський",
+                    "terms": "сухомлинський василь герой",
+                    "similarity": "комуніст"
+                }
+            },
+            {
+                "description": "Distributional semantic model of word representation «WhiteBook» is used (using dataset - the book «The White Book of Physical and Rehabilitation Medicine»). The White Book (WB) of Physical and Rehabilitation Medicine (PRM) in Europe is produced by the 4 European PRM Bodies and constitutes the reference book for PRM physicians in Europe. It has now reached its third edition; the first was published in 1989 and the second in 2006/2007. The WB has multiple purposes, including providing a unifying framework for European countries, to inform decision-makers on European and national level, to offer educational material for PRM trainees and physicians and information about PRM to the medical community, other rehabilitation professionals and the public. The WB states the importance of PRM, a primary medical specialty that is present all over Europe, with a specific corpus disciplinae, a common background and history throughout Europe. PRM is internationally recognised and a partner of major international bodies, including the World Health Organization (WHO). PRM activities are strongly based on the documents of the United Nations (UN) and WHO, such as the Convention of the Rights of Persons with Disabilities (2006), the World Report on Disability (2011), the WHO Global Disability Action Plan 2014-2021 (2014) and the WHO initiative “Rehabilitation 2030: a call for action” (2017). The WB is organized in four sections, 11 chapters and some appendices. The WB starts with basic definitions and concepts of PRM and continues with why rehabilitation is needed by individuals and society. Rehabilitation focuses not only on health conditions but also on functioning. Accordingly, PRM is the medical specialty that strives to improve functioning of people with a health condition or experiencing disability. The fundamentals of PRM, the history of the PRM specialty, and the structure and activities of PRM organizations in Europe are presented, followed by a thorough presentation of the practice of PRM, i.e. knowledge and skills of PRM physicians, the clinical field of competence of PRM, the place of the PRM specialty in the healthcare system and society, education and continuous professional development of PRM physicians, specificities and challenges of science and research in PRM. The WB concludes with the way forward for the specialty: challenges and perspectives for the future of PRM. Word2vec algorithm with dimension 500d. Entity - a word, lemmatized, lowercased. Word2vec hyperparameters: -size 500 -negative 7 -window 4 -min_count 10 -iter 10.",
+                "name": "whitebook.lowercased.word2vec.c.text.format.500d",
+                "link": "./models/whitebook.lowercased.word2vec.c.text.format.500d",
+                "language": "ua",
+                "index": 3,
+                "placeholders": {
+                    "term": "реабілітація",
+                    "terms": "фізична реабілітація людини",
+                    "similarity": "людини"
+                }
+            }
+        ]
+    }
+}

@@ -45,6 +45,8 @@ b'_5#y2L"F4Q8z\n\xec]/'
 # app.secret_key = b'_5#y2L"F4Q8z\n\xec]/'
 app.secret_key = os.urandom(42)
 
+config_flag = 'ua'
+
 # * Load models from config file to memory
 # ! Caution: Loading a large number of models requires a significant amount of RAM
 try:
@@ -63,6 +65,13 @@ else:
         word_vectors.init_sims(replace=True)
         models_array.append(word_vectors)
     del word_vectors
+
+# * Load models-en from config file to memory
+try:
+    with open('./config.models.simple.en.json') as config_file_en:
+        models_en = json.load(config_file_en)
+except IOError as e:
+    logging.error(e, exc_info=True)
 
 """
 from gensim.models import Word2Vec as WV_model
@@ -90,10 +99,12 @@ def index():
 # let's Angular do the routs job
 @app.route('/<path:page>')
 def fallback(page):
-    print(page)
+    global config_flag
     if 'ua' in page:
+        config_flag = 'ua'
         return render_template('index-ukr.html')
     if 'en' in page:
+        config_flag = 'en'
         return render_template('index-eng.html')
 
 # special file handlers
@@ -122,7 +133,11 @@ def send_logos(path):
 # * models list
 @app.route('/api/models')
 def get_models_list():
-    return jsonify(models)
+    if config_flag == 'ua':
+        return jsonify(models)
+    if config_flag == 'en':
+        return jsonify(models_en)
+    # return jsonify(models)
 
 # * computational endpoints
 @app.route('/api/word2vec/similarity', methods=['POST'])
