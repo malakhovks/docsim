@@ -99,7 +99,7 @@ def index():
 # let's Angular do the routs job
 @app.route('/<path:page>')
 def fallback(page):
-    print(page)
+    global config_flag
     if 'ua' in page:
         config_flag = 'ua'
         return render_template('index-ukr.html')
