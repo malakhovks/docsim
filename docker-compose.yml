@@ -42,7 +42,7 @@ services:
     container_name: nginx
     restart: always
     ports:
-      - 7777:80
-      - 7443:443
+      - 8002:80
+      - 443:443
     depends_on:
       - docsim

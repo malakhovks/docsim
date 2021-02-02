@@ -35,7 +35,7 @@ export class LanguageMenuComponent implements OnInit {
       } else {
         langSubject.next(casсhedLangPath);
       }
-    });
+    }, 500);
     
   }
 
