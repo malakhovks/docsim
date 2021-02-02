@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { Router } from '@angular/router';
+import { NavigationEnd, Router, RouterEvent } from '@angular/router';
 import { langList } from 'src/app/app-routing.module';
 import { LocalStorageService } from './../../services/local-storage-service';
 import { BehaviorSubject } from 'rxjs';
@@ -23,20 +23,24 @@ export class LanguageMenuComponent implements OnInit {
     private localStorageService: LocalStorageService
   ) {}
 
-  ngOnInit() {
-    const casсhedLangPath: string = this.localStorageService.getItem(LANG_QUERY_PARAM);  // try to get language from local storage;
-    
-    setTimeout(() => {
-      if (!casсhedLangPath) {
-        const langPath: string = location.href.split('/')[3];
-  
-        langSubject.next(langPath);
-        this.saveCurrentLangPath(langPath);
-      } else {
-        langSubject.next(casсhedLangPath);
+  ngOnInit(): void {
+    let langinItialized: boolean;
+
+    this.router.events.subscribe((ev: RouterEvent) => {
+      if (ev instanceof NavigationEnd && !langinItialized) {
+        const langPathFromURL: string = location.href.split('/')[3];
+        const langPathFromCaсhe: string = this.localStorageService.getItem(LANG_QUERY_PARAM);  // try to get language from local storage;
+
+        if (langPathFromCaсhe && langPathFromCaсhe !== langPathFromURL && this.langList.includes(langPathFromCaсhe)) {
+          this.onLangChange(langPathFromCaсhe);
+        } else {
+          langSubject.next(langPathFromURL);
+          this.saveCurrentLangPath(langPathFromURL);
+        }
+
+        langinItialized = true;
       }
-    }, 500);
-    
+    })  
   }
 
   public get activeItem(): string {
@@ -49,17 +53,15 @@ export class LanguageMenuComponent implements OnInit {
 
     const url: string = this.changeLangParamInUrl(this.router.url, $ev);
     
-    // Change URL:
-    this.location.replaceState(url);
-
-    // Save lang path:
     this.saveCurrentLangPath($ev);
-
-    // Reload and get new lang sources from server:
-    location.reload();
+    
+    this.location.replaceState(url);  // change URL;
+    
+    location.reload();  // reload and get new lang sources from server;
   }
 
 
+  // Save current lang local:
   private saveCurrentLangPath(path: string): void {
     this.localStorageService.setItem(LANG_QUERY_PARAM, path);
   }
