@@ -1,19 +1,8 @@
 <nav mat-tab-nav-bar [backgroundColor]="'primary'">
   <div *ngFor="let link of navLinks" [title]="link.title">
-    <ng-container *ngIf="link.index === 4; else standartTabLinkTemplate">
-      <a [matMenuTriggerFor]="menu" mat-tab-link routerLinkActive #rla="routerLinkActive" [active]="rla.isActive">
-        {{link.label}}
-      </a>
-      <mat-menu #menu="matMenu">
-        <button *ngFor="let subLink of link.subNav" [title]="link.title" [routerLink]="subLink.link" mat-menu-item>{{subLink.label}}</button>
-      </mat-menu>
-    </ng-container>
-
-    <ng-template #standartTabLinkTemplate>
-      <a mat-tab-link [routerLink]="link.link" [queryParams]="{ model: activeModelIndex}" routerLinkActive #rla="routerLinkActive" [active]="rla.isActive">
-        {{link.label}}
-      </a>
-    </ng-template>
+    <a mat-tab-link [routerLink]="link.path" [queryParams]="{ model: activeModelIndex}" [active]="isLinkActive(link.path)">
+      {{link.label}}
+    </a>
   </div>
 
   <div class="model-dropdown-wrap">
@@ -26,7 +15,7 @@
 
 <div class="scroll-container">
   <router-outlet></router-outlet>
-  <div *ngIf="selectedTabIndex !== navLinks[3].index" class="shelf">
+  <div class="shelf">
     <div *ngFor="let item of bookArr"></div>
   </div>
 </div>
