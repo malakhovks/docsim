@@ -5,7 +5,7 @@
 You can preview a completed latest version of the UkrVectōrēs app here:
 
 - without ssl certificate [http://test.ulif.org.ua:51082](http://test.ulif.org.ua:51082)
-- with self-singed ssl certificate [https://test.ulif.org.ua:510432](https://test.ulif.org.ua:51043)
+- with self-singed ssl certificate [https://test.ulif.org.ua:51043](https://test.ulif.org.ua:51043)
 
 ## Caution/Disclaimer
 
@@ -26,7 +26,7 @@ Project and documentation are in active development! For any technical clarifica
 Ви можете переглянути актуальну версію додатка UkrVectōrēs за посиланнями:
 
 - без ssl сертифікату [http://test.ulif.org.ua:51082](http://test.ulif.org.ua:51082)
-- з self-singed ssl сертифікатом [https://test.ulif.org.ua:510432](https://test.ulif.org.ua:51043)
+- з self-singed ssl сертифікатом [https://test.ulif.org.ua:51043](https://test.ulif.org.ua:51043)
 
 ### Увага
 
@@ -92,7 +92,7 @@ Project and documentation are in active development! For any technical clarifica
 You can preview a completed latest version of the UkrVectōrēs app here:
 
 - without ssl certificate [http://test.ulif.org.ua:51082](http://test.ulif.org.ua:51082)
-- with self-singed ssl certificate [https://test.ulif.org.ua:510432](https://test.ulif.org.ua:51043)
+- with self-singed ssl certificate [https://test.ulif.org.ua:51043](https://test.ulif.org.ua:51043)
 
 ### Caution/Disclaimer
 
