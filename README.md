@@ -2,6 +2,11 @@
 
 **docsim/UkrVectōrēs** – An NLU-powered tool for knowledge discovery, classification, diagnostics and prediction.
 
+You can preview a completed latest version of the UkrVectōrēs app here:
+
+- without ssl certificate [http://test.ulif.org.ua:51082](http://test.ulif.org.ua:51082)
+- with self-singed ssl certificate [https://test.ulif.org.ua:51043](https://test.ulif.org.ua:51043)
+
 ## Caution/Disclaimer
 
 Project and documentation are in active development! For any technical clarifications and questions contact us via email [malakhovks@nas.gov.ua](mailto:malakhovks@nas.gov.ua) or via Issues.
@@ -17,6 +22,11 @@ Project and documentation are in active development! For any technical clarifica
 ## docsim/UkrVectōrēs – інструмент, "когнітивно-семантичний калькулятор", що працює на основі NLU, для виявлення, класифікації, діагностики та прогнозування знань.
 
 Сервіс **docsim/UkrVectōrēs** обчислює семантичні відношення між сутностями української мови в рамках обраної дистрибутино-семантичної моделі векторного представлення сутностей.
+
+Ви можете переглянути актуальну версію додатка UkrVectōrēs за посиланнями:
+
+- без ssl сертифікату [http://test.ulif.org.ua:51082](http://test.ulif.org.ua:51082)
+- з self-singed ssl сертифікатом [https://test.ulif.org.ua:51043](https://test.ulif.org.ua:51043)
 
 ### Увага
 
@@ -78,6 +88,11 @@ Project and documentation are in active development! For any technical clarifica
 
 <a name="toc-en"></a>
 ## docsim/UkrVectōrēs - An NLU-Powered tool for knowledge discovery, classification, diagnostics and prediction.
+
+You can preview a completed latest version of the UkrVectōrēs app here:
+
+- without ssl certificate [http://test.ulif.org.ua:51082](http://test.ulif.org.ua:51082)
+- with self-singed ssl certificate [https://test.ulif.org.ua:51043](https://test.ulif.org.ua:51043)
 
 ### Caution/Disclaimer
 
