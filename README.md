@@ -6,6 +6,7 @@ You can preview a completed latest version of the UkrVectōrēs app here:
 
 - without ssl certificate [http://test.ulif.org.ua:51082](http://test.ulif.org.ua:51082)
 - with self-singed ssl certificate [https://test.ulif.org.ua:51043](https://test.ulif.org.ua:51043)
+- with ssl certificate [https://ukrvectores.e-library.ml](https://ukrvectores.e-library.ml)
 
 ## Caution/Disclaimer
 
@@ -27,6 +28,7 @@ Project and documentation are in active development! For any technical clarifica
 
 - без ssl сертифікату [http://test.ulif.org.ua:51082](http://test.ulif.org.ua:51082)
 - з self-singed ssl сертифікатом [https://test.ulif.org.ua:51043](https://test.ulif.org.ua:51043)
+- з ssl сертифікатом [https://ukrvectores.e-library.ml](https://ukrvectores.e-library.ml)
 
 ### Увага
 
@@ -55,6 +57,7 @@ Project and documentation are in active development! For any technical clarifica
 
 Можна образно назвати Мережевий засіб **docsim/UkrVectōrēs** "когнітивно-семантичним калькулятором". Користувач може вибрати одну або кілька з ретельно підготовлених (або використовувати інші векторні представлення для слів Word Embeddings, які вільно поширюються) прогностичних моделей дистрибутивної семантики, навчених на різних корпусах текстів, зокрема, таких наборів даних:
 
+- «Біла Книга з Фізичної та Реабілітаційної Медицини (ФРM) в Європі» (розроблена чотирма Європейськими Органами ФРМ і є довідником для лікарів ФРМ у Європі);
 - проблеми поетики творчого доробку Олеся Гончара;
 - художня література;
 - книга «Серце віддаю дітям».
@@ -93,6 +96,7 @@ You can preview a completed latest version of the UkrVectōrēs app here:
 
 - without ssl certificate [http://test.ulif.org.ua:51082](http://test.ulif.org.ua:51082)
 - with self-singed ssl certificate [https://test.ulif.org.ua:51043](https://test.ulif.org.ua:51043)
+- with ssl certificate [https://ukrvectores.e-library.ml](https://ukrvectores.e-library.ml)
 
 ### Caution/Disclaimer
 
