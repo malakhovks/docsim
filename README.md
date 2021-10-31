@@ -8,6 +8,10 @@ You can preview a completed latest version of the UkrVectōrēs app here:
 - with self-singed ssl certificate [https://test.ulif.org.ua:51043](https://test.ulif.org.ua:51043)
 - with ssl certificate [https://ukrvectores.e-library.ml](https://ukrvectores.e-library.ml)
 
+## DOI
+
+[![DOI](https://zenodo.org/badge/301062465.svg)](https://zenodo.org/badge/latestdoi/301062465)
+
 ## Caution/Disclaimer
 
 Project and documentation are in active development! For any technical clarifications and questions contact us via email [malakhovks@nas.gov.ua](mailto:malakhovks@nas.gov.ua) or via Issues.
