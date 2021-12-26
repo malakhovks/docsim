@@ -42,7 +42,7 @@ services:
     container_name: nginx-docsim
     restart: always
     ports:
-      - 8009:80
-      - 8010:443
+      - 8010:80
+      - 8011:443
     depends_on:
       - docsim
