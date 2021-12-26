@@ -35,14 +35,14 @@ services:
     container_name: docsim
     restart: always
   nginx:
-    image: nginx-image
+    image: nginx-docsim-image
     build:
       context: .
       dockerfile: Dockerfile-nginx
     container_name: nginx
     restart: always
     ports:
-      - 8002:80
-      - 443:443
+      - 8009:80
+      - 8010:443
     depends_on:
       - docsim
