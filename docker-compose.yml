@@ -39,7 +39,7 @@ services:
     build:
       context: .
       dockerfile: Dockerfile-nginx
-    container_name: nginx
+    container_name: nginx-docsim
     restart: always
     ports:
       - 8009:80
