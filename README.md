@@ -6,7 +6,7 @@ You can preview a completed latest version of the UkrVectōrēs app here:
 
 - without ssl certificate [http://test.ulif.org.ua:51082](http://test.ulif.org.ua:51082)
 - with self-singed ssl certificate [https://test.ulif.org.ua:51043](https://test.ulif.org.ua:51043)
-- with ssl certificate [https://ukrvectores.e-library.ml](https://ukrvectores.e-library.ml)
+- with ssl certificate [https://ukrvectores.e-library.ml](https://ukrvectores.ai-service.ml)
 
 ## DOI
 
@@ -32,7 +32,7 @@ Project and documentation are in active development! For any technical clarifica
 
 - без ssl сертифікату [http://test.ulif.org.ua:51082](http://test.ulif.org.ua:51082)
 - з self-singed ssl сертифікатом [https://test.ulif.org.ua:51043](https://test.ulif.org.ua:51043)
-- з ssl сертифікатом [https://ukrvectores.e-library.ml](https://ukrvectores.e-library.ml)
+- з ssl сертифікатом [https://ukrvectores.e-library.ml](https://ukrvectores.ai-service.ml)
 
 ### Увага
 
@@ -100,7 +100,7 @@ You can preview a completed latest version of the UkrVectōrēs app here:
 
 - without ssl certificate [http://test.ulif.org.ua:51082](http://test.ulif.org.ua:51082)
 - with self-singed ssl certificate [https://test.ulif.org.ua:51043](https://test.ulif.org.ua:51043)
-- with ssl certificate [https://ukrvectores.e-library.ml](https://ukrvectores.e-library.ml)
+- with ssl certificate [https://ukrvectores.e-library.ml](https://ukrvectores.ai-service.ml)
 
 ### Caution/Disclaimer
 
