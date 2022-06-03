@@ -48,6 +48,18 @@
                     "terms": "фізична реабілітація людини",
                     "similarity": "людини"
                 }
+            },
+            {
+                "description": "Використовується нейронна векторна модель представлення слів Уберкорпус. Модель побудована на основі корпусу УберТекст, який містить 67496871 речень, що включать 665 мільйонів токенів. Джерела речень: тексти періодичних видань, вікіпедії, художня література., алгоритм word2vec word embeddings розмірністю 300d. Сутність - слово, лематизовано, приведено до нижнього регистру. Параметри word2vec: -size 300 -negative 7 -window 4 -threads 6 -min_count 10 -iter 5 -alpha 0.030",
+                "name": "ubercorpus.lowercased.lemmatized.word2vec.300d",
+                "link": "./models/ubercorpus.lowercased.lemmatized.word2vec.300d",
+                "language": "ua",
+                "index": 4,
+                "placeholders": {
+                    "term": "інформатика",
+                    "terms": "казка легенда байка",
+                    "similarity": "технологія"
+                }
             }
         ]
     }
