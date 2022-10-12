@@ -2,7 +2,7 @@
 
 **docsim/UkrVectōrēs** – An NLU-powered tool for knowledge discovery, classification, diagnostics and prediction.
 
-You can preview a completed latest version of the UkrVectōrēs app here: [https://ukrvectores.ai-service.ml](https://ukrvectores.ai-service.ml)
+You can preview a completed latest version of the UkrVectōrēs app here: [https://ukrvectores.ai-service.pp.ua](https://ukrvectores.ai-service.pp.ua)
 
 ## DOI
 
@@ -24,7 +24,7 @@ Project and documentation are in active development! For any technical clarifica
 
 Сервіс **docsim/UkrVectōrēs** обчислює семантичні відношення між сутностями української мови в рамках обраної дистрибутино-семантичної моделі векторного представлення сутностей.
 
-Ви можете переглянути актуальну версію додатка UkrVectōrēs за посиланнями: [https://ukrvectores.ai-service.ml](https://ukrvectores.ai-service.ml)
+Ви можете переглянути актуальну версію додатка UkrVectōrēs за посиланнями: [https://ukrvectores.ai-service.pp.ua](https://ukrvectores.ai-service.pp.ua)
 
 ### Увага
 
@@ -88,7 +88,7 @@ Project and documentation are in active development! For any technical clarifica
 <a name="toc-en"></a>
 ## docsim/UkrVectōrēs - An NLU-Powered tool for knowledge discovery, classification, diagnostics and prediction.
 
-You can preview a completed latest version of the UkrVectōrēs app here: [https://ukrvectores.ai-service.ml](https://ukrvectores.ai-service.ml)
+You can preview a completed latest version of the UkrVectōrēs app here: [https://ukrvectores.ai-service.pp.ua](https://ukrvectores.ai-service.pp.ua)
 
 ### Caution/Disclaimer
 
