@@ -12,6 +12,8 @@ You can preview a completed latest version of the UkrVectōrēs app here: [https
 
 Project and documentation are in active development! For any technical clarifications and questions contact us via email [malakhovks@nas.gov.ua](mailto:malakhovks@nas.gov.ua) or via Issues.
 
+**Important note:** UkrVectōrēs project and documentation are in active development. For any technical clarifications and questions contact us via email: [malakhovks@nas.gov.ua](mailto:malakhovks@nas.gov.ua) or via Issues. The recent Russian's rocket shelling on critical infrastructure in Ukraine and Kyiv led to the shutdown of the [https://ukrvectores.ai-service.pp.ua](https://ukrvectores.ai-service.pp.ua) server.
+
 ## Choose your language / Оберіть мову
 
 - **[Українська](#toc-ua)**
@@ -93,6 +95,8 @@ You can preview a completed latest version of the UkrVectōrēs app here: [https
 ### Caution/Disclaimer
 
 Project and documentation are in active development! For any technical clarifications and questions contact us via email [malakhovks@nas.gov.ua](mailto:malakhovks@nas.gov.ua) or via Issues.
+
+**Important note:** UkrVectōrēs project and documentation are in active development. For any technical clarifications and questions contact us via email: [malakhovks@nas.gov.ua](mailto:malakhovks@nas.gov.ua) or via Issues. The recent Russian's rocket shelling on critical infrastructure in Ukraine and Kyiv led to the shutdown of the [https://ukrvectores.ai-service.pp.ua](https://ukrvectores.ai-service.pp.ua) server.
 
 ### Table of Contents
 
