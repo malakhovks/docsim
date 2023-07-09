@@ -2,15 +2,19 @@
 
 **docsim/UkrVectōrēs** – An NLU-powered tool for knowledge discovery, classification, diagnostics and prediction.
 
-You can preview a completed latest version of the UkrVectōrēs app here: [https://ukrvectores.ai-service.pp.ua](https://ukrvectores.ai-service.pp.ua)
+You can preview a completed latest version of the UkrVectōrēs app here: [https://ukrvectores.e-rehab.pp.ua](https://ukrvectores.e-rehab.pp.ua)
+
+## Donation/Funding
+
+[https://send.monobank.ua/jar/5ad56oNAcD](https://send.monobank.ua/jar/5ad56oNAcD)
 
 ## DOI
 
 [![DOI](https://zenodo.org/badge/301062465.svg)](https://zenodo.org/badge/latestdoi/301062465)
 
-## Caution/Disclaimer
+## Important note
 
-**Important note:** UkrVectōrēs project and documentation are in active development. For any technical clarifications and questions contact us via email: [malakhovks@nas.gov.ua](mailto:malakhovks@nas.gov.ua) or via Issues. The recent Russian's rocket shelling on critical infrastructure in Ukraine and Kyiv led to the shutdown of the [https://ukrvectores.ai-service.pp.ua](https://ukrvectores.ai-service.pp.ua) server.
+UkrVectōrēs project and documentation are in active development. For any technical clarifications and questions contact us via email: [malakhovks@nas.gov.ua](mailto:malakhovks@nas.gov.ua) or via Issues. The recent Russian's rocket shelling on critical infrastructure in Ukraine and Kyiv led to the shutdown of the [https://ukrvectores.e-rehab.pp.ua](https://ukrvectores.e-rehab.pp.ua) server.
 
 ## Choose your language / Оберіть мову
 
@@ -24,7 +28,7 @@ You can preview a completed latest version of the UkrVectōrēs app here: [https
 
 Сервіс **docsim/UkrVectōrēs** обчислює семантичні відношення між сутностями української мови в рамках обраної дистрибутино-семантичної моделі векторного представлення сутностей.
 
-Ви можете переглянути актуальну версію додатка UkrVectōrēs за посиланнями: [https://ukrvectores.ai-service.pp.ua](https://ukrvectores.ai-service.pp.ua)
+Ви можете переглянути актуальну версію додатка UkrVectōrēs за посиланнями: [https://ukrvectores.e-rehab.pp.ua](https://ukrvectores.e-rehab.pp.ua)
 
 ### Увага
 
@@ -88,11 +92,15 @@ You can preview a completed latest version of the UkrVectōrēs app here: [https
 <a name="toc-en"></a>
 ## docsim/UkrVectōrēs - An NLU-Powered tool for knowledge discovery, classification, diagnostics and prediction.
 
-You can preview a completed latest version of the UkrVectōrēs app here: [https://ukrvectores.ai-service.pp.ua](https://ukrvectores.ai-service.pp.ua)
+You can preview a completed latest version of the UkrVectōrēs app here: [https://ukrvectores.e-rehab.pp.ua](https://ukrvectores.e-rehab.pp.ua)
 
-### Caution/Disclaimer
+### Donation/Funding
 
-**Important note:** UkrVectōrēs project and documentation are in active development. For any technical clarifications and questions contact us via email: [malakhovks@nas.gov.ua](mailto:malakhovks@nas.gov.ua) or via Issues. The recent Russian's rocket shelling on critical infrastructure in Ukraine and Kyiv led to the shutdown of the [https://ukrvectores.ai-service.pp.ua](https://ukrvectores.ai-service.pp.ua) server.
+[https://send.monobank.ua/jar/5ad56oNAcD](https://send.monobank.ua/jar/5ad56oNAcD)
+
+### Important note
+
+UkrVectōrēs project and documentation are in active development. For any technical clarifications and questions contact us via email: [malakhovks@nas.gov.ua](mailto:malakhovks@nas.gov.ua) or via Issues. The recent Russian's rocket shelling on critical infrastructure in Ukraine and Kyiv led to the shutdown of the [https://ukrvectores.e-rehab.pp.ua](https://ukrvectores.e-rehab.pp.ua) server.
 
 ### Table of Contents
 

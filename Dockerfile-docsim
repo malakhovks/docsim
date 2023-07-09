@@ -1,4 +1,5 @@
-FROM node:lts-buster AS compile-image
+FROM node:16-buster AS compile-image
+# FROM node:lts-buster AS compile-image
 
 COPY ./ui /app/ui
 
@@ -29,7 +30,8 @@ EXPOSE 5000
 
 RUN apt-get -y clean \
     && apt-get -y update \
-    && apt-get -y install python-dev \
+    # && apt-get -y install python-dev \
+    && apt-get -y install python3-dev \
     && apt-get -y install build-essential \
     && apt-get -y install unzip \
     && apt-get -y install bzip2 \
